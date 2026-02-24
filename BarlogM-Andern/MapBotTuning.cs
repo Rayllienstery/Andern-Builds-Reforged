@@ -21,6 +21,8 @@ public class MapBotTuning(
     : IOnLoad
 {
     private readonly ModConfig _modConfig = modData.ModConfig;
+    private readonly BotConfig _botConfig = configServer.GetConfig<BotConfig>();
+    private readonly PmcConfig _pmcConfig = configServer.GetConfig<PmcConfig>();
 
     public Task OnLoad()
     {
@@ -83,11 +85,23 @@ public class MapBotTuning(
                     chance = 0;
                 }
 
-                if (_modConfig.MapBossGoonsDisable &&
-                    bossName == "bossknight")
+                if (bossName == "bossknight")
                 {
-                    chance = 0;
-                }
+                    if (_modConfig.MapBossGoonsDisable)
+                    {
+                        chance = 0;
+                        _botConfig.GoonSpawnSystem.SpawnChance = 0;
+                    }
+                    else if (chance >= 100)
+                    {
+                        _botConfig.GoonSpawnSystem.Enabled = false;
+                        _botConfig.GoonSpawnSystem.SpawnChance = chance;
+                    }
+                    else
+                    {
+                        _botConfig.GoonSpawnSystem.SpawnChance = chance;
+                    } 
+                } 
 
                 bossLocationSpawn.BossChance = chance;
 
@@ -99,19 +113,23 @@ public class MapBotTuning(
                 }
             }
         }
+        logger.LogWithColor(
+            $"[Andern] BotConfig.GoonSpawnSystem.Enabled = {_botConfig.GoonSpawnSystem.Enabled}",
+            LogTextColor.Blue);
+        logger.LogWithColor(
+            $"[Andern] BotConfig.GoonSpawnSystem.SpawnChance = {_botConfig.GoonSpawnSystem.SpawnChance}",
+            LogTextColor.Blue);
     }
 
     private void SetPmcBrainsAsLive()
     {
-        var pmcConfig = configServer.GetConfig<PmcConfig>();
-
         foreach (var locationName in ModData.AllMaps)
         {
-            var usecType = pmcConfig.PmcType["pmcusec"][locationName];
+            var usecType = _pmcConfig.PmcType["pmcusec"][locationName];
             usecType.Clear();
             usecType.Add("pmcUSEC", 1);
 
-            var bearType = pmcConfig.PmcType["pmcbear"][locationName];
+            var bearType = _pmcConfig.PmcType["pmcbear"][locationName];
             bearType.Clear();
             bearType.Add("pmcBEAR", 1);
         }
@@ -119,9 +137,8 @@ public class MapBotTuning(
 
     private void MakePmcAlwaysHostile()
     {
-        var pmcConfig = configServer.GetConfig<PmcConfig>();
-        PmcHostilitySettings(pmcConfig.HostilitySettings["pmcusec"]);
-        PmcHostilitySettings(pmcConfig.HostilitySettings["pmcbear"]);
+        PmcHostilitySettings(_pmcConfig.HostilitySettings["pmcusec"]);
+        PmcHostilitySettings(_pmcConfig.HostilitySettings["pmcbear"]);
     }
 
     private void PmcHostilitySettings(
@@ -132,7 +149,7 @@ public class MapBotTuning(
         hostilitySetting.SavageEnemyChance = 100;
         hostilitySetting.SavagePlayerBehaviour = "AlwaysEnemies";
         foreach (var hostilitySettingChancedEnemy in hostilitySetting
-                     .ChancedEnemies)
+                     .ChancedEnemies!)
         {
             hostilitySettingChancedEnemy.EnemyChance = 100;
         }
@@ -140,15 +157,14 @@ public class MapBotTuning(
 
     private void TuneScavs()
     {
-        var botConfig = configServer.GetConfig<BotConfig>();
-        var assaultJson = botHelper.GetBotTemplate("assault");
+        var assaultJson = botHelper.GetBotTemplate("assault")!;
         var equipmentChances = assaultJson.BotChances.EquipmentChances;
 
         var modConfig = modData.ModConfig;
 
         if (modConfig.MapScavsAlwaysHasArmor)
         {
-            botConfig.Equipment["assault"].ForceOnlyArmoredRigWhenNoArmor =
+            _botConfig.Equipment["assault"]!.ForceOnlyArmoredRigWhenNoArmor =
                 true;
             equipmentChances["ArmorVest"] = 100;
         }
@@ -165,21 +181,20 @@ public class MapBotTuning(
 
         if (modConfig.MapPlayerScavsBossBrainsOff)
         {
-            foreach (var map in botConfig.PlayerScavBrainType.Keys)
+            foreach (var map in _botConfig.PlayerScavBrainType.Keys)
             {
-                botConfig.PlayerScavBrainType[map] = [];
-                botConfig.PlayerScavBrainType[map].Add("pmcBot", 1);
+                _botConfig.PlayerScavBrainType[map] = [];
+                _botConfig.PlayerScavBrainType[map].Add("pmcBot", 1);
             }
         }
     }
 
     private void TunePmcGear()
     {
-        var botConfig = configServer.GetConfig<BotConfig>();
-        botConfig.Equipment["pmc"].ForceOnlyArmoredRigWhenNoArmor = true;
+        _botConfig.Equipment["pmc"]!.ForceOnlyArmoredRigWhenNoArmor = true;
 
-        foreach (var randomisationDetailse in botConfig.Equipment["pmc"]
-                     .Randomisation)
+        foreach (var randomisationDetailse in _botConfig.Equipment["pmc"]!
+                     .Randomisation!)
         {
             randomisationDetailse.Equipment["Backpack"] = 100;
             randomisationDetailse.Equipment["Earpiece"] = 100;

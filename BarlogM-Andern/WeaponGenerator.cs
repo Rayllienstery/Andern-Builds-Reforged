@@ -73,8 +73,8 @@ public class WeaponGenerator(
     static readonly int TACTICAL_DEVICE_LIGHT_AND_LASER_MODE = 1;
     static readonly int TACTICAL_DEVICE_LASER_ONLY_MODE = 2;
 
-    readonly PmcConfig PMCConfig = configServer.GetConfig<PmcConfig>();
-    readonly RepairConfig RepairConfig = configServer.GetConfig<RepairConfig>();
+    private readonly PmcConfig _pmcConfig = configServer.GetConfig<PmcConfig>();
+    private readonly RepairConfig _repairConfig = configServer.GetConfig<RepairConfig>();
 
     string GetTemplateIdFromWeaponItems(List<Item> weaponWithMods)
     {
@@ -109,7 +109,7 @@ public class WeaponGenerator(
 
     public Item GetWeaponMagazine(List<Item> weaponWithMods)
     {
-        return weaponWithMods.Find(item => item.SlotId == "mod_magazine");
+        return weaponWithMods.Find(item => item.SlotId == "mod_magazine")!;
     }
 
     public void AddCartridgeToChamber(
@@ -121,7 +121,7 @@ public class WeaponGenerator(
         var chamberName = GetChamberNameFromWeaponTemplate(weaponTemplate);
 
         var existingItemWithSlot = weaponWithMods
-            .Where(item => item.SlotId.StartsWith(chamberName))
+            .Where(item => item.SlotId?.StartsWith(chamberName) == true)
             .ToList();
 
         if (existingItemWithSlot.Count > 0)
@@ -237,7 +237,7 @@ public class WeaponGenerator(
         foreach (var item in weaponWithMods)
         {
             if (
-                item.SlotId.StartsWith("mod_tactical") &&
+                item.SlotId?.StartsWith("mod_tactical") == true &&
                 itemHelper.IsOfBaseclass(item.Template, BaseClasses.TACTICAL_COMBO))
             {
                 item.Template = ZENIT_KLESCH_2IKS;
@@ -249,7 +249,7 @@ public class WeaponGenerator(
     {
         foreach (var item in weaponWithMods)
         {
-            if (item.SlotId.StartsWith("mod_tactical"))
+            if (item.SlotId?.StartsWith("mod_tactical") == true)
             {
                 if (item.Upd?.Light != null)
                 {
@@ -489,9 +489,9 @@ public class WeaponGenerator(
 
     public void AddRandomEnhancement(List<Item> weapon)
     {
-        if (randomUtil.GetChance100(PMCConfig.WeaponHasEnhancementChancePercent))
+        if (randomUtil.GetChance100(_pmcConfig.WeaponHasEnhancementChancePercent))
         {
-            repairService.AddBuff(RepairConfig.RepairKit.Weapon, weapon[0]);
+            repairService.AddBuff(_repairConfig.RepairKit.Weapon, weapon[0]);
         }
     }
 

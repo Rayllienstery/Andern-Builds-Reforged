@@ -23,6 +23,9 @@ public class EtcPostSpt(
     : IOnLoad
 {
     private readonly ModConfig _modConfig = modData.ModConfig;
+    private readonly PmcConfig _pmcConfig = configServer.GetConfig<PmcConfig>();
+    private readonly InsuranceConfig _insuranceConfig = configServer.GetConfig<InsuranceConfig>();
+    private readonly PlayerScavConfig _playerScavConfig = configServer.GetConfig<PlayerScavConfig>();
 
     public Task OnLoad()
     {
@@ -67,17 +70,15 @@ public class EtcPostSpt(
 
     private void PmcBackpackWeaponDisable()
     {
-        var pmcConfig = configServer.GetConfig<PmcConfig>();
-        pmcConfig.LooseWeaponInBackpackChancePercent = 0;
-        pmcConfig.LooseWeaponInBackpackLootMinMax = new MinMax<int>(0, 0);
+        _pmcConfig.LooseWeaponInBackpackChancePercent = 0;
+        _pmcConfig.LooseWeaponInBackpackLootMinMax = new MinMax<int>(0, 0);
     }
 
     private void InsuranceReturnNothing()
     {
-        var insuranceConfig = configServer.GetConfig<InsuranceConfig>();
-        foreach (var traderId in insuranceConfig.ReturnChancePercent.Keys)
+        foreach (var traderId in _insuranceConfig.ReturnChancePercent.Keys)
         {
-            insuranceConfig.ReturnChancePercent[traderId] = 0;
+            _insuranceConfig.ReturnChancePercent[traderId] = 0;
         }
     }
 
@@ -116,19 +117,17 @@ public class EtcPostSpt(
 
     private void EmissaryPmcBotsDisable()
     {
-        var pmcConfig = configServer.GetConfig<PmcConfig>();
-        foreach (var memberCategory in pmcConfig.AccountTypeWeight.Keys)
+        foreach (var memberCategory in _pmcConfig.AccountTypeWeight.Keys)
         {
-            pmcConfig.AccountTypeWeight[memberCategory] = 0;
+            _pmcConfig.AccountTypeWeight[memberCategory] = 0;
         }
 
-        pmcConfig.AccountTypeWeight[MemberCategory.Default] = 25;
+        _pmcConfig.AccountTypeWeight[MemberCategory.Default] = 25;
     }
 
     private void playerScavAlwaysHasBackpack()
     {
-        var playerScavConfig = configServer.GetConfig<PlayerScavConfig>();
-        foreach (var keyValuePair in playerScavConfig.KarmaLevel)
+        foreach (var keyValuePair in _playerScavConfig.KarmaLevel)
         {
             keyValuePair.Value.Modifiers.Equipment["Backpack"] = 100;
         }

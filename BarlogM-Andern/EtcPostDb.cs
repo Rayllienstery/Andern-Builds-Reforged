@@ -23,6 +23,7 @@ public class EtcPostDb(
     : IOnLoad
 {
     private readonly ModConfig _modConfig = modData.ModConfig;
+    private readonly RagfairConfig _ragfairConfig = configServer.GetConfig<RagfairConfig>();
 
     public Task OnLoad()
     {
@@ -41,10 +42,8 @@ public class EtcPostDb(
 
     private void FleaBlacklistDisable()
     {
-        var ragfairConfig =
-            configServer.GetConfig<RagfairConfig>();
-        ragfairConfig.Dynamic.Blacklist.EnableBsgList = false;
-        ragfairConfig.Dynamic.Blacklist.TraderItems = true;
+        _ragfairConfig.Dynamic.Blacklist.EnableBsgList = false;
+        _ragfairConfig.Dynamic.Blacklist.TraderItems = true;
     }
 
     private void RemoveAllTradersItemsFromFlea()
@@ -69,22 +68,20 @@ public class EtcPostDb(
             Traders.BTR
         ];
 
-        var ragfair = configServer.GetConfig<RagfairConfig>();
-
         foreach (var traderId in traders)
         {
-            var trader = databaseService.GetTrader(traderId);
+            var trader = databaseService.GetTrader(traderId)!;
             foreach (var item in trader.Assort.Items)
             {
                 if (!itemHelper.IsOfBaseclasses(item.Template,
                         ignoreBaseClasses))
                 {
-                    ragfair.Dynamic.Blacklist.Custom.Add(item.Template);
+                    _ragfairConfig.Dynamic.Blacklist.Custom.Add(item.Template);
                 }
             }
         }
 
-        AddExtraItemsToBlacklist(ragfair);
+        AddExtraItemsToBlacklist(_ragfairConfig);
     }
 
     void AddExtraItemsToBlacklist(RagfairConfig ragfair)
@@ -95,7 +92,10 @@ public class EtcPostDb(
             "66b5f6985891c84aab75ca76", // Peltor ComTac VI headset (Coyote Brown)
             "5f60cd6cf2bcbb675b00dac6", // Walker's XCEL 500BT Digital headset
             "5c0e874186f7745dc7616606", // Maska-1SCh bulletproof helmet (Killa Edition)
-            "6759af0f9c8a538dd70bfae6" // Maska-1SCh bulletproof helmet (Christmas Edition)
+            "6759af0f9c8a538dd70bfae6", // Maska-1SCh bulletproof helmet (Christmas Edition)
+            "66b5f65ca7f72d197e70bcd6", // Ballistic Armor Co. Bastion helmet (Armor Black)
+            "66b5f661af44ca0014063c05", // Ballistic Armor Co. Bastion helmet (OD Green)
+            "66b5f666cad6f002ab7214c2"  //Ballistic Armor Co. Bastion helmet (MultiCam)
         ];
 
         ragfair.Dynamic.Blacklist.Custom.UnionWith(items);

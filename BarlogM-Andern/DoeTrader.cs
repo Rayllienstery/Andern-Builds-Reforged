@@ -41,15 +41,14 @@ public class DoeTrader(
 )
     : IOnLoad
 {
-    private readonly TraderConfig _traderConfig =
-        configServer.GetConfig<TraderConfig>();
-
-    private readonly RagfairConfig _ragfairConfig =
-        configServer.GetConfig<RagfairConfig>();
+    private readonly TraderConfig _traderConfig = configServer.GetConfig<TraderConfig>();
+    private readonly RagfairConfig _ragfairConfig = configServer.GetConfig<RagfairConfig>();
+    private readonly InsuranceConfig _insuranceConfig = configServer.GetConfig<InsuranceConfig>();
 
     private readonly string _traderDataPath =
         Path.Combine(modData.PathToMod, "trader");
 
+        
     private string traderId;
 
     public Task OnLoad()
@@ -96,18 +95,17 @@ public class DoeTrader(
 
     private void EnableRepair()
     {
-        var trader = databaseService.GetTrader(traderId);
-        trader.Base.Repair.Availability = true;
+        var trader = databaseService.GetTrader(traderId)!;
+        trader.Base.Repair!.Availability = true;
     }
 
     private void EnableEnshurance()
     {
-        var trader = databaseService.GetTrader(traderId);
-        trader.Base.Insurance.Availability = true;
+        var trader = databaseService.GetTrader(traderId)!;
+        trader.Base.Insurance!.Availability = true;
 
-        var insuranceConfig = configServer.GetConfig<InsuranceConfig>();
-        insuranceConfig.ReturnChancePercent[traderId] = 100;
-        insuranceConfig.RunIntervalSeconds = 60;
+        _insuranceConfig.ReturnChancePercent[traderId] = 100;
+        _insuranceConfig.RunIntervalSeconds = 60;
     }
 
     private TraderAssort LoadItems()
@@ -165,7 +163,7 @@ public class DoeTrader(
         var tpls = preset.Items.Select(item => item.Template);
         var price = itemHelper.GetItemAndChildrenPrice(tpls);
 
-        var presetAndModsClone = cloner.Clone(preset.Items).ReplaceIDs().ToList();
+        var presetAndModsClone = cloner.Clone(preset.Items)!.ReplaceIDs().ToList();
         presetAndModsClone.RemapRootItemId();
 
         presetAndModsClone.First().ParentId = "hideout";
@@ -229,20 +227,20 @@ public class DoeTrader(
             LoyalLevelItems = new Dictionary<MongoId, int>()
         };
 
-        var therapist = databaseService.GetTrader(Traders.THERAPIST);
+        var therapist = databaseService.GetTrader(Traders.THERAPIST)!;
 
         var traderDataToAdd = new Trader
         {
             Assort = emptyTraderItemAssortObject,
-            Base = cloner.Clone(traderDetailsToAdd),
+            Base = cloner.Clone(traderDetailsToAdd)!,
             QuestAssort =
-                new()
+                new Dictionary<string, Dictionary<MongoId, MongoId>>
                 {
-                    { "Started", new() },
-                    { "Success", new() },
-                    { "Fail", new() }
+                    { "Started", new Dictionary<MongoId, MongoId>() },
+                    { "Success", new Dictionary<MongoId, MongoId>() },
+                    { "Fail", new Dictionary<MongoId, MongoId>() }
                 },
-            Dialogue = cloner.Clone(therapist.Dialogue)
+            Dialogue = cloner.Clone(therapist.Dialogue)!
         };
 
         if (!databaseService.GetTables().Traders

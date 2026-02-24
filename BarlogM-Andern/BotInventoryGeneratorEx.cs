@@ -74,11 +74,9 @@ public class BotInventoryGeneratorEx(
             presetTierConfig.KittedHelmetPercent);
 
         var raidConfig = profileActivityService
-            .GetProfileActivityRaidData(sessionId)?.RaidConfiguration;
+            .GetProfileActivityRaidData(sessionId).RaidConfiguration;
 
-        var isNightVision = raidConfig.IsNightRaid
-            ? randomUtil.GetChance100(presetTierConfig.NightVisionPercent)
-            : false;
+        var isNightVision = raidConfig!.IsNightRaid && raidConfig.Location! is not ("laboratory" or "labyrinth") && randomUtil.GetChance100(presetTierConfig.NightVisionPercent);
 
         try
         {
@@ -92,7 +90,7 @@ public class BotInventoryGeneratorEx(
         }
         catch (Exception ex)
         {
-            logger.Error("[Andern] Equipmnet generate", ex);
+            logger.Error("[Andern] Equipment generate", ex);
         }
 
         try

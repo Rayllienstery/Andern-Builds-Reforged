@@ -15,6 +15,9 @@ public class EtcPreSpt(
     : IOnLoad
 {
     private readonly ModConfig _modConfig = modData.ModConfig;
+    
+    private readonly SeasonalEventConfig _seasonalEventConfig = configServer.GetConfig<SeasonalEventConfig>();
+    private readonly BotConfig _botConfig = configServer.GetConfig<BotConfig>();
 
     public Task OnLoad()
     {
@@ -33,13 +36,11 @@ public class EtcPreSpt(
 
     private void SeasonalEventsDisable()
     {
-        var seasonalEventConfig = configServer.GetConfig<SeasonalEventConfig>();
-        seasonalEventConfig.EnableSeasonalEventDetection = false;
+        _seasonalEventConfig.EnableSeasonalEventDetection = false;
     }
 
     private void WeeklyBossEventDisable()
     {
-        var botConfig = configServer.GetConfig<BotConfig>();
-        botConfig.WeeklyBoss.Enabled = false;
+        _botConfig.WeeklyBoss.Enabled = false;
     }
 }

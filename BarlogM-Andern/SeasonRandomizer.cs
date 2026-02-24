@@ -28,17 +28,17 @@ public class SeasonRandomizer(
     ];
 
     private readonly ModConfig _modConfig = modData.ModConfig;
+    private readonly WeatherConfig _weatherConfig = configServer.GetConfig<WeatherConfig>();
 
     public void RandimizeSeason()
     {
         if (!_modConfig.RandomizeSeason) return;
 
-        var weatherConfig = configServer.GetConfig<WeatherConfig>();
-        weatherConfig.OverrideSeason = GetRandomSeason();
+        _weatherConfig.OverrideSeason = GetRandomSeason();
 
         if (_modConfig.Debug)
         {
-            logger.LogWithColor($"[Andern] Next raid season is: {weatherConfig.OverrideSeason.ToString()}", LogTextColor.Blue);
+            logger.LogWithColor($"[Andern] Next raid season is: {_weatherConfig.OverrideSeason.ToString()}", LogTextColor.Blue);
         }
     }
 
