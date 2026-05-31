@@ -36,15 +36,15 @@ public class GearGeneratorHelper(
 
         if (equipmentSlot == EquipmentSlots.Headwear ||
             equipmentSlot == EquipmentSlots.ArmorVest ||
-            (equipmentSlot == EquipmentSlots.TacticalVest && itemHelper.ItemHasSlots(itemTemplate.Id)))
+            (equipmentSlot == EquipmentSlots.TacticalVest && itemHelper.ItemHasSlots(itemTemplate!.Id)))
         {
-            var items = CreateComplexItem(itemTemplate, botRole);
+            var items = CreateComplexItem(itemTemplate!, botRole);
             var root = items.First();
 
             root.ParentId = botInventory.Equipment;
             root.SlotId = equipmentSlot.ToString();
 
-            botInventory.Items.AddRange(items);
+            botInventory.Items!.AddRange(items);
 
             return root;
         }
@@ -52,14 +52,14 @@ public class GearGeneratorHelper(
         var item = new Item
         {
             Id = new MongoId(),
-            Template = itemTemplate.Id,
+            Template = itemTemplate!.Id,
             ParentId = botInventory.Equipment,
             SlotId = equipmentSlot.ToString(),
             Upd = botGeneratorHelper.GenerateExtraPropertiesForItem(
             itemTemplate, botRole)
         };
 
-        botInventory.Items.Add(item);
+        botInventory.Items!.Add(item);
 
         return item;
     }
@@ -83,7 +83,7 @@ public class GearGeneratorHelper(
         var item = new Item
         {
             Id = new MongoId(),
-            Template = itemTemplate.Id,
+            Template = itemTemplate!.Id,
             ParentId = parentId,
             SlotId = slotId,
             Upd = botGeneratorHelper.GenerateExtraPropertiesForItem(itemTemplate, botRole)
@@ -95,19 +95,49 @@ public class GearGeneratorHelper(
 
     private List<Item> CreateComplexItem(TemplateItem baseItemTemplate, string botRole)
     {
-        var preset = presetHelper.GetDefaultPresetsByTplKey()[baseItemTemplate.Id];
+        // SPT GetDefaultPresetsByTplKey() rebuilds a dictionary via ToDictionary() on EVERY
+        // call and is indexed with [tpl]. That throws ArgumentException (a duplicate root tpl,
+        // e.g. when a content mod adds a colliding default preset) or KeyNotFoundException (an
+        // item that has no default preset). Either throw propagates out of GenerateArmor and
+        // aborts the whole equipment pass, so the bot ends up with no armor / rig / backpack.
+        // GetDefaultPreset() is the safe accessor: it reads PresetCache and returns null
+        // instead of throwing.
+        var preset = presetHelper.GetDefaultPreset(baseItemTemplate.Id);
 
-        var items = cloner.Clone(preset.Items).ReplaceIDs().ToList();
+        if (preset?.Items is null || preset.Items.Count == 0)
+        {
+            // No usable default preset - fall back to a plain item so the bot still gets the
+            // armor / helmet / rig (just without the preset's plates / attachments) instead
+            // of nothing.
+            return [CreatePlainGearItem(baseItemTemplate, botRole)];
+        }
+
+        var items = cloner.Clone(preset.Items)!.ReplaceIDs().ToList();
         items.RemapRootItemId();
 
         foreach (var item in items)
         {
-            var (sItemExists, itemTemplate) = itemHelper.GetItem(item.Template);
+            var (itemExists, itemTemplate) = itemHelper.GetItem(item.Template);
+            if (!itemExists)
+            {
+                continue;
+            }
+            
             item.Upd =
                 botGeneratorHelper.GenerateExtraPropertiesForItem(itemTemplate, botRole);
         }
 
         return items;
+    }
+    
+    private Item CreatePlainGearItem(TemplateItem itemTemplate, string botRole)
+    {
+        return new Item
+        {
+            Id = new MongoId(),
+            Template = itemTemplate.Id,
+            Upd = botGeneratorHelper.GenerateExtraPropertiesForItem(itemTemplate, botRole),
+        };
     }
 
     public string ReplaceEarpiece(string tpl) {

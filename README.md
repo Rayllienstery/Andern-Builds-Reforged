@@ -109,6 +109,10 @@ Works only if `mapBotSettings` set to true.
 
 `CheeseQuests` disables gear and weapon conditions for same quests. For example DMR allowed for any quest required bolt action rifle.
 
+`ScavCaseLootValueMultiplier` increases loot value for scav case
+
+`ReducePenaltiesFromLargeMagazines` reduces penalties for large magazines
+
 ## Installation
 
 Put folder `BarlogM-Andern` from zip file into your `user/mods` folder
