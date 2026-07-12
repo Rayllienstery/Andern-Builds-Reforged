@@ -26,6 +26,7 @@ public class EtcPostSpt(
     private readonly PmcConfig _pmcConfig = configServer.GetConfig<PmcConfig>();
     private readonly InsuranceConfig _insuranceConfig = configServer.GetConfig<InsuranceConfig>();
     private readonly PlayerScavConfig _playerScavConfig = configServer.GetConfig<PlayerScavConfig>();
+    private readonly LocationConfig _locationConfig = configServer.GetConfig<LocationConfig>();
 
     public Task OnLoad()
     {
@@ -65,7 +66,17 @@ public class EtcPostSpt(
             CheeseQuests();
         }
 
+        if (_modConfig.IncreaseLabLoot)
+        {
+            IncreaseLabLoot();
+        }
+
         return Task.CompletedTask;
+    }
+
+    void IncreaseLabLoot()
+    {
+        _locationConfig.LooseLootMultiplier["laboratory"] *= 1.5;
     }
 
     void PmcBackpackWeaponDisable()

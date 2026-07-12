@@ -113,12 +113,16 @@ public class MapBotTuning(
                 }
             }
         }
-        logger.LogWithColor(
-            $"[Andern] BotConfig.GoonSpawnSystem.Enabled = {_botConfig.GoonSpawnSystem.Enabled}",
-            LogTextColor.Blue);
-        logger.LogWithColor(
-            $"[Andern] BotConfig.GoonSpawnSystem.SpawnChance = {_botConfig.GoonSpawnSystem.SpawnChance}",
-            LogTextColor.Blue);
+
+        if (_modConfig.Debug)
+        {
+            logger.LogWithColor(
+                $"[Andern] BotConfig.GoonSpawnSystem.Enabled = {_botConfig.GoonSpawnSystem.Enabled}",
+                LogTextColor.Blue);
+            logger.LogWithColor(
+                $"[Andern] BotConfig.GoonSpawnSystem.SpawnChance = {_botConfig.GoonSpawnSystem.SpawnChance}",
+                LogTextColor.Blue);
+        }
     }
 
     private void SetPmcBrainsAsLive()

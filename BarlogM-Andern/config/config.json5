@@ -44,5 +44,6 @@
     "CheeseQuests": false,
     "ScavCaseLootValueMultiplier": 5,
     "ReducePenaltiesFromLargeMagazines": false,
+    "IncreaseLabLoot": false,
     "Debug": false
 }

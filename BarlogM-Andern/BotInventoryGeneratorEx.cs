@@ -1,9 +1,11 @@
+using System.Text.Json;
 using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.Generators;
 using SPTarkov.Server.Core.Helpers;
 using SPTarkov.Server.Core.Models.Common;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
 using SPTarkov.Server.Core.Models.Enums;
+using SPTarkov.Server.Core.Models.Logging;
 using SPTarkov.Server.Core.Models.Spt.Bots;
 using SPTarkov.Server.Core.Models.Utils;
 using SPTarkov.Server.Core.Servers;
@@ -118,6 +120,15 @@ public class BotInventoryGeneratorEx(
             botInventoryContainerService.ClearCache(botId);
         }
 
+        /* log secure container item tpls
+        var securedContainer = botInventory.Items.FirstOrDefault(i => i.SlotId == "SecuredContainer");
+        var securedContainerItems = botInventory.Items.FindAll(i => i.ParentId == securedContainer.Id);
+        var securedContainerItemTpls = securedContainerItems.Select(i => i.Template.ToString()).ToList();
+        logger.LogWithColor(
+            $"[Andern] secured container items {JsonSerializer.Serialize(securedContainerItemTpls)}",
+            LogTextColor.Red);
+        */
+        
         return botInventory;
     }
 

@@ -113,6 +113,8 @@ Works only if `mapBotSettings` set to true.
 
 `ReducePenaltiesFromLargeMagazines` reduces penalties for large magazines
 
+`IncreaseLabLoot` increases loot on Lab
+
 ## Installation
 
 Put folder `BarlogM-Andern` from zip file into your `user/mods` folder

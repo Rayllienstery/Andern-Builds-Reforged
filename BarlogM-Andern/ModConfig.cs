@@ -41,5 +41,6 @@ public class ModConfig
     public bool CheeseQuests { get; set; }
     public int ScavCaseLootValueMultiplier { get; set; }
     public bool ReducePenaltiesFromLargeMagazines { get; set; }
+    public bool IncreaseLabLoot { get; set; }
     public bool Debug { get; set; }
 }
