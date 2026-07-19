@@ -4,6 +4,8 @@
         <TargetFramework>net9.0</TargetFramework>
         <AssemblyName>Andern-Builds-Reforged</AssemblyName>
         <RootNamespace>AndernBuildsReforged</RootNamespace>
+        <Version>0.2.0</Version>
+        <InformationalVersion>0.2.0</InformationalVersion>
         <OutputType>Library</OutputType>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
@@ -54,6 +56,10 @@
             <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
         </Content>
         <Content Include="..\README.md">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+        </Content>
+        <Content Include="..\CHANGELOG.md">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
             <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
         </Content>

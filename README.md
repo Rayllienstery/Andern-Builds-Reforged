@@ -2,12 +2,16 @@
 
 Personal fork of [BarlogM Andern](https://github.com/barlog-m/spt-andern) (MIT) for SPT **4.0.13**.
 
-- GitHub: https://github.com/Rayllienstery/Andern-Builds-Reforged
-- Upstream: `upstream` → `barlog-m/spt-andern`
-- Local staging (this clone): `c:\Games\SPT\dev\Andern-Builds-Reforged`
-- Live deploy target (later): `SPT/user/mods/Andern-Builds-Reforged/`
+| | |
+|--|--|
+| Version | **0.2.0** |
+| GitHub | https://github.com/Rayllienstery/Andern-Builds-Reforged |
+| Changelog | [CHANGELOG.md](CHANGELOG.md) |
+| Upstream | `upstream` → `barlog-m/spt-andern` |
+| Local staging | `c:\Games\SPT\dev\Andern-Builds-Reforged` |
+| Live deploy (later) | `SPT/user/mods/Andern-Builds-Reforged/` |
 
-While developing here, keep live `BarlogM-Andern` until the fork is verified in-raid.
+Keep live `BarlogM-Andern` until this fork is verified in-raid.
 
 ## Identity
 
@@ -15,7 +19,46 @@ While developing here, keep live `BarlogM-Andern` until the fork is verified in-
 |-------|-------|
 | ModGuid | `com.raylee.andern-builds-reforged` |
 | Assembly | `Andern-Builds-Reforged.dll` |
+| Author | Raylee |
+| SPT | `~4.0.0` (tested 4.0.13) |
 | Incompatible with | `li.barlog.andern` |
+
+## Features (vs upstream)
+
+### Map-aware presets (`Locations`) — since 0.2.0
+
+Each weapon preset JSON may include an allow-list of SPT location IDs:
+
+```json
+{
+  "Name": "KS-23 T4",
+  "Factions": ["bear"],
+  "Locations": ["factory4_day", "factory4_night", "tarkovstreets"],
+  "Items": [ ... ]
+}
+```
+
+| Rule | Behavior |
+|------|----------|
+| No field / `null` / `[]` | Allowed on **all** maps |
+| Non-empty list | Raid map must match (after alias expand) |
+| Empty pool after filter | Fall back to full tier + server warning |
+
+**Aliases** (written in JSON, expanded at runtime):
+
+| Alias | Canonical IDs |
+|-------|----------------|
+| `factory` | `factory4_day`, `factory4_night` |
+| `streets` | `tarkovstreets` |
+| `customs` | `bigmap` |
+| `reserve` | `rezervbase` |
+| `groundzero` / `gz` | `sandbox`, `sandbox_high` |
+
+Preset generation lives in the SPT workspace builder:
+
+`mods-src/ander-presets/build_t4_presets.py` → `apply_locations_metadata()`.
+
+Do **not** hand-edit deployed `presets/meta/four/*.json` — change the builder, regenerate, run optic audits.
 
 ## Build
 
@@ -31,6 +74,8 @@ Stop **SPT Server**, then:
 powershell -File deploy.ps1
 ```
 
+Disable `BarlogM-Andern` only after verifying this mod loads (they are incompatible).
+
 ## Sync upstream
 
 ```powershell
@@ -38,20 +83,14 @@ git fetch upstream
 git merge upstream/main
 ```
 
-## Planned
+## Roadmap
 
-- Location / MapTags filtering in `WeaponGenerator` — **done** (`Locations` allow-list on presets)
-- Retarget Raylee AndernPmcPatch to this assembly
-- Cut over from live `BarlogM-Andern`
+- [x] `Locations` allow-list on presets
+- [ ] Retarget `Raylee-AndernPmcPatch` HintPath / namespaces to this assembly
+- [ ] Cut over: deploy here, remove live `BarlogM-Andern`
+- [ ] Optional: filter on `Factions` (field already emitted by builder)
+- [ ] Slim redundant Raylee map-bias patches once `Locations` covers the same cases
 
-## Preset `Locations` field
+## License
 
-Allow-list of SPT map IDs on each weapon JSON. Missing / empty = all maps.
-
-```json
-"Locations": ["woods", "shoreline", "factory4_day"]
-```
-
-Aliases supported by the filter: `factory`, `streets`, `customs`, `reserve`, `groundzero` / `gz`.
-Builder rules seed open-map bolt snipers and CQ `KS-23`; see `apply_locations_metadata` in `build_t4_presets.py`.
-
+MIT — see [LICENSE](LICENSE). Upstream copyright Barlog_M; this fork adds Raylee changes documented in [CHANGELOG.md](CHANGELOG.md).

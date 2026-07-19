@@ -29,7 +29,8 @@ foreach ($dir in @("config", "presets", "trader")) {
 
 Copy-Item -Force (Join-Path $PSScriptRoot "LICENSE") (Join-Path $LiveMod "LICENSE") -ErrorAction SilentlyContinue
 Copy-Item -Force (Join-Path $PSScriptRoot "README.md") (Join-Path $LiveMod "README.md") -ErrorAction SilentlyContinue
+Copy-Item -Force (Join-Path $PSScriptRoot "CHANGELOG.md") (Join-Path $LiveMod "CHANGELOG.md") -ErrorAction SilentlyContinue
 
-Write-Host "Deployed -> $LiveMod"
+Write-Host "Deployed Andern-Builds-Reforged -> $LiveMod"
 Get-ChildItem $LiveMod | Format-Table Name, Length -AutoSize
 Write-Host "Remember: disable BarlogM-Andern only after verifying this mod loads."

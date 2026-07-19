@@ -11,7 +11,7 @@ public record ModMetadata : AbstractModMetadata
     public override string Name { get; init; } = "Andern Builds Reforged";
     public override string Author { get; init; } = "Raylee";
     public override List<string>? Contributors { get; init; } = ["fork of Barlog_M Andern (MIT)"];
-    public override SemanticVersioning.Version Version { get; init; } = new("0.1.0");
+    public override SemanticVersioning.Version Version { get; init; } = new(Andern.ModVersion);
     public override SemanticVersioning.Range SptVersion { get; init; } = new("~4.0.0");
     public override List<string>? Incompatibilities { get; init; } = ["li.barlog.andern"];
     public override Dictionary<string, SemanticVersioning.Range>? ModDependencies { get; init; }
@@ -21,11 +21,13 @@ public record ModMetadata : AbstractModMetadata
 }
 
 [Injectable(InjectionType.Singleton, TypePriority = OnLoadOrder.PreSptModLoader + 1)]
-public class Andern(ISptLogger<Andern> logger, ModData modData) : IOnLoad
+public class Andern(ISptLogger<Andern> logger) : IOnLoad
 {
+    public const string ModVersion = "0.2.0";
+
     public Task OnLoad()
     {
-        logger.Info("[Andern-Builds-Reforged] loaded");
+        logger.Info($"[Andern-Builds-Reforged] v{ModVersion} loaded");
         return Task.CompletedTask;
     }
 }
