@@ -5,6 +5,20 @@ All notable changes to **Andern Builds Reforged** are documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 Versioning follows [SemVer](https://semver.org/).
 
+## [0.5.0] — 2026-07-19
+
+### Added
+
+- Per-tier **CQCM / mask-instead-of-helmet** chance in `config/config.json5` (SPT mod config):
+  - `MaskInsteadOfHelmetPercentOne` … `Four`
+  - Defaults: **0 / 0 / 3 / 6**
+- Replaces the old hardcoded **30%** Andern roll. `gear.mask` (CQCM class-4) is used when the roll succeeds (and not NVG).
+
+### Notes
+
+- While live `BarlogM-Andern` is still installed, `Raylee-AndernPmcPatch` trims BarlogM’s fixed 30% path toward the same 0/0/3/6 via `cqcm_mask_bias.json`.
+- After cutover to Reforged, Raylee skips that trim (`IsReforgedAndern`) so this config is the single source of truth.
+
 ## [0.4.0] — 2026-07-19
 
 ### Added
@@ -72,6 +86,7 @@ Versioning follows [SemVer](https://semver.org/).
 - Staging layout under `dev/Andern-Builds-Reforged`, `deploy.ps1` → `SPT/user/mods/Andern-Builds-Reforged/`.
 - Curated T4/T3/T2/T1 presets seeded from the live SPT install.
 
+[0.5.0]: https://github.com/Rayllienstery/Andern-Builds-Reforged/compare/v0.4.0...v0.5.0
 [0.4.0]: https://github.com/Rayllienstery/Andern-Builds-Reforged/compare/v0.3.0...v0.4.0
 [0.3.0]: https://github.com/Rayllienstery/Andern-Builds-Reforged/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/Rayllienstery/Andern-Builds-Reforged/compare/v0.1.0...v0.2.0

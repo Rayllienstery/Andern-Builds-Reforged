@@ -44,5 +44,12 @@
     "CheeseQuests": false,
     "ScavCaseLootValueMultiplier": 5,
     "ReducePenaltiesFromLargeMagazines": false,
-    "Debug": false
+    "Debug": false,
+
+    // Chance (%) to put gear.mask FaceCover (CQCM class-4) instead of a helmet.
+    // Per Andern tier: one / two / three / four. 0 = never.
+    "MaskInsteadOfHelmetPercentOne": 0,
+    "MaskInsteadOfHelmetPercentTwo": 0,
+    "MaskInsteadOfHelmetPercentThree": 3,
+    "MaskInsteadOfHelmetPercentFour": 6
 }

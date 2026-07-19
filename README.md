@@ -4,7 +4,7 @@ Personal fork of [BarlogM Andern](https://github.com/barlog-m/spt-andern) (MIT) 
 
 | | |
 |--|--|
-| Version | **0.4.0** |
+| Version | **0.5.0** |
 | GitHub | https://github.com/Rayllienstery/Andern-Builds-Reforged |
 | Changelog | [CHANGELOG.md](CHANGELOG.md) |
 | Upstream | `upstream` → `barlog-m/spt-andern` |
@@ -84,6 +84,19 @@ Integer relative weight inside the **location-filtered** tier pool. Higher = mor
 
 Chance on a map ≈ `Weight / sum(Weights of presets allowed on that map)`.
 
+### Mask instead of helmet (CQCM) — since 0.5.0
+
+In `AndernBuildsReforged/config/config.json5` (edit via SPT mod config / F12-style config UI):
+
+| Key | Default |
+|-----|---------|
+| `MaskInsteadOfHelmetPercentOne` | 0 |
+| `MaskInsteadOfHelmetPercentTwo` | 0 |
+| `MaskInsteadOfHelmetPercentThree` | 3 |
+| `MaskInsteadOfHelmetPercentFour` | 6 |
+
+When the roll hits (and raid is not NVG), PMC gets `gear.mask` FaceCover (T4: Atomic Defense **CQCM**, armor class 4) + headset instead of a helmet.
+
 ### Chance report script
 
 ```powershell
@@ -127,6 +140,7 @@ git merge upstream/main
 - [x] `Locations` allow-list on presets
 - [x] `SpareMags` exact spare count (no inventory flood)
 - [x] `Weight` int spawn weighting + chance report script
+- [x] Per-tier CQCM / mask-instead-of-helmet % in `config.json5` (default 0/0/3/6)
 - [ ] Retarget `Raylee-AndernPmcPatch` HintPath / namespaces to this assembly
 - [ ] Cut over: deploy here, remove live `BarlogM-Andern`
 - [ ] Optional: filter on `Factions` (field already emitted by builder)

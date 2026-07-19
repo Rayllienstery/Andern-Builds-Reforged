@@ -43,4 +43,26 @@ public class ModConfig
     public bool ReducePenaltiesFromLargeMagazines { get; set; }
     public bool IncreaseLabLoot { get; set; }
     public bool Debug { get; set; }
+
+    /// <summary>
+    /// Chance (%) to equip FaceCover from gear.mask (CQCM) instead of a helmet, per Andern tier.
+    /// Defaults: T1=0, T2=0, T3=3, T4=6. Edit config.json5 (SPT mod config).
+    /// </summary>
+    public int MaskInsteadOfHelmetPercentOne { get; set; } = 0;
+    public int MaskInsteadOfHelmetPercentTwo { get; set; } = 0;
+    public int MaskInsteadOfHelmetPercentThree { get; set; } = 3;
+    public int MaskInsteadOfHelmetPercentFour { get; set; } = 6;
+
+    public int GetMaskInsteadOfHelmetPercent(string tierName)
+    {
+        var percent = tierName switch
+        {
+            "one" => MaskInsteadOfHelmetPercentOne,
+            "two" => MaskInsteadOfHelmetPercentTwo,
+            "three" => MaskInsteadOfHelmetPercentThree,
+            "four" => MaskInsteadOfHelmetPercentFour,
+            _ => 0,
+        };
+        return Math.Clamp(percent, 0, 100);
+    }
 }

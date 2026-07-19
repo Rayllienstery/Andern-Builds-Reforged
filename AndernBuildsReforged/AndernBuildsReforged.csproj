@@ -4,8 +4,8 @@
         <TargetFramework>net9.0</TargetFramework>
         <AssemblyName>Andern-Builds-Reforged</AssemblyName>
         <RootNamespace>AndernBuildsReforged</RootNamespace>
-        <Version>0.4.0</Version>
-        <InformationalVersion>0.4.0</InformationalVersion>
+        <Version>0.5.0</Version>
+        <InformationalVersion>0.5.0</InformationalVersion>
         <OutputType>Library</OutputType>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>

@@ -195,4 +195,9 @@ public class Data
         var tier = TierByLevel(level);
         return data[tier].PresetConfig;
     }
+
+    public int GetMaskInsteadOfHelmetPercent(int level)
+    {
+        return _modConfig.GetMaskInsteadOfHelmetPercent(TierByLevel(level));
+    }
 }

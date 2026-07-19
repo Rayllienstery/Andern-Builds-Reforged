@@ -174,7 +174,9 @@ public class BotInventoryGeneratorEx(
         botInventoryContainerService.AddEmptyContainerToBot(botId,
             EquipmentSlots.SecuredContainer, secureContainerItem);
 
-        if (randomUtil.GetChance100(30) && !isNightVision && GetMaskItemTpl(botGenerationDetails.BotLevel) != "")
+        if (randomUtil.GetChance100(data.GetMaskInsteadOfHelmetPercent(botGenerationDetails.BotLevel))
+            && !isNightVision
+            && GetMaskItemTpl(botGenerationDetails.BotLevel) != "")
         {
             GenerateMaskAndEarpieceItem(
                 botGenerationDetails.BotLevel,
