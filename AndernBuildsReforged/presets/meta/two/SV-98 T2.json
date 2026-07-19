@@ -1,0 +1,84 @@
+{
+    "Id": "090714c4c03f44e184c10c94",
+    "Name": "SV-98 T2",
+    "Root": "9a428e0c5b364c92800d3bea",
+    "Items": [
+        {
+            "_id": "9a428e0c5b364c92800d3bea",
+            "_tpl": "55801eed4bdc2d89578b4588",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "FireMode": {
+                    "FireMode": "single"
+                }
+            }
+        },
+        {
+            "_id": "632b20d2955349e8bbc0787c",
+            "_tpl": "559ba5b34bdc2d1f1a8b4582",
+            "parentId": "9a428e0c5b364c92800d3bea",
+            "slotId": "mod_magazine"
+        },
+        {
+            "_id": "2d6b89f2cd2849b3a9138f70",
+            "_tpl": "61faa91878830f069b6b7967",
+            "parentId": "9a428e0c5b364c92800d3bea",
+            "slotId": "mod_stock"
+        },
+        {
+            "_id": "2b8a055a093c4594add52fac",
+            "_tpl": "56ea8222d2720b69698b4567",
+            "parentId": "2d6b89f2cd2849b3a9138f70",
+            "slotId": "mod_bipod"
+        },
+        {
+            "_id": "f4cc9944a29643bb93fbffbe",
+            "_tpl": "56083e1b4bdc2dc8488b4572",
+            "parentId": "9a428e0c5b364c92800d3bea",
+            "slotId": "mod_sight_rear"
+        },
+        {
+            "_id": "793cb62a73fc4bea866444e7",
+            "_tpl": "56083eab4bdc2d26448b456a",
+            "parentId": "9a428e0c5b364c92800d3bea",
+            "slotId": "mod_tactical"
+        },
+        {
+            "_id": "79836c7204174a6f9be48fd9",
+            "_tpl": "560e620e4bdc2d724b8b456b",
+            "parentId": "9a428e0c5b364c92800d3bea",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "f47fae6d46f04a83bdd57ebe",
+            "_tpl": "5b2389515acfc4771e1be0c0",
+            "parentId": "9a428e0c5b364c92800d3bea",
+            "slotId": "mod_scope"
+        },
+        {
+            "_id": "36ed44eddec947eeb384c39b",
+            "_tpl": "5b2388675acfc4771e1be0be",
+            "parentId": "f47fae6d46f04a83bdd57ebe",
+            "slotId": "mod_scope_000",
+            "upd": {
+                "Sight": {
+                    "ScopesCurrentCalibPointIndexes": [
+                        0
+                    ],
+                    "ScopesSelectedModes": [
+                        0
+                    ],
+                    "SelectedScope": 0,
+                    "ScopeZoomValue": 0
+                }
+            }
+        }
+    ],
+    "Parent": "5447b6254bdc2dc3278b4568",
+    "Factions": [
+        "bear"
+    ]
+}

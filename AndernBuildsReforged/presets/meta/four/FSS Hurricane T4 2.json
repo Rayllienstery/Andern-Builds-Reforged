@@ -1,0 +1,99 @@
+{
+    "Id": "ac9cab756d404e2aabd8093a",
+    "Name": "FSS Hurricane T4 2",
+    "Root": "1ad7b76f9b3a408cbd51581c",
+    "Items": [
+        {
+            "_id": "1ad7b76f9b3a408cbd51581c",
+            "_tpl": "020020fbbfbb570000000000",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "fullauto"
+                }
+            }
+        },
+        {
+            "_id": "87aa9b36f4704d2b938ec90a",
+            "_tpl": "5cc70093e4a949033c734312",
+            "slotId": "mod_magazine",
+            "parentId": "1ad7b76f9b3a408cbd51581c"
+        },
+        {
+            "_id": "b55bf03c8eb542cd92fb9cb3",
+            "_tpl": "042042fbbfbb570000000000",
+            "slotId": "mod_reciever",
+            "parentId": "1ad7b76f9b3a408cbd51581c"
+        },
+        {
+            "_id": "9b1ac9f7caf84c409ae3c25b",
+            "_tpl": "04B04Bfbbfbb574B00000000",
+            "slotId": "mod_barrel",
+            "parentId": "b55bf03c8eb542cd92fb9cb3"
+        },
+        {
+            "_id": "fbcb0ed0b90943ed971cfde2",
+            "_tpl": "044044fbbfbb574400000000",
+            "slotId": "mod_charge",
+            "parentId": "1ad7b76f9b3a408cbd51581c"
+        },
+        {
+            "_id": "d82c3f629029461abb44d1dc",
+            "_tpl": "6087e663132d4d12c81fd96b",
+            "slotId": "mod_pistol_grip",
+            "parentId": "1ad7b76f9b3a408cbd51581c"
+        },
+        {
+            "_id": "55fbb1980f8a487981a0b937",
+            "_tpl": "58491f3324597764bc48fa02",
+            "parentId": "b55bf03c8eb542cd92fb9cb3",
+            "slotId": "mod_scope"
+        },
+        {
+            "_id": "f473680f09cf4580a1865716",
+            "_tpl": "5c1cd46f2e22164bef5cfedb",
+            "parentId": "b55bf03c8eb542cd92fb9cb3",
+            "slotId": "mod_foregrip"
+        },
+        {
+            "_id": "8566efd0233c4f24a0349a38",
+            "_tpl": "5c793fc42e221600114ca25d",
+            "parentId": "1ad7b76f9b3a408cbd51581c",
+            "slotId": "mod_stock"
+        },
+        {
+            "_id": "5861e9246e8e45af8d9a33d6",
+            "_tpl": "56eabf3bd2720b75698b4569",
+            "parentId": "8566efd0233c4f24a0349a38",
+            "slotId": "mod_stock_000"
+        },
+        {
+            "_id": "1ff3143530d340adb270d4ec",
+            "_tpl": "58d2912286f7744e27117493",
+            "parentId": "5861e9246e8e45af8d9a33d6",
+            "slotId": "mod_stock"
+        },
+        {
+            "_id": "9f96449b01e6462eb1d9aea5",
+            "_tpl": "04C04Cfbbfbb574C00000000",
+            "parentId": "9b1ac9f7caf84c409ae3c25b",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "76a2617288d840cf8b2e12f2",
+            "_tpl": "5c06595c0db834001a66af6c",
+            "parentId": "b55bf03c8eb542cd92fb9cb3",
+            "slotId": "mod_tactical"
+        }
+    ],
+    "Parent": "5447b5e04bdc2d62278b4567",
+    "Factions": [
+        "usec"
+    ]
+}

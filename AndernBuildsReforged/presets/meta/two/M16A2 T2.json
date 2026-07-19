@@ -1,0 +1,107 @@
+{
+    "Id": "5db35e413b9245c593e6d441",
+    "Name": "M16A2 T2",
+    "Root": "254a61a1a5c14fa590ec3278",
+    "Items": [
+        {
+            "_id": "254a61a1a5c14fa590ec3278",
+            "_tpl": "68a6399922b1e0bd360afe56",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "single"
+                }
+            }
+        },
+        {
+            "_id": "ae3b75dc1db44c8191d769ec",
+            "_tpl": "55d4b9964bdc2d1d4e8b456e",
+            "slotId": "mod_pistol_grip",
+            "parentId": "254a61a1a5c14fa590ec3278"
+        },
+        {
+            "_id": "33c78f12dd0a449ca568f690",
+            "_tpl": "55d4887d4bdc2d962f8b4570",
+            "slotId": "mod_magazine",
+            "parentId": "254a61a1a5c14fa590ec3278"
+        },
+        {
+            "_id": "f806e614ffc545828591161f",
+            "_tpl": "68a63b9b8e1fe612970728f7",
+            "slotId": "mod_reciever",
+            "parentId": "254a61a1a5c14fa590ec3278"
+        },
+        {
+            "_id": "435a8ac2eb64494c9af8a0fe",
+            "_tpl": "68a63ac58e1fe612970728f2",
+            "slotId": "mod_barrel",
+            "parentId": "f806e614ffc545828591161f"
+        },
+        {
+            "_id": "338c8cc94f9c48a48974a295",
+            "_tpl": "5ae30e795acfc408fb139a0b",
+            "slotId": "mod_gas_block",
+            "parentId": "435a8ac2eb64494c9af8a0fe"
+        },
+        {
+            "_id": "8228f0d622fa4ad88ebef0aa",
+            "_tpl": "68a63cc0c92ee33ffa01bf5c",
+            "slotId": "mod_handguard",
+            "parentId": "f806e614ffc545828591161f"
+        },
+        {
+            "_id": "911f08d5eccf4d8eac7e66e0",
+            "_tpl": "68a6413b54ef229c4d089238",
+            "slotId": "mod_handguard",
+            "parentId": "8228f0d622fa4ad88ebef0aa"
+        },
+        {
+            "_id": "1975b0c37cdb498b8ec37cef",
+            "_tpl": "68a63c5ce1fb670852024661",
+            "slotId": "mod_stock",
+            "parentId": "254a61a1a5c14fa590ec3278"
+        },
+        {
+            "_id": "52ae65f417a94ad3b900867f",
+            "_tpl": "68a63c1fc92ee33ffa01bf5a",
+            "slotId": "mod_stock",
+            "parentId": "1975b0c37cdb498b8ec37cef"
+        },
+        {
+            "_id": "6b8cd7269bf748a9aadfaed3",
+            "_tpl": "68a63a9522b1e0bd360afe5f",
+            "slotId": "mod_charge",
+            "parentId": "254a61a1a5c14fa590ec3278"
+        },
+        {
+            "_id": "5aa19732809d491990a638d1",
+            "_tpl": "59db7e1086f77448be30ddf3",
+            "parentId": "f806e614ffc545828591161f",
+            "slotId": "mod_scope"
+        },
+        {
+            "_id": "e73cbe76d1dc474bb0628476",
+            "_tpl": "5ea172e498dacb342978818e",
+            "parentId": "435a8ac2eb64494c9af8a0fe",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "2971a34ce7be43828a05d423",
+            "_tpl": "55d6190f4bdc2d87028b4567",
+            "parentId": "e73cbe76d1dc474bb0628476",
+            "slotId": "mod_muzzle"
+        }
+    ],
+    "Parent": "5447b5f14bdc2d61278b4567",
+    "PrimaryAmmoTpl": "54527a984bdc2d4e668b4567",
+    "SpareAmmoTpl": "54527a984bdc2d4e668b4567",
+    "Factions": [
+        "usec"
+    ]
+}

@@ -1,0 +1,103 @@
+{
+    "Id": "c165cd63eaad4b9ca05e05a5",
+    "Name": "Tavor X95 9x19 T4 3",
+    "Root": "94c04f4d4db848a7ad76c975",
+    "Items": [
+        {
+            "_id": "94c04f4d4db848a7ad76c975",
+            "_tpl": "67f425638b8cbfdc0cd1b5f2",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "fullauto"
+                }
+            }
+        },
+        {
+            "_id": "32c4e6f286124a1f807b60db",
+            "_tpl": "67f4474195c2cf6ca66af881",
+            "slotId": "mod_magazine",
+            "parentId": "94c04f4d4db848a7ad76c975"
+        },
+        {
+            "_id": "cd6307813ea1405fa5869c92",
+            "_tpl": "67f2dd6203d3b7ec166970ef",
+            "slotId": "mod_tactical_000",
+            "parentId": "94c04f4d4db848a7ad76c975"
+        },
+        {
+            "_id": "fa5d8ab6109b4f3da716be97",
+            "_tpl": "67f2ddcd74c13fb90c2d7f1b",
+            "slotId": "mod_tactical_001",
+            "parentId": "94c04f4d4db848a7ad76c975"
+        },
+        {
+            "_id": "1a321afc648d45c38b88d44f",
+            "_tpl": "5c1cd46f2e22164bef5cfedb",
+            "slotId": "mod_foregrip",
+            "parentId": "94c04f4d4db848a7ad76c975"
+        },
+        {
+            "_id": "8df912831fc0421a81ac5c69",
+            "_tpl": "66a47ed3f97061a20b99f188",
+            "slotId": "mod_sight_rear",
+            "parentId": "94c04f4d4db848a7ad76c975",
+            "upd": {
+                "Sight": {
+                    "ScopesCurrentCalibPointIndexes": [
+                        0
+                    ],
+                    "ScopesSelectedModes": [
+                        0
+                    ],
+                    "SelectedScope": 0
+                }
+            }
+        },
+        {
+            "_id": "a6b58b02f20f47bd95ac04c1",
+            "_tpl": "66a47ed0df2ffbca58ebe5ed",
+            "slotId": "mod_sight_front",
+            "parentId": "94c04f4d4db848a7ad76c975",
+            "upd": {
+                "Sight": {
+                    "ScopesCurrentCalibPointIndexes": [
+                        0
+                    ],
+                    "ScopesSelectedModes": [
+                        0
+                    ],
+                    "SelectedScope": 0
+                }
+            }
+        },
+        {
+            "_id": "55ce7319a2a94174a541aa06",
+            "_tpl": "558022b54bdc2dac148b458d",
+            "parentId": "94c04f4d4db848a7ad76c975",
+            "slotId": "mod_scope"
+        },
+        {
+            "_id": "ed29a01658ec4635a704de24",
+            "_tpl": "5a9fb739a2750c003215717f",
+            "parentId": "94c04f4d4db848a7ad76c975",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "e5fc3c4b0df645298241a651",
+            "_tpl": "56def37dd2720bec348b456a",
+            "parentId": "cd6307813ea1405fa5869c92",
+            "slotId": "mod_tactical"
+        }
+    ],
+    "Parent": "5447b5e04bdc2d62278b4567",
+    "Factions": [
+        "usec"
+    ]
+}

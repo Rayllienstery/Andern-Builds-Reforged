@@ -1,0 +1,75 @@
+{
+    "Id": "b3585cfa13454f8b82e057fa",
+    "Name": "P90 T4 2",
+    "Root": "d6646d6037354cc299131d86",
+    "Items": [
+        {
+            "_id": "d6646d6037354cc299131d86",
+            "_tpl": "5cc82d76e24e8d00134b4b83",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "single"
+                }
+            }
+        },
+        {
+            "_id": "877426e2ec1c4fcc93ad509c",
+            "_tpl": "5cc70093e4a949033c734312",
+            "slotId": "mod_magazine",
+            "parentId": "d6646d6037354cc299131d86"
+        },
+        {
+            "_id": "2b2c63bbb2af4e33a772b1a1",
+            "_tpl": "5cebec10d7f00c065703d185",
+            "slotId": "mod_stock",
+            "parentId": "d6646d6037354cc299131d86"
+        },
+        {
+            "_id": "428c8281c2c44c058a1217e3",
+            "_tpl": "5cc700d4e4a949000f0f0f28",
+            "slotId": "mod_stock_000",
+            "parentId": "2b2c63bbb2af4e33a772b1a1"
+        },
+        {
+            "_id": "feb10ef5fae146a78e49170e",
+            "_tpl": "5cc700ede4a949033c734315",
+            "slotId": "mod_reciever",
+            "parentId": "d6646d6037354cc299131d86"
+        },
+        {
+            "_id": "0926cb4ff20749a79a5e24d3",
+            "_tpl": "5cc701d7e4a94900100ac4e7",
+            "slotId": "mod_barrel",
+            "parentId": "d6646d6037354cc299131d86"
+        },
+        {
+            "_id": "638dc7b3f6fb402aade6eb40",
+            "_tpl": "5cc6ea85e4a949000e1ea3c3",
+            "slotId": "mod_charge",
+            "parentId": "d6646d6037354cc299131d86"
+        },
+        {
+            "_id": "1be692a95922447298933d0a",
+            "_tpl": "58491f3324597764bc48fa02",
+            "parentId": "feb10ef5fae146a78e49170e",
+            "slotId": "mod_scope"
+        },
+        {
+            "_id": "4472a10cb9374267ad70187c",
+            "_tpl": "6272370ee4013c5d7e31f418",
+            "parentId": "d6646d6037354cc299131d86",
+            "slotId": "mod_tactical_000"
+        }
+    ],
+    "Parent": "5447b5e04bdc2d62278b4567",
+    "Factions": [
+        "usec"
+    ]
+}

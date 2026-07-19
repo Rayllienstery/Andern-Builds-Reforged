@@ -1,0 +1,84 @@
+{
+    "Id": "f4bbf1b3a9db466d9a2da96d",
+    "Name": "M60E6 T4",
+    "Root": "e70539d7c56f498293e0fd2b",
+    "Items": [
+        {
+            "_id": "e70539d7c56f498293e0fd2b",
+            "_tpl": "661ceb1b9311543c7104149b",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "fullauto"
+                }
+            }
+        },
+        {
+            "_id": "38f717664ae842c791fe12f4",
+            "_tpl": "660ea4453786cc0af808a1be",
+            "parentId": "e70539d7c56f498293e0fd2b",
+            "slotId": "mod_magazine"
+        },
+        {
+            "_id": "6269caee12264694a4a1aa46",
+            "_tpl": "6615202b96461aa8360271eb",
+            "parentId": "e70539d7c56f498293e0fd2b",
+            "slotId": "mod_stock"
+        },
+        {
+            "_id": "f810df3e86c0403797493477",
+            "_tpl": "66225d88a1c7e3b81600c76f",
+            "parentId": "e70539d7c56f498293e0fd2b",
+            "slotId": "mod_barrel"
+        },
+        {
+            "_id": "df3f677e0c6242e88602904d",
+            "_tpl": "66012d003dff5074ed002e2c",
+            "parentId": "e70539d7c56f498293e0fd2b",
+            "slotId": "mod_handguard"
+        },
+        {
+            "_id": "486e4571d001454a99ce0772",
+            "_tpl": "6601265f98a610c1aa0ea637",
+            "parentId": "e70539d7c56f498293e0fd2b",
+            "slotId": "mod_sight_rear"
+        },
+        {
+            "_id": "2d930401cd3f4b9f9bdccac6",
+            "_tpl": "6615208aa031cbb5570e346a",
+            "parentId": "e70539d7c56f498293e0fd2b",
+            "slotId": "mod_pistolgrip_000"
+        },
+        {
+            "_id": "7f898e73cc6d41e5873c5fc3",
+            "_tpl": "6642f63667f5cb56a00662eb",
+            "parentId": "f810df3e86c0403797493477",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "2e42f16a3ae748d8af7faa88",
+            "_tpl": "6601268bc752a02bbe05e686",
+            "parentId": "f810df3e86c0403797493477",
+            "slotId": "mod_sight_front"
+        },
+        {
+            "_id": "e692680b2b364bb3b51a235f",
+            "_tpl": "66152060a031cbb5570e3466",
+            "parentId": "2d930401cd3f4b9f9bdccac6",
+            "slotId": "mod_pistolgrip_001"
+        }
+    ],
+    "Parent": "5447bed64bdc2d97278b4568",
+    "Weight": 1,
+    "PrimaryAmmoTpl": "58dd3ad986f77403051cba8f",
+    "SpareAmmoTpl": "58dd3ad986f77403051cba8f",
+    "Factions": [
+        "usec"
+    ]
+}

@@ -1,0 +1,122 @@
+{
+    "Id": "34132539bdad4c85b5f151d6",
+    "Name": "G28 T2",
+    "Root": "2a10ac61ffb44abf84e8f87e",
+    "Items": [
+        {
+            "_id": "2a10ac61ffb44abf84e8f87e",
+            "_tpl": "6176aca650224f204c1da3fb",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "FireMode": {
+                    "FireMode": "single"
+                }
+            }
+        },
+        {
+            "_id": "99e61fb945e742dc88c969de",
+            "_tpl": "59db3a1d86f77429e05b4e92",
+            "parentId": "2a10ac61ffb44abf84e8f87e",
+            "slotId": "mod_pistol_grip"
+        },
+        {
+            "_id": "ddb0546cb8d64a2c977e8924",
+            "_tpl": "617130016c780c1e710c9a24",
+            "parentId": "2a10ac61ffb44abf84e8f87e",
+            "slotId": "mod_magazine"
+        },
+        {
+            "_id": "0db5c96751564266aabea6a1",
+            "_tpl": "617153016c780c1e710c9a2f",
+            "parentId": "2a10ac61ffb44abf84e8f87e",
+            "slotId": "mod_stock"
+        },
+        {
+            "_id": "3532aa3346b64b20a4adedbe",
+            "_tpl": "61713a8fd92c473c770214a4",
+            "parentId": "2a10ac61ffb44abf84e8f87e",
+            "slotId": "mod_reciever"
+        },
+        {
+            "_id": "0f406a5d6ff44355aadde64d",
+            "_tpl": "61702d8a67085e45ef140b24",
+            "parentId": "2a10ac61ffb44abf84e8f87e",
+            "slotId": "mod_charge"
+        },
+        {
+            "_id": "849e87390beb497faaed6cb9",
+            "_tpl": "617155ee50224f204c1da3cd",
+            "parentId": "0db5c96751564266aabea6a1",
+            "slotId": "mod_stock_000"
+        },
+        {
+            "_id": "87885ee4e94f4ec489f802c0",
+            "_tpl": "61702be9faa1272e431522c3",
+            "parentId": "3532aa3346b64b20a4adedbe",
+            "slotId": "mod_barrel"
+        },
+        {
+            "_id": "8d394118df484bb49a91df93",
+            "_tpl": "61703001d92c473c77021497",
+            "parentId": "3532aa3346b64b20a4adedbe",
+            "slotId": "mod_handguard"
+        },
+        {
+            "_id": "acdf0a966953483eb8ca68bb",
+            "_tpl": "61702f1b67085e45ef140b26",
+            "parentId": "87885ee4e94f4ec489f802c0",
+            "slotId": "mod_gas_block"
+        },
+        {
+            "_id": "e902861a2a3b4ddd9cd57c5e",
+            "_tpl": "61713308d92c473c770214a0",
+            "parentId": "87885ee4e94f4ec489f802c0",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "1d6c4b839b8941e1a0e4d619",
+            "_tpl": "5fb6564947ce63734e3fa1da",
+            "parentId": "3532aa3346b64b20a4adedbe",
+            "slotId": "mod_sight_rear",
+            "upd": {
+                "Sight": {
+                    "ScopesCurrentCalibPointIndexes": [
+                        0
+                    ],
+                    "ScopesSelectedModes": [
+                        0
+                    ],
+                    "SelectedScope": 0,
+                    "ScopeZoomValue": 0
+                }
+            }
+        },
+        {
+            "_id": "9470240c2e5a4ab8b6577230",
+            "_tpl": "5fb6567747ce63734e3fa1dc",
+            "parentId": "acdf0a966953483eb8ca68bb",
+            "slotId": "mod_sight_front",
+            "upd": {
+                "Sight": {
+                    "ScopesCurrentCalibPointIndexes": [
+                        0
+                    ],
+                    "ScopesSelectedModes": [
+                        0
+                    ],
+                    "SelectedScope": 0,
+                    "ScopeZoomValue": 0
+                }
+            }
+        }
+    ],
+    "Parent": "5447b6194bdc2d67278b4567",
+    "PrimaryAmmoTpl": "5e023e88277cce2b522ff2b1",
+    "SpareAmmoTpl": "5e023e88277cce2b522ff2b1",
+    "Factions": [
+        "usec"
+    ]
+}

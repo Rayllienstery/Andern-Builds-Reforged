@@ -1,0 +1,83 @@
+{
+    "Id": "8591ab82005f4bacbda3aad6",
+    "Name": "RPD T4 3",
+    "Root": "59cc963bdcf143f6a70f0ba9",
+    "Items": [
+        {
+            "_id": "59cc963bdcf143f6a70f0ba9",
+            "_tpl": "65268d8ecb944ff1e90ea385",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "fullauto"
+                }
+            }
+        },
+        {
+            "_id": "5bb4b225a6bf4658af893cb2",
+            "_tpl": "6513f0a194c72326990a3868",
+            "slotId": "mod_magazine",
+            "parentId": "59cc963bdcf143f6a70f0ba9"
+        },
+        {
+            "_id": "aa9d2d50ec9a4c6485c8ae74",
+            "_tpl": "6513f1798cb24472490ee331",
+            "slotId": "mod_stock",
+            "parentId": "59cc963bdcf143f6a70f0ba9"
+        },
+        {
+            "_id": "de2f5eac088e4cd68d0b1ca9",
+            "_tpl": "6513f13a8cb24472490ee32f",
+            "slotId": "mod_pistolgrip",
+            "parentId": "aa9d2d50ec9a4c6485c8ae74"
+        },
+        {
+            "_id": "097766d0fe94467c9d2baa85",
+            "_tpl": "65266fd43341ed9aa903dd56",
+            "slotId": "mod_barrel",
+            "parentId": "59cc963bdcf143f6a70f0ba9"
+        },
+        {
+            "_id": "df1a8328066c4063aa250761",
+            "_tpl": "6513f05a94c72326990a3866",
+            "slotId": "mod_handguard",
+            "parentId": "59cc963bdcf143f6a70f0ba9"
+        },
+        {
+            "_id": "398c0c7535de49e2b7fb0b2e",
+            "_tpl": "6513f153e63f29908d0ffaba",
+            "slotId": "mod_sight_rear",
+            "parentId": "59cc963bdcf143f6a70f0ba9"
+        },
+        {
+            "_id": "662f6b85cea5485c95adfc97",
+            "_tpl": "6513f0f5e63f29908d0ffab8",
+            "parentId": "097766d0fe94467c9d2baa85",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "a59f0461bf184d9f84ffea61",
+            "_tpl": "57acb6222459771ec34b5cb0",
+            "parentId": "59cc963bdcf143f6a70f0ba9",
+            "slotId": "mod_scope"
+        },
+        {
+            "_id": "81ab327acef64a59a050d526",
+            "_tpl": "558022b54bdc2dac148b458d",
+            "parentId": "a59f0461bf184d9f84ffea61",
+            "slotId": "mod_scope"
+        }
+    ],
+    "Parent": "5447bed64bdc2d97278b4568",
+    "PrimaryAmmoTpl": "5656d7c34bdc2d9d198b4587",
+    "SpareAmmoTpl": "64b7af434b75259c590fa893",
+    "Factions": [
+        "bear"
+    ]
+}

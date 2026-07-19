@@ -1,0 +1,81 @@
+{
+    "Id": "a301449f9c9c4b2aae250ede",
+    "Name": "MP7A2 T4 2",
+    "Root": "2fa83d4129854bafae508d08",
+    "Items": [
+        {
+            "_id": "2fa83d4129854bafae508d08",
+            "_tpl": "5bd70322209c4d00d7167b8f",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "single"
+                }
+            }
+        },
+        {
+            "_id": "631d8a73786543ef8f935a18",
+            "_tpl": "5ba26586d4351e44f824b340",
+            "slotId": "mod_magazine",
+            "parentId": "2fa83d4129854bafae508d08"
+        },
+        {
+            "_id": "580f45c9d77c4d1ca33dc691",
+            "_tpl": "5ba26b01d4351e0085325a51",
+            "slotId": "mod_sight_front",
+            "parentId": "2fa83d4129854bafae508d08"
+        },
+        {
+            "_id": "4a0e7422b6ea4517ac0d2493",
+            "_tpl": "5ba26b17d4351e00367f9bdd",
+            "slotId": "mod_sight_rear",
+            "parentId": "2fa83d4129854bafae508d08"
+        },
+        {
+            "_id": "ef9ebaef0d0d46de99b62cee",
+            "_tpl": "5bd704e7209c4d00d7167c31",
+            "slotId": "mod_stock",
+            "parentId": "2fa83d4129854bafae508d08"
+        },
+        {
+            "_id": "62c7258f0f8b4497b1849542",
+            "_tpl": "58491f3324597764bc48fa02",
+            "parentId": "2fa83d4129854bafae508d08",
+            "slotId": "mod_scope"
+        },
+        {
+            "_id": "bb28bf59eb4a4435b997c725",
+            "_tpl": "5b057b4f5acfc4771e1bd3e9",
+            "parentId": "2fa83d4129854bafae508d08",
+            "slotId": "mod_foregrip"
+        },
+        {
+            "_id": "42864e3022e440849114ec9f",
+            "_tpl": "5ba26acdd4351e003562908e",
+            "parentId": "2fa83d4129854bafae508d08",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "7939eb924d1b412a850e099a",
+            "_tpl": "5ba26ae8d4351e00367f9bdb",
+            "parentId": "42864e3022e440849114ec9f",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "eca3efa4754f4236899f126d",
+            "_tpl": "6272370ee4013c5d7e31f418",
+            "parentId": "2fa83d4129854bafae508d08",
+            "slotId": "mod_tactical_001"
+        }
+    ],
+    "Parent": "5447b5e04bdc2d62278b4567",
+    "Factions": [
+        "usec"
+    ]
+}

@@ -1,0 +1,113 @@
+{
+    "Id": "6b6dd327de48463f8c9f6008",
+    "Name": "Draco T2",
+    "Root": "b8f7e232e0a74a51a5800d3d",
+    "Items": [
+        {
+            "_id": "b8f7e232e0a74a51a5800d3d",
+            "_tpl": "52500592c7109667abb6cbeb",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "fullauto"
+                }
+            }
+        },
+        {
+            "_id": "64137de669ea438ca652aa9a",
+            "_tpl": "6087e663132d4d12c81fd96b",
+            "slotId": "mod_pistol_grip",
+            "parentId": "b8f7e232e0a74a51a5800d3d"
+        },
+        {
+            "_id": "ca0b1372747c48a1b61a1d68",
+            "_tpl": "59bffc1f86f77435b128b872",
+            "slotId": "mod_muzzle",
+            "parentId": "b8f7e232e0a74a51a5800d3d"
+        },
+        {
+            "_id": "e0d3233b1cf74d77be732d32",
+            "_tpl": "59fafc5086f7740dbe19f6c3",
+            "slotId": "mod_magazine",
+            "parentId": "b8f7e232e0a74a51a5800d3d"
+        },
+        {
+            "_id": "d86cbc2bf0834841b14037b5",
+            "_tpl": "6761779c48fa5c377e06fc3f",
+            "slotId": "mod_stock",
+            "parentId": "b8f7e232e0a74a51a5800d3d"
+        },
+        {
+            "_id": "fcc78a1e492443da8e24ed14",
+            "_tpl": "57dc334d245977597164366f",
+            "slotId": "mod_reciever",
+            "parentId": "b8f7e232e0a74a51a5800d3d"
+        },
+        {
+            "_id": "1d24e24d08dc40d7af3688be",
+            "_tpl": "59d36a0086f7747e673f3946",
+            "slotId": "mod_gas_block",
+            "parentId": "b8f7e232e0a74a51a5800d3d"
+        },
+        {
+            "_id": "7ab799bf8f4e44399d9a7aec",
+            "_tpl": "5c17664f2e2216398b5a7e3c",
+            "slotId": "mod_handguard",
+            "parentId": "1d24e24d08dc40d7af3688be"
+        },
+        {
+            "_id": "434e89e32842404da9222efd",
+            "_tpl": "59e0bed186f774156f04ce84",
+            "parentId": "7ab799bf8f4e44399d9a7aec",
+            "slotId": "mod_mount_000"
+        },
+        {
+            "_id": "8d8dfaa6152c48ff994bdcb6",
+            "_tpl": "59e0bdb186f774156f04ce82",
+            "parentId": "7ab799bf8f4e44399d9a7aec",
+            "slotId": "mod_mount_003"
+        },
+        {
+            "_id": "79b59bc1c0554b11932955f6",
+            "_tpl": "5c1cd46f2e22164bef5cfedb",
+            "parentId": "434e89e32842404da9222efd",
+            "slotId": "mod_foregrip"
+        },
+        {
+            "_id": "834f1c7b41204852a6bc89c7",
+            "_tpl": "56def37dd2720bec348b456a",
+            "parentId": "8d8dfaa6152c48ff994bdcb6",
+            "slotId": "mod_tactical",
+            "upd": {
+                "Light": {
+                    "IsActive": true,
+                    "SelectedMode": 0
+                }
+            }
+        },
+        {
+            "_id": "6a5809feb4274facbc099de7",
+            "_tpl": "57acb6222459771ec34b5cb0",
+            "parentId": "b8f7e232e0a74a51a5800d3d",
+            "slotId": "mod_mount_000"
+        },
+        {
+            "_id": "a402491a75a34a2d8b539afa",
+            "_tpl": "59f9d81586f7744c7506ee62",
+            "parentId": "6a5809feb4274facbc099de7",
+            "slotId": "mod_scope"
+        }
+    ],
+    "Parent": "5447b5f14bdc2d61278b4567",
+    "PrimaryAmmoTpl": "5656d7c34bdc2d9d198b4587",
+    "SpareAmmoTpl": "5656d7c34bdc2d9d198b4587",
+    "Factions": [
+        "bear"
+    ]
+}

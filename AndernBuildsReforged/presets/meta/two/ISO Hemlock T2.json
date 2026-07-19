@@ -1,0 +1,83 @@
+{
+    "Id": "db4faf9104524021825304d6",
+    "Name": "ISO Hemlock T2",
+    "Root": "6eafafd6617449c68ef2b74c",
+    "Items": [
+        {
+            "_id": "6eafafd6617449c68ef2b74c",
+            "_tpl": "020020F15FF15F0000000000",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "fullauto"
+                }
+            }
+        },
+        {
+            "_id": "037ad573689742b0810e4eb2",
+            "_tpl": "02F02FF15FF15F0000000000",
+            "slotId": "mod_magazine",
+            "parentId": "6eafafd6617449c68ef2b74c"
+        },
+        {
+            "_id": "bbd806cb65e94d95985aba63",
+            "_tpl": "042042F15FF15F0000000000",
+            "slotId": "mod_reciever",
+            "parentId": "6eafafd6617449c68ef2b74c"
+        },
+        {
+            "_id": "db69074dd85f485baa285f29",
+            "_tpl": "04B04BF15FF15F0000000000",
+            "slotId": "mod_barrel",
+            "parentId": "bbd806cb65e94d95985aba63"
+        },
+        {
+            "_id": "efabd149151c4c50a0bc763d",
+            "_tpl": "041441F15FF1544100000000",
+            "slotId": "mod_handguard",
+            "parentId": "bbd806cb65e94d95985aba63"
+        },
+        {
+            "_id": "6f3c421bc7d54d96b0dba562",
+            "_tpl": "04B84BF15FF1584B00000000",
+            "slotId": "mod_muzzle",
+            "parentId": "db69074dd85f485baa285f29"
+        },
+        {
+            "_id": "37693e25ddb7405e9808ae1e",
+            "_tpl": "047447F15FF15F4470000000",
+            "slotId": "mod_stock",
+            "parentId": "6eafafd6617449c68ef2b74c"
+        },
+        {
+            "_id": "46bfe578725046b894b27ee3",
+            "_tpl": "043043F15FF15F4300000000",
+            "slotId": "mod_pistol_grip",
+            "parentId": "6eafafd6617449c68ef2b74c"
+        },
+        {
+            "_id": "62c37bc3ba6a4582b56d661d",
+            "_tpl": "558022b54bdc2dac148b458d",
+            "parentId": "bbd806cb65e94d95985aba63",
+            "slotId": "mod_scope"
+        },
+        {
+            "_id": "4aa5e7defaf14e76b35cfc7f",
+            "_tpl": "59f8a37386f7747af3328f06",
+            "parentId": "efabd149151c4c50a0bc763d",
+            "slotId": "mod_foregrip"
+        }
+    ],
+    "Parent": "5447b5f14bdc2d61278b4567",
+    "PrimaryAmmoTpl": "54527a984bdc2d4e668b4567",
+    "SpareAmmoTpl": "54527a984bdc2d4e668b4567",
+    "Factions": [
+        "usec"
+    ]
+}

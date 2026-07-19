@@ -1,0 +1,134 @@
+{
+    "Id": "786872f2715445b7a81d0535",
+    "Name": "AXMC .338 T4 3",
+    "Root": "65a4287078e4430ab2b2cc11",
+    "Items": [
+        {
+            "_id": "65a4287078e4430ab2b2cc11",
+            "_tpl": "627e14b21713922ded6f2c15",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "single"
+                }
+            }
+        },
+        {
+            "_id": "c2dca7f517c2423a89548b1f",
+            "_tpl": "628120fd5631d45211793c9f",
+            "slotId": "mod_magazine",
+            "parentId": "65a4287078e4430ab2b2cc11"
+        },
+        {
+            "_id": "df26d7e109a04408a528c8c4",
+            "_tpl": "62811e2510e26c1f344e6554",
+            "slotId": "mod_pistol_grip",
+            "parentId": "65a4287078e4430ab2b2cc11",
+            "upd": {
+                "Foldable": {
+                    "Folded": false
+                }
+            }
+        },
+        {
+            "_id": "0e237fb17e9e4a46b45e0a0d",
+            "_tpl": "62811f828193841aca4a45c3",
+            "slotId": "mod_stock",
+            "parentId": "df26d7e109a04408a528c8c4"
+        },
+        {
+            "_id": "8b3baf6ebf864a56b4cb1481",
+            "_tpl": "6281204f308cb521f87a8f9b",
+            "slotId": "mod_reciever",
+            "parentId": "df26d7e109a04408a528c8c4"
+        },
+        {
+            "_id": "49ab69e7d8304387880a350e",
+            "_tpl": "6281209662cba23f6c4d7a19",
+            "slotId": "mod_handguard",
+            "parentId": "8b3baf6ebf864a56b4cb1481"
+        },
+        {
+            "_id": "74cf31256fb7468797249976",
+            "_tpl": "628120c21d5df4475f46a337",
+            "slotId": "mod_mount_000",
+            "parentId": "49ab69e7d8304387880a350e"
+        },
+        {
+            "_id": "c8cb35bcf1f74190b5042729",
+            "_tpl": "628120d309427b40ab14e76d",
+            "slotId": "mod_mount_001",
+            "parentId": "49ab69e7d8304387880a350e"
+        },
+        {
+            "_id": "217a577f5c764d1bb8344eb7",
+            "_tpl": "628120d309427b40ab14e76d",
+            "slotId": "mod_mount_002",
+            "parentId": "49ab69e7d8304387880a350e"
+        },
+        {
+            "_id": "814671920f514eccb71844b3",
+            "_tpl": "628120dd308cb521f87a8fa1",
+            "slotId": "mod_mount_003",
+            "parentId": "49ab69e7d8304387880a350e"
+        },
+        {
+            "_id": "eac07835bac04604acfad2c4",
+            "_tpl": "6281212a09427b40ab14e770",
+            "slotId": "mod_foregrip",
+            "parentId": "8b3baf6ebf864a56b4cb1481"
+        },
+        {
+            "_id": "0748519b225f435bb3b1cb10",
+            "_tpl": "62811fbf09427b40ab14e767",
+            "slotId": "mod_reciever",
+            "parentId": "8b3baf6ebf864a56b4cb1481"
+        },
+        {
+            "_id": "4ba5c8006d204e6b9309fceb",
+            "_tpl": "6281215b4fa03b6b6c35dc6c",
+            "slotId": "mod_barrel",
+            "parentId": "0748519b225f435bb3b1cb10"
+        },
+        {
+            "_id": "ba31016627d44801ab4a1f53",
+            "_tpl": "62811cd7308cb521f87a8f99",
+            "slotId": "mod_charge",
+            "parentId": "65a4287078e4430ab2b2cc11"
+        },
+        {
+            "_id": "6999a3df72f4459eb3feff75",
+            "_tpl": "62811f461d5df4475f46a332",
+            "parentId": "0748519b225f435bb3b1cb10",
+            "slotId": "mod_scope"
+        },
+        {
+            "_id": "550cd9acaa6e4a7e9621b7d2",
+            "_tpl": "56ea70acd2720b844b8b4594",
+            "parentId": "6999a3df72f4459eb3feff75",
+            "slotId": "mod_scope"
+        },
+        {
+            "_id": "26badcfdc6dc423d99c7a5bf",
+            "_tpl": "62812081d23f207deb0ab216",
+            "parentId": "4ba5c8006d204e6b9309fceb",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "3ce31c0d3a134f9cb75e94f4",
+            "_tpl": "628120621d5df4475f46a335",
+            "parentId": "26badcfdc6dc423d99c7a5bf",
+            "slotId": "mod_muzzle"
+        }
+    ],
+    "Parent": "5447b6254bdc2dc3278b4568",
+    "Factions": [
+        "usec"
+    ]
+}

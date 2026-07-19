@@ -1,0 +1,69 @@
+{
+    "Id": "825f731dd9fa463c9381bcfc",
+    "Name": "M700 T4 2",
+    "Root": "7753be365dfd430f8640e7cc",
+    "Items": [
+        {
+            "_id": "7753be365dfd430f8640e7cc",
+            "_tpl": "5bfea6e90db834001b7347f3",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "single"
+                }
+            }
+        },
+        {
+            "_id": "d69f7d36b96344d48aaa48a1",
+            "_tpl": "5bfea7ad0db834001c38f1ee",
+            "slotId": "mod_magazine",
+            "parentId": "7753be365dfd430f8640e7cc"
+        },
+        {
+            "_id": "aeb6380afcb44036b314849a",
+            "_tpl": "5bfeb32b0db834001a6694d9",
+            "slotId": "mod_stock",
+            "parentId": "7753be365dfd430f8640e7cc"
+        },
+        {
+            "_id": "a8e21702ae7a4bdf87124e8a",
+            "_tpl": "5bfebc320db8340019668d79",
+            "slotId": "mod_barrel",
+            "parentId": "7753be365dfd430f8640e7cc"
+        },
+        {
+            "_id": "a6e5ba5ce982417e9b13374b",
+            "_tpl": "5a34fd2bc4a282329a73b4c5",
+            "slotId": "mod_muzzle",
+            "parentId": "a8e21702ae7a4bdf87124e8a"
+        },
+        {
+            "_id": "0a368e5794bf4a62a00efcdd",
+            "_tpl": "5a34fe59c4a282000b1521a2",
+            "slotId": "mod_muzzle",
+            "parentId": "a6e5ba5ce982417e9b13374b"
+        },
+        {
+            "_id": "46f3a7f0e12f4449aad3ed3f",
+            "_tpl": "5bfebc5e0db834001a6694e5",
+            "slotId": "mod_mount",
+            "parentId": "7753be365dfd430f8640e7cc"
+        },
+        {
+            "_id": "bef630c716da43488521729d",
+            "_tpl": "5b3b99475acfc432ff4dcbee",
+            "parentId": "46f3a7f0e12f4449aad3ed3f",
+            "slotId": "mod_scope"
+        }
+    ],
+    "Parent": "5447b6254bdc2dc3278b4568",
+    "Factions": [
+        "usec"
+    ]
+}

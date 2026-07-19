@@ -1,0 +1,87 @@
+{
+    "Id": "2cf3e94945ec466683ceb3d2",
+    "Name": "ISO T4 1",
+    "Root": "993eb6510ef5491e9bc27aac",
+    "Items": [
+        {
+            "_id": "993eb6510ef5491e9bc27aac",
+            "_tpl": "020020F150F1500000000000",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "single"
+                }
+            }
+        },
+        {
+            "_id": "1f4cdf87951e4b698fec470a",
+            "_tpl": "5a7ad2e851dfba0016153692",
+            "slotId": "mod_magazine",
+            "parentId": "993eb6510ef5491e9bc27aac"
+        },
+        {
+            "_id": "4f333e256db54392a82fb4ed",
+            "_tpl": "042042F150F1500000000000",
+            "slotId": "mod_reciever",
+            "parentId": "993eb6510ef5491e9bc27aac"
+        },
+        {
+            "_id": "2fae2f15b2dc4663b0bb18d6",
+            "_tpl": "04CB4CF150F15B4C00000000",
+            "slotId": "mod_sight_rear",
+            "parentId": "4f333e256db54392a82fb4ed"
+        },
+        {
+            "_id": "6f1b7396cc3a4ff98c6ea552",
+            "_tpl": "04CF4CF150F15F4C00000000",
+            "slotId": "mod_sight_front",
+            "parentId": "4f333e256db54392a82fb4ed"
+        },
+        {
+            "_id": "98eb013cc0e147f7b1faaff3",
+            "_tpl": "04BA4BF150F15A4B00000000",
+            "slotId": "mod_barrel",
+            "parentId": "4f333e256db54392a82fb4ed"
+        },
+        {
+            "_id": "1c806a99817f43909f16cbbc",
+            "_tpl": "04B94BF150F1594B00000000",
+            "slotId": "mod_muzzle",
+            "parentId": "98eb013cc0e147f7b1faaff3"
+        },
+        {
+            "_id": "de5ee3ad05ab456486979fb0",
+            "_tpl": "047B47F151F151B470000000",
+            "slotId": "mod_stock_000",
+            "parentId": "993eb6510ef5491e9bc27aac"
+        },
+        {
+            "_id": "8182ae7f1de54f8283a43fb7",
+            "_tpl": "043C43F150F15C4300000000",
+            "slotId": "mod_pistol_grip",
+            "parentId": "993eb6510ef5491e9bc27aac"
+        },
+        {
+            "_id": "d73fb5ecff354fc5b348af34",
+            "_tpl": "59f9d81586f7744c7506ee62",
+            "parentId": "4f333e256db54392a82fb4ed",
+            "slotId": "mod_scope"
+        },
+        {
+            "_id": "f2e53eacaead4a96bd2b076c",
+            "_tpl": "5b057b4f5acfc4771e1bd3e9",
+            "parentId": "4f333e256db54392a82fb4ed",
+            "slotId": "mod_foregrip"
+        }
+    ],
+    "Parent": "5447b5e04bdc2d62278b4567",
+    "Factions": [
+        "usec"
+    ]
+}

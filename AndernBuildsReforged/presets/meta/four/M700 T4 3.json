@@ -1,0 +1,69 @@
+{
+    "Id": "055f4f9fbe2945a98fa34f0a",
+    "Name": "M700 T4 3",
+    "Root": "a056cca36acb4abab88f6ccf",
+    "Items": [
+        {
+            "_id": "a056cca36acb4abab88f6ccf",
+            "_tpl": "5bfea6e90db834001b7347f3",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "single"
+                }
+            }
+        },
+        {
+            "_id": "94cbd95dd79f416b84b92c46",
+            "_tpl": "5d25a4a98abbc30b917421a4",
+            "slotId": "mod_magazine",
+            "parentId": "a056cca36acb4abab88f6ccf"
+        },
+        {
+            "_id": "f4ecb73ce24a4a1686343406",
+            "_tpl": "5d25d0ac8abbc3054f3e61f7",
+            "slotId": "mod_stock",
+            "parentId": "a056cca36acb4abab88f6ccf"
+        },
+        {
+            "_id": "003e298f713d40f7aea4bd23",
+            "_tpl": "671126a210d67adb5b08e925",
+            "slotId": "mod_mount_000",
+            "parentId": "f4ecb73ce24a4a1686343406"
+        },
+        {
+            "_id": "ed86c38ed77d4c6eb0329a79",
+            "_tpl": "5bfebc320db8340019668d79",
+            "slotId": "mod_barrel",
+            "parentId": "a056cca36acb4abab88f6ccf"
+        },
+        {
+            "_id": "c6a9b1e8874340ba829af0f8",
+            "_tpl": "5d270b3c8abbc3105335cfb8",
+            "slotId": "mod_muzzle",
+            "parentId": "ed86c38ed77d4c6eb0329a79"
+        },
+        {
+            "_id": "25862c3d17284df9915d4c8b",
+            "_tpl": "5bfebc5e0db834001a6694e5",
+            "parentId": "a056cca36acb4abab88f6ccf",
+            "slotId": "mod_mount"
+        },
+        {
+            "_id": "44b89141a9f345e5b79e64bb",
+            "_tpl": "5b2388675acfc4771e1be0be",
+            "parentId": "25862c3d17284df9915d4c8b",
+            "slotId": "mod_scope"
+        }
+    ],
+    "Parent": "5447b6254bdc2dc3278b4568",
+    "Factions": [
+        "usec"
+    ]
+}

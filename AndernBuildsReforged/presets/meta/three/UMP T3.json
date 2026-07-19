@@ -1,0 +1,89 @@
+{
+    "Id": "5bf17644ef61427dadbcd455",
+    "Name": "UMP T3",
+    "Root": "5279dd8e927c47eb995f5a3d",
+    "Items": [
+        {
+            "_id": "5279dd8e927c47eb995f5a3d",
+            "_tpl": "5fc3e272f8b6a877a729eac5",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "fullauto"
+                }
+            }
+        },
+        {
+            "_id": "180df2ec2c6a4739ba387ad9",
+            "_tpl": "5fc3e466187fea44d52eda90",
+            "slotId": "mod_magazine",
+            "parentId": "5279dd8e927c47eb995f5a3d"
+        },
+        {
+            "_id": "eef1cc638ed140d2b5a7d1d4",
+            "_tpl": "5fc3e4ee7283c4046c5814af",
+            "slotId": "mod_stock",
+            "parentId": "5279dd8e927c47eb995f5a3d"
+        },
+        {
+            "_id": "57ca973c6b044a69bb75de00",
+            "_tpl": "5fc3e4a27283c4046c5814ab",
+            "slotId": "mod_barrel",
+            "parentId": "5279dd8e927c47eb995f5a3d"
+        },
+        {
+            "_id": "c3ea6bb5a37d427cbc53163d",
+            "_tpl": "5fc53954f8b6a877a729eaeb",
+            "slotId": "mod_mount_000",
+            "parentId": "5279dd8e927c47eb995f5a3d"
+        },
+        {
+            "_id": "b5d2d1ef416146ffa7b79790",
+            "_tpl": "5fc5396e900b1d5091531e72",
+            "slotId": "mod_mount_001",
+            "parentId": "5279dd8e927c47eb995f5a3d"
+        },
+        {
+            "_id": "1d6d902dfd9c4aa6afac4b04",
+            "_tpl": "5fc5396e900b1d5091531e72",
+            "slotId": "mod_mount_002",
+            "parentId": "5279dd8e927c47eb995f5a3d"
+        },
+        {
+            "_id": "513a7e02ad6d4a888a95ee94",
+            "_tpl": "558022b54bdc2dac148b458d",
+            "parentId": "5279dd8e927c47eb995f5a3d",
+            "slotId": "mod_scope"
+        },
+        {
+            "_id": "2f3320277119499795b9cd90",
+            "_tpl": "59f8a37386f7747af3328f06",
+            "parentId": "c3ea6bb5a37d427cbc53163d",
+            "slotId": "mod_foregrip"
+        },
+        {
+            "_id": "a7c276182861475790d6ac60",
+            "_tpl": "56def37dd2720bec348b456a",
+            "parentId": "b5d2d1ef416146ffa7b79790",
+            "slotId": "mod_tactical"
+        },
+        {
+            "_id": "a8622617c1dc4859b2cc3874",
+            "_tpl": "6130c4d51cb55961fa0fd49f",
+            "parentId": "57ca973c6b044a69bb75de00",
+            "slotId": "mod_muzzle"
+        }
+    ],
+    "Parent": "5447b5e04bdc2d62278b4567",
+    "PrimaryAmmoTpl": "5efb0cabfb3e451d70735af5",
+    "SpareAmmoTpl": "5efb0cabfb3e451d70735af5",
+    "Factions": [
+        "usec"
+    ]
+}

@@ -1,0 +1,93 @@
+{
+    "Id": "5cbaf0cbb4934737bddce47e",
+    "Name": "Masada T4 1",
+    "Root": "395e795166264e018e436951",
+    "Items": [
+        {
+            "_id": "395e795166264e018e436951",
+            "_tpl": "69066bef905ee9e06c462009",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "single"
+                }
+            }
+        },
+        {
+            "_id": "650b956661af4a178ae6d492",
+            "_tpl": "55802d5f4bdc2dac148b458e",
+            "slotId": "mod_magazine",
+            "parentId": "395e795166264e018e436951"
+        },
+        {
+            "_id": "aaefb150f58844e7b3c15afa",
+            "_tpl": "69066cdb8f5104ba9d130c5f",
+            "slotId": "mod_barrel",
+            "parentId": "395e795166264e018e436951"
+        },
+        {
+            "_id": "8f7ca24bfe914b5aa54c20a0",
+            "_tpl": "69066d06894f333007e620b5",
+            "slotId": "mod_stock",
+            "parentId": "395e795166264e018e436951"
+        },
+        {
+            "_id": "fd11da3d715145a3837b141e",
+            "_tpl": "6386120cd6baa055ad1e201c",
+            "slotId": "mod_muzzle",
+            "parentId": "aaefb150f58844e7b3c15afa"
+        },
+        {
+            "_id": "b743323daf4a4403a417ab90",
+            "_tpl": "69066d9a1072a5b68f32ca8e",
+            "slotId": "mod_handguard",
+            "parentId": "395e795166264e018e436951"
+        },
+        {
+            "_id": "380bdc197e564431a5bb5e3b",
+            "_tpl": "69101c13a363be1fac6e260e",
+            "slotId": "mod_reciever",
+            "parentId": "395e795166264e018e436951"
+        },
+        {
+            "_id": "1bb497189de5466990084d3c",
+            "_tpl": "691226c24afdbfd9b59f5092",
+            "slotId": "mod_sight_rear",
+            "parentId": "380bdc197e564431a5bb5e3b"
+        },
+        {
+            "_id": "7d2fbdae83a04dcba90de0f1",
+            "_tpl": "6912276c0545f6fef92580ca",
+            "slotId": "mod_sight_front",
+            "parentId": "380bdc197e564431a5bb5e3b"
+        },
+        {
+            "_id": "aa1f95bc20fa48c7a2323077",
+            "_tpl": "59f9d81586f7744c7506ee62",
+            "parentId": "380bdc197e564431a5bb5e3b",
+            "slotId": "mod_scope"
+        },
+        {
+            "_id": "f84e83863e664a66863f6779",
+            "_tpl": "5b057b4f5acfc4771e1bd3e9",
+            "parentId": "b743323daf4a4403a417ab90",
+            "slotId": "mod_foregrip"
+        },
+        {
+            "_id": "0abfaec730df45fda2c477cf",
+            "_tpl": "638612b607dfed1ccb7206ba",
+            "parentId": "fd11da3d715145a3837b141e",
+            "slotId": "mod_muzzle"
+        }
+    ],
+    "Parent": "5447b5f14bdc2d61278b4567",
+    "Factions": [
+        "usec"
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "Id": "31eed8dc702149248882963a",
+    "Name": "M4A1 T4 3",
+    "Root": "a6d1a0f4f1c64a83a5b5579b",
+    "Items": [
+        {
+            "_id": "a6d1a0f4f1c64a83a5b5579b",
+            "_tpl": "5447a9cd4bdc2dbd208b4567",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "FireMode": {
+                    "FireMode": "fullauto"
+                }
+            }
+        },
+        {
+            "_id": "77ae21eef0414c43a6b4b7d1",
+            "_tpl": "59db3a1d86f77429e05b4e92",
+            "parentId": "a6d1a0f4f1c64a83a5b5579b",
+            "slotId": "mod_pistol_grip"
+        },
+        {
+            "_id": "fd5c5875aa2945dbbc096e1c",
+            "_tpl": "5c6d46132e221601da357d56",
+            "parentId": "a6d1a0f4f1c64a83a5b5579b",
+            "slotId": "mod_magazine"
+        },
+        {
+            "_id": "50ad541da1a74373be3afb86",
+            "_tpl": "5f633ff5c444ce7e3c30a006",
+            "parentId": "a6d1a0f4f1c64a83a5b5579b",
+            "slotId": "mod_charge"
+        },
+        {
+            "_id": "33e1bd5707934d1e9bda4527",
+            "_tpl": "59bfe68886f7746004266202",
+            "parentId": "a6d1a0f4f1c64a83a5b5579b",
+            "slotId": "mod_reciever"
+        },
+        {
+            "_id": "4b9c6c1779e34afb86c99cd0",
+            "_tpl": "63d3ce0446bd475bcb50f55f",
+            "parentId": "33e1bd5707934d1e9bda4527",
+            "slotId": "mod_barrel"
+        },
+        {
+            "_id": "c09b66d7ec0b4c9eb620e275",
+            "_tpl": "5c78f2492e221600114c9f04",
+            "parentId": "33e1bd5707934d1e9bda4527",
+            "slotId": "mod_handguard"
+        },
+        {
+            "_id": "76f88b33d76445ee8e208989",
+            "_tpl": "63d3ce281fe77d0f2801859e",
+            "parentId": "4b9c6c1779e34afb86c99cd0",
+            "slotId": "mod_gas_block"
+        },
+        {
+            "_id": "be1526faeed9451ba297c0cb",
+            "_tpl": "5c793fc42e221600114ca25d",
+            "parentId": "a6d1a0f4f1c64a83a5b5579b",
+            "slotId": "mod_stock"
+        },
+        {
+            "_id": "69559e6ae1fd4a3b82979374",
+            "_tpl": "56eabf3bd2720b75698b4569",
+            "parentId": "be1526faeed9451ba297c0cb",
+            "slotId": "mod_stock_000"
+        },
+        {
+            "_id": "1e54e53b434c440db1212618",
+            "_tpl": "58d2912286f7744e27117493",
+            "parentId": "69559e6ae1fd4a3b82979374",
+            "slotId": "mod_stock"
+        },
+        {
+            "_id": "1dda4af471714bcbacd8d0bd",
+            "_tpl": "59f9d81586f7744c7506ee62",
+            "parentId": "33e1bd5707934d1e9bda4527",
+            "slotId": "mod_scope"
+        },
+        {
+            "_id": "61cf6a0e004b4f60be4cf3fe",
+            "_tpl": "5b057b4f5acfc4771e1bd3e9",
+            "parentId": "c09b66d7ec0b4c9eb620e275",
+            "slotId": "mod_foregrip"
+        },
+        {
+            "_id": "40b5323f1a4b4d1eb01be9fc",
+            "_tpl": "6272370ee4013c5d7e31f418",
+            "parentId": "c09b66d7ec0b4c9eb620e275",
+            "slotId": "mod_tactical_003"
+        },
+        {
+            "_id": "18b8245d27584556a255af2b",
+            "_tpl": "609269c3b0e443224b421cc1",
+            "parentId": "4b9c6c1779e34afb86c99cd0",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "163303f786af4882930d7c3f",
+            "_tpl": "60926df0132d4d12c81fd9df",
+            "parentId": "18b8245d27584556a255af2b",
+            "slotId": "mod_muzzle"
+        }
+    ],
+    "Parent": "5447b5f14bdc2d61278b4567",
+    "Factions": [
+        "usec"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "Id": "40d93404c5b0409bb9c6400b",
+    "Name": "M78 T2",
+    "Root": "16386756018b4cb0ab599dc0",
+    "Items": [
+        {
+            "_id": "16386756018b4cb0ab599dc0",
+            "_tpl": "68e0002a0d6a4dab56810fbd",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "single"
+                }
+            }
+        },
+        {
+            "_id": "cef02c3c240e4f68af788ca4",
+            "_tpl": "68e00c2a03050b5a4665ac9a",
+            "parentId": "16386756018b4cb0ab599dc0",
+            "slotId": "mod_pistol_grip"
+        },
+        {
+            "_id": "78d1b1aba94640599e2439d7",
+            "_tpl": "68e00099973addbbabfac4c5",
+            "parentId": "16386756018b4cb0ab599dc0",
+            "slotId": "mod_stock"
+        },
+        {
+            "_id": "17b66b7951c44abeae3233cb",
+            "_tpl": "68e00cc25e5ce571985cdca8",
+            "parentId": "16386756018b4cb0ab599dc0",
+            "slotId": "mod_magazine"
+        },
+        {
+            "_id": "85cc855ccc6a4bd4a56e9907",
+            "_tpl": "68e00215885abec1d3b2f360",
+            "parentId": "16386756018b4cb0ab599dc0",
+            "slotId": "mod_handguard"
+        },
+        {
+            "_id": "fbb17fa76e294ad8bc6b1cc0",
+            "_tpl": "68e0717d51eff1d09e8a2eba",
+            "parentId": "16386756018b4cb0ab599dc0",
+            "slotId": "mod_mount_002"
+        },
+        {
+            "_id": "a8704d5e041f4a96a3849566",
+            "_tpl": "59f9d81586f7744c7506ee62",
+            "parentId": "fbb17fa76e294ad8bc6b1cc0",
+            "slotId": "mod_scope",
+            "upd": {
+                "Sight": {
+                    "ScopesCurrentCalibPointIndexes": [
+                        0
+                    ],
+                    "ScopesSelectedModes": [
+                        0
+                    ],
+                    "SelectedScope": 0,
+                    "ScopeZoomValue": 0
+                }
+            }
+        }
+    ],
+    "Parent": "5447bed64bdc2d97278b4568"
+}

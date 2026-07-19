@@ -1,0 +1,116 @@
+{
+    "Id": "acaa51c872914da88cd91877",
+    "Name": "AXMC .300 T4 2",
+    "Root": "438f95f5c7844ad1a348a6e4",
+    "Items": [
+        {
+            "_id": "438f95f5c7844ad1a348a6e4",
+            "_tpl": "68a3836826dffa87b5767c04",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "single"
+                }
+            }
+        },
+        {
+            "_id": "dc1dd9662c874860ac58d37b",
+            "_tpl": "68a387672d70af2b1e359602",
+            "slotId": "mod_magazine",
+            "parentId": "438f95f5c7844ad1a348a6e4"
+        },
+        {
+            "_id": "e9a789e5b3014bc9a56ad70a",
+            "_tpl": "68a389b483e34ba38a2b51ac",
+            "slotId": "mod_pistol_grip",
+            "parentId": "438f95f5c7844ad1a348a6e4",
+            "upd": {
+                "Foldable": {
+                    "Folded": false
+                }
+            }
+        },
+        {
+            "_id": "bc7fbdf516c4430a93f3f0ae",
+            "_tpl": "68a38a4e1586e6d768c4730b",
+            "slotId": "mod_stock",
+            "parentId": "e9a789e5b3014bc9a56ad70a"
+        },
+        {
+            "_id": "c31c37d5c2174fd5b5b0b3f2",
+            "_tpl": "68a395a145790fc8225720d3",
+            "slotId": "mod_reciever",
+            "parentId": "e9a789e5b3014bc9a56ad70a"
+        },
+        {
+            "_id": "07cd418746b1409d92f612fe",
+            "_tpl": "68a39f96b225dcbbc8387d2c",
+            "slotId": "mod_handguard",
+            "parentId": "c31c37d5c2174fd5b5b0b3f2"
+        },
+        {
+            "_id": "2ec1b0e6d0d04cab8947eb59",
+            "_tpl": "68a73465322d08c3199b94ff",
+            "slotId": "mod_mount_000",
+            "parentId": "07cd418746b1409d92f612fe"
+        },
+        {
+            "_id": "e44bb8b218954452b3571a74",
+            "_tpl": "68a73560e0b8a9d684145f83",
+            "slotId": "mod_mount_001",
+            "parentId": "07cd418746b1409d92f612fe"
+        },
+        {
+            "_id": "d558a900d16d4e1ba9c21066",
+            "_tpl": "68a73560e0b8a9d684145f83",
+            "slotId": "mod_mount_002",
+            "parentId": "07cd418746b1409d92f612fe"
+        },
+        {
+            "_id": "d8bd9180210144d0b545406f",
+            "_tpl": "68a73563a634aa2a969dc629",
+            "slotId": "mod_mount_003",
+            "parentId": "07cd418746b1409d92f612fe"
+        },
+        {
+            "_id": "84b1ba99efcb414fbc7387b5",
+            "_tpl": "68a39ecf2120cea9dcf3f1df",
+            "slotId": "mod_foregrip",
+            "parentId": "c31c37d5c2174fd5b5b0b3f2"
+        },
+        {
+            "_id": "3fc717def9e04e9c89db2579",
+            "_tpl": "68a397372b4bebb5474a0bb2",
+            "slotId": "mod_reciever",
+            "parentId": "c31c37d5c2174fd5b5b0b3f2"
+        },
+        {
+            "_id": "033257dbc12046eeb5fb8b95",
+            "_tpl": "68a3862e3a5eb2bd63235d07",
+            "slotId": "mod_barrel",
+            "parentId": "3fc717def9e04e9c89db2579"
+        },
+        {
+            "_id": "5b175a7168e84c07a529112b",
+            "_tpl": "62812081d23f207deb0ab216",
+            "slotId": "mod_muzzle",
+            "parentId": "033257dbc12046eeb5fb8b95"
+        },
+        {
+            "_id": "e2556ce4829441179f16ba40",
+            "_tpl": "68a388b9e802bd78f8d945c6",
+            "slotId": "mod_charge",
+            "parentId": "438f95f5c7844ad1a348a6e4"
+        }
+    ],
+    "Parent": "5447b6254bdc2dc3278b4568",
+    "Factions": [
+        "usec"
+    ]
+}

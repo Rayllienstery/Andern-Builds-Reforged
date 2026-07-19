@@ -1,0 +1,88 @@
+{
+    "Id": "2e1486598259436697354c4c",
+    "Name": "Saiga-12K T4 1",
+    "Root": "4a599b508e7f4d9483a805a5",
+    "Items": [
+        {
+            "_id": "4a599b508e7f4d9483a805a5",
+            "_tpl": "674fe9a75e51f1c47c04ec23",
+            "upd": {
+                "Repairable": {
+                    "Durability": 100,
+                    "MaxDurability": 100
+                }
+            }
+        },
+        {
+            "_id": "7b3672a1278d4b5ebb1e0b4b",
+            "_tpl": "674fe57721a9aa6be6045b96",
+            "slotId": "mod_handguard",
+            "parentId": "4a599b508e7f4d9483a805a5"
+        },
+        {
+            "_id": "15475080319b4a3e9912de63",
+            "_tpl": "59fb137a86f7740adb646af1",
+            "slotId": "mod_muzzle",
+            "parentId": "4a599b508e7f4d9483a805a5"
+        },
+        {
+            "_id": "281cff928fb54a13a4082a85",
+            "_tpl": "651580dc71a4f10aec4b6056",
+            "slotId": "mod_pistol_grip",
+            "parentId": "4a599b508e7f4d9483a805a5"
+        },
+        {
+            "_id": "90aa0903b2124737b6a8bb27",
+            "_tpl": "676017fe8cfeeba9f707c8d6",
+            "slotId": "mod_reciever",
+            "parentId": "4a599b508e7f4d9483a805a5"
+        },
+        {
+            "_id": "21ca8cf32b4f4e2e92588e4a",
+            "_tpl": "674fe8f6f34d761ab8020cc8",
+            "slotId": "mod_magazine",
+            "parentId": "4a599b508e7f4d9483a805a5"
+        },
+        {
+            "_id": "97440cc3daf1405db39e22f6",
+            "_tpl": "5947c73886f7747701588af5",
+            "parentId": "4a599b508e7f4d9483a805a5",
+            "slotId": "mod_stock"
+        },
+        {
+            "_id": "867700800efa4a9f983431b2",
+            "_tpl": "674fe89a4472d471fb0f07d8",
+            "parentId": "7b3672a1278d4b5ebb1e0b4b",
+            "slotId": "mod_mount"
+        },
+        {
+            "_id": "938b4c3cd573490c858e9cde",
+            "_tpl": "674fe8b9362ea1f88b0e278d",
+            "parentId": "867700800efa4a9f983431b2",
+            "slotId": "mod_mount"
+        },
+        {
+            "_id": "40fb38e3a80f49fcb9fa3375",
+            "_tpl": "59f9d81586f7744c7506ee62",
+            "parentId": "938b4c3cd573490c858e9cde",
+            "slotId": "mod_scope"
+        },
+        {
+            "_id": "f892b956c810402ca135292f",
+            "_tpl": "674fe8cf4472d471fb0f07df",
+            "parentId": "938b4c3cd573490c858e9cde",
+            "slotId": "mod_sight_rear"
+        },
+        {
+            "_id": "705fd86e66b54ad8aaca8351",
+            "_tpl": "5c1cd46f2e22164bef5cfedb",
+            "parentId": "7b3672a1278d4b5ebb1e0b4b",
+            "slotId": "mod_foregrip"
+        }
+    ],
+    "Parent": "5447b6094bdc2dc3278b4567",
+    "Weight": 80,
+    "Factions": [
+        "bear"
+    ]
+}

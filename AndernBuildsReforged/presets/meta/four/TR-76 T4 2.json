@@ -1,0 +1,99 @@
+{
+    "Id": "337fd11964c1416e8043faca",
+    "Name": "TR-76 T4 2",
+    "Root": "8ab5edf1ced046e59434b6e4",
+    "Items": [
+        {
+            "_id": "8ab5edf1ced046e59434b6e4",
+            "_tpl": "020020AB76AB760000000000",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "fullauto"
+                }
+            }
+        },
+        {
+            "_id": "8bc09735e14b493cb2f63ed0",
+            "_tpl": "64b7af434b75259c590fa893",
+            "slotId": "mod_magazine",
+            "parentId": "8ab5edf1ced046e59434b6e4"
+        },
+        {
+            "_id": "95a2b0c586114bf4839b2b18",
+            "_tpl": "04BA4BAB76AB764B00000000",
+            "slotId": "mod_barrel",
+            "parentId": "8ab5edf1ced046e59434b6e4"
+        },
+        {
+            "_id": "7a6fa386707c4de186a1dcab",
+            "_tpl": "043143AB76AB764310000000",
+            "slotId": "mod_stock",
+            "parentId": "8ab5edf1ced046e59434b6e4"
+        },
+        {
+            "_id": "2fb06feca9874963b5d11154",
+            "_tpl": "58491f3324597764bc48fa02",
+            "parentId": "8ab5edf1ced046e59434b6e4",
+            "slotId": "mod_scope"
+        },
+        {
+            "_id": "1345c476b5974ca4a6a6fc3e",
+            "_tpl": "041041AB76AB764100000000",
+            "parentId": "8ab5edf1ced046e59434b6e4",
+            "slotId": "mod_handguard"
+        },
+        {
+            "_id": "ec2c660295474b638f14fd57",
+            "_tpl": "044144AB76AB764410000000",
+            "parentId": "8ab5edf1ced046e59434b6e4",
+            "slotId": "mod_stock_000"
+        },
+        {
+            "_id": "bda93849b469405daf2348da",
+            "_tpl": "045145AB76AB764510000000",
+            "parentId": "8ab5edf1ced046e59434b6e4",
+            "slotId": "mod_pistol_grip"
+        },
+        {
+            "_id": "f8ecc212aebb49bd83d536b6",
+            "_tpl": "5b057b4f5acfc4771e1bd3e9",
+            "parentId": "1345c476b5974ca4a6a6fc3e",
+            "slotId": "mod_foregrip"
+        },
+        {
+            "_id": "1216650d538a4ef9b95b7435",
+            "_tpl": "6272370ee4013c5d7e31f418",
+            "parentId": "1345c476b5974ca4a6a6fc3e",
+            "slotId": "mod_tactical_000"
+        },
+        {
+            "_id": "ac0b3279fcf0410bada11b22",
+            "_tpl": "04BE4BAB76AB76EB00000000",
+            "parentId": "95a2b0c586114bf4839b2b18",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "b9b8dc6e65134a52a6c5ee57",
+            "_tpl": "59bffc1f86f77435b128b872",
+            "parentId": "ac0b3279fcf0410bada11b22",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "c036460055de41be86f2d2db",
+            "_tpl": "59bffbb386f77435b379b9c2",
+            "parentId": "b9b8dc6e65134a52a6c5ee57",
+            "slotId": "mod_muzzle"
+        }
+    ],
+    "Parent": "5447b5f14bdc2d61278b4567",
+    "Factions": [
+        "bear"
+    ]
+}

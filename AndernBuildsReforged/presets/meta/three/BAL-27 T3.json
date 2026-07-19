@@ -1,0 +1,65 @@
+{
+    "Id": "a3893e81ad764ebaa9ac11fd",
+    "Name": "BAL-27 T3",
+    "Root": "9c61ae32d45d485e8861e6f3",
+    "Items": [
+        {
+            "_id": "9c61ae32d45d485e8861e6f3",
+            "_tpl": "020020BA27BA270000000000",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "fullauto"
+                }
+            }
+        },
+        {
+            "_id": "a83b8eb721b14662857ee923",
+            "_tpl": "02F02FBA27BA272F00000000",
+            "slotId": "mod_magazine",
+            "parentId": "9c61ae32d45d485e8861e6f3"
+        },
+        {
+            "_id": "48ef74267fec46c3b5812c9c",
+            "_tpl": "04BB4BBA27BA27BB00000000",
+            "slotId": "mod_barrel",
+            "parentId": "9c61ae32d45d485e8861e6f3"
+        },
+        {
+            "_id": "1b9c747f9d9e4136aae7ab0c",
+            "_tpl": "043343BA27BA274330000000",
+            "slotId": "mod_stock",
+            "parentId": "9c61ae32d45d485e8861e6f3"
+        },
+        {
+            "_id": "104dcb7d39ca43f095f9ef18",
+            "_tpl": "045245BA27BA274520000000",
+            "slotId": "mod_pistol_grip",
+            "parentId": "9c61ae32d45d485e8861e6f3"
+        },
+        {
+            "_id": "7524a8a323ca498db3a9cccb",
+            "_tpl": "59f9d81586f7744c7506ee62",
+            "parentId": "9c61ae32d45d485e8861e6f3",
+            "slotId": "mod_scope"
+        },
+        {
+            "_id": "f1ee6d9b19294c8795df3a91",
+            "_tpl": "5c1cd46f2e22164bef5cfedb",
+            "parentId": "9c61ae32d45d485e8861e6f3",
+            "slotId": "mod_foregrip"
+        }
+    ],
+    "Parent": "5447b5f14bdc2d61278b4567",
+    "PrimaryAmmoTpl": "5cc80f38e4a949001152b560",
+    "SpareAmmoTpl": "5cc80f38e4a949001152b560",
+    "Factions": [
+        "usec"
+    ]
+}

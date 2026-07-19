@@ -1,0 +1,63 @@
+{
+    "Id": "da122dcbc722427d87df8ee6",
+    "Name": "SV-98M T4 1",
+    "Root": "88b13db2593541a7a0cb763e",
+    "Items": [
+        {
+            "_id": "88b13db2593541a7a0cb763e",
+            "_tpl": "69236a0b2d1260dbca41ef92",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "single"
+                }
+            }
+        },
+        {
+            "_id": "26929004fe584002844499d7",
+            "_tpl": "559ba5b34bdc2d1f1a8b4582",
+            "slotId": "mod_magazine",
+            "parentId": "88b13db2593541a7a0cb763e"
+        },
+        {
+            "_id": "ecc9efbdffcb45e9b8aca573",
+            "_tpl": "56ea8222d2720b69698b4567",
+            "slotId": "mod_bipod",
+            "parentId": "88b13db2593541a7a0cb763e"
+        },
+        {
+            "_id": "a1e6ef33ebe448a9b28de750",
+            "_tpl": "560e620e4bdc2d724b8b456b",
+            "slotId": "mod_muzzle",
+            "parentId": "88b13db2593541a7a0cb763e"
+        },
+        {
+            "_id": "0c31f20eaf3447baa9dc16df",
+            "_tpl": "56083e1b4bdc2dc8488b4572",
+            "slotId": "mod_sight_rear",
+            "parentId": "88b13db2593541a7a0cb763e"
+        },
+        {
+            "_id": "92b6a5e734c14389ad17c5f7",
+            "_tpl": "5a37ca54c4a282000d72296a",
+            "parentId": "88b13db2593541a7a0cb763e",
+            "slotId": "mod_scope"
+        },
+        {
+            "_id": "8869234ecfd24f2fa2d4f3a5",
+            "_tpl": "5b3b99475acfc432ff4dcbee",
+            "parentId": "92b6a5e734c14389ad17c5f7",
+            "slotId": "mod_scope_000"
+        }
+    ],
+    "Parent": "5447b6254bdc2dc3278b4568",
+    "Factions": [
+        "bear"
+    ]
+}

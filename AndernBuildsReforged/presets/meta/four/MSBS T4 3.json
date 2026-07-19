@@ -1,0 +1,123 @@
+{
+    "Id": "1a6890b938b54e4b9c90294d",
+    "Name": "MSBS T4 3",
+    "Root": "30322df29ebc478293498a76",
+    "Items": [
+        {
+            "_id": "30322df29ebc478293498a76",
+            "_tpl": "696ce75f73805e693401aba0",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "single"
+                }
+            }
+        },
+        {
+            "_id": "3c3dfa7809b64a4e90be8bdd",
+            "_tpl": "696e46a11a038d893a04a42d",
+            "slotId": "mod_pistol_grip",
+            "parentId": "30322df29ebc478293498a76"
+        },
+        {
+            "_id": "665d5fd7c59143b5be52f88d",
+            "_tpl": "696fea0fcf7469bf38051e30",
+            "slotId": "mod_magazine",
+            "parentId": "30322df29ebc478293498a76"
+        },
+        {
+            "_id": "cd6bbd49b362429d8ecf6ca7",
+            "_tpl": "696e43e31a038d893a04a424",
+            "slotId": "mod_reciever",
+            "parentId": "30322df29ebc478293498a76"
+        },
+        {
+            "_id": "7ff7a9975b104b54be09cdfd",
+            "_tpl": "696e417f1a038d893a04a420",
+            "slotId": "mod_stock",
+            "parentId": "30322df29ebc478293498a76"
+        },
+        {
+            "_id": "46d315df622a45b18f26f83c",
+            "_tpl": "696fc24464572d85f30aac0e",
+            "slotId": "mod_barrel",
+            "parentId": "cd6bbd49b362429d8ecf6ca7"
+        },
+        {
+            "_id": "abe11825316b407a831a3c04",
+            "_tpl": "5bc09a18d4351e003562b68e",
+            "slotId": "mod_sight_rear",
+            "parentId": "cd6bbd49b362429d8ecf6ca7",
+            "upd": {
+                "Sight": {
+                    "ScopesCurrentCalibPointIndexes": [
+                        0
+                    ],
+                    "ScopesSelectedModes": [
+                        0
+                    ],
+                    "SelectedScope": 0,
+                    "ScopeZoomValue": 0
+                }
+            }
+        },
+        {
+            "_id": "6fd37162dcad4540935ab5eb",
+            "_tpl": "5bc09a30d4351e00367fb7c8",
+            "slotId": "mod_sight_front",
+            "parentId": "cd6bbd49b362429d8ecf6ca7",
+            "upd": {
+                "Sight": {
+                    "ScopesCurrentCalibPointIndexes": [
+                        0
+                    ],
+                    "ScopesSelectedModes": [
+                        0
+                    ],
+                    "SelectedScope": 0,
+                    "ScopeZoomValue": 0
+                }
+            }
+        },
+        {
+            "_id": "f25988ebb0cc4ca09e81afe7",
+            "_tpl": "696e417f1a038d893a04a422",
+            "slotId": "mod_handguard",
+            "parentId": "cd6bbd49b362429d8ecf6ca7"
+        },
+        {
+            "_id": "78fe0e4ba2454a66a399c31f",
+            "_tpl": "558022b54bdc2dac148b458d",
+            "parentId": "cd6bbd49b362429d8ecf6ca7",
+            "slotId": "mod_scope_000"
+        },
+        {
+            "_id": "618fa3e3edd94a7193e2ff72",
+            "_tpl": "5c1cd46f2e22164bef5cfedb",
+            "parentId": "f25988ebb0cc4ca09e81afe7",
+            "slotId": "mod_foregrip"
+        },
+        {
+            "_id": "4ec523950e204c93bc6d9e30",
+            "_tpl": "56def37dd2720bec348b456a",
+            "parentId": "f25988ebb0cc4ca09e81afe7",
+            "slotId": "mod_tactical_000"
+        },
+        {
+            "_id": "2a65ae255598400398443224",
+            "_tpl": "696fc5ed64572d85f30aac10",
+            "parentId": "46d315df622a45b18f26f83c",
+            "slotId": "mod_muzzle"
+        }
+    ],
+    "Parent": "5447b5f14bdc2d61278b4567",
+    "Factions": [
+        "usec"
+    ]
+}

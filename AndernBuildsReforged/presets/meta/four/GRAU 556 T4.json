@@ -1,0 +1,101 @@
+{
+    "Id": "08690c87970342aeb7137b2b",
+    "Name": "GRAU 556 T4",
+    "Root": "19c03641a8cd4792be5983fa",
+    "Items": [
+        {
+            "_id": "19c03641a8cd4792be5983fa",
+            "_tpl": "020020FBA556556000000000",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "fullauto"
+                }
+            }
+        },
+        {
+            "_id": "f99978448daf4c90b6237f6d",
+            "_tpl": "02F02FFBA556556030000000",
+            "slotId": "mod_magazine",
+            "parentId": "19c03641a8cd4792be5983fa"
+        },
+        {
+            "_id": "28f59671a6bc4ea8925975ce",
+            "_tpl": "041341FBA762762333000000",
+            "slotId": "mod_pistol_grip",
+            "parentId": "19c03641a8cd4792be5983fa"
+        },
+        {
+            "_id": "46a34c78bf5e4789a3832142",
+            "_tpl": "043243FBA762762222000000",
+            "slotId": "mod_stock_001",
+            "parentId": "19c03641a8cd4792be5983fa"
+        },
+        {
+            "_id": "5d3b9157b22c424999efbd52",
+            "_tpl": "040040FBA556556040000000",
+            "slotId": "mod_reciever",
+            "parentId": "19c03641a8cd4792be5983fa"
+        },
+        {
+            "_id": "aa9651b2c3d04b1691f200c2",
+            "_tpl": "042A42FBA762762AAA000000",
+            "slotId": "mod_handguard",
+            "parentId": "5d3b9157b22c424999efbd52"
+        },
+        {
+            "_id": "a28f74eb647846239a5a4b93",
+            "_tpl": "04BA4BFBA556556AAA000000",
+            "slotId": "mod_barrel",
+            "parentId": "aa9651b2c3d04b1691f200c2"
+        },
+        {
+            "_id": "c7323b174a70455cb829edb5",
+            "_tpl": "59f8a37386f7747af3328f06",
+            "parentId": "aa9651b2c3d04b1691f200c2",
+            "slotId": "mod_foregrip"
+        },
+        {
+            "_id": "411dd239132f415a89f832a5",
+            "_tpl": "56def37dd2720bec348b456a",
+            "parentId": "aa9651b2c3d04b1691f200c2",
+            "slotId": "mod_tactical_002",
+            "upd": {
+                "Light": {
+                    "IsActive": true,
+                    "SelectedMode": 0
+                }
+            }
+        },
+        {
+            "_id": "c0549cb201014ff9b6af6235",
+            "_tpl": "5ea172e498dacb342978818e",
+            "parentId": "a28f74eb647846239a5a4b93",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "eb424a8b85bd42d58647c924",
+            "_tpl": "55d6190f4bdc2d87028b4567",
+            "parentId": "c0549cb201014ff9b6af6235",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "8fd63dd6798c483d8df8bd4f",
+            "_tpl": "558022b54bdc2dac148b458d",
+            "parentId": "5d3b9157b22c424999efbd52",
+            "slotId": "mod_scope"
+        }
+    ],
+    "Parent": "5447b5f14bdc2d61278b4567",
+    "PrimaryAmmoTpl": "59e690b686f7746c9f75e848",
+    "SpareAmmoTpl": "54527ac44bdc2d36668b4567",
+    "Factions": [
+        "usec"
+    ]
+}

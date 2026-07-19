@@ -1,0 +1,93 @@
+{
+    "Id": "6cac29d1deaa46b2ac2dd761",
+    "Name": "KATT AMR T4",
+    "Root": "4bda5c83c71140619ea266c9",
+    "Items": [
+        {
+            "_id": "4bda5c83c71140619ea266c9",
+            "_tpl": "020020AB50AB500000000000",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "FireMode": {
+                    "FireMode": "single"
+                }
+            }
+        },
+        {
+            "_id": "6fbf9ea3c0934a2d82a069b5",
+            "_tpl": "02F52FAB50AB502F50000000",
+            "parentId": "4bda5c83c71140619ea266c9",
+            "slotId": "mod_magazine"
+        },
+        {
+            "_id": "1689c15abaae4380a6e4e634",
+            "_tpl": "04BA4BAB50AB50AB00000000",
+            "parentId": "4bda5c83c71140619ea266c9",
+            "slotId": "mod_barrel"
+        },
+        {
+            "_id": "84908969d3e646e98d550af6",
+            "_tpl": "04E04EAB50AB504E00000000",
+            "parentId": "1689c15abaae4380a6e4e634",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "f1d9f0b21178480497d308d6",
+            "_tpl": "043043AB50AB504300000000",
+            "parentId": "4bda5c83c71140619ea266c9",
+            "slotId": "mod_stock"
+        },
+        {
+            "_id": "9a2a748d31264a1589a3f9f4",
+            "_tpl": "045045AB50AB504500000000",
+            "parentId": "4bda5c83c71140619ea266c9",
+            "slotId": "mod_pistol_grip"
+        },
+        {
+            "_id": "a268028e1b63451b9fdfa235",
+            "_tpl": "04C04CAB50AB504C00000000",
+            "parentId": "4bda5c83c71140619ea266c9",
+            "slotId": "mod_charge"
+        },
+        {
+            "_id": "7f60f950f24543299595741a",
+            "_tpl": "046046AB50AB504600000000",
+            "parentId": "4bda5c83c71140619ea266c9",
+            "slotId": "mod_mount"
+        },
+        {
+            "_id": "e5bbd350e1614c6f96b82309",
+            "_tpl": "5a1ead28fcdbcb001912fa9f",
+            "parentId": "1689c15abaae4380a6e4e634",
+            "slotId": "mod_scope"
+        },
+        {
+            "_id": "aea53a9e00794edc87a414c0",
+            "_tpl": "5a1eaa87fcdbcb001865f75e",
+            "parentId": "e5bbd350e1614c6f96b82309",
+            "slotId": "mod_scope",
+            "upd": {
+                "Sight": {
+                    "ScopesCurrentCalibPointIndexes": [
+                        0
+                    ],
+                    "ScopesSelectedModes": [
+                        0
+                    ],
+                    "SelectedScope": 0,
+                    "ScopeZoomValue": 0
+                }
+            }
+        }
+    ],
+    "Parent": "5447b6254bdc2dc3278b4568",
+    "Weight": 1,
+    "PrimaryAmmoTpl": "67dc2648ba5b79876906a166",
+    "SpareAmmoTpl": "67dc255ee3028a8b120efc48",
+    "Factions": [
+        "usec"
+    ]
+}

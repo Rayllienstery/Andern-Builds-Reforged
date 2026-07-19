@@ -1,0 +1,89 @@
+{
+    "Id": "ed172ae68ecb4c61a209daa1",
+    "Name": "GRAU 762 T3",
+    "Root": "ef33bd1b79434c02bdf8c623",
+    "Items": [
+        {
+            "_id": "ef33bd1b79434c02bdf8c623",
+            "_tpl": "020020FBA762762000000000",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "fullauto"
+                }
+            }
+        },
+        {
+            "_id": "9e190ec434b246eeac9fef99",
+            "_tpl": "5ac66bea5acfc43b321d4aec",
+            "slotId": "mod_magazine",
+            "parentId": "ef33bd1b79434c02bdf8c623"
+        },
+        {
+            "_id": "df427cde44b84132b16f69cf",
+            "_tpl": "041341FBA762762333000000",
+            "slotId": "mod_pistol_grip",
+            "parentId": "ef33bd1b79434c02bdf8c623"
+        },
+        {
+            "_id": "612b318426ed43c388095179",
+            "_tpl": "043143FBA762762111000000",
+            "slotId": "mod_stock_001",
+            "parentId": "ef33bd1b79434c02bdf8c623"
+        },
+        {
+            "_id": "4aecf5f719ef4cabad021170",
+            "_tpl": "040040FBA762762040000000",
+            "slotId": "mod_reciever",
+            "parentId": "ef33bd1b79434c02bdf8c623"
+        },
+        {
+            "_id": "637413fbf6d0463080dea03b",
+            "_tpl": "042142FBA762762111000000",
+            "slotId": "mod_handguard",
+            "parentId": "4aecf5f719ef4cabad021170"
+        },
+        {
+            "_id": "970de8a50a9349c2809a0357",
+            "_tpl": "04B14BFBA762762111000000",
+            "slotId": "mod_barrel",
+            "parentId": "637413fbf6d0463080dea03b"
+        },
+        {
+            "_id": "0b05fdcb70574961babc2294",
+            "_tpl": "5c1cd46f2e22164bef5cfedb",
+            "parentId": "637413fbf6d0463080dea03b",
+            "slotId": "mod_foregrip"
+        },
+        {
+            "_id": "e7b42c999c9c40a9898f8f68",
+            "_tpl": "56def37dd2720bec348b456a",
+            "parentId": "637413fbf6d0463080dea03b",
+            "slotId": "mod_tactical_002",
+            "upd": {
+                "Light": {
+                    "IsActive": true,
+                    "SelectedMode": 0
+                }
+            }
+        },
+        {
+            "_id": "90cf368abcdc435f87561383",
+            "_tpl": "59f9d81586f7744c7506ee62",
+            "parentId": "4aecf5f719ef4cabad021170",
+            "slotId": "mod_scope"
+        }
+    ],
+    "Parent": "5447b5f14bdc2d61278b4567",
+    "PrimaryAmmoTpl": "64b7af434b75259c590fa893",
+    "SpareAmmoTpl": "59e0d99486f7744a32234762",
+    "Factions": [
+        "usec"
+    ]
+}

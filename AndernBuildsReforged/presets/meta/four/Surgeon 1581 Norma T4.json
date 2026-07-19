@@ -1,0 +1,93 @@
+{
+    "Id": "e2e54cd5261c4e73919cfd33",
+    "Name": "Surgeon 1581 Norma T4",
+    "Root": "69bcbdf648b8490782ba0d0b",
+    "Items": [
+        {
+            "_id": "69bcbdf648b8490782ba0d0b",
+            "_tpl": "1bf618e47cce6d69bec01e9f",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "FireMode": {
+                    "FireMode": "single"
+                }
+            }
+        },
+        {
+            "_id": "a1c6a0e7cd204ed48582e343",
+            "_tpl": "f1b1a0db4986e718711a8e80",
+            "parentId": "69bcbdf648b8490782ba0d0b",
+            "slotId": "mod_magazine"
+        },
+        {
+            "_id": "4d5d0d6f8b6c4b8d8ae0acaa",
+            "_tpl": "c0a00711f992a1aecdc53ae0",
+            "parentId": "69bcbdf648b8490782ba0d0b",
+            "slotId": "mod_stock"
+        },
+        {
+            "_id": "c31e79e97b6244bcb552e740",
+            "_tpl": "c572ff3cb1b04b5dd73e615b",
+            "parentId": "4d5d0d6f8b6c4b8d8ae0acaa",
+            "slotId": "mod_tactical_000"
+        },
+        {
+            "_id": "5990eca3569d40ea956a23e0",
+            "_tpl": "5888961624597754281f93f3",
+            "parentId": "4d5d0d6f8b6c4b8d8ae0acaa",
+            "slotId": "mod_bipod"
+        },
+        {
+            "_id": "8916beb0b3944200931e993d",
+            "_tpl": "5ad7771228e921777b30536f",
+            "parentId": "69bcbdf648b8490782ba0d0b",
+            "slotId": "mod_barrel"
+        },
+        {
+            "_id": "e8471adb46a3445a95f02217",
+            "_tpl": "6171407e50224f204c1da3c5",
+            "parentId": "69bcbdf648b8490782ba0d0b",
+            "slotId": "mod_scope"
+        },
+        {
+            "_id": "42b753a0c5194eecafb2f859",
+            "_tpl": "57c5ac0824597754771e88a9",
+            "parentId": "e8471adb46a3445a95f02217",
+            "slotId": "mod_scope_000",
+            "upd": {
+                "Sight": {
+                    "ScopesCurrentCalibPointIndexes": [
+                        0
+                    ],
+                    "ScopesSelectedModes": [
+                        0
+                    ],
+                    "SelectedScope": 0,
+                    "ScopeZoomValue": 0
+                }
+            }
+        },
+        {
+            "_id": "25450fc1c9f546278e252fde",
+            "_tpl": "612e0d81290d254f5e6b291a",
+            "parentId": "8916beb0b3944200931e993d",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "4418b836ceb6422cb24e6689",
+            "_tpl": "63877c99e785640d436458ea",
+            "parentId": "25450fc1c9f546278e252fde",
+            "slotId": "mod_muzzle"
+        }
+    ],
+    "Parent": "5447b6254bdc2dc3278b4568",
+    "Weight": 1,
+    "PrimaryAmmoTpl": "c556f40e464c7f09d4c757fc",
+    "SpareAmmoTpl": "ea4cdb6fc3dd4f799eeef33e",
+    "Factions": [
+        "usec"
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "Id": "418ed71b045848a29d426b91",
+    "Name": "KS-23 T4",
+    "Root": "503f76af260a43de8a8c7334",
+    "Items": [
+        {
+            "_id": "503f76af260a43de8a8c7334",
+            "_tpl": "5e848cc2988a8701445df1e8",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "FireMode": {
+                    "FireMode": "single"
+                }
+            }
+        },
+        {
+            "_id": "ec3c231a7d3f4d9ca19d853a",
+            "_tpl": "5e848d2eea0a7c419c2f9bfd",
+            "parentId": "503f76af260a43de8a8c7334",
+            "slotId": "mod_barrel"
+        },
+        {
+            "_id": "82a5d70a1ca8444db4f94e65",
+            "_tpl": "5e848d51e4dbc5266a4ec63b",
+            "parentId": "503f76af260a43de8a8c7334",
+            "slotId": "mod_handguard"
+        },
+        {
+            "_id": "48846d648478483e90d4ebe4",
+            "_tpl": "5f647d9f8499b57dc40ddb93",
+            "parentId": "503f76af260a43de8a8c7334",
+            "slotId": "mod_magazine"
+        },
+        {
+            "_id": "137d47453c5049a0af0e7707",
+            "_tpl": "5e848d99865c0f329958c83b",
+            "parentId": "503f76af260a43de8a8c7334",
+            "slotId": "mod_stock"
+        },
+        {
+            "_id": "7253952896bc4a819e386859",
+            "_tpl": "5e848dc4e4dbc5266a4ec63d",
+            "parentId": "137d47453c5049a0af0e7707",
+            "slotId": "mod_stock"
+        }
+    ],
+    "Parent": "5447b6094bdc2dc3278b4567",
+    "PrimaryAmmoTpl": "5e85a9a6eacf8c039e4e2ac1",
+    "SpareAmmoTpl": "5e85a9a6eacf8c039e4e2ac1",
+    "Weight": 80,
+    "Factions": [
+        "bear"
+    ]
+}

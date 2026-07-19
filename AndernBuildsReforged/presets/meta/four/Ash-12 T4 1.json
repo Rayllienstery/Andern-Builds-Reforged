@@ -1,0 +1,63 @@
+{
+    "Id": "83babcccb1ee4d1faf3f27e6",
+    "Name": "Ash-12 T4 1",
+    "Root": "4cf568afef094e72abe668a3",
+    "Items": [
+        {
+            "_id": "4cf568afef094e72abe668a3",
+            "_tpl": "5cadfbf7ae92152ac412eeef",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "single"
+                }
+            }
+        },
+        {
+            "_id": "a20a0fbc1d9b48adbbd4d7e9",
+            "_tpl": "5caf187cae92157c28402e43",
+            "slotId": "mod_muzzle",
+            "parentId": "4cf568afef094e72abe668a3"
+        },
+        {
+            "_id": "40c0ea872b794c2b9b30b93e",
+            "_tpl": "5caf1109ae9215753c44119f",
+            "slotId": "mod_magazine",
+            "parentId": "4cf568afef094e72abe668a3"
+        },
+        {
+            "_id": "e294ea0420cf406da74212d3",
+            "_tpl": "5caf16a2ae92152ac412efbc",
+            "slotId": "mod_sight_front",
+            "parentId": "4cf568afef094e72abe668a3"
+        },
+        {
+            "_id": "859f3cb3d143447cbe6c9dca",
+            "_tpl": "5cdaa99dd7f00c002412d0b2",
+            "slotId": "mod_handguard",
+            "parentId": "4cf568afef094e72abe668a3"
+        },
+        {
+            "_id": "1cba2c2080094520966b8613",
+            "_tpl": "59f8a37386f7747af3328f06",
+            "slotId": "mod_foregrip",
+            "parentId": "859f3cb3d143447cbe6c9dca"
+        },
+        {
+            "_id": "e0d3352279fb43b6bd9c44c2",
+            "_tpl": "59f9d81586f7744c7506ee62",
+            "slotId": "mod_scope",
+            "parentId": "4cf568afef094e72abe668a3"
+        }
+    ],
+    "Parent": "5447b5f14bdc2d61278b4567",
+    "Factions": [
+        "bear"
+    ]
+}

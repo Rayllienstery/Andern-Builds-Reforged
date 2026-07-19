@@ -1,0 +1,69 @@
+{
+    "Id": "7f3ac3256c6948c78ac7ff4a",
+    "Name": "Ash-12 T4 2",
+    "Root": "d654aff2865e4a36b5282582",
+    "Items": [
+        {
+            "_id": "d654aff2865e4a36b5282582",
+            "_tpl": "5cadfbf7ae92152ac412eeef",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "single"
+                }
+            }
+        },
+        {
+            "_id": "27db3987fe464fc1931818d7",
+            "_tpl": "5caf187cae92157c28402e43",
+            "slotId": "mod_muzzle",
+            "parentId": "d654aff2865e4a36b5282582"
+        },
+        {
+            "_id": "e73c4d93933a4a4dbd73fc10",
+            "_tpl": "5caf1109ae9215753c44119f",
+            "slotId": "mod_magazine",
+            "parentId": "d654aff2865e4a36b5282582"
+        },
+        {
+            "_id": "b9b5fd9141654d79ae9d7445",
+            "_tpl": "5caf16a2ae92152ac412efbc",
+            "slotId": "mod_sight_front",
+            "parentId": "d654aff2865e4a36b5282582"
+        },
+        {
+            "_id": "49349421e4e246c7ad1d9ee9",
+            "_tpl": "5cdaa99dd7f00c002412d0b2",
+            "slotId": "mod_handguard",
+            "parentId": "d654aff2865e4a36b5282582"
+        },
+        {
+            "_id": "38b4075ef1b64d2980d55ba8",
+            "_tpl": "59f8a37386f7747af3328f06",
+            "slotId": "mod_foregrip",
+            "parentId": "49349421e4e246c7ad1d9ee9"
+        },
+        {
+            "_id": "4efcd46b76f34098b62a627d",
+            "_tpl": "58491f3324597764bc48fa02",
+            "slotId": "mod_scope",
+            "parentId": "d654aff2865e4a36b5282582"
+        },
+        {
+            "_id": "612253743dcd418cb3f4ebe8",
+            "_tpl": "6272370ee4013c5d7e31f418",
+            "parentId": "49349421e4e246c7ad1d9ee9",
+            "slotId": "mod_tactical_000"
+        }
+    ],
+    "Parent": "5447b5f14bdc2d61278b4567",
+    "Factions": [
+        "bear"
+    ]
+}

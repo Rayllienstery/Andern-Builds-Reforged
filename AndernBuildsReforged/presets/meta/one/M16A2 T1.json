@@ -1,0 +1,95 @@
+{
+    "Id": "cc07330c98fd4f6ea28e9c94",
+    "Name": "M16A2 T1",
+    "Root": "1b91ec76304649cb953f2186",
+    "Items": [
+        {
+            "_id": "1b91ec76304649cb953f2186",
+            "_tpl": "68a6399922b1e0bd360afe56",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "single"
+                }
+            }
+        },
+        {
+            "_id": "788b5a015c3e4e27abae7ece",
+            "_tpl": "55d4b9964bdc2d1d4e8b456e",
+            "slotId": "mod_pistol_grip",
+            "parentId": "1b91ec76304649cb953f2186"
+        },
+        {
+            "_id": "30c15436330d46b6b640b403",
+            "_tpl": "55d4887d4bdc2d962f8b4570",
+            "slotId": "mod_magazine",
+            "parentId": "1b91ec76304649cb953f2186"
+        },
+        {
+            "_id": "b87669b0b6c143f781fc53b5",
+            "_tpl": "68a63b9b8e1fe612970728f7",
+            "slotId": "mod_reciever",
+            "parentId": "1b91ec76304649cb953f2186"
+        },
+        {
+            "_id": "953225ff93bf4a4d9892abb3",
+            "_tpl": "68a63ac58e1fe612970728f2",
+            "slotId": "mod_barrel",
+            "parentId": "b87669b0b6c143f781fc53b5"
+        },
+        {
+            "_id": "f588c6db73ef48b0a2f05a9d",
+            "_tpl": "544a38634bdc2d58388b4568",
+            "slotId": "mod_muzzle",
+            "parentId": "953225ff93bf4a4d9892abb3"
+        },
+        {
+            "_id": "c4c849bfdc13441db46f319a",
+            "_tpl": "5ae30e795acfc408fb139a0b",
+            "slotId": "mod_gas_block",
+            "parentId": "953225ff93bf4a4d9892abb3"
+        },
+        {
+            "_id": "64649e65340248609d9a44f7",
+            "_tpl": "68a63cc0c92ee33ffa01bf5c",
+            "slotId": "mod_handguard",
+            "parentId": "b87669b0b6c143f781fc53b5"
+        },
+        {
+            "_id": "f195e8e1e43b455f8c5f6121",
+            "_tpl": "68a6413b54ef229c4d089238",
+            "slotId": "mod_handguard",
+            "parentId": "64649e65340248609d9a44f7"
+        },
+        {
+            "_id": "f96e2f1f156b4caebb8b0b28",
+            "_tpl": "68a63c5ce1fb670852024661",
+            "slotId": "mod_stock",
+            "parentId": "1b91ec76304649cb953f2186"
+        },
+        {
+            "_id": "6addbe7a6b8b4bcab993d503",
+            "_tpl": "68a63c1fc92ee33ffa01bf5a",
+            "slotId": "mod_stock",
+            "parentId": "f96e2f1f156b4caebb8b0b28"
+        },
+        {
+            "_id": "c15a540888334927987203aa",
+            "_tpl": "68a63a9522b1e0bd360afe5f",
+            "slotId": "mod_charge",
+            "parentId": "1b91ec76304649cb953f2186"
+        }
+    ],
+    "Parent": "5447b5f14bdc2d61278b4567",
+    "PrimaryAmmoTpl": "54527a984bdc2d4e668b4567",
+    "SpareAmmoTpl": "54527a984bdc2d4e668b4567",
+    "Factions": [
+        "usec"
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "Id": "b8ab974c3975487294e597af",
+    "Name": "AN-94 T4 3",
+    "Root": "74c2aea3379340b18c21ccd2",
+    "Items": [
+        {
+            "_id": "74c2aea3379340b18c21ccd2",
+            "_tpl": "679a6a534f3d279c99b135b9",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "single"
+                }
+            }
+        },
+        {
+            "_id": "bbf8b77505014a44a5e44274",
+            "_tpl": "55d482194bdc2d1d4e8b456b",
+            "slotId": "mod_magazine",
+            "parentId": "74c2aea3379340b18c21ccd2"
+        },
+        {
+            "_id": "2af750cc155e48b38e047448",
+            "_tpl": "6087e663132d4d12c81fd96b",
+            "slotId": "mod_pistol_grip",
+            "parentId": "74c2aea3379340b18c21ccd2"
+        },
+        {
+            "_id": "0f7f01076990448d997abe9f",
+            "_tpl": "679a6ee24e1bd9c184e7f307",
+            "slotId": "mod_stock",
+            "parentId": "74c2aea3379340b18c21ccd2"
+        },
+        {
+            "_id": "dba30e1ddb204bc9833232db",
+            "_tpl": "5c1cd46f2e22164bef5cfedb",
+            "parentId": "74c2aea3379340b18c21ccd2",
+            "slotId": "mod_foregrip"
+        },
+        {
+            "_id": "001f02cbf93a46cbbdb1060f",
+            "_tpl": "5fbbaa86f9986c4cff3fe5f6",
+            "parentId": "0f7f01076990448d997abe9f",
+            "slotId": "mod_stock_000"
+        },
+        {
+            "_id": "c5895dd024554775af0d3cef",
+            "_tpl": "6130ca3fd92c473c77020dbd",
+            "parentId": "74c2aea3379340b18c21ccd2",
+            "slotId": "mod_charge"
+        },
+        {
+            "_id": "c6316e6a672b4b399418eb51",
+            "_tpl": "5c61a40d2e2216001403158d",
+            "parentId": "74c2aea3379340b18c21ccd2",
+            "slotId": "mod_mount_000"
+        },
+        {
+            "_id": "0982779015804bfbbc32c30c",
+            "_tpl": "558022b54bdc2dac148b458d",
+            "parentId": "c6316e6a672b4b399418eb51",
+            "slotId": "mod_scope"
+        },
+        {
+            "_id": "8686f651e7ae4123be642ae3",
+            "_tpl": "56def37dd2720bec348b456a",
+            "parentId": "74c2aea3379340b18c21ccd2",
+            "slotId": "mod_tactical_002"
+        }
+    ],
+    "Parent": "5447b5f14bdc2d61278b4567",
+    "Factions": [
+        "bear"
+    ]
+}

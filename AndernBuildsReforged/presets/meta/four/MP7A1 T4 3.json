@@ -1,0 +1,87 @@
+{
+    "Id": "ae035914e3084bf0bf2191d3",
+    "Name": "MP7A1 T4 3",
+    "Root": "ce1cfd887089424a90a8062f",
+    "Items": [
+        {
+            "_id": "ce1cfd887089424a90a8062f",
+            "_tpl": "5ba26383d4351e00334c93d9",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "single"
+                }
+            }
+        },
+        {
+            "_id": "8ddd54f12d7143588ac7c504",
+            "_tpl": "5ba26586d4351e44f824b340",
+            "slotId": "mod_magazine",
+            "parentId": "ce1cfd887089424a90a8062f"
+        },
+        {
+            "_id": "e531f7a51da74ff691ed9b86",
+            "_tpl": "558022b54bdc2dac148b458d",
+            "slotId": "mod_scope",
+            "parentId": "ce1cfd887089424a90a8062f"
+        },
+        {
+            "_id": "6f43fbfc843247f7be7a3a4f",
+            "_tpl": "58d39b0386f77443380bf13c",
+            "slotId": "mod_scope",
+            "parentId": "e531f7a51da74ff691ed9b86"
+        },
+        {
+            "_id": "db8c9b36927e496d9e080575",
+            "_tpl": "58d399e486f77442e0016fe7",
+            "slotId": "mod_scope",
+            "parentId": "6f43fbfc843247f7be7a3a4f"
+        },
+        {
+            "_id": "d51ac46da59d4085ad2f22d1",
+            "_tpl": "57d17e212459775a1179a0f5",
+            "slotId": "mod_tactical_002",
+            "parentId": "ce1cfd887089424a90a8062f"
+        },
+        {
+            "_id": "5439d769aa284e6aa89a5fb7",
+            "_tpl": "57d17c5e2459775a5c57d17d",
+            "slotId": "mod_flashlight",
+            "parentId": "d51ac46da59d4085ad2f22d1"
+        },
+        {
+            "_id": "73940477da1a49a1bcd88791",
+            "_tpl": "5bcf0213d4351e0085327c17",
+            "slotId": "mod_stock",
+            "parentId": "ce1cfd887089424a90a8062f"
+        },
+        {
+            "_id": "490d8f4688b54add83a6a0e3",
+            "_tpl": "5ba26acdd4351e003562908e",
+            "parentId": "ce1cfd887089424a90a8062f",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "ee37a268e4814ae9b7f15758",
+            "_tpl": "5ba26ae8d4351e00367f9bdb",
+            "parentId": "490d8f4688b54add83a6a0e3",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "4742ce0e253941848b352fad",
+            "_tpl": "56def37dd2720bec348b456a",
+            "parentId": "ce1cfd887089424a90a8062f",
+            "slotId": "mod_tactical_001"
+        }
+    ],
+    "Parent": "5447b5e04bdc2d62278b4567",
+    "Factions": [
+        "usec"
+    ]
+}

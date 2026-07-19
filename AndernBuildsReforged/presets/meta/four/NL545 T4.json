@@ -1,0 +1,113 @@
+{
+    "Id": "961bf84bb5904adb96ca07eb",
+    "Name": "NL545 T4",
+    "Root": "f36794498db54f5d85be8a62",
+    "Items": [
+        {
+            "_id": "f36794498db54f5d85be8a62",
+            "_tpl": "68c16b9ab6b75a8a480520a6",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "fullauto"
+                }
+            }
+        },
+        {
+            "_id": "12a5477d1e0643a8b5c13923",
+            "_tpl": "68c16fcffc90c174e50de1ae",
+            "slotId": "mod_pistol_grip",
+            "parentId": "f36794498db54f5d85be8a62"
+        },
+        {
+            "_id": "22506f0d59514add986801af",
+            "_tpl": "5aaa4194e5b5b055d06310a5",
+            "slotId": "mod_magazine",
+            "parentId": "f36794498db54f5d85be8a62"
+        },
+        {
+            "_id": "4c26d2b8fd474eb185f0e232",
+            "_tpl": "68c16e84fc90c174e50de1a8",
+            "slotId": "mod_reciever",
+            "parentId": "f36794498db54f5d85be8a62"
+        },
+        {
+            "_id": "57fcc62c32864279ab178a61",
+            "_tpl": "68c16edf83e2d814b0093f76",
+            "slotId": "mod_barrel",
+            "parentId": "4c26d2b8fd474eb185f0e232"
+        },
+        {
+            "_id": "eb241b77c4194122a581947a",
+            "_tpl": "68c16f6883e2d814b0093f7a",
+            "slotId": "mod_gas_block",
+            "parentId": "57fcc62c32864279ab178a61"
+        },
+        {
+            "_id": "025d48fc7f2b4ed186c819e6",
+            "_tpl": "68c2989dc9061bb2f50478f6",
+            "slotId": "mod_handguard",
+            "parentId": "4c26d2b8fd474eb185f0e232"
+        },
+        {
+            "_id": "0f3bfde104d24c98899a4de5",
+            "_tpl": "68c17005ba442c8112076088",
+            "slotId": "mod_stock_001",
+            "parentId": "f36794498db54f5d85be8a62"
+        },
+        {
+            "_id": "3a241c32e0e04ab6a3b90e7a",
+            "_tpl": "602e620f9b513876d4338d9a",
+            "slotId": "mod_stock_000",
+            "parentId": "0f3bfde104d24c98899a4de5"
+        },
+        {
+            "_id": "75f0724013fc42df998c66a0",
+            "_tpl": "68c16f15efac701f800dfd36",
+            "slotId": "mod_charge",
+            "parentId": "f36794498db54f5d85be8a62"
+        },
+        {
+            "_id": "6d3e5fc1a62f41d791b15a3f",
+            "_tpl": "558022b54bdc2dac148b458d",
+            "parentId": "4c26d2b8fd474eb185f0e232",
+            "slotId": "mod_scope"
+        },
+        {
+            "_id": "725895f1ca064954a1bc9054",
+            "_tpl": "59f8a37386f7747af3328f06",
+            "parentId": "025d48fc7f2b4ed186c819e6",
+            "slotId": "mod_foregrip"
+        },
+        {
+            "_id": "f239069c79fe4a0c9262bc8e",
+            "_tpl": "56def37dd2720bec348b456a",
+            "parentId": "025d48fc7f2b4ed186c819e6",
+            "slotId": "mod_tactical"
+        },
+        {
+            "_id": "acf2a28343c047e6a02b2d45",
+            "_tpl": "6386120cd6baa055ad1e201c",
+            "parentId": "57fcc62c32864279ab178a61",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "352fbf943c8b4399a3643c92",
+            "_tpl": "638612b607dfed1ccb7206ba",
+            "parentId": "acf2a28343c047e6a02b2d45",
+            "slotId": "mod_muzzle"
+        }
+    ],
+    "Parent": "5447b5f14bdc2d61278b4567",
+    "PrimaryAmmoTpl": "61962b617c6c7b169525f168",
+    "SpareAmmoTpl": "56dff026d2720bb8668b4567",
+    "Factions": [
+        "bear"
+    ]
+}

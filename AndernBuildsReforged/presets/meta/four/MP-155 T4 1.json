@@ -1,0 +1,88 @@
+{
+    "Id": "838e43bc1e6b4c739da497b9",
+    "Name": "MP-155 T4 1",
+    "Root": "da174c052b924907aebb45b2",
+    "Items": [
+        {
+            "_id": "da174c052b924907aebb45b2",
+            "_tpl": "606dae0ab0e443224b421bb7",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "single"
+                }
+            }
+        },
+        {
+            "_id": "49d4bec49d49486a8e655889",
+            "_tpl": "6076c1b9f2cb2e02a42acedc",
+            "parentId": "da174c052b924907aebb45b2",
+            "slotId": "mod_barrel"
+        },
+        {
+            "_id": "019ca4578e0a4aaf868a650e",
+            "_tpl": "5b363dea5acfc4771e1c5e7e",
+            "parentId": "49d4bec49d49486a8e655889",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "10f590cd1a814568994b6c48",
+            "_tpl": "606ee5c81246154cad35d65e",
+            "parentId": "da174c052b924907aebb45b2",
+            "slotId": "mod_handguard"
+        },
+        {
+            "_id": "3f74b51bd22f48e0abc69681",
+            "_tpl": "55d485804bdc2d8c2f8b456b",
+            "parentId": "da174c052b924907aebb45b2",
+            "slotId": "mod_magazine"
+        },
+        {
+            "_id": "1e23bd1431104a1ba9c4758b",
+            "_tpl": "606eef46232e5a31c233d500",
+            "parentId": "da174c052b924907aebb45b2",
+            "slotId": "mod_stock"
+        },
+        {
+            "_id": "b4d498dd4cc84ad3a6f3e9a9",
+            "_tpl": "606eef756d0bd7580617baf8",
+            "parentId": "1e23bd1431104a1ba9c4758b",
+            "slotId": "mod_stock"
+        },
+        {
+            "_id": "c9b2e5219a374a0a94a1c280",
+            "_tpl": "606f262c6d0bd7580617bafa",
+            "parentId": "b4d498dd4cc84ad3a6f3e9a9",
+            "slotId": "mod_stock"
+        },
+        {
+            "_id": "d2dd96b2f3584f7aab7756ad",
+            "_tpl": "60785ce5132d4d12c81fd918",
+            "parentId": "da174c052b924907aebb45b2",
+            "slotId": "mod_mount"
+        },
+        {
+            "_id": "74981e2057544292b061f402",
+            "_tpl": "58491f3324597764bc48fa02",
+            "parentId": "d2dd96b2f3584f7aab7756ad",
+            "slotId": "mod_scope"
+        },
+        {
+            "_id": "31e20feea5db41068cebf282",
+            "_tpl": "6272370ee4013c5d7e31f418",
+            "parentId": "d2dd96b2f3584f7aab7756ad",
+            "slotId": "mod_tactical_002"
+        }
+    ],
+    "Parent": "5447b6094bdc2dc3278b4567",
+    "Weight": 80,
+    "Factions": [
+        "bear"
+    ]
+}

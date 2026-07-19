@@ -1,0 +1,69 @@
+{
+    "Id": "e9ded26a0c8e40bdbf1b7817",
+    "Name": "Mosin Archangel T4 2",
+    "Root": "507e6734fd2b4d078ad1e9df",
+    "Items": [
+        {
+            "_id": "507e6734fd2b4d078ad1e9df",
+            "_tpl": "5ae08f0a5acfc408fb1398a1",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "single"
+                }
+            }
+        },
+        {
+            "_id": "6e88bee7b6c9426d9583b4bd",
+            "_tpl": "5bae13ded4351e44f824bf38",
+            "slotId": "mod_magazine",
+            "parentId": "507e6734fd2b4d078ad1e9df"
+        },
+        {
+            "_id": "b1c715aec5104e8796ae0989",
+            "_tpl": "5bae13bad4351e00320204af",
+            "slotId": "mod_stock",
+            "parentId": "507e6734fd2b4d078ad1e9df"
+        },
+        {
+            "_id": "97175ae738db48a8bbf5e1c3",
+            "_tpl": "5bfd4cbe0db834001b73449f",
+            "slotId": "mod_barrel",
+            "parentId": "507e6734fd2b4d078ad1e9df"
+        },
+        {
+            "_id": "1044e6efafd04d58aacebffd",
+            "_tpl": "5ae099875acfc4001714e593",
+            "slotId": "mod_sight_front",
+            "parentId": "97175ae738db48a8bbf5e1c3"
+        },
+        {
+            "_id": "0972cb04e8d349a08606c39a",
+            "_tpl": "5bbdb811d4351e45020113c7",
+            "parentId": "97175ae738db48a8bbf5e1c3",
+            "slotId": "mod_sight_rear"
+        },
+        {
+            "_id": "8824efd95e2a4bf8a32cad86",
+            "_tpl": "5a37ca54c4a282000d72296a",
+            "parentId": "0972cb04e8d349a08606c39a",
+            "slotId": "mod_scope"
+        },
+        {
+            "_id": "cbb24bd46df142d88844b060",
+            "_tpl": "617151c1d92c473c770214ab",
+            "parentId": "8824efd95e2a4bf8a32cad86",
+            "slotId": "mod_scope_000"
+        }
+    ],
+    "Parent": "5447b6254bdc2dc3278b4568",
+    "Factions": [
+        "bear"
+    ]
+}

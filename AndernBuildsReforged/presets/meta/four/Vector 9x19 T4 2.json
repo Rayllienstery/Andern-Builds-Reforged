@@ -1,0 +1,99 @@
+{
+    "Id": "e9856919af054429b7840424",
+    "Name": "Vector 9x19 T4 2",
+    "Root": "1212831b2a1f472b8950665c",
+    "Items": [
+        {
+            "_id": "1212831b2a1f472b8950665c",
+            "_tpl": "5fc3f2d5900b1d5091531e57",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "single"
+                }
+            }
+        },
+        {
+            "_id": "0268d2b989534d24b06e4231",
+            "_tpl": "5a7ad2e851dfba0016153692",
+            "slotId": "mod_magazine",
+            "parentId": "1212831b2a1f472b8950665c"
+        },
+        {
+            "_id": "44dad529ca894eb7a87be06c",
+            "_tpl": "5fb6567747ce63734e3fa1dc",
+            "slotId": "mod_sight_front",
+            "parentId": "1212831b2a1f472b8950665c"
+        },
+        {
+            "_id": "021befff1c5b4e768f55a159",
+            "_tpl": "5fb6564947ce63734e3fa1da",
+            "slotId": "mod_sight_rear",
+            "parentId": "1212831b2a1f472b8950665c"
+        },
+        {
+            "_id": "2b1af37b57fd41f7b10e4e5e",
+            "_tpl": "5fb6558ad6f0b2136f2d7eb7",
+            "slotId": "mod_stock",
+            "parentId": "1212831b2a1f472b8950665c"
+        },
+        {
+            "_id": "ca09a3da2fb14a1fbbfb9437",
+            "_tpl": "5fbbc366ca32ed67276c1557",
+            "slotId": "mod_barrel",
+            "parentId": "1212831b2a1f472b8950665c"
+        },
+        {
+            "_id": "f28f14855263402d8678692b",
+            "_tpl": "5fbb976df9986c4cff3fe5f2",
+            "slotId": "mod_mount",
+            "parentId": "1212831b2a1f472b8950665c"
+        },
+        {
+            "_id": "a726016b0b794cb886701e65",
+            "_tpl": "5fce0f9b55375d18a253eff2",
+            "slotId": "mod_mount_001",
+            "parentId": "1212831b2a1f472b8950665c"
+        },
+        {
+            "_id": "351802057a6e487bbb1d998c",
+            "_tpl": "5fce0f9b55375d18a253eff2",
+            "slotId": "mod_mount_002",
+            "parentId": "1212831b2a1f472b8950665c"
+        },
+        {
+            "_id": "4b3231895e8e42e899848e5c",
+            "_tpl": "58491f3324597764bc48fa02",
+            "parentId": "1212831b2a1f472b8950665c",
+            "slotId": "mod_scope"
+        },
+        {
+            "_id": "e5ab9c1c724d422c81405b2d",
+            "_tpl": "5b057b4f5acfc4771e1bd3e9",
+            "parentId": "f28f14855263402d8678692b",
+            "slotId": "mod_foregrip"
+        },
+        {
+            "_id": "cf59fe994bc04114b0ae10c9",
+            "_tpl": "5c6165902e22160010261b28",
+            "parentId": "ca09a3da2fb14a1fbbfb9437",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "20248fdd15474fb2bbf4916b",
+            "_tpl": "6272370ee4013c5d7e31f418",
+            "parentId": "a726016b0b794cb886701e65",
+            "slotId": "mod_tactical"
+        }
+    ],
+    "Parent": "5447b5e04bdc2d62278b4567",
+    "Factions": [
+        "usec"
+    ]
+}

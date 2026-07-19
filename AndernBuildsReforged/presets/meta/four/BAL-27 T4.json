@@ -1,0 +1,83 @@
+{
+    "Id": "b28c598f8f3a4ae3805f8b0f",
+    "Name": "BAL-27 T4",
+    "Root": "0141e2fe4dad43afae4b01ab",
+    "Items": [
+        {
+            "_id": "0141e2fe4dad43afae4b01ab",
+            "_tpl": "020020BA27BA270000000000",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "fullauto"
+                }
+            }
+        },
+        {
+            "_id": "e601d475f2874bdcb2aa2cb9",
+            "_tpl": "02F02FBA27BA272F00000000",
+            "slotId": "mod_magazine",
+            "parentId": "0141e2fe4dad43afae4b01ab"
+        },
+        {
+            "_id": "6b405293349149d4a208b4a5",
+            "_tpl": "04BD4BBA27BA27DB00000000",
+            "slotId": "mod_barrel",
+            "parentId": "0141e2fe4dad43afae4b01ab"
+        },
+        {
+            "_id": "0bc54d0c108e4928ab817b56",
+            "_tpl": "043143BA27BA274310000000",
+            "slotId": "mod_stock",
+            "parentId": "0141e2fe4dad43afae4b01ab"
+        },
+        {
+            "_id": "95d08446f5784ad4817c5364",
+            "_tpl": "045445BA27BA274540000000",
+            "slotId": "mod_pistol_grip",
+            "parentId": "0141e2fe4dad43afae4b01ab"
+        },
+        {
+            "_id": "4116cd66e0164158b00ca7a8",
+            "_tpl": "04E14EBA27BA274E10000000",
+            "parentId": "6b405293349149d4a208b4a5",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "43546c630d0c4ce58f9f4923",
+            "_tpl": "558022b54bdc2dac148b458d",
+            "parentId": "0141e2fe4dad43afae4b01ab",
+            "slotId": "mod_scope"
+        },
+        {
+            "_id": "943cf06634eb4ece9751775d",
+            "_tpl": "59f8a37386f7747af3328f06",
+            "parentId": "0141e2fe4dad43afae4b01ab",
+            "slotId": "mod_foregrip"
+        },
+        {
+            "_id": "d6c40094fcad4ad2b737e714",
+            "_tpl": "56def37dd2720bec348b456a",
+            "parentId": "0141e2fe4dad43afae4b01ab",
+            "slotId": "mod_tactical_002",
+            "upd": {
+                "Light": {
+                    "IsActive": true,
+                    "SelectedMode": 0
+                }
+            }
+        }
+    ],
+    "Parent": "5447b5f14bdc2d61278b4567",
+    "PrimaryAmmoTpl": "5cc80f38e4a949001152b560",
+    "SpareAmmoTpl": "5cc80f38e4a949001152b560",
+    "Factions": [
+        "usec"
+    ]
+}

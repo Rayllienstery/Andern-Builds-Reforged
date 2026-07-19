@@ -1,0 +1,105 @@
+{
+    "Id": "1c513511fe1a4b779da2f2ed",
+    "Name": "CZ Scorpion T4 3",
+    "Root": "1d3875b581454b4792de1791",
+    "Items": [
+        {
+            "_id": "1d3875b581454b4792de1791",
+            "_tpl": "687afda52dc9fd6c0e14c602",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "single"
+                }
+            }
+        },
+        {
+            "_id": "138a3232ac4043f5868e6bec",
+            "_tpl": "6881c0fa3be04213015b7e34",
+            "slotId": "mod_magazine",
+            "parentId": "1d3875b581454b4792de1791"
+        },
+        {
+            "_id": "3a4cce4b3e1d4ea2a61258f2",
+            "_tpl": "6881bc7a6b3db974a22e848d",
+            "slotId": "mod_barrel",
+            "parentId": "1d3875b581454b4792de1791"
+        },
+        {
+            "_id": "c77acca3193c4c2c9ff9deec",
+            "_tpl": "6881bc5b5211d1361dea6586",
+            "slotId": "mod_stock",
+            "parentId": "1d3875b581454b4792de1791"
+        },
+        {
+            "_id": "8633c9f1add7404c8bc70482",
+            "_tpl": "687b00468b4fafd5ebb3a763",
+            "slotId": "mod_charge",
+            "parentId": "1d3875b581454b4792de1791"
+        },
+        {
+            "_id": "e2f735c1cfff4404a9c03747",
+            "_tpl": "687b001103b1d64f98f261e7",
+            "slotId": "mod_pistol_grip",
+            "parentId": "1d3875b581454b4792de1791"
+        },
+        {
+            "_id": "2edabac0f1a74896b4507a88",
+            "_tpl": "687fb676e4996d45517fe236",
+            "slotId": "mod_tactical_004",
+            "parentId": "0ff57235d64c45c1bac742ab"
+        },
+        {
+            "_id": "0ff57235d64c45c1bac742ab",
+            "_tpl": "68827b0e8586d3f82920066a",
+            "slotId": "mod_handguard",
+            "parentId": "1d3875b581454b4792de1791"
+        },
+        {
+            "_id": "d5cf3912997b4d25aef73742",
+            "_tpl": "687fb5224b7bf5a5702898ee",
+            "slotId": "mod_sight_rear",
+            "parentId": "1d3875b581454b4792de1791"
+        },
+        {
+            "_id": "328cf2d237c94f49bad5a5a8",
+            "_tpl": "687fb51f2756d21d3145a094",
+            "slotId": "mod_sight_front",
+            "parentId": "0ff57235d64c45c1bac742ab"
+        },
+        {
+            "_id": "7b584a8c1b22482a998be055",
+            "_tpl": "558022b54bdc2dac148b458d",
+            "parentId": "1d3875b581454b4792de1791",
+            "slotId": "mod_scope"
+        },
+        {
+            "_id": "81564c16a12a4843bfc41ff8",
+            "_tpl": "5c1cd46f2e22164bef5cfedb",
+            "parentId": "0ff57235d64c45c1bac742ab",
+            "slotId": "mod_foregrip"
+        },
+        {
+            "_id": "40b7868d71ed455c85e69dbb",
+            "_tpl": "56def37dd2720bec348b456a",
+            "parentId": "0ff57235d64c45c1bac742ab",
+            "slotId": "mod_tactical_000"
+        },
+        {
+            "_id": "0785c3b8c57f4197bb4eecef",
+            "_tpl": "5c6165902e22160010261b28",
+            "parentId": "3a4cce4b3e1d4ea2a61258f2",
+            "slotId": "mod_muzzle"
+        }
+    ],
+    "Parent": "5447b5e04bdc2d62278b4567",
+    "Factions": [
+        "usec"
+    ]
+}

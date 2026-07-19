@@ -1,0 +1,97 @@
+{
+    "Id": "41fbe2293e454ab18bf0aaa4",
+    "Name": "X95 T4 3",
+    "Root": "25755f00063349ab90c431a9",
+    "Items": [
+        {
+            "_id": "25755f00063349ab90c431a9",
+            "_tpl": "66a47e98c486ec9d1af3a4da",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "single"
+                }
+            }
+        },
+        {
+            "_id": "040c417926554aed93ef7cec",
+            "_tpl": "55802d5f4bdc2dac148b458e",
+            "slotId": "mod_magazine",
+            "parentId": "25755f00063349ab90c431a9"
+        },
+        {
+            "_id": "0d57297cbd8542af95861e0e",
+            "_tpl": "56def37dd2720bec348b456a",
+            "slotId": "mod_tactical_000",
+            "parentId": "25755f00063349ab90c431a9"
+        },
+        {
+            "_id": "7a83436958504a4692291b77",
+            "_tpl": "67f2ddcd74c13fb90c2d7f1b",
+            "slotId": "mod_tactical_001",
+            "parentId": "25755f00063349ab90c431a9"
+        },
+        {
+            "_id": "17115f3842a1493085b690a9",
+            "_tpl": "5c1cd46f2e22164bef5cfedb",
+            "slotId": "mod_foregrip",
+            "parentId": "25755f00063349ab90c431a9"
+        },
+        {
+            "_id": "1eb42b8fef46416794e30076",
+            "_tpl": "66a47ed3f97061a20b99f188",
+            "slotId": "mod_sight_rear",
+            "parentId": "25755f00063349ab90c431a9",
+            "upd": {
+                "Sight": {
+                    "ScopesCurrentCalibPointIndexes": [
+                        0
+                    ],
+                    "ScopesSelectedModes": [
+                        0
+                    ],
+                    "SelectedScope": 0
+                }
+            }
+        },
+        {
+            "_id": "7a18b40167074a5c8e540c42",
+            "_tpl": "66a47ed0df2ffbca58ebe5ed",
+            "slotId": "mod_sight_front",
+            "parentId": "25755f00063349ab90c431a9",
+            "upd": {
+                "Sight": {
+                    "ScopesCurrentCalibPointIndexes": [
+                        0
+                    ],
+                    "ScopesSelectedModes": [
+                        0
+                    ],
+                    "SelectedScope": 0
+                }
+            }
+        },
+        {
+            "_id": "b655c8b310e6458681873edf",
+            "_tpl": "558022b54bdc2dac148b458d",
+            "parentId": "25755f00063349ab90c431a9",
+            "slotId": "mod_scope"
+        },
+        {
+            "_id": "6d6f79cbe0ff48bcb0d9675f",
+            "_tpl": "676b52d48148b7479845358a",
+            "parentId": "25755f00063349ab90c431a9",
+            "slotId": "mod_muzzle"
+        }
+    ],
+    "Parent": "5447b5f14bdc2d61278b4567",
+    "Factions": [
+        "usec"
+    ]
+}

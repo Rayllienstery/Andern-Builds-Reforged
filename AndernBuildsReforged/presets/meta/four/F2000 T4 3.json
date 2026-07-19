@@ -1,0 +1,123 @@
+{
+    "Id": "aa34d0740a52446e9356f536",
+    "Name": "F2000 T4 3",
+    "Root": "ce4c824ae5cf44299723ccc5",
+    "Items": [
+        {
+            "_id": "ce4c824ae5cf44299723ccc5",
+            "_tpl": "6962f22fddc6698c6309b620",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "single"
+                }
+            }
+        },
+        {
+            "_id": "27daabe1f55848fe9ce53875",
+            "_tpl": "55d4887d4bdc2d962f8b4570",
+            "slotId": "mod_magazine",
+            "parentId": "ce4c824ae5cf44299723ccc5"
+        },
+        {
+            "_id": "22905f557b1c461182ec5bfe",
+            "_tpl": "696801005966cfdf3708c742",
+            "slotId": "mod_reciever",
+            "parentId": "ce4c824ae5cf44299723ccc5"
+        },
+        {
+            "_id": "b84913c52e16413f9e3e154e",
+            "_tpl": "696801b85966cfdf3708c744",
+            "slotId": "mod_handguard",
+            "parentId": "ce4c824ae5cf44299723ccc5"
+        },
+        {
+            "_id": "50de327303844184b64085c9",
+            "_tpl": "696801b85966cfdf3708c746",
+            "slotId": "mod_sight_rear",
+            "parentId": "ce4c824ae5cf44299723ccc5",
+            "upd": {
+                "Sight": {
+                    "ScopesCurrentCalibPointIndexes": [
+                        0
+                    ],
+                    "ScopesSelectedModes": [
+                        0
+                    ],
+                    "SelectedScope": 0,
+                    "ScopeZoomValue": 0
+                }
+            }
+        },
+        {
+            "_id": "42886430443c4d8c95ed3ec1",
+            "_tpl": "69680a1b5966cfdf3708c754",
+            "slotId": "mod_barrel",
+            "parentId": "22905f557b1c461182ec5bfe"
+        },
+        {
+            "_id": "bf6942b5d67a4ca4b9d31fce",
+            "_tpl": "696801005966cfdf3708c740",
+            "slotId": "mod_mount",
+            "parentId": "22905f557b1c461182ec5bfe"
+        },
+        {
+            "_id": "8e075ade944c4285b2bba611",
+            "_tpl": "6386120cd6baa055ad1e201c",
+            "slotId": "mod_muzzle",
+            "parentId": "42886430443c4d8c95ed3ec1"
+        },
+        {
+            "_id": "acc78fdff91c47939a20f592",
+            "_tpl": "6968029b5966cfdf3708c748",
+            "slotId": "mod_sight_front",
+            "parentId": "bf6942b5d67a4ca4b9d31fce",
+            "upd": {
+                "Sight": {
+                    "ScopesCurrentCalibPointIndexes": [
+                        0
+                    ],
+                    "ScopesSelectedModes": [
+                        0
+                    ],
+                    "SelectedScope": 0,
+                    "ScopeZoomValue": 0
+                }
+            }
+        },
+        {
+            "_id": "022acb6eeb7b499da2347285",
+            "_tpl": "558022b54bdc2dac148b458d",
+            "parentId": "bf6942b5d67a4ca4b9d31fce",
+            "slotId": "mod_scope"
+        },
+        {
+            "_id": "0df406cde8d74323ac95ec2c",
+            "_tpl": "5c1cd46f2e22164bef5cfedb",
+            "parentId": "b84913c52e16413f9e3e154e",
+            "slotId": "mod_foregrip"
+        },
+        {
+            "_id": "df970d5ba820449ab7905508",
+            "_tpl": "56def37dd2720bec348b456a",
+            "parentId": "b84913c52e16413f9e3e154e",
+            "slotId": "mod_tactical_000"
+        },
+        {
+            "_id": "4c57cc1e46ab4c4cbc85faec",
+            "_tpl": "638612b607dfed1ccb7206ba",
+            "parentId": "8e075ade944c4285b2bba611",
+            "slotId": "mod_muzzle"
+        }
+    ],
+    "Parent": "5447b5f14bdc2d61278b4567",
+    "Factions": [
+        "usec"
+    ]
+}

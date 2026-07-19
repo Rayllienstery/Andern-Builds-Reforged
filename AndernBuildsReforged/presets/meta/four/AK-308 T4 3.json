@@ -1,0 +1,123 @@
+{
+    "Id": "f0cda2b5d431422184aabc28",
+    "Name": "AK-308 T4 3",
+    "Root": "41d60cd5607a47b895552626",
+    "Items": [
+        {
+            "_id": "41d60cd5607a47b895552626",
+            "_tpl": "689166b6c2d6fa42e7044756",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "single"
+                }
+            }
+        },
+        {
+            "_id": "6168d9ae917844228f212587",
+            "_tpl": "649ec107961514b22506b10c",
+            "slotId": "mod_gas_block",
+            "parentId": "41d60cd5607a47b895552626"
+        },
+        {
+            "_id": "3584a6df52b1483caf79af17",
+            "_tpl": "689167d79f03ec70cb0ea066",
+            "slotId": "mod_muzzle",
+            "parentId": "41d60cd5607a47b895552626"
+        },
+        {
+            "_id": "fb3c1d3c212847c0aee689a4",
+            "_tpl": "5beec8ea0db834001a6f9dbf",
+            "slotId": "mod_pistol_grip",
+            "parentId": "41d60cd5607a47b895552626"
+        },
+        {
+            "_id": "60e9434ee82b440797476958",
+            "_tpl": "689167248f19dbc8190728ed",
+            "slotId": "mod_reciever",
+            "parentId": "41d60cd5607a47b895552626"
+        },
+        {
+            "_id": "d519b0a2c714477d89307044",
+            "_tpl": "68916765fa628c6b9f0ed6f6",
+            "slotId": "mod_sight_rear",
+            "parentId": "60e9434ee82b440797476958"
+        },
+        {
+            "_id": "1989245b756440f2867eafd0",
+            "_tpl": "649ec2cec93611967b03495e",
+            "slotId": "mod_sight_rear",
+            "parentId": "d519b0a2c714477d89307044"
+        },
+        {
+            "_id": "81244c5ecd2f4877a9f22d2f",
+            "_tpl": "649ec87d8007560a9001ab36",
+            "slotId": "mod_stock_001",
+            "parentId": "41d60cd5607a47b895552626"
+        },
+        {
+            "_id": "0695c209ebc54304a08ff6d3",
+            "_tpl": "5beec8c20db834001d2c465c",
+            "slotId": "mod_stock",
+            "parentId": "81244c5ecd2f4877a9f22d2f"
+        },
+        {
+            "_id": "1518a3e1df1045b48dbc2f5e",
+            "_tpl": "68916701bd91cc17c109c758",
+            "slotId": "mod_magazine",
+            "parentId": "41d60cd5607a47b895552626"
+        },
+        {
+            "_id": "b0a482d07a884b42b57bbd58",
+            "_tpl": "689166debd91cc17c109c753",
+            "slotId": "mod_handguard",
+            "parentId": "41d60cd5607a47b895552626"
+        },
+        {
+            "_id": "16af24deb3d4481f973fdf2f",
+            "_tpl": "5beecbb80db834001d2c465e",
+            "slotId": "mod_mount_001",
+            "parentId": "b0a482d07a884b42b57bbd58"
+        },
+        {
+            "_id": "d570acf4e54946b796863820",
+            "_tpl": "5c1cd46f2e22164bef5cfedb",
+            "parentId": "b0a482d07a884b42b57bbd58",
+            "slotId": "mod_foregrip"
+        },
+        {
+            "_id": "37466440b4834117ab1020a3",
+            "_tpl": "56def37dd2720bec348b456a",
+            "parentId": "b0a482d07a884b42b57bbd58",
+            "slotId": "mod_tactical"
+        },
+        {
+            "_id": "b49f1fa9497b4a0bb448b259",
+            "_tpl": "56def37dd2720bec348b456a",
+            "parentId": "b0a482d07a884b42b57bbd58",
+            "slotId": "mod_tactical"
+        },
+        {
+            "_id": "6014897ba2f448da9388d387",
+            "_tpl": "5a37ca54c4a282000d72296a",
+            "parentId": "60e9434ee82b440797476958",
+            "slotId": "mod_scope"
+        },
+        {
+            "_id": "db58d180955d47fa9d8447bd",
+            "_tpl": "544a3f024bdc2d1d388b4568",
+            "parentId": "6014897ba2f448da9388d387",
+            "slotId": "mod_scope_000"
+        }
+    ],
+    "Parent": "5447b6194bdc2d67278b4567",
+    "Factions": [
+        "bear"
+    ]
+}

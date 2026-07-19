@@ -1,0 +1,101 @@
+{
+    "Id": "bfe4d72abc474edd84c900c7",
+    "Name": "AK-107 T4 3",
+    "Root": "5fd421c32f974293a2e612a1",
+    "Items": [
+        {
+            "_id": "5fd421c32f974293a2e612a1",
+            "_tpl": "695ab544a219218449041700",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "single"
+                }
+            }
+        },
+        {
+            "_id": "d85d3d5e39684c18831dc77e",
+            "_tpl": "6087e663132d4d12c81fd96b",
+            "slotId": "mod_pistol_grip",
+            "parentId": "5fd421c32f974293a2e612a1"
+        },
+        {
+            "_id": "ac1183f540994bc7a1f91671",
+            "_tpl": "5ac78eaf5acfc4001926317a",
+            "slotId": "mod_stock",
+            "parentId": "5fd421c32f974293a2e612a1"
+        },
+        {
+            "_id": "f54b5b34abab40b6a20d37cb",
+            "_tpl": "55d482194bdc2d1d4e8b456b",
+            "slotId": "mod_magazine",
+            "parentId": "5fd421c32f974293a2e612a1"
+        },
+        {
+            "_id": "5bf1c19123ee4af2befc1a12",
+            "_tpl": "5648ac824bdc2ded0b8b457d",
+            "parentId": "5fd421c32f974293a2e612a1",
+            "slotId": "mod_charge"
+        },
+        {
+            "_id": "e095445ca49344fab9a84a34",
+            "_tpl": "5648b4534bdc2d3d1c8b4580",
+            "parentId": "5fd421c32f974293a2e612a1",
+            "slotId": "mod_handguard"
+        },
+        {
+            "_id": "bea9185154474d17819af412",
+            "_tpl": "59ecc3dd86f7746dc827481c",
+            "parentId": "ac1183f540994bc7a1f91671",
+            "slotId": "mod_stock"
+        },
+        {
+            "_id": "c9c596e19e8c4de881e8c383",
+            "_tpl": "615d8f5dd92c473c770212ef",
+            "parentId": "5fd421c32f974293a2e612a1",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "1f039711dffb4827b863c7b7",
+            "_tpl": "615d8f8567085e45ef1409ca",
+            "parentId": "c9c596e19e8c4de881e8c383",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "6b25c27df05144aeb3157145",
+            "_tpl": "5c1cd46f2e22164bef5cfedb",
+            "parentId": "e095445ca49344fab9a84a34",
+            "slotId": "mod_foregrip"
+        },
+        {
+            "_id": "7c7dc6acf62d469cab09dc05",
+            "_tpl": "56def37dd2720bec348b456a",
+            "parentId": "e095445ca49344fab9a84a34",
+            "slotId": "mod_tactical_002",
+            "upd": {
+                "Light": {
+                    "IsActive": true,
+                    "SelectedMode": 0
+                }
+            }
+        },
+        {
+            "_id": "8e2d70e8b2a24963a1326ffb",
+            "_tpl": "58491f3324597764bc48fa02",
+            "parentId": "e095445ca49344fab9a84a34",
+            "slotId": "mod_scope"
+        }
+    ],
+    "Parent": "5447b5f14bdc2d61278b4567",
+    "PrimaryAmmoTpl": "61962b617c6c7b169525f168",
+    "SpareAmmoTpl": "56dff026d2720bb8668b4567",
+    "Factions": [
+        "bear"
+    ]
+}

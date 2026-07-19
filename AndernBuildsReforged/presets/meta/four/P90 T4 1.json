@@ -1,0 +1,105 @@
+{
+    "Id": "511357a7ded94f1e99deacaa",
+    "Name": "P90 T4 1",
+    "Root": "e3fad64683324dd7b55ba40e",
+    "Items": [
+        {
+            "_id": "e3fad64683324dd7b55ba40e",
+            "_tpl": "5cc82d76e24e8d00134b4b83",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "single"
+                }
+            }
+        },
+        {
+            "_id": "5702bf3f1a9f4245b844d6fb",
+            "_tpl": "5cc70093e4a949033c734312",
+            "slotId": "mod_magazine",
+            "parentId": "e3fad64683324dd7b55ba40e"
+        },
+        {
+            "_id": "d806e736b0874b2b97d169f7",
+            "_tpl": "5cebec10d7f00c065703d185",
+            "slotId": "mod_stock",
+            "parentId": "e3fad64683324dd7b55ba40e"
+        },
+        {
+            "_id": "d4fbba6cebf84b48a682391c",
+            "_tpl": "5cc700cae4a949035e43ba72",
+            "slotId": "mod_stock_000",
+            "parentId": "d806e736b0874b2b97d169f7"
+        },
+        {
+            "_id": "aacb1156841a4a06bf7d088b",
+            "_tpl": "5cc70102e4a949035e43ba74",
+            "slotId": "mod_reciever",
+            "parentId": "e3fad64683324dd7b55ba40e"
+        },
+        {
+            "_id": "2629a472898b45ebba62d250",
+            "_tpl": "5cc7015ae4a949001152b4c6",
+            "slotId": "mod_mount_000",
+            "parentId": "aacb1156841a4a06bf7d088b"
+        },
+        {
+            "_id": "7912492992bb43c7b5d637b0",
+            "_tpl": "59f9d81586f7744c7506ee62",
+            "slotId": "mod_scope",
+            "parentId": "2629a472898b45ebba62d250"
+        },
+        {
+            "_id": "b480a285ad424ce9985b9a26",
+            "_tpl": "5cc70146e4a949000d73bf6b",
+            "slotId": "mod_mount_001",
+            "parentId": "aacb1156841a4a06bf7d088b"
+        },
+        {
+            "_id": "932d7b14aa0e4f4e8c809bc5",
+            "_tpl": "5cc70146e4a949000d73bf6b",
+            "slotId": "mod_mount_002",
+            "parentId": "aacb1156841a4a06bf7d088b"
+        },
+        {
+            "_id": "f8cb69fed8a74f6eaece3279",
+            "_tpl": "5cc701aae4a949000e1ea45c",
+            "slotId": "mod_barrel",
+            "parentId": "e3fad64683324dd7b55ba40e"
+        },
+        {
+            "_id": "e859bb18eccf4ffeb53a9f7a",
+            "_tpl": "5cc82796e24e8d000f5859a8",
+            "slotId": "mod_muzzle",
+            "parentId": "f8cb69fed8a74f6eaece3279"
+        },
+        {
+            "_id": "1b1e971489d648d392d805b3",
+            "_tpl": "5cebec00d7f00c065c53522a",
+            "slotId": "mod_muzzle",
+            "parentId": "e859bb18eccf4ffeb53a9f7a"
+        },
+        {
+            "_id": "067b3b3f01da49db84b4df1e",
+            "_tpl": "5cc6ea78e4a949000e1ea3c1",
+            "slotId": "mod_charge",
+            "parentId": "e3fad64683324dd7b55ba40e"
+        },
+        {
+            "_id": "69001ad1be3845bbb2c68519",
+            "_tpl": "5b057b4f5acfc4771e1bd3e9",
+            "parentId": "2629a472898b45ebba62d250",
+            "slotId": "mod_foregrip"
+        }
+    ],
+    "Parent": "5447b5e04bdc2d62278b4567",
+    "Factions": [
+        "usec"
+    ]
+}
