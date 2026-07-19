@@ -40,6 +40,18 @@ git merge upstream/main
 
 ## Planned
 
-- Location / MapTags filtering in `WeaponGenerator`
+- Location / MapTags filtering in `WeaponGenerator` — **done** (`Locations` allow-list on presets)
 - Retarget Raylee AndernPmcPatch to this assembly
 - Cut over from live `BarlogM-Andern`
+
+## Preset `Locations` field
+
+Allow-list of SPT map IDs on each weapon JSON. Missing / empty = all maps.
+
+```json
+"Locations": ["woods", "shoreline", "factory4_day"]
+```
+
+Aliases supported by the filter: `factory`, `streets`, `customs`, `reserve`, `groundzero` / `gz`.
+Builder rules seed open-map bolt snipers and CQ `KS-23`; see `apply_locations_metadata` in `build_t4_presets.py`.
+

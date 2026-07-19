@@ -1,10 +1,10 @@
 {
-    "Id": "163b041373fc4d4ca7f830d5",
+    "Id": "c023c5521bda4c8c9759dab3",
     "Name": "SV-98M T4 2",
-    "Root": "0e399f1c27df47528df11f58",
+    "Root": "9a7eb5a8b6e04a5488be793f",
     "Items": [
         {
-            "_id": "0e399f1c27df47528df11f58",
+            "_id": "9a7eb5a8b6e04a5488be793f",
             "_tpl": "69236a0b2d1260dbca41ef92",
             "upd": {
                 "Repairable": {
@@ -20,44 +20,54 @@
             }
         },
         {
-            "_id": "30f6f28b18264d42b6123c04",
+            "_id": "b2545c8af66f4a83bf931c7a",
             "_tpl": "559ba5b34bdc2d1f1a8b4582",
             "slotId": "mod_magazine",
-            "parentId": "0e399f1c27df47528df11f58"
+            "parentId": "9a7eb5a8b6e04a5488be793f"
         },
         {
-            "_id": "8ac401b8e33c46d18b42e687",
+            "_id": "bf0300cdadeb4129bb99c2e8",
             "_tpl": "56ea8222d2720b69698b4567",
             "slotId": "mod_bipod",
-            "parentId": "0e399f1c27df47528df11f58"
+            "parentId": "9a7eb5a8b6e04a5488be793f"
         },
         {
-            "_id": "6b31c59980d54d449147b13c",
+            "_id": "d45ea23f10ef47a082e09cc3",
             "_tpl": "560e620e4bdc2d724b8b456b",
             "slotId": "mod_muzzle",
-            "parentId": "0e399f1c27df47528df11f58"
+            "parentId": "9a7eb5a8b6e04a5488be793f"
         },
         {
-            "_id": "adce7704e9ae4bb3a70c2ec2",
+            "_id": "6e87370815704d1c9e4804f0",
             "_tpl": "56083e1b4bdc2dc8488b4572",
             "slotId": "mod_sight_rear",
-            "parentId": "0e399f1c27df47528df11f58"
+            "parentId": "9a7eb5a8b6e04a5488be793f"
         },
         {
-            "_id": "ad29deb1379349a282b5939d",
+            "_id": "46671e8b844649459dbecdc6",
             "_tpl": "5a1ead28fcdbcb001912fa9f",
-            "parentId": "0e399f1c27df47528df11f58",
+            "parentId": "9a7eb5a8b6e04a5488be793f",
             "slotId": "mod_scope"
         },
         {
-            "_id": "61451e3189d74284805534f6",
+            "_id": "ed0ad5cb8c0b418d9894b03e",
             "_tpl": "5a1eaa87fcdbcb001865f75e",
-            "parentId": "ad29deb1379349a282b5939d",
+            "parentId": "46671e8b844649459dbecdc6",
             "slotId": "mod_scope"
         }
     ],
     "Parent": "5447b6254bdc2dc3278b4568",
     "Factions": [
         "bear"
+    ],
+    "Locations": [
+        "woods",
+        "shoreline",
+        "lighthouse",
+        "bigmap",
+        "rezervbase",
+        "interchange",
+        "sandbox",
+        "sandbox_high"
     ]
 }

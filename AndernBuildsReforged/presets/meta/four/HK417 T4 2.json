@@ -1,10 +1,10 @@
 {
-    "Id": "89ff0d1be5d8487bb03cda99",
+    "Id": "fd0a190a73ec4938a57b9dc1",
     "Name": "HK417 T4 2",
-    "Root": "5773f4c4f1b5420eb6cfaca6",
+    "Root": "6315bb4996ae469e97b4acfb",
     "Items": [
         {
-            "_id": "5773f4c4f1b5420eb6cfaca6",
+            "_id": "6315bb4996ae469e97b4acfb",
             "_tpl": "664a5b945636ce820472f225",
             "upd": {
                 "Repairable": {
@@ -20,52 +20,52 @@
             }
         },
         {
-            "_id": "079a0de0151a4c9f8ac4506b",
+            "_id": "248d71ec09964177934a92c7",
             "_tpl": "59db3a1d86f77429e05b4e92",
             "slotId": "mod_pistol_grip",
-            "parentId": "5773f4c4f1b5420eb6cfaca6"
+            "parentId": "6315bb4996ae469e97b4acfb"
         },
         {
-            "_id": "999f6529ff024791bc502f9b",
+            "_id": "c13da158b36f4590a87a316e",
             "_tpl": "664a5e1de6e9691c9c64f7d3",
             "slotId": "mod_magazine",
-            "parentId": "5773f4c4f1b5420eb6cfaca6"
+            "parentId": "6315bb4996ae469e97b4acfb"
         },
         {
-            "_id": "5b887f488f284690b24a62de",
+            "_id": "3f3a45300b0c4b1fae69062f",
             "_tpl": "664a5ee0831d8e0a1c8db4c2",
             "slotId": "mod_stock",
-            "parentId": "5773f4c4f1b5420eb6cfaca6"
+            "parentId": "6315bb4996ae469e97b4acfb"
         },
         {
-            "_id": "75c7dc49d791437dafa56245",
+            "_id": "fa9442462cb648888f846c46",
             "_tpl": "664a5fdb05fd8090a514f00f",
             "slotId": "mod_reciever",
-            "parentId": "5773f4c4f1b5420eb6cfaca6"
+            "parentId": "6315bb4996ae469e97b4acfb"
         },
         {
-            "_id": "6f48cd5620c541dda5485295",
+            "_id": "511ad584099b48119b9a538c",
             "_tpl": "664a5e58d5d39447e1d0d77d",
             "slotId": "mod_charge",
-            "parentId": "5773f4c4f1b5420eb6cfaca6"
+            "parentId": "6315bb4996ae469e97b4acfb"
         },
         {
-            "_id": "7a322d3bc718484085f9d6f9",
+            "_id": "0cf0235a83304ed8924856b6",
             "_tpl": "61702be9faa1272e431522c3",
             "slotId": "mod_barrel",
-            "parentId": "75c7dc49d791437dafa56245"
+            "parentId": "fa9442462cb648888f846c46"
         },
         {
-            "_id": "244207f9009c4607a7af93d3",
+            "_id": "339dbe4686c34012a6681b90",
             "_tpl": "664a6025593a58418347808f",
             "slotId": "mod_handguard",
-            "parentId": "75c7dc49d791437dafa56245"
+            "parentId": "fa9442462cb648888f846c46"
         },
         {
-            "_id": "06a1f77be0894d8189c32d68",
+            "_id": "97485338a832453887fd5bef",
             "_tpl": "664a5ff61c4610dc01e84917",
             "slotId": "mod_sight_rear",
-            "parentId": "75c7dc49d791437dafa56245",
+            "parentId": "fa9442462cb648888f846c46",
             "upd": {
                 "Sight": {
                     "ScopesCurrentCalibPointIndexes": [
@@ -79,16 +79,16 @@
             }
         },
         {
-            "_id": "2551eae6a69c4ebbb05953d7",
+            "_id": "c0b60c5d88354d8399ab1339",
             "_tpl": "61702f1b67085e45ef140b26",
             "slotId": "mod_gas_block",
-            "parentId": "7a322d3bc718484085f9d6f9"
+            "parentId": "0cf0235a83304ed8924856b6"
         },
         {
-            "_id": "3b511d6eda8f4817ba02b451",
+            "_id": "c85ac16ff7fa43be94d8a083",
             "_tpl": "664a600b58753b43b7fea3af",
             "slotId": "mod_sight_front",
-            "parentId": "244207f9009c4607a7af93d3",
+            "parentId": "339dbe4686c34012a6681b90",
             "upd": {
                 "Sight": {
                     "ScopesCurrentCalibPointIndexes": [
@@ -102,51 +102,51 @@
             }
         },
         {
-            "_id": "cba4274476d64389970a68d1",
+            "_id": "9a42f8ca6469404ba99a04bd",
             "_tpl": "5a37ca54c4a282000d72296a",
-            "parentId": "75c7dc49d791437dafa56245",
+            "parentId": "fa9442462cb648888f846c46",
             "slotId": "mod_scope"
         },
         {
-            "_id": "8da5caaa646c4d028a9dacfc",
+            "_id": "0d9425a1b9aa4ce3b855847e",
             "_tpl": "617151c1d92c473c770214ab",
-            "parentId": "cba4274476d64389970a68d1",
+            "parentId": "9a42f8ca6469404ba99a04bd",
             "slotId": "mod_scope_000"
         },
         {
-            "_id": "4a2833a4c4244681bb74fcf1",
+            "_id": "94b3b2bcbf9c45f0a021d262",
             "_tpl": "5c1cd46f2e22164bef5cfedb",
-            "parentId": "244207f9009c4607a7af93d3",
+            "parentId": "339dbe4686c34012a6681b90",
             "slotId": "mod_foregrip"
         },
         {
-            "_id": "00d900b5028946bc9c00f44d",
+            "_id": "e2105782d95f42e3961e6da3",
             "_tpl": "6272370ee4013c5d7e31f418",
-            "parentId": "244207f9009c4607a7af93d3",
+            "parentId": "339dbe4686c34012a6681b90",
             "slotId": "mod_tactical_000"
         },
         {
-            "_id": "1c2de762e3374c14b4e0ff97",
+            "_id": "903f9feba2b0452f9b13728e",
             "_tpl": "617155ee50224f204c1da3cd",
-            "parentId": "5b887f488f284690b24a62de",
+            "parentId": "3f3a45300b0c4b1fae69062f",
             "slotId": "mod_stock_000"
         },
         {
-            "_id": "c28ba9e0103d43c1bf041579",
+            "_id": "82b46a44f25448f58b2a0b6b",
             "_tpl": "61715e7e67085e45ef140b33",
-            "parentId": "1c2de762e3374c14b4e0ff97",
+            "parentId": "903f9feba2b0452f9b13728e",
             "slotId": "mod_stock_000"
         },
         {
-            "_id": "45f98f378bad45b5bba9d173",
+            "_id": "163ad491c0cc41628d3982d1",
             "_tpl": "5a34fd2bc4a282329a73b4c5",
-            "parentId": "7a322d3bc718484085f9d6f9",
+            "parentId": "0cf0235a83304ed8924856b6",
             "slotId": "mod_muzzle"
         },
         {
-            "_id": "3f2c212951d5407289e5e6fc",
+            "_id": "014afe3dbc2c4b40ad104d1d",
             "_tpl": "5a34fe59c4a282000b1521a2",
-            "parentId": "45f98f378bad45b5bba9d173",
+            "parentId": "163ad491c0cc41628d3982d1",
             "slotId": "mod_muzzle"
         }
     ],

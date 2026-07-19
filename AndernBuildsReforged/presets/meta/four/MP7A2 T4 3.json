@@ -1,10 +1,10 @@
 {
-    "Id": "e9bd445d28694d44b47216ac",
+    "Id": "7cc28c96e7884536b436488c",
     "Name": "MP7A2 T4 3",
-    "Root": "bfee97a56ba748058efa4882",
+    "Root": "95ba8bcad087472a81381062",
     "Items": [
         {
-            "_id": "bfee97a56ba748058efa4882",
+            "_id": "95ba8bcad087472a81381062",
             "_tpl": "5bd70322209c4d00d7167b8f",
             "upd": {
                 "Repairable": {
@@ -20,57 +20,57 @@
             }
         },
         {
-            "_id": "a9fa2affe0b0455abb8c15fc",
+            "_id": "284826d8ca5c42498cfc8629",
             "_tpl": "5ba26586d4351e44f824b340",
             "slotId": "mod_magazine",
-            "parentId": "bfee97a56ba748058efa4882"
+            "parentId": "95ba8bcad087472a81381062"
         },
         {
-            "_id": "cb6d91b7d6434682b75f8017",
+            "_id": "90ab647228784b06a836fb48",
             "_tpl": "5ba26b01d4351e0085325a51",
             "slotId": "mod_sight_front",
-            "parentId": "bfee97a56ba748058efa4882"
+            "parentId": "95ba8bcad087472a81381062"
         },
         {
-            "_id": "3e3ad710dea54ab78104a30f",
+            "_id": "db57d0740d9242aa85ed6eba",
             "_tpl": "5ba26b17d4351e00367f9bdd",
             "slotId": "mod_sight_rear",
-            "parentId": "bfee97a56ba748058efa4882"
+            "parentId": "95ba8bcad087472a81381062"
         },
         {
-            "_id": "5a6a835ff04f416289f89138",
+            "_id": "4d413702a2994d9c975a5333",
             "_tpl": "5bd704e7209c4d00d7167c31",
             "slotId": "mod_stock",
-            "parentId": "bfee97a56ba748058efa4882"
+            "parentId": "95ba8bcad087472a81381062"
         },
         {
-            "_id": "b548ee0eb0d2484582d198d2",
+            "_id": "69ed745f74b740b2b9c2da0a",
             "_tpl": "558022b54bdc2dac148b458d",
-            "parentId": "bfee97a56ba748058efa4882",
+            "parentId": "95ba8bcad087472a81381062",
             "slotId": "mod_scope"
         },
         {
-            "_id": "12b87e8bf88a492799847c64",
+            "_id": "c987a16fba0d44ec84a0f08e",
             "_tpl": "5c1cd46f2e22164bef5cfedb",
-            "parentId": "bfee97a56ba748058efa4882",
+            "parentId": "95ba8bcad087472a81381062",
             "slotId": "mod_foregrip"
         },
         {
-            "_id": "30240db7760c4aa78f214fa9",
+            "_id": "ee13efd7f7d242f0934f0400",
             "_tpl": "5ba26acdd4351e003562908e",
-            "parentId": "bfee97a56ba748058efa4882",
+            "parentId": "95ba8bcad087472a81381062",
             "slotId": "mod_muzzle"
         },
         {
-            "_id": "d374b4017df840e199be2e47",
+            "_id": "e275e9f5bff04e1a86ed9d25",
             "_tpl": "5ba26ae8d4351e00367f9bdb",
-            "parentId": "30240db7760c4aa78f214fa9",
+            "parentId": "ee13efd7f7d242f0934f0400",
             "slotId": "mod_muzzle"
         },
         {
-            "_id": "08734263787e4e03ac9e6dde",
+            "_id": "4a66207a5fbf466fac77ad4f",
             "_tpl": "56def37dd2720bec348b456a",
-            "parentId": "bfee97a56ba748058efa4882",
+            "parentId": "95ba8bcad087472a81381062",
             "slotId": "mod_tactical_001"
         }
     ],

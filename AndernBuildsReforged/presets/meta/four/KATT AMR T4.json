@@ -1,10 +1,10 @@
 {
-    "Id": "6cac29d1deaa46b2ac2dd761",
+    "Id": "ff31a1ea25314c9c9755dcd6",
     "Name": "KATT AMR T4",
-    "Root": "4bda5c83c71140619ea266c9",
+    "Root": "e58288cebeb0402cbc1ad7b7",
     "Items": [
         {
-            "_id": "4bda5c83c71140619ea266c9",
+            "_id": "e58288cebeb0402cbc1ad7b7",
             "_tpl": "020020AB50AB500000000000",
             "upd": {
                 "Repairable": {
@@ -17,57 +17,57 @@
             }
         },
         {
-            "_id": "6fbf9ea3c0934a2d82a069b5",
+            "_id": "88903784ccfc45a18dd23e7e",
             "_tpl": "02F52FAB50AB502F50000000",
-            "parentId": "4bda5c83c71140619ea266c9",
+            "parentId": "e58288cebeb0402cbc1ad7b7",
             "slotId": "mod_magazine"
         },
         {
-            "_id": "1689c15abaae4380a6e4e634",
+            "_id": "8872d55824e54032a2269331",
             "_tpl": "04BA4BAB50AB50AB00000000",
-            "parentId": "4bda5c83c71140619ea266c9",
+            "parentId": "e58288cebeb0402cbc1ad7b7",
             "slotId": "mod_barrel"
         },
         {
-            "_id": "84908969d3e646e98d550af6",
+            "_id": "8950e88b5fa54ca294e77614",
             "_tpl": "04E04EAB50AB504E00000000",
-            "parentId": "1689c15abaae4380a6e4e634",
+            "parentId": "8872d55824e54032a2269331",
             "slotId": "mod_muzzle"
         },
         {
-            "_id": "f1d9f0b21178480497d308d6",
+            "_id": "9c996a0ced7b4447a1a4c6af",
             "_tpl": "043043AB50AB504300000000",
-            "parentId": "4bda5c83c71140619ea266c9",
+            "parentId": "e58288cebeb0402cbc1ad7b7",
             "slotId": "mod_stock"
         },
         {
-            "_id": "9a2a748d31264a1589a3f9f4",
+            "_id": "cec87c7938b24f828883b177",
             "_tpl": "045045AB50AB504500000000",
-            "parentId": "4bda5c83c71140619ea266c9",
+            "parentId": "e58288cebeb0402cbc1ad7b7",
             "slotId": "mod_pistol_grip"
         },
         {
-            "_id": "a268028e1b63451b9fdfa235",
+            "_id": "f08436981db1480eaac1d0ee",
             "_tpl": "04C04CAB50AB504C00000000",
-            "parentId": "4bda5c83c71140619ea266c9",
+            "parentId": "e58288cebeb0402cbc1ad7b7",
             "slotId": "mod_charge"
         },
         {
-            "_id": "7f60f950f24543299595741a",
+            "_id": "a9767f47f0584947b883cfb3",
             "_tpl": "046046AB50AB504600000000",
-            "parentId": "4bda5c83c71140619ea266c9",
+            "parentId": "e58288cebeb0402cbc1ad7b7",
             "slotId": "mod_mount"
         },
         {
-            "_id": "e5bbd350e1614c6f96b82309",
+            "_id": "8b15b51777f44fe1a0d689bb",
             "_tpl": "5a1ead28fcdbcb001912fa9f",
-            "parentId": "1689c15abaae4380a6e4e634",
+            "parentId": "8872d55824e54032a2269331",
             "slotId": "mod_scope"
         },
         {
-            "_id": "aea53a9e00794edc87a414c0",
+            "_id": "deaa78501343478185e7ac3e",
             "_tpl": "5a1eaa87fcdbcb001865f75e",
-            "parentId": "e5bbd350e1614c6f96b82309",
+            "parentId": "8b15b51777f44fe1a0d689bb",
             "slotId": "mod_scope",
             "upd": {
                 "Sight": {
@@ -89,5 +89,15 @@
     "SpareAmmoTpl": "67dc255ee3028a8b120efc48",
     "Factions": [
         "usec"
+    ],
+    "Locations": [
+        "woods",
+        "shoreline",
+        "lighthouse",
+        "bigmap",
+        "rezervbase",
+        "interchange",
+        "sandbox",
+        "sandbox_high"
     ]
 }

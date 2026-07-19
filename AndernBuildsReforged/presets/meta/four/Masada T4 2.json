@@ -1,10 +1,10 @@
 {
-    "Id": "2b4333ebe69545e8a8c69da7",
+    "Id": "74c192492d5e41b79b0264cb",
     "Name": "Masada T4 2",
-    "Root": "3ae99d1246fc4f2ea3ae0bf7",
+    "Root": "4fb17dfe1ac34bed88627f7f",
     "Items": [
         {
-            "_id": "3ae99d1246fc4f2ea3ae0bf7",
+            "_id": "4fb17dfe1ac34bed88627f7f",
             "_tpl": "69066bef905ee9e06c462009",
             "upd": {
                 "Repairable": {
@@ -20,75 +20,75 @@
             }
         },
         {
-            "_id": "a629970859434ef9b8909619",
+            "_id": "ae2c7194525a4b8d89b8865d",
             "_tpl": "55802d5f4bdc2dac148b458e",
             "slotId": "mod_magazine",
-            "parentId": "3ae99d1246fc4f2ea3ae0bf7"
+            "parentId": "4fb17dfe1ac34bed88627f7f"
         },
         {
-            "_id": "e0946099834c41fc89ee53af",
+            "_id": "019a802ef9eb47d3b38d9d8d",
             "_tpl": "69066cdb8f5104ba9d130c5f",
             "slotId": "mod_barrel",
-            "parentId": "3ae99d1246fc4f2ea3ae0bf7"
+            "parentId": "4fb17dfe1ac34bed88627f7f"
         },
         {
-            "_id": "079cacc76a3f4fd58404e786",
+            "_id": "d51bd649dc8248ad944a5a01",
             "_tpl": "69066d06894f333007e620b5",
             "slotId": "mod_stock",
-            "parentId": "3ae99d1246fc4f2ea3ae0bf7"
+            "parentId": "4fb17dfe1ac34bed88627f7f"
         },
         {
-            "_id": "c22a6f1436b94c8e9be41902",
+            "_id": "1de55fcbb35143e7a22a230c",
             "_tpl": "6386120cd6baa055ad1e201c",
             "slotId": "mod_muzzle",
-            "parentId": "e0946099834c41fc89ee53af"
+            "parentId": "019a802ef9eb47d3b38d9d8d"
         },
         {
-            "_id": "7b67f4ab65f24e31a80f7492",
+            "_id": "570f8700f0324fc0ad5e9c1d",
             "_tpl": "69066d9a1072a5b68f32ca8e",
             "slotId": "mod_handguard",
-            "parentId": "3ae99d1246fc4f2ea3ae0bf7"
+            "parentId": "4fb17dfe1ac34bed88627f7f"
         },
         {
-            "_id": "96fdcaf581e24f5c8c64a57e",
+            "_id": "21a05e0a5b7449159950def7",
             "_tpl": "69101c13a363be1fac6e260e",
             "slotId": "mod_reciever",
-            "parentId": "3ae99d1246fc4f2ea3ae0bf7"
+            "parentId": "4fb17dfe1ac34bed88627f7f"
         },
         {
-            "_id": "155f399365ff470888091b74",
+            "_id": "ce7f707916994afea4953b2d",
             "_tpl": "691226c24afdbfd9b59f5092",
             "slotId": "mod_sight_rear",
-            "parentId": "96fdcaf581e24f5c8c64a57e"
+            "parentId": "21a05e0a5b7449159950def7"
         },
         {
-            "_id": "7aaa8b28744b43dca864e75f",
+            "_id": "a9850f850c6e4c96970fa53f",
             "_tpl": "6912276c0545f6fef92580ca",
             "slotId": "mod_sight_front",
-            "parentId": "96fdcaf581e24f5c8c64a57e"
+            "parentId": "21a05e0a5b7449159950def7"
         },
         {
-            "_id": "e5d283b47e754b5ba4a90fd1",
+            "_id": "49fa9efd60e149789a984ddc",
             "_tpl": "58491f3324597764bc48fa02",
-            "parentId": "96fdcaf581e24f5c8c64a57e",
+            "parentId": "21a05e0a5b7449159950def7",
             "slotId": "mod_scope"
         },
         {
-            "_id": "c86928ec31e34737a6f91167",
+            "_id": "204c1d739e3941b2b51fb492",
             "_tpl": "5b057b4f5acfc4771e1bd3e9",
-            "parentId": "7b67f4ab65f24e31a80f7492",
+            "parentId": "570f8700f0324fc0ad5e9c1d",
             "slotId": "mod_foregrip"
         },
         {
-            "_id": "2be61a43af5941c180768102",
+            "_id": "fec7c9f13f704976a1b6251a",
             "_tpl": "6272370ee4013c5d7e31f418",
-            "parentId": "7b67f4ab65f24e31a80f7492",
+            "parentId": "570f8700f0324fc0ad5e9c1d",
             "slotId": "mod_tactical_000"
         },
         {
-            "_id": "cc5107cc10604410ac4c62ed",
+            "_id": "b8451930ec9643fa98e1f7f3",
             "_tpl": "638612b607dfed1ccb7206ba",
-            "parentId": "c22a6f1436b94c8e9be41902",
+            "parentId": "1de55fcbb35143e7a22a230c",
             "slotId": "mod_muzzle"
         }
     ],

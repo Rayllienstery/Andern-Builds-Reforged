@@ -110,15 +110,15 @@
             "slotId": "mod_muzzle"
         },
         {
-            "_id": "f422489667cc4238baafc991",
+            "_id": "26be7fcd907140dba8e4f508",
             "_tpl": "5a37ca54c4a282000d72296a",
             "parentId": "6927c24fc380cc20a8690493",
             "slotId": "mod_scope"
         },
         {
-            "_id": "e70ae1000e2649cd99c00a5b",
+            "_id": "3d1a5b6774d54d209afc3714",
             "_tpl": "544a3f024bdc2d1d388b4568",
-            "parentId": "f422489667cc4238baafc991",
+            "parentId": "26be7fcd907140dba8e4f508",
             "slotId": "mod_scope_000"
         }
     ],

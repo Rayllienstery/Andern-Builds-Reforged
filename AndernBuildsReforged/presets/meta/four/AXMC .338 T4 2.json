@@ -1,10 +1,10 @@
 {
-    "Id": "c23c2fea091b4ac38cb77f90",
+    "Id": "6ef40488b49541528732cec6",
     "Name": "AXMC .338 T4 2",
-    "Root": "56c5ef56bca8440c8dda7888",
+    "Root": "bcfed66ed70a4088b88251b7",
     "Items": [
         {
-            "_id": "56c5ef56bca8440c8dda7888",
+            "_id": "bcfed66ed70a4088b88251b7",
             "_tpl": "627e14b21713922ded6f2c15",
             "upd": {
                 "Repairable": {
@@ -20,16 +20,16 @@
             }
         },
         {
-            "_id": "8d94d20329df4aedaeff7e9f",
+            "_id": "3397a00f226849f39b533631",
             "_tpl": "628120fd5631d45211793c9f",
             "slotId": "mod_magazine",
-            "parentId": "56c5ef56bca8440c8dda7888"
+            "parentId": "bcfed66ed70a4088b88251b7"
         },
         {
-            "_id": "607513ad16264ed7a2463109",
+            "_id": "4003d1c9709c4c7ba978ed2c",
             "_tpl": "62811e2510e26c1f344e6554",
             "slotId": "mod_pistol_grip",
-            "parentId": "56c5ef56bca8440c8dda7888",
+            "parentId": "bcfed66ed70a4088b88251b7",
             "upd": {
                 "Foldable": {
                     "Folded": false
@@ -37,98 +37,108 @@
             }
         },
         {
-            "_id": "c36c8fa4646c4293a2a575af",
+            "_id": "e6c8d9a9b1ff4eee96cd9888",
             "_tpl": "62811f828193841aca4a45c3",
             "slotId": "mod_stock",
-            "parentId": "607513ad16264ed7a2463109"
+            "parentId": "4003d1c9709c4c7ba978ed2c"
         },
         {
-            "_id": "b0ef25813a9c4a4598f12791",
+            "_id": "1176099c74fa4085aeb4ecd0",
             "_tpl": "6281204f308cb521f87a8f9b",
             "slotId": "mod_reciever",
-            "parentId": "607513ad16264ed7a2463109"
+            "parentId": "4003d1c9709c4c7ba978ed2c"
         },
         {
-            "_id": "2c1ce7e7437b4661a3a0f67b",
+            "_id": "2e3650bfaad1445da3a02c61",
             "_tpl": "6281209662cba23f6c4d7a19",
             "slotId": "mod_handguard",
-            "parentId": "b0ef25813a9c4a4598f12791"
+            "parentId": "1176099c74fa4085aeb4ecd0"
         },
         {
-            "_id": "9bf1eef2669b4ea0bccb3128",
+            "_id": "8db840f90ad143e09fe5ceca",
             "_tpl": "628120c21d5df4475f46a337",
             "slotId": "mod_mount_000",
-            "parentId": "2c1ce7e7437b4661a3a0f67b"
+            "parentId": "2e3650bfaad1445da3a02c61"
         },
         {
-            "_id": "10e57b7df0d2475f8a9b335f",
+            "_id": "5231234e698040839288f70a",
             "_tpl": "628120d309427b40ab14e76d",
             "slotId": "mod_mount_001",
-            "parentId": "2c1ce7e7437b4661a3a0f67b"
+            "parentId": "2e3650bfaad1445da3a02c61"
         },
         {
-            "_id": "efdb9246bcc543ce9023aa2f",
+            "_id": "b4f2ee3297d8443a9c21f56a",
             "_tpl": "628120d309427b40ab14e76d",
             "slotId": "mod_mount_002",
-            "parentId": "2c1ce7e7437b4661a3a0f67b"
+            "parentId": "2e3650bfaad1445da3a02c61"
         },
         {
-            "_id": "88e0d68eaa7c4c6f8585286c",
+            "_id": "d017511dd4bd400589d51b78",
             "_tpl": "628120dd308cb521f87a8fa1",
             "slotId": "mod_mount_003",
-            "parentId": "2c1ce7e7437b4661a3a0f67b"
+            "parentId": "2e3650bfaad1445da3a02c61"
         },
         {
-            "_id": "89001b9fede740f8b4a62e9f",
+            "_id": "b358fca866ae481082547c71",
             "_tpl": "6281212a09427b40ab14e770",
             "slotId": "mod_foregrip",
-            "parentId": "b0ef25813a9c4a4598f12791"
+            "parentId": "1176099c74fa4085aeb4ecd0"
         },
         {
-            "_id": "cf8a5e247220459da19c9b26",
+            "_id": "49ea75904be94478b86557f6",
             "_tpl": "62811fbf09427b40ab14e767",
             "slotId": "mod_reciever",
-            "parentId": "b0ef25813a9c4a4598f12791"
+            "parentId": "1176099c74fa4085aeb4ecd0"
         },
         {
-            "_id": "be8a6ab8675d4a7ab0f67713",
+            "_id": "f73fa24614fb4ac599bfb440",
             "_tpl": "628121434fa03b6b6c35dc6a",
             "slotId": "mod_barrel",
-            "parentId": "cf8a5e247220459da19c9b26"
+            "parentId": "49ea75904be94478b86557f6"
         },
         {
-            "_id": "4fb9f38bf57f4cc3acb62807",
+            "_id": "90c35728aa724434ae4ab10f",
             "_tpl": "62811cd7308cb521f87a8f99",
             "slotId": "mod_charge",
-            "parentId": "56c5ef56bca8440c8dda7888"
+            "parentId": "bcfed66ed70a4088b88251b7"
         },
         {
-            "_id": "83f6bc0e44ac45e090c0ed4c",
+            "_id": "44a2035a2ad84241be3a1e49",
             "_tpl": "62811f461d5df4475f46a332",
-            "parentId": "cf8a5e247220459da19c9b26",
+            "parentId": "49ea75904be94478b86557f6",
             "slotId": "mod_scope"
         },
         {
-            "_id": "8385402d28874a1e961e21ef",
+            "_id": "4060a3b154544c14b1bc64d8",
             "_tpl": "62850c28da09541f43158cca",
-            "parentId": "83f6bc0e44ac45e090c0ed4c",
+            "parentId": "44a2035a2ad84241be3a1e49",
             "slotId": "mod_scope"
         },
         {
-            "_id": "876c4af279b345f8a112601b",
+            "_id": "8f47a8a48f7c4bc2a557fd48",
             "_tpl": "62812081d23f207deb0ab216",
-            "parentId": "be8a6ab8675d4a7ab0f67713",
+            "parentId": "f73fa24614fb4ac599bfb440",
             "slotId": "mod_muzzle"
         },
         {
-            "_id": "2edb54c1450d4d93894b9edf",
+            "_id": "3dbc274f9edc45759bd730e8",
             "_tpl": "628120621d5df4475f46a335",
-            "parentId": "876c4af279b345f8a112601b",
+            "parentId": "8f47a8a48f7c4bc2a557fd48",
             "slotId": "mod_muzzle"
         }
     ],
     "Parent": "5447b6254bdc2dc3278b4568",
     "Factions": [
         "usec"
+    ],
+    "Locations": [
+        "woods",
+        "shoreline",
+        "lighthouse",
+        "bigmap",
+        "rezervbase",
+        "interchange",
+        "sandbox",
+        "sandbox_high"
     ]
 }

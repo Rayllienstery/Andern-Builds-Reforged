@@ -1,10 +1,10 @@
 {
-    "Id": "5c9309380b354322acf319eb",
+    "Id": "2bdf653f4b09400680a6610a",
     "Name": "FSS Hurricane T4 3",
-    "Root": "16fbb3f0acc74a799a18cf53",
+    "Root": "adf21190e37a42b081bb4f52",
     "Items": [
         {
-            "_id": "16fbb3f0acc74a799a18cf53",
+            "_id": "adf21190e37a42b081bb4f52",
             "_tpl": "020020fbbfbb570000000000",
             "upd": {
                 "Repairable": {
@@ -20,75 +20,75 @@
             }
         },
         {
-            "_id": "585f6afc4131432581c20386",
+            "_id": "b8797fcf90c04802aac1b48c",
             "_tpl": "5cc70093e4a949033c734312",
             "slotId": "mod_magazine",
-            "parentId": "16fbb3f0acc74a799a18cf53"
+            "parentId": "adf21190e37a42b081bb4f52"
         },
         {
-            "_id": "97700fab92334ac0b32262c7",
+            "_id": "448298d79a014990bd2eb516",
             "_tpl": "042042fbbfbb570000000000",
             "slotId": "mod_reciever",
-            "parentId": "16fbb3f0acc74a799a18cf53"
+            "parentId": "adf21190e37a42b081bb4f52"
         },
         {
-            "_id": "83de054e33c243818f4367fe",
+            "_id": "b3bfef0de8aa4d1ab7c64d10",
             "_tpl": "04B14Bfbbfbb574B10000000",
             "slotId": "mod_barrel",
-            "parentId": "97700fab92334ac0b32262c7"
+            "parentId": "448298d79a014990bd2eb516"
         },
         {
-            "_id": "5e0545d17457475894786c33",
+            "_id": "bd264e49caa94ec0862d447f",
             "_tpl": "044044fbbfbb574400000000",
             "slotId": "mod_charge",
-            "parentId": "16fbb3f0acc74a799a18cf53"
+            "parentId": "adf21190e37a42b081bb4f52"
         },
         {
-            "_id": "032d4398cb864f9d8c9de4b0",
+            "_id": "c04d4cf915f14fccb8bf7910",
             "_tpl": "6087e663132d4d12c81fd96b",
             "slotId": "mod_pistol_grip",
-            "parentId": "16fbb3f0acc74a799a18cf53"
+            "parentId": "adf21190e37a42b081bb4f52"
         },
         {
-            "_id": "cf98abdac76e4a9b8ad2c5e6",
+            "_id": "4e71f314bf8d479f87b2ccf9",
             "_tpl": "558022b54bdc2dac148b458d",
-            "parentId": "97700fab92334ac0b32262c7",
+            "parentId": "448298d79a014990bd2eb516",
             "slotId": "mod_scope"
         },
         {
-            "_id": "63bb8e4a938940e28609af23",
+            "_id": "64868b299702445a9b3c4bec",
             "_tpl": "59f8a37386f7747af3328f06",
-            "parentId": "97700fab92334ac0b32262c7",
+            "parentId": "448298d79a014990bd2eb516",
             "slotId": "mod_foregrip"
         },
         {
-            "_id": "3e73232d09924900985416e7",
+            "_id": "3cb36d3b652b493fb364932a",
             "_tpl": "5c793fc42e221600114ca25d",
-            "parentId": "16fbb3f0acc74a799a18cf53",
+            "parentId": "adf21190e37a42b081bb4f52",
             "slotId": "mod_stock"
         },
         {
-            "_id": "f97a431dce4c4893b5a3d45a",
+            "_id": "2a899ff6027a44bb87c3b31f",
             "_tpl": "56eabf3bd2720b75698b4569",
-            "parentId": "3e73232d09924900985416e7",
+            "parentId": "3cb36d3b652b493fb364932a",
             "slotId": "mod_stock_000"
         },
         {
-            "_id": "68828b16fde743bab50e47e5",
+            "_id": "f0524e7b61d74d4eb52c4e17",
             "_tpl": "58d2912286f7744e27117493",
-            "parentId": "f97a431dce4c4893b5a3d45a",
+            "parentId": "2a899ff6027a44bb87c3b31f",
             "slotId": "mod_stock"
         },
         {
-            "_id": "bc36fb377b4d4f61a3a5f27a",
+            "_id": "8209abfb111d4d85ba0491b4",
             "_tpl": "04C04Cfbbfbb574C00000000",
-            "parentId": "83de054e33c243818f4367fe",
+            "parentId": "b3bfef0de8aa4d1ab7c64d10",
             "slotId": "mod_muzzle"
         },
         {
-            "_id": "e2994060cc4f46f9af861a7e",
+            "_id": "ba38b4abb34c470c93710a74",
             "_tpl": "5c06595c0db834001a66af6c",
-            "parentId": "97700fab92334ac0b32262c7",
+            "parentId": "448298d79a014990bd2eb516",
             "slotId": "mod_tactical"
         }
     ],

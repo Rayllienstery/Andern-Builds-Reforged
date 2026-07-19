@@ -1,10 +1,10 @@
 {
-    "Id": "e2e54cd5261c4e73919cfd33",
+    "Id": "bf7cb813a1184caf83e771b4",
     "Name": "Surgeon 1581 Norma T4",
-    "Root": "69bcbdf648b8490782ba0d0b",
+    "Root": "08afd5808b5346c192c52697",
     "Items": [
         {
-            "_id": "69bcbdf648b8490782ba0d0b",
+            "_id": "08afd5808b5346c192c52697",
             "_tpl": "1bf618e47cce6d69bec01e9f",
             "upd": {
                 "Repairable": {
@@ -17,45 +17,45 @@
             }
         },
         {
-            "_id": "a1c6a0e7cd204ed48582e343",
+            "_id": "c736f5f935464ade9c8252ba",
             "_tpl": "f1b1a0db4986e718711a8e80",
-            "parentId": "69bcbdf648b8490782ba0d0b",
+            "parentId": "08afd5808b5346c192c52697",
             "slotId": "mod_magazine"
         },
         {
-            "_id": "4d5d0d6f8b6c4b8d8ae0acaa",
+            "_id": "d02408d4b3684e148e96254f",
             "_tpl": "c0a00711f992a1aecdc53ae0",
-            "parentId": "69bcbdf648b8490782ba0d0b",
+            "parentId": "08afd5808b5346c192c52697",
             "slotId": "mod_stock"
         },
         {
-            "_id": "c31e79e97b6244bcb552e740",
+            "_id": "97bf32870474423e9205778a",
             "_tpl": "c572ff3cb1b04b5dd73e615b",
-            "parentId": "4d5d0d6f8b6c4b8d8ae0acaa",
+            "parentId": "d02408d4b3684e148e96254f",
             "slotId": "mod_tactical_000"
         },
         {
-            "_id": "5990eca3569d40ea956a23e0",
+            "_id": "a19aa2486e5a409593e40b50",
             "_tpl": "5888961624597754281f93f3",
-            "parentId": "4d5d0d6f8b6c4b8d8ae0acaa",
+            "parentId": "d02408d4b3684e148e96254f",
             "slotId": "mod_bipod"
         },
         {
-            "_id": "8916beb0b3944200931e993d",
+            "_id": "b62ed6f562ac4726b45e89b6",
             "_tpl": "5ad7771228e921777b30536f",
-            "parentId": "69bcbdf648b8490782ba0d0b",
+            "parentId": "08afd5808b5346c192c52697",
             "slotId": "mod_barrel"
         },
         {
-            "_id": "e8471adb46a3445a95f02217",
+            "_id": "6418b6d3619446138ae4ed18",
             "_tpl": "6171407e50224f204c1da3c5",
-            "parentId": "69bcbdf648b8490782ba0d0b",
+            "parentId": "08afd5808b5346c192c52697",
             "slotId": "mod_scope"
         },
         {
-            "_id": "42b753a0c5194eecafb2f859",
+            "_id": "a0d7d32e494841899fc09c3d",
             "_tpl": "57c5ac0824597754771e88a9",
-            "parentId": "e8471adb46a3445a95f02217",
+            "parentId": "6418b6d3619446138ae4ed18",
             "slotId": "mod_scope_000",
             "upd": {
                 "Sight": {
@@ -71,15 +71,15 @@
             }
         },
         {
-            "_id": "25450fc1c9f546278e252fde",
+            "_id": "cc56538e9f6d44689767f996",
             "_tpl": "612e0d81290d254f5e6b291a",
-            "parentId": "8916beb0b3944200931e993d",
+            "parentId": "b62ed6f562ac4726b45e89b6",
             "slotId": "mod_muzzle"
         },
         {
-            "_id": "4418b836ceb6422cb24e6689",
+            "_id": "ee5b60e7cbb34c1c9f47e92b",
             "_tpl": "63877c99e785640d436458ea",
-            "parentId": "25450fc1c9f546278e252fde",
+            "parentId": "cc56538e9f6d44689767f996",
             "slotId": "mod_muzzle"
         }
     ],
@@ -89,5 +89,15 @@
     "SpareAmmoTpl": "ea4cdb6fc3dd4f799eeef33e",
     "Factions": [
         "usec"
+    ],
+    "Locations": [
+        "woods",
+        "shoreline",
+        "lighthouse",
+        "bigmap",
+        "rezervbase",
+        "interchange",
+        "sandbox",
+        "sandbox_high"
     ]
 }

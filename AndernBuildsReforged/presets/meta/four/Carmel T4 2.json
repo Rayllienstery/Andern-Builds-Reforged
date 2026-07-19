@@ -1,10 +1,10 @@
 {
-    "Id": "9fddd0bd30f24287b2ab4116",
+    "Id": "d85f74674a46402791d3d55d",
     "Name": "Carmel T4 2",
-    "Root": "d6adf7bcaa9e44e88fefd5a5",
+    "Root": "3a502d21022740d8b2ce8350",
     "Items": [
         {
-            "_id": "d6adf7bcaa9e44e88fefd5a5",
+            "_id": "3a502d21022740d8b2ce8350",
             "_tpl": "66ba249b102a9dd6040a6e7e",
             "upd": {
                 "Repairable": {
@@ -20,69 +20,69 @@
             }
         },
         {
-            "_id": "748ff664686840618d71b41d",
+            "_id": "80b984c86f0f4f3184f645fc",
             "_tpl": "66ba253030ea88abba95c7ed",
             "slotId": "mod_pistol_grip",
-            "parentId": "d6adf7bcaa9e44e88fefd5a5"
+            "parentId": "3a502d21022740d8b2ce8350"
         },
         {
-            "_id": "4d922bf46c8448f7965cc880",
+            "_id": "29089e1424db46f094757719",
             "_tpl": "66ba264700cd37059ee31f36",
             "slotId": "mod_barrel",
-            "parentId": "d6adf7bcaa9e44e88fefd5a5"
+            "parentId": "3a502d21022740d8b2ce8350"
         },
         {
-            "_id": "cd4a6a9e57514cafb6e93085",
+            "_id": "aa09d3265ef747a99e9f7820",
             "_tpl": "55d4887d4bdc2d962f8b4570",
             "slotId": "mod_magazine",
-            "parentId": "d6adf7bcaa9e44e88fefd5a5"
+            "parentId": "3a502d21022740d8b2ce8350"
         },
         {
-            "_id": "1665d04b1453400b8be52760",
+            "_id": "9f6965a58c19450fa0f97897",
             "_tpl": "66ba268d7f9d8cfb6d0fbf77",
             "slotId": "mod_stock",
-            "parentId": "d6adf7bcaa9e44e88fefd5a5"
+            "parentId": "3a502d21022740d8b2ce8350"
         },
         {
-            "_id": "241b57cec51744b9b640c974",
+            "_id": "d5901fbf6cd74b17be6a6915",
             "_tpl": "6386120cd6baa055ad1e201c",
             "slotId": "mod_muzzle",
-            "parentId": "4d922bf46c8448f7965cc880"
+            "parentId": "29089e1424db46f094757719"
         },
         {
-            "_id": "b52951f3771b40c788738a20",
+            "_id": "b32e844cb9ef424588cfb1c1",
             "_tpl": "66ba262124e3cd6bbf4715a8",
             "slotId": "mod_tactical_001",
-            "parentId": "d6adf7bcaa9e44e88fefd5a5"
+            "parentId": "3a502d21022740d8b2ce8350"
         },
         {
-            "_id": "5b1200cf642446258881f9ff",
+            "_id": "3e80774552c84bb6bf9d53f2",
             "_tpl": "66ba25ed9195d94a8f131b2d",
             "slotId": "mod_tactical_002",
-            "parentId": "d6adf7bcaa9e44e88fefd5a5"
+            "parentId": "3a502d21022740d8b2ce8350"
         },
         {
-            "_id": "3fa24e901a77477a910f83e8",
+            "_id": "1259def6e1fb40889baf3db6",
             "_tpl": "66ba25d71a26d54d7504d785",
             "slotId": "mod_tactical_003",
-            "parentId": "d6adf7bcaa9e44e88fefd5a5"
+            "parentId": "3a502d21022740d8b2ce8350"
         },
         {
-            "_id": "93f88ad0d62e482aa3063bd0",
+            "_id": "9f4d1c9be55844bb892b0482",
             "_tpl": "58491f3324597764bc48fa02",
-            "parentId": "d6adf7bcaa9e44e88fefd5a5",
+            "parentId": "3a502d21022740d8b2ce8350",
             "slotId": "mod_scope"
         },
         {
-            "_id": "885ab71bde2f4d1f9545d9d1",
+            "_id": "3cb8daa4769443d890793986",
             "_tpl": "6272370ee4013c5d7e31f418",
-            "parentId": "d6adf7bcaa9e44e88fefd5a5",
+            "parentId": "3a502d21022740d8b2ce8350",
             "slotId": "mod_tactical_000"
         },
         {
-            "_id": "5e5cf048f3104f899809b7eb",
+            "_id": "ccea6bcbe0dc46edaa99a367",
             "_tpl": "638612b607dfed1ccb7206ba",
-            "parentId": "241b57cec51744b9b640c974",
+            "parentId": "d5901fbf6cd74b17be6a6915",
             "slotId": "mod_muzzle"
         }
     ],

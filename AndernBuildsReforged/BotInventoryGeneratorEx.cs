@@ -80,6 +80,9 @@ public class BotInventoryGeneratorEx(
 
         var isNightVision = raidConfig!.IsNightRaid && raidConfig.Location! is not ("laboratory" or "labyrinth") && randomUtil.GetChance100(presetTierConfig.NightVisionPercent);
 
+        // Leave set after return so post-processors (e.g. Raylee re-rolls) see the same map.
+        RaidLocationContext.Location = raidConfig.Location;
+
         try
         {
             GenerateAndAddEquipmentToBotEx(
@@ -128,7 +131,7 @@ public class BotInventoryGeneratorEx(
             $"[Andern] secured container items {JsonSerializer.Serialize(securedContainerItemTpls)}",
             LogTextColor.Red);
         */
-        
+
         return botInventory;
     }
 

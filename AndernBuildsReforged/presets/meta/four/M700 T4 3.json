@@ -1,10 +1,10 @@
 {
-    "Id": "055f4f9fbe2945a98fa34f0a",
+    "Id": "47f3cc92cc5b486699e68174",
     "Name": "M700 T4 3",
-    "Root": "a056cca36acb4abab88f6ccf",
+    "Root": "c2220fd659ad4227ba4c50e8",
     "Items": [
         {
-            "_id": "a056cca36acb4abab88f6ccf",
+            "_id": "c2220fd659ad4227ba4c50e8",
             "_tpl": "5bfea6e90db834001b7347f3",
             "upd": {
                 "Repairable": {
@@ -20,50 +20,60 @@
             }
         },
         {
-            "_id": "94cbd95dd79f416b84b92c46",
+            "_id": "852456cd37ad4209a42a1800",
             "_tpl": "5d25a4a98abbc30b917421a4",
             "slotId": "mod_magazine",
-            "parentId": "a056cca36acb4abab88f6ccf"
+            "parentId": "c2220fd659ad4227ba4c50e8"
         },
         {
-            "_id": "f4ecb73ce24a4a1686343406",
+            "_id": "4f6310c34819491ba590c4fb",
             "_tpl": "5d25d0ac8abbc3054f3e61f7",
             "slotId": "mod_stock",
-            "parentId": "a056cca36acb4abab88f6ccf"
+            "parentId": "c2220fd659ad4227ba4c50e8"
         },
         {
-            "_id": "003e298f713d40f7aea4bd23",
+            "_id": "e20e925b75604c8f9fbfb8c4",
             "_tpl": "671126a210d67adb5b08e925",
             "slotId": "mod_mount_000",
-            "parentId": "f4ecb73ce24a4a1686343406"
+            "parentId": "4f6310c34819491ba590c4fb"
         },
         {
-            "_id": "ed86c38ed77d4c6eb0329a79",
+            "_id": "75d7ca939f6e47c693a86ec4",
             "_tpl": "5bfebc320db8340019668d79",
             "slotId": "mod_barrel",
-            "parentId": "a056cca36acb4abab88f6ccf"
+            "parentId": "c2220fd659ad4227ba4c50e8"
         },
         {
-            "_id": "c6a9b1e8874340ba829af0f8",
+            "_id": "73873783d4c642daac183a13",
             "_tpl": "5d270b3c8abbc3105335cfb8",
             "slotId": "mod_muzzle",
-            "parentId": "ed86c38ed77d4c6eb0329a79"
+            "parentId": "75d7ca939f6e47c693a86ec4"
         },
         {
-            "_id": "25862c3d17284df9915d4c8b",
+            "_id": "ad60d8b6dbfb40f5a05cf3ef",
             "_tpl": "5bfebc5e0db834001a6694e5",
-            "parentId": "a056cca36acb4abab88f6ccf",
+            "parentId": "c2220fd659ad4227ba4c50e8",
             "slotId": "mod_mount"
         },
         {
-            "_id": "44b89141a9f345e5b79e64bb",
+            "_id": "3819e1887a5744909e266eb3",
             "_tpl": "5b2388675acfc4771e1be0be",
-            "parentId": "25862c3d17284df9915d4c8b",
+            "parentId": "ad60d8b6dbfb40f5a05cf3ef",
             "slotId": "mod_scope"
         }
     ],
     "Parent": "5447b6254bdc2dc3278b4568",
     "Factions": [
         "usec"
+    ],
+    "Locations": [
+        "woods",
+        "shoreline",
+        "lighthouse",
+        "bigmap",
+        "rezervbase",
+        "interchange",
+        "sandbox",
+        "sandbox_high"
     ]
 }

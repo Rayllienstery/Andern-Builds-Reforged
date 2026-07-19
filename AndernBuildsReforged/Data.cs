@@ -116,12 +116,24 @@ public class Data
     public List<Item> GetRandomWeapon(int level)
     {
         var tier = TierByLevel(level);
+        var pool = data[tier].Weapon;
+        var location = RaidLocationContext.Location;
 
-        var weaponPreset = randomUtil.GetArrayValue(data[tier].Weapon);
+        var filtered = pool.Where(p => LocationMatch.IsAllowed(p, location)).ToList();
+        if (filtered.Count == 0)
+        {
+            logger.Warning(
+                $"[Andern-Builds-Reforged] no presets in tier `{tier}` allowed on `{location ?? "(none)"}`; falling back to full tier pool");
+            filtered = pool;
+        }
+
+        var weaponPreset = randomUtil.GetArrayValue(filtered);
 
         if (_modConfig.Debug)
         {
-            logger.LogWithColor($"[Andern] for bot level {level} selected tier `{tier}` weapon '{weaponPreset.Name}'", LogTextColor.Blue);
+            logger.LogWithColor(
+                $"[Andern] for bot level {level} loc `{location ?? "-"}` selected tier `{tier}` weapon '{weaponPreset.Name}'",
+                LogTextColor.Blue);
         }
 
         var weaponPresetClone = cloner.Clone(weaponPreset.Items).ReplaceIDs().ToList();

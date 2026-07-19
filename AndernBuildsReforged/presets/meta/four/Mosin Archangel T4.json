@@ -1,10 +1,10 @@
 {
-    "Id": "66a2d75829a940d98b992242",
+    "Id": "d1faba0378cb4216b0d1977a",
     "Name": "Mosin Archangel T4",
-    "Root": "e2777dd32aa84b8ba6ac0674",
+    "Root": "2256e3b64d0a47709c6af4ba",
     "Items": [
         {
-            "_id": "e2777dd32aa84b8ba6ac0674",
+            "_id": "2256e3b64d0a47709c6af4ba",
             "_tpl": "5ae08f0a5acfc408fb1398a1",
             "upd": {
                 "Repairable": {
@@ -20,50 +20,60 @@
             }
         },
         {
-            "_id": "b83d414093a34127bf5ab51d",
+            "_id": "a27a1ef7c21544a098dac153",
             "_tpl": "5bae13ded4351e44f824bf38",
             "slotId": "mod_magazine",
-            "parentId": "e2777dd32aa84b8ba6ac0674"
+            "parentId": "2256e3b64d0a47709c6af4ba"
         },
         {
-            "_id": "eab8a3fc297d4c729496e664",
+            "_id": "159f7fc776fb423c8e3ab35b",
             "_tpl": "5bae13bad4351e00320204af",
             "slotId": "mod_stock",
-            "parentId": "e2777dd32aa84b8ba6ac0674"
+            "parentId": "2256e3b64d0a47709c6af4ba"
         },
         {
-            "_id": "6fa9e98fd7e147c2b981a20f",
+            "_id": "ee3f2c8d7e564cb286149f9c",
             "_tpl": "5bfd4cbe0db834001b73449f",
             "slotId": "mod_barrel",
-            "parentId": "e2777dd32aa84b8ba6ac0674"
+            "parentId": "2256e3b64d0a47709c6af4ba"
         },
         {
-            "_id": "79b93111e1f84e3c9915effd",
+            "_id": "e83857aa4163485287fdbe6f",
             "_tpl": "5ae099875acfc4001714e593",
             "slotId": "mod_sight_front",
-            "parentId": "6fa9e98fd7e147c2b981a20f"
+            "parentId": "ee3f2c8d7e564cb286149f9c"
         },
         {
-            "_id": "260bbd825a4947b0a68bc655",
+            "_id": "3788ea09c7ae4c54a73c5af7",
             "_tpl": "5bbdb811d4351e45020113c7",
-            "parentId": "6fa9e98fd7e147c2b981a20f",
+            "parentId": "ee3f2c8d7e564cb286149f9c",
             "slotId": "mod_sight_rear"
         },
         {
-            "_id": "40b7040320bf4fe794e81b29",
+            "_id": "6d387b821f854844824c11dc",
             "_tpl": "5a37ca54c4a282000d72296a",
-            "parentId": "260bbd825a4947b0a68bc655",
+            "parentId": "3788ea09c7ae4c54a73c5af7",
             "slotId": "mod_scope"
         },
         {
-            "_id": "1e7e344a9b544658a50874e6",
+            "_id": "dc5c235318fd4cc48ca6f439",
             "_tpl": "617151c1d92c473c770214ab",
-            "parentId": "40b7040320bf4fe794e81b29",
+            "parentId": "6d387b821f854844824c11dc",
             "slotId": "mod_scope_000"
         }
     ],
     "Parent": "5447b6254bdc2dc3278b4568",
     "Factions": [
         "bear"
+    ],
+    "Locations": [
+        "woods",
+        "shoreline",
+        "lighthouse",
+        "bigmap",
+        "rezervbase",
+        "interchange",
+        "sandbox",
+        "sandbox_high"
     ]
 }

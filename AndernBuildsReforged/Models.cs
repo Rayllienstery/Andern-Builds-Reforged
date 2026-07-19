@@ -36,6 +36,11 @@ public class WeaponPreset
     public string Root { get; set; }
     public List<Item> Items { get; set; }
     public string Parent { get; set; }
+
+    /// <summary>
+    /// Allow-list of map IDs (canonical or short aliases). Null/empty = all maps.
+    /// </summary>
+    public List<string>? Locations { get; set; }
 }
 
 public class GeneratedWeapon

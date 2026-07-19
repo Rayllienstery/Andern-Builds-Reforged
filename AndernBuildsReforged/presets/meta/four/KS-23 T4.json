@@ -1,10 +1,10 @@
 {
-    "Id": "418ed71b045848a29d426b91",
+    "Id": "55b2d3c784ab46328c72d823",
     "Name": "KS-23 T4",
-    "Root": "503f76af260a43de8a8c7334",
+    "Root": "16c2288edf774e9bb7433efd",
     "Items": [
         {
-            "_id": "503f76af260a43de8a8c7334",
+            "_id": "16c2288edf774e9bb7433efd",
             "_tpl": "5e848cc2988a8701445df1e8",
             "upd": {
                 "Repairable": {
@@ -17,33 +17,33 @@
             }
         },
         {
-            "_id": "ec3c231a7d3f4d9ca19d853a",
+            "_id": "73fb5bb9e98b4e73bb0c1af7",
             "_tpl": "5e848d2eea0a7c419c2f9bfd",
-            "parentId": "503f76af260a43de8a8c7334",
+            "parentId": "16c2288edf774e9bb7433efd",
             "slotId": "mod_barrel"
         },
         {
-            "_id": "82a5d70a1ca8444db4f94e65",
+            "_id": "02ad422e51ad430294b94a2a",
             "_tpl": "5e848d51e4dbc5266a4ec63b",
-            "parentId": "503f76af260a43de8a8c7334",
+            "parentId": "16c2288edf774e9bb7433efd",
             "slotId": "mod_handguard"
         },
         {
-            "_id": "48846d648478483e90d4ebe4",
+            "_id": "1474986cbd4a434fae3202c4",
             "_tpl": "5f647d9f8499b57dc40ddb93",
-            "parentId": "503f76af260a43de8a8c7334",
+            "parentId": "16c2288edf774e9bb7433efd",
             "slotId": "mod_magazine"
         },
         {
-            "_id": "137d47453c5049a0af0e7707",
+            "_id": "ebc6d88a449c427e8e3e92ee",
             "_tpl": "5e848d99865c0f329958c83b",
-            "parentId": "503f76af260a43de8a8c7334",
+            "parentId": "16c2288edf774e9bb7433efd",
             "slotId": "mod_stock"
         },
         {
-            "_id": "7253952896bc4a819e386859",
+            "_id": "9387dfe69cb54b49bb481369",
             "_tpl": "5e848dc4e4dbc5266a4ec63d",
-            "parentId": "137d47453c5049a0af0e7707",
+            "parentId": "ebc6d88a449c427e8e3e92ee",
             "slotId": "mod_stock"
         }
     ],
@@ -53,5 +53,10 @@
     "Weight": 80,
     "Factions": [
         "bear"
+    ],
+    "Locations": [
+        "factory4_day",
+        "factory4_night",
+        "tarkovstreets"
     ]
 }

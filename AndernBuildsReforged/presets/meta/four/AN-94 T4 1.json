@@ -1,10 +1,10 @@
 {
-    "Id": "9060e1b5094147b98a44b60a",
+    "Id": "8914e36c6de548bb9642bafb",
     "Name": "AN-94 T4 1",
-    "Root": "02187d408c734b8a906eeec6",
+    "Root": "22bad9de62fa46d9ba5fdec6",
     "Items": [
         {
-            "_id": "02187d408c734b8a906eeec6",
+            "_id": "22bad9de62fa46d9ba5fdec6",
             "_tpl": "679a6a534f3d279c99b135b9",
             "upd": {
                 "Repairable": {
@@ -20,45 +20,45 @@
             }
         },
         {
-            "_id": "6f465d695414477abd24db43",
+            "_id": "c90c4994c36f4407b4862ead",
             "_tpl": "55d482194bdc2d1d4e8b456b",
             "slotId": "mod_magazine",
-            "parentId": "02187d408c734b8a906eeec6"
+            "parentId": "22bad9de62fa46d9ba5fdec6"
         },
         {
-            "_id": "79ad3d69623f491788434bfa",
+            "_id": "92ffeda240ec4bf8b028e05a",
             "_tpl": "679a73b003d8055ba8385ad5",
             "slotId": "mod_pistol_grip",
-            "parentId": "02187d408c734b8a906eeec6"
+            "parentId": "22bad9de62fa46d9ba5fdec6"
         },
         {
-            "_id": "433afab8b85f4c8bbe56c13e",
+            "_id": "2973c76a22444ac5a0c08614",
             "_tpl": "679a6e9a0f37be945558c4d3",
             "slotId": "mod_stock",
-            "parentId": "02187d408c734b8a906eeec6"
+            "parentId": "22bad9de62fa46d9ba5fdec6"
         },
         {
-            "_id": "d3738561df3546158bd5eaac",
+            "_id": "4d71919c1ed0461fb23b64cb",
             "_tpl": "5b057b4f5acfc4771e1bd3e9",
-            "parentId": "02187d408c734b8a906eeec6",
+            "parentId": "22bad9de62fa46d9ba5fdec6",
             "slotId": "mod_foregrip"
         },
         {
-            "_id": "b534f7d78a8d4d0a9919eb16",
+            "_id": "ac02d65efb464defb9e332da",
             "_tpl": "6130ca3fd92c473c77020dbd",
-            "parentId": "02187d408c734b8a906eeec6",
+            "parentId": "22bad9de62fa46d9ba5fdec6",
             "slotId": "mod_charge"
         },
         {
-            "_id": "9120104f8085400886ceac79",
+            "_id": "88d0881989db4625a18715dd",
             "_tpl": "5c61a40d2e2216001403158d",
-            "parentId": "02187d408c734b8a906eeec6",
+            "parentId": "22bad9de62fa46d9ba5fdec6",
             "slotId": "mod_mount_000"
         },
         {
-            "_id": "f63bd7a6a1194a16a7b9120a",
+            "_id": "d1bc76832f8548238756bc94",
             "_tpl": "59f9d81586f7744c7506ee62",
-            "parentId": "9120104f8085400886ceac79",
+            "parentId": "88d0881989db4625a18715dd",
             "slotId": "mod_scope"
         }
     ],

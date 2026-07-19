@@ -1,10 +1,10 @@
 {
-    "Id": "259d7f170e7742dc911eaf9b",
+    "Id": "9860a9a2f670486d8917516e",
     "Name": "Ash-12 T4 3",
-    "Root": "e46965000886419eb09afad2",
+    "Root": "e1e00a25c4c44002bdb3eadc",
     "Items": [
         {
-            "_id": "e46965000886419eb09afad2",
+            "_id": "e1e00a25c4c44002bdb3eadc",
             "_tpl": "5cadfbf7ae92152ac412eeef",
             "upd": {
                 "Repairable": {
@@ -20,45 +20,45 @@
             }
         },
         {
-            "_id": "0e8880df20794487b5a6b440",
+            "_id": "dce0bb80f0a8404b951a9eda",
             "_tpl": "5caf187cae92157c28402e43",
             "slotId": "mod_muzzle",
-            "parentId": "e46965000886419eb09afad2"
+            "parentId": "e1e00a25c4c44002bdb3eadc"
         },
         {
-            "_id": "8e279621565e44c684f91f3f",
+            "_id": "bea6360664c748bc8afd15cd",
             "_tpl": "5caf1109ae9215753c44119f",
             "slotId": "mod_magazine",
-            "parentId": "e46965000886419eb09afad2"
+            "parentId": "e1e00a25c4c44002bdb3eadc"
         },
         {
-            "_id": "6e461e6c0e53499d9e0112f0",
+            "_id": "778a307b25494fa9af7e9f79",
             "_tpl": "5caf16a2ae92152ac412efbc",
             "slotId": "mod_sight_front",
-            "parentId": "e46965000886419eb09afad2"
+            "parentId": "e1e00a25c4c44002bdb3eadc"
         },
         {
-            "_id": "8f64fa49b5e04ab3b04cff9c",
+            "_id": "82e7c82d47b44ff1a59887c9",
             "_tpl": "5cdaa99dd7f00c002412d0b2",
             "slotId": "mod_handguard",
-            "parentId": "e46965000886419eb09afad2"
+            "parentId": "e1e00a25c4c44002bdb3eadc"
         },
         {
-            "_id": "7354bab34d6e486793efd5f6",
+            "_id": "8b2709109e094aaca3ebfe19",
             "_tpl": "59f8a37386f7747af3328f06",
             "slotId": "mod_foregrip",
-            "parentId": "8f64fa49b5e04ab3b04cff9c"
+            "parentId": "82e7c82d47b44ff1a59887c9"
         },
         {
-            "_id": "294166fc591443d9a83d720e",
+            "_id": "7ca0e429e236426ca34e6eaf",
             "_tpl": "558022b54bdc2dac148b458d",
             "slotId": "mod_scope",
-            "parentId": "e46965000886419eb09afad2"
+            "parentId": "e1e00a25c4c44002bdb3eadc"
         },
         {
-            "_id": "a5996dd028d64f6ca2689fab",
+            "_id": "70861656bf0d4a71ad3d33bb",
             "_tpl": "56def37dd2720bec348b456a",
-            "parentId": "8f64fa49b5e04ab3b04cff9c",
+            "parentId": "82e7c82d47b44ff1a59887c9",
             "slotId": "mod_tactical_000"
         }
     ],
