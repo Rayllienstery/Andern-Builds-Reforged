@@ -113,7 +113,7 @@ public class Data
         return randomUtil.GetArrayValue(altModules);
     }
 
-    public List<Item> GetRandomWeapon(int level)
+    public SelectedWeaponPreset GetRandomWeapon(int level)
     {
         var tier = TierByLevel(level);
         var pool = data[tier].Weapon;
@@ -132,14 +132,21 @@ public class Data
         if (_modConfig.Debug)
         {
             logger.LogWithColor(
-                $"[Andern] for bot level {level} loc `{location ?? "-"}` selected tier `{tier}` weapon '{weaponPreset.Name}'",
+                $"[Andern] for bot level {level} loc `{location ?? "-"}` selected tier `{tier}` weapon '{weaponPreset.Name}' spareMags={weaponPreset.SpareMags?.ToString() ?? "default"}",
                 LogTextColor.Blue);
         }
 
         var weaponPresetClone = cloner.Clone(weaponPreset.Items).ReplaceIDs().ToList();
         weaponPresetClone.RemapRootItemId();
 
-        return weaponPresetClone;
+        return new SelectedWeaponPreset
+        {
+            Items = weaponPresetClone,
+            Name = weaponPreset.Name,
+            // Capacity-aware default applied later in WeaponGenerator once mag tpl is known;
+            // negative sentinel means "resolve default".
+            SpareMags = weaponPreset.SpareMags ?? -1,
+        };
     }
 
     public string GetRandomAmmoByCaliber(int level, string caliber)

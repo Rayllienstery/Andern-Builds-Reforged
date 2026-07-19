@@ -171,5 +171,6 @@
             "slotId": "mod_stock"
         }
     ],
-    "Parent": "5447b5f14bdc2d61278b4567"
+    "Parent": "5447b5f14bdc2d61278b4567",
+    "SpareMags": 3
 }

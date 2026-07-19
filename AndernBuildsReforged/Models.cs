@@ -41,6 +41,19 @@ public class WeaponPreset
     /// Allow-list of map IDs (canonical or short aliases). Null/empty = all maps.
     /// </summary>
     public List<string>? Locations { get; set; }
+
+    /// <summary>
+    /// How many spare magazines (same tpl as mounted) to put in pockets/vest.
+    /// Null = capacity heuristic via <see cref="SpareMagazineDefaults.FromCapacity"/>.
+    /// </summary>
+    public int? SpareMags { get; set; }
+}
+
+public class SelectedWeaponPreset
+{
+    public List<Item> Items { get; set; } = [];
+    public string Name { get; set; } = "";
+    public int SpareMags { get; set; }
 }
 
 public class GeneratedWeapon
@@ -49,6 +62,9 @@ public class GeneratedWeapon
     public TemplateItem WeaponTemplate { get; set; }
     public string AmmoTpl { get; set; }
     public string MagazineTpl { get; set; }
+
+    /// <summary>Spare magazine count taken from the chosen preset.</summary>
+    public int SpareMags { get; set; }
 }
 
 public class GearItem

@@ -1,10 +1,10 @@
 {
-    "Id": "a714f7c8ed074572808f61ed",
+    "Id": "6aea34e71f694a0ea78d5d31",
     "Name": "Ash-12 T4 1",
-    "Root": "2113682e1b78499f92aae618",
+    "Root": "87dfc80a897241609c0e54a6",
     "Items": [
         {
-            "_id": "2113682e1b78499f92aae618",
+            "_id": "87dfc80a897241609c0e54a6",
             "_tpl": "5cadfbf7ae92152ac412eeef",
             "upd": {
                 "Repairable": {
@@ -20,44 +20,45 @@
             }
         },
         {
-            "_id": "185742c6a9524c59b7cda61c",
+            "_id": "41c7bd5e07b94ed2a9e58a7a",
             "_tpl": "5caf187cae92157c28402e43",
             "slotId": "mod_muzzle",
-            "parentId": "2113682e1b78499f92aae618"
+            "parentId": "87dfc80a897241609c0e54a6"
         },
         {
-            "_id": "3d39e44cea9f4424aa76a866",
+            "_id": "17324d2dc74841acb77e9d0c",
             "_tpl": "5caf1109ae9215753c44119f",
             "slotId": "mod_magazine",
-            "parentId": "2113682e1b78499f92aae618"
+            "parentId": "87dfc80a897241609c0e54a6"
         },
         {
-            "_id": "4b3855a5de1c40b69e443b93",
+            "_id": "baafee0278c44da985710617",
             "_tpl": "5caf16a2ae92152ac412efbc",
             "slotId": "mod_sight_front",
-            "parentId": "2113682e1b78499f92aae618"
+            "parentId": "87dfc80a897241609c0e54a6"
         },
         {
-            "_id": "6d3e375785534172aacf881e",
+            "_id": "62009a17cdde437b9ba530b9",
             "_tpl": "5cdaa99dd7f00c002412d0b2",
             "slotId": "mod_handguard",
-            "parentId": "2113682e1b78499f92aae618"
+            "parentId": "87dfc80a897241609c0e54a6"
         },
         {
-            "_id": "4c8c2b58f5894d149de2176b",
+            "_id": "43e91cbbf6554153a5819a30",
             "_tpl": "59f8a37386f7747af3328f06",
             "slotId": "mod_foregrip",
-            "parentId": "6d3e375785534172aacf881e"
+            "parentId": "62009a17cdde437b9ba530b9"
         },
         {
-            "_id": "2ee6bac19f214a7d94e06209",
+            "_id": "582cb8cf79e44ca9bcd81db2",
             "_tpl": "59f9d81586f7744c7506ee62",
             "slotId": "mod_scope",
-            "parentId": "2113682e1b78499f92aae618"
+            "parentId": "87dfc80a897241609c0e54a6"
         }
     ],
     "Parent": "5447b5f14bdc2d61278b4567",
     "Factions": [
         "bear"
-    ]
+    ],
+    "SpareMags": 3
 }

@@ -5,6 +5,25 @@ All notable changes to **Andern Builds Reforged** are documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 Versioning follows [SemVer](https://semver.org/).
 
+## [0.3.0] — 2026-07-19
+
+### Added
+
+- Per-preset **`SpareMags`** — exact spare magazine count for PMC loadouts.
+- `SpareMagazineDefaults.ExactCountWeights(n)` — builds `GenerationData` so SPT adds **exactly N** spares instead of bot JSON weights (which flood vests with 3–5 mags).
+- Capacity heuristic when `SpareMags` is omitted: drums ≥61 → 1, mid 50–60 → 2, smaller → 3.
+- Builder `apply_spare_mags_metadata`: LMG/drums → 1, sniper/shotgun → 2, AR/SMG/DMR → 3 (overridable per preset).
+
+### Changed
+
+- `Data.GetRandomWeapon` returns `SelectedWeaponPreset` (items + spare count).
+- `BotInventoryGeneratorEx` no longer passes `botJsonTemplate.BotGeneration.Items.Magazines` for PMC extras.
+
+### Notes
+
+- `SpareMags: 0` = mounted mag only (no loose spares).
+- Until cutover, live `BarlogM-Andern` ignores this field; Raylee `SpareMagazineLimiter` may still cap counts if that patch runs on top of BarlogM.
+
 ## [0.2.0] — 2026-07-19
 
 ### Added
@@ -40,5 +59,6 @@ Versioning follows [SemVer](https://semver.org/).
 - Staging layout under `dev/Andern-Builds-Reforged`, `deploy.ps1` → `SPT/user/mods/Andern-Builds-Reforged/`.
 - Curated T4/T3/T2/T1 presets seeded from the live SPT install.
 
+[0.3.0]: https://github.com/Rayllienstery/Andern-Builds-Reforged/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/Rayllienstery/Andern-Builds-Reforged/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/Rayllienstery/Andern-Builds-Reforged/releases/tag/v0.1.0

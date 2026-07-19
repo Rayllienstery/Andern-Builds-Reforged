@@ -1,10 +1,10 @@
 {
-    "Id": "9860a9a2f670486d8917516e",
+    "Id": "e229ca97bb8a4cb19b0dbd84",
     "Name": "Ash-12 T4 3",
-    "Root": "e1e00a25c4c44002bdb3eadc",
+    "Root": "48b3fa44d52c45ffa8ea8ea5",
     "Items": [
         {
-            "_id": "e1e00a25c4c44002bdb3eadc",
+            "_id": "48b3fa44d52c45ffa8ea8ea5",
             "_tpl": "5cadfbf7ae92152ac412eeef",
             "upd": {
                 "Repairable": {
@@ -20,50 +20,51 @@
             }
         },
         {
-            "_id": "dce0bb80f0a8404b951a9eda",
+            "_id": "746987efe377446abe0f6733",
             "_tpl": "5caf187cae92157c28402e43",
             "slotId": "mod_muzzle",
-            "parentId": "e1e00a25c4c44002bdb3eadc"
+            "parentId": "48b3fa44d52c45ffa8ea8ea5"
         },
         {
-            "_id": "bea6360664c748bc8afd15cd",
+            "_id": "a43e7d748e014a698eae50ed",
             "_tpl": "5caf1109ae9215753c44119f",
             "slotId": "mod_magazine",
-            "parentId": "e1e00a25c4c44002bdb3eadc"
+            "parentId": "48b3fa44d52c45ffa8ea8ea5"
         },
         {
-            "_id": "778a307b25494fa9af7e9f79",
+            "_id": "8aa6f04e923f4eeda64e2cd5",
             "_tpl": "5caf16a2ae92152ac412efbc",
             "slotId": "mod_sight_front",
-            "parentId": "e1e00a25c4c44002bdb3eadc"
+            "parentId": "48b3fa44d52c45ffa8ea8ea5"
         },
         {
-            "_id": "82e7c82d47b44ff1a59887c9",
+            "_id": "817379eb6a76483c9b73ccf2",
             "_tpl": "5cdaa99dd7f00c002412d0b2",
             "slotId": "mod_handguard",
-            "parentId": "e1e00a25c4c44002bdb3eadc"
+            "parentId": "48b3fa44d52c45ffa8ea8ea5"
         },
         {
-            "_id": "8b2709109e094aaca3ebfe19",
+            "_id": "bf82b64761f04e7391424746",
             "_tpl": "59f8a37386f7747af3328f06",
             "slotId": "mod_foregrip",
-            "parentId": "82e7c82d47b44ff1a59887c9"
+            "parentId": "817379eb6a76483c9b73ccf2"
         },
         {
-            "_id": "7ca0e429e236426ca34e6eaf",
+            "_id": "43d8c62a3c6c4a0f809b7d8e",
             "_tpl": "558022b54bdc2dac148b458d",
             "slotId": "mod_scope",
-            "parentId": "e1e00a25c4c44002bdb3eadc"
+            "parentId": "48b3fa44d52c45ffa8ea8ea5"
         },
         {
-            "_id": "70861656bf0d4a71ad3d33bb",
+            "_id": "e2f78ef6bf774fc9a3afcd03",
             "_tpl": "56def37dd2720bec348b456a",
-            "parentId": "82e7c82d47b44ff1a59887c9",
+            "parentId": "817379eb6a76483c9b73ccf2",
             "slotId": "mod_tactical_000"
         }
     ],
     "Parent": "5447b5f14bdc2d61278b4567",
     "Factions": [
         "bear"
-    ]
+    ],
+    "SpareMags": 3
 }

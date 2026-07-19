@@ -252,10 +252,11 @@ public class BotInventoryGeneratorEx(
             WeaponTemplate = generatedWeapon.WeaponTemplate,
         };
 
+        // Exact spare count from preset — do not use bot JSON magazine weights (those flood vests).
         botWeaponGenerator.AddExtraMagazinesToInventory(
             botId,
             generatedWeaponResult,
-            botJsonTemplate.BotGeneration.Items.Magazines,
+            SpareMagazineDefaults.ExactCountWeights(generatedWeapon.SpareMags),
             botInventory,
             botRole);
     }

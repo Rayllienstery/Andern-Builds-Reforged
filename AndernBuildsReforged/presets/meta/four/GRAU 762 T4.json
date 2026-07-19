@@ -1,10 +1,10 @@
 {
-    "Id": "9b4bbf01e79b40be9f66775a",
+    "Id": "fd5a01cd8ca9479cac7b7e23",
     "Name": "GRAU 762 T4",
-    "Root": "81ddb8f2763143518eac5398",
+    "Root": "6ea498c6081d45408a8a4a51",
     "Items": [
         {
-            "_id": "81ddb8f2763143518eac5398",
+            "_id": "6ea498c6081d45408a8a4a51",
             "_tpl": "020020FBA762762000000000",
             "upd": {
                 "Repairable": {
@@ -20,51 +20,51 @@
             }
         },
         {
-            "_id": "0fbcb9653abe4589b14a9216",
+            "_id": "1aefe55cbaaa4488b6a577ae",
             "_tpl": "5ac66bea5acfc43b321d4aec",
             "slotId": "mod_magazine",
-            "parentId": "81ddb8f2763143518eac5398"
+            "parentId": "6ea498c6081d45408a8a4a51"
         },
         {
-            "_id": "bcf3ff8d0ea64dfeb671153c",
+            "_id": "3fbba8944ff14551bf421c1b",
             "_tpl": "041341FBA762762333000000",
             "slotId": "mod_pistol_grip",
-            "parentId": "81ddb8f2763143518eac5398"
+            "parentId": "6ea498c6081d45408a8a4a51"
         },
         {
-            "_id": "53e194fe284a4bf5a23e1b52",
+            "_id": "b90d10d82fe3490d9be49837",
             "_tpl": "043243FBA762762222000000",
             "slotId": "mod_stock_001",
-            "parentId": "81ddb8f2763143518eac5398"
+            "parentId": "6ea498c6081d45408a8a4a51"
         },
         {
-            "_id": "104762d59f2147a093170680",
+            "_id": "a423f1dbf638471fbe764e0b",
             "_tpl": "040040FBA762762040000000",
             "slotId": "mod_reciever",
-            "parentId": "81ddb8f2763143518eac5398"
+            "parentId": "6ea498c6081d45408a8a4a51"
         },
         {
-            "_id": "793f337a2574421e9370870f",
+            "_id": "d2cf2c0c9ecb4263b88b8340",
             "_tpl": "042A42FBA762762AAA000000",
             "slotId": "mod_handguard",
-            "parentId": "104762d59f2147a093170680"
+            "parentId": "a423f1dbf638471fbe764e0b"
         },
         {
-            "_id": "7b74da8af6a34e0192a5e137",
+            "_id": "f9ba3f2dcb8b412b86abda2f",
             "_tpl": "04BA4BFBA762762AAA000000",
             "slotId": "mod_barrel",
-            "parentId": "793f337a2574421e9370870f"
+            "parentId": "d2cf2c0c9ecb4263b88b8340"
         },
         {
-            "_id": "306720b638c14d1182dbac4b",
+            "_id": "7dfcbdcb6e0d4cd29afe0902",
             "_tpl": "59f8a37386f7747af3328f06",
-            "parentId": "793f337a2574421e9370870f",
+            "parentId": "d2cf2c0c9ecb4263b88b8340",
             "slotId": "mod_foregrip"
         },
         {
-            "_id": "d829c6d69d504d33a3557acb",
+            "_id": "0c4b31fd61a04440b0962b64",
             "_tpl": "56def37dd2720bec348b456a",
-            "parentId": "793f337a2574421e9370870f",
+            "parentId": "d2cf2c0c9ecb4263b88b8340",
             "slotId": "mod_tactical_002",
             "upd": {
                 "Light": {
@@ -74,15 +74,15 @@
             }
         },
         {
-            "_id": "7c1aff45f6874c3aa6c61583",
+            "_id": "6bec8df514a84689b4ff8f56",
             "_tpl": "59bffc1f86f77435b128b872",
-            "parentId": "7b74da8af6a34e0192a5e137",
+            "parentId": "f9ba3f2dcb8b412b86abda2f",
             "slotId": "mod_muzzle"
         },
         {
-            "_id": "621cc614aab24799af26b789",
+            "_id": "8668243100c844af837f4c09",
             "_tpl": "558022b54bdc2dac148b458d",
-            "parentId": "104762d59f2147a093170680",
+            "parentId": "a423f1dbf638471fbe764e0b",
             "slotId": "mod_scope"
         }
     ],
@@ -91,5 +91,6 @@
     "SpareAmmoTpl": "64b7af434b75259c590fa893",
     "Factions": [
         "usec"
-    ]
+    ],
+    "SpareMags": 3
 }

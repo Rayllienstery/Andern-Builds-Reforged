@@ -1,10 +1,10 @@
 {
-    "Id": "5127d4276ba648fcb8e7588e",
+    "Id": "fa575ef401614ad99a58f747",
     "Name": "AK-107 T4 3",
-    "Root": "34da10839f934eb597c8778a",
+    "Root": "53da169da7254acc8887c7a3",
     "Items": [
         {
-            "_id": "34da10839f934eb597c8778a",
+            "_id": "53da169da7254acc8887c7a3",
             "_tpl": "695ab544a219218449041700",
             "upd": {
                 "Repairable": {
@@ -20,63 +20,63 @@
             }
         },
         {
-            "_id": "d8dc1ab04f2d412294ab3bda",
+            "_id": "99eddc2eb8b24f97a9cfd24e",
             "_tpl": "6087e663132d4d12c81fd96b",
             "slotId": "mod_pistol_grip",
-            "parentId": "34da10839f934eb597c8778a"
+            "parentId": "53da169da7254acc8887c7a3"
         },
         {
-            "_id": "276d6676a8784fcf85911d74",
+            "_id": "9843df3c1c67429ea8a08483",
             "_tpl": "5ac78eaf5acfc4001926317a",
             "slotId": "mod_stock",
-            "parentId": "34da10839f934eb597c8778a"
+            "parentId": "53da169da7254acc8887c7a3"
         },
         {
-            "_id": "e405de6bfb414718ad8aada2",
+            "_id": "d627f04061884727baddcb4b",
             "_tpl": "55d482194bdc2d1d4e8b456b",
             "slotId": "mod_magazine",
-            "parentId": "34da10839f934eb597c8778a"
+            "parentId": "53da169da7254acc8887c7a3"
         },
         {
-            "_id": "31312772c622403bbed5e8ff",
+            "_id": "88b582f827d3469f909fcca5",
             "_tpl": "5648ac824bdc2ded0b8b457d",
-            "parentId": "34da10839f934eb597c8778a",
+            "parentId": "53da169da7254acc8887c7a3",
             "slotId": "mod_charge"
         },
         {
-            "_id": "d998d42936de4207ad9e5adc",
+            "_id": "173d34ac1b984e43b23f7e37",
             "_tpl": "5648b4534bdc2d3d1c8b4580",
-            "parentId": "34da10839f934eb597c8778a",
+            "parentId": "53da169da7254acc8887c7a3",
             "slotId": "mod_handguard"
         },
         {
-            "_id": "a8fc41e5493c4cd28f345c5e",
+            "_id": "5438586b98f54be2867d2102",
             "_tpl": "59ecc3dd86f7746dc827481c",
-            "parentId": "276d6676a8784fcf85911d74",
+            "parentId": "9843df3c1c67429ea8a08483",
             "slotId": "mod_stock"
         },
         {
-            "_id": "1b45a50d65934741aa3f805c",
+            "_id": "d18b80fcee6a4e31aeaa7d42",
             "_tpl": "615d8f5dd92c473c770212ef",
-            "parentId": "34da10839f934eb597c8778a",
+            "parentId": "53da169da7254acc8887c7a3",
             "slotId": "mod_muzzle"
         },
         {
-            "_id": "1846c0f186f14dd0ad48ab98",
+            "_id": "bb388fa7a30d47b9a5a18ba0",
             "_tpl": "615d8f8567085e45ef1409ca",
-            "parentId": "1b45a50d65934741aa3f805c",
+            "parentId": "d18b80fcee6a4e31aeaa7d42",
             "slotId": "mod_muzzle"
         },
         {
-            "_id": "f28eb3d8988140f196d63b28",
+            "_id": "63b4354d836d4d258f9e29c4",
             "_tpl": "5c1cd46f2e22164bef5cfedb",
-            "parentId": "d998d42936de4207ad9e5adc",
+            "parentId": "173d34ac1b984e43b23f7e37",
             "slotId": "mod_foregrip"
         },
         {
-            "_id": "3e2ddac03ea8412e9f29135e",
+            "_id": "cb597f9286a642a5b311c934",
             "_tpl": "56def37dd2720bec348b456a",
-            "parentId": "d998d42936de4207ad9e5adc",
+            "parentId": "173d34ac1b984e43b23f7e37",
             "slotId": "mod_tactical_002",
             "upd": {
                 "Light": {
@@ -86,9 +86,9 @@
             }
         },
         {
-            "_id": "04e73fe2e03a47c99bb98d60",
+            "_id": "791ab64bbfb745369ba04785",
             "_tpl": "58491f3324597764bc48fa02",
-            "parentId": "d998d42936de4207ad9e5adc",
+            "parentId": "173d34ac1b984e43b23f7e37",
             "slotId": "mod_scope"
         }
     ],
@@ -97,5 +97,6 @@
     "SpareAmmoTpl": "56dff026d2720bb8668b4567",
     "Factions": [
         "bear"
-    ]
+    ],
+    "SpareMags": 3
 }

@@ -1,10 +1,10 @@
 {
-    "Id": "bf7cb813a1184caf83e771b4",
+    "Id": "34723b7c8aec4c6aa90d52a8",
     "Name": "Surgeon 1581 Norma T4",
-    "Root": "08afd5808b5346c192c52697",
+    "Root": "655e27aab2ab48c29f415fe4",
     "Items": [
         {
-            "_id": "08afd5808b5346c192c52697",
+            "_id": "655e27aab2ab48c29f415fe4",
             "_tpl": "1bf618e47cce6d69bec01e9f",
             "upd": {
                 "Repairable": {
@@ -17,45 +17,45 @@
             }
         },
         {
-            "_id": "c736f5f935464ade9c8252ba",
+            "_id": "917a729b76c74879ac60fd2b",
             "_tpl": "f1b1a0db4986e718711a8e80",
-            "parentId": "08afd5808b5346c192c52697",
+            "parentId": "655e27aab2ab48c29f415fe4",
             "slotId": "mod_magazine"
         },
         {
-            "_id": "d02408d4b3684e148e96254f",
+            "_id": "aa4a897ecf6c48e7b76d3b6a",
             "_tpl": "c0a00711f992a1aecdc53ae0",
-            "parentId": "08afd5808b5346c192c52697",
+            "parentId": "655e27aab2ab48c29f415fe4",
             "slotId": "mod_stock"
         },
         {
-            "_id": "97bf32870474423e9205778a",
+            "_id": "5e49c6d6c125418d9be58af6",
             "_tpl": "c572ff3cb1b04b5dd73e615b",
-            "parentId": "d02408d4b3684e148e96254f",
+            "parentId": "aa4a897ecf6c48e7b76d3b6a",
             "slotId": "mod_tactical_000"
         },
         {
-            "_id": "a19aa2486e5a409593e40b50",
+            "_id": "b7966c056e77456f8a1ad816",
             "_tpl": "5888961624597754281f93f3",
-            "parentId": "d02408d4b3684e148e96254f",
+            "parentId": "aa4a897ecf6c48e7b76d3b6a",
             "slotId": "mod_bipod"
         },
         {
-            "_id": "b62ed6f562ac4726b45e89b6",
+            "_id": "3b5ab6a91d48431b8afe9531",
             "_tpl": "5ad7771228e921777b30536f",
-            "parentId": "08afd5808b5346c192c52697",
+            "parentId": "655e27aab2ab48c29f415fe4",
             "slotId": "mod_barrel"
         },
         {
-            "_id": "6418b6d3619446138ae4ed18",
+            "_id": "9f123d10d79e42d1be6237b4",
             "_tpl": "6171407e50224f204c1da3c5",
-            "parentId": "08afd5808b5346c192c52697",
+            "parentId": "655e27aab2ab48c29f415fe4",
             "slotId": "mod_scope"
         },
         {
-            "_id": "a0d7d32e494841899fc09c3d",
+            "_id": "4e7b956622f847b19a68d058",
             "_tpl": "57c5ac0824597754771e88a9",
-            "parentId": "6418b6d3619446138ae4ed18",
+            "parentId": "9f123d10d79e42d1be6237b4",
             "slotId": "mod_scope_000",
             "upd": {
                 "Sight": {
@@ -71,15 +71,15 @@
             }
         },
         {
-            "_id": "cc56538e9f6d44689767f996",
+            "_id": "ead35df4513e45f3bc549a82",
             "_tpl": "612e0d81290d254f5e6b291a",
-            "parentId": "b62ed6f562ac4726b45e89b6",
+            "parentId": "3b5ab6a91d48431b8afe9531",
             "slotId": "mod_muzzle"
         },
         {
-            "_id": "ee5b60e7cbb34c1c9f47e92b",
+            "_id": "e3e6b671514a4ff4a798decd",
             "_tpl": "63877c99e785640d436458ea",
-            "parentId": "cc56538e9f6d44689767f996",
+            "parentId": "ead35df4513e45f3bc549a82",
             "slotId": "mod_muzzle"
         }
     ],
@@ -99,5 +99,6 @@
         "interchange",
         "sandbox",
         "sandbox_high"
-    ]
+    ],
+    "SpareMags": 2
 }

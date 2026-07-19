@@ -1,10 +1,10 @@
 {
-    "Id": "55b2d3c784ab46328c72d823",
+    "Id": "180d5808512b4aab98bc4d48",
     "Name": "KS-23 T4",
-    "Root": "16c2288edf774e9bb7433efd",
+    "Root": "4d50849420234a98a7648546",
     "Items": [
         {
-            "_id": "16c2288edf774e9bb7433efd",
+            "_id": "4d50849420234a98a7648546",
             "_tpl": "5e848cc2988a8701445df1e8",
             "upd": {
                 "Repairable": {
@@ -17,33 +17,33 @@
             }
         },
         {
-            "_id": "73fb5bb9e98b4e73bb0c1af7",
+            "_id": "ec845a629d1f41daa0e82aea",
             "_tpl": "5e848d2eea0a7c419c2f9bfd",
-            "parentId": "16c2288edf774e9bb7433efd",
+            "parentId": "4d50849420234a98a7648546",
             "slotId": "mod_barrel"
         },
         {
-            "_id": "02ad422e51ad430294b94a2a",
+            "_id": "714df124025344e98dc773cf",
             "_tpl": "5e848d51e4dbc5266a4ec63b",
-            "parentId": "16c2288edf774e9bb7433efd",
+            "parentId": "4d50849420234a98a7648546",
             "slotId": "mod_handguard"
         },
         {
-            "_id": "1474986cbd4a434fae3202c4",
+            "_id": "818c7bd71d434135a7786ceb",
             "_tpl": "5f647d9f8499b57dc40ddb93",
-            "parentId": "16c2288edf774e9bb7433efd",
+            "parentId": "4d50849420234a98a7648546",
             "slotId": "mod_magazine"
         },
         {
-            "_id": "ebc6d88a449c427e8e3e92ee",
+            "_id": "0003fc512fa14af1bcab1710",
             "_tpl": "5e848d99865c0f329958c83b",
-            "parentId": "16c2288edf774e9bb7433efd",
+            "parentId": "4d50849420234a98a7648546",
             "slotId": "mod_stock"
         },
         {
-            "_id": "9387dfe69cb54b49bb481369",
+            "_id": "e60747f7eb194f21991a4e99",
             "_tpl": "5e848dc4e4dbc5266a4ec63d",
-            "parentId": "ebc6d88a449c427e8e3e92ee",
+            "parentId": "0003fc512fa14af1bcab1710",
             "slotId": "mod_stock"
         }
     ],
@@ -58,5 +58,6 @@
         "factory4_day",
         "factory4_night",
         "tarkovstreets"
-    ]
+    ],
+    "SpareMags": 2
 }

@@ -110,17 +110,18 @@
             "slotId": "mod_muzzle"
         },
         {
-            "_id": "26be7fcd907140dba8e4f508",
+            "_id": "e606397fef1149bbae6d0154",
             "_tpl": "5a37ca54c4a282000d72296a",
             "parentId": "6927c24fc380cc20a8690493",
             "slotId": "mod_scope"
         },
         {
-            "_id": "3d1a5b6774d54d209afc3714",
+            "_id": "7476df953a3347f8b850559a",
             "_tpl": "544a3f024bdc2d1d388b4568",
-            "parentId": "26be7fcd907140dba8e4f508",
+            "parentId": "e606397fef1149bbae6d0154",
             "slotId": "mod_scope_000"
         }
     ],
-    "Parent": "5447b6194bdc2d67278b4567"
+    "Parent": "5447b6194bdc2d67278b4567",
+    "SpareMags": 3
 }

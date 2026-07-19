@@ -4,7 +4,7 @@ Personal fork of [BarlogM Andern](https://github.com/barlog-m/spt-andern) (MIT) 
 
 | | |
 |--|--|
-| Version | **0.2.0** |
+| Version | **0.3.0** |
 | GitHub | https://github.com/Rayllienstery/Andern-Builds-Reforged |
 | Changelog | [CHANGELOG.md](CHANGELOG.md) |
 | Upstream | `upstream` → `barlog-m/spt-andern` |
@@ -34,6 +34,7 @@ Each weapon preset JSON may include an allow-list of SPT location IDs:
   "Name": "KS-23 T4",
   "Factions": ["bear"],
   "Locations": ["factory4_day", "factory4_night", "tarkovstreets"],
+  "SpareMags": 2,
   "Items": [ ... ]
 }
 ```
@@ -54,9 +55,21 @@ Each weapon preset JSON may include an allow-list of SPT location IDs:
 | `reserve` | `rezervbase` |
 | `groundzero` / `gz` | `sandbox`, `sandbox_high` |
 
+### Spare magazines (`SpareMags`) — since 0.3.0
+
+Exact number of **loose** magazines (same tpl as the one on the gun) placed in vest/pockets. Does **not** use PMC bot JSON magazine weights (those used to flood inventories).
+
+| Value | Meaning |
+|-------|---------|
+| `3` | three spare mags |
+| `0` | gun mag only |
+| omitted | capacity heuristic (drum 1 / mid 2 / small 3) |
+
+Builder defaults: LMG/drums `1`, sniper/shotgun `2`, AR/SMG/DMR `3`. Override per preset in `build_t4_presets.py` / JSON.
+
 Preset generation lives in the SPT workspace builder:
 
-`mods-src/ander-presets/build_t4_presets.py` → `apply_locations_metadata()`.
+`mods-src/ander-presets/build_t4_presets.py` → `apply_locations_metadata()` / `apply_spare_mags_metadata()`.
 
 Do **not** hand-edit deployed `presets/meta/four/*.json` — change the builder, regenerate, run optic audits.
 
@@ -86,10 +99,11 @@ git merge upstream/main
 ## Roadmap
 
 - [x] `Locations` allow-list on presets
+- [x] `SpareMags` exact spare count (no inventory flood)
 - [ ] Retarget `Raylee-AndernPmcPatch` HintPath / namespaces to this assembly
 - [ ] Cut over: deploy here, remove live `BarlogM-Andern`
 - [ ] Optional: filter on `Factions` (field already emitted by builder)
-- [ ] Slim redundant Raylee map-bias patches once `Locations` covers the same cases
+- [ ] Slim redundant Raylee map-bias / SpareMagazineLimiter once Reforged covers the same cases
 
 ## License
 

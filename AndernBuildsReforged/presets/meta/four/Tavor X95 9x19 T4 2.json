@@ -1,10 +1,10 @@
 {
-    "Id": "ac427d1897ea43708fc0a369",
+    "Id": "04dfc04bd7344d95b5c62f97",
     "Name": "Tavor X95 9x19 T4 2",
-    "Root": "6c2753c349a14ecbaf2cb492",
+    "Root": "d9ca0c82d0a14e309423d9e1",
     "Items": [
         {
-            "_id": "6c2753c349a14ecbaf2cb492",
+            "_id": "d9ca0c82d0a14e309423d9e1",
             "_tpl": "67f425638b8cbfdc0cd1b5f2",
             "upd": {
                 "Repairable": {
@@ -20,34 +20,34 @@
             }
         },
         {
-            "_id": "cb07686621054cc7948a8fef",
+            "_id": "cd4a35b6d8d34b93a4fa897b",
             "_tpl": "67f4474195c2cf6ca66af881",
             "slotId": "mod_magazine",
-            "parentId": "6c2753c349a14ecbaf2cb492"
+            "parentId": "d9ca0c82d0a14e309423d9e1"
         },
         {
-            "_id": "4683f5ba56814509b69b1528",
+            "_id": "1bc56106a5a24b2ebe1fe62a",
             "_tpl": "67f2dd6203d3b7ec166970ef",
             "slotId": "mod_tactical_000",
-            "parentId": "6c2753c349a14ecbaf2cb492"
+            "parentId": "d9ca0c82d0a14e309423d9e1"
         },
         {
-            "_id": "67855acd55cb4c9e8458323e",
+            "_id": "76554409340a41eb89570077",
             "_tpl": "67f2ddcd74c13fb90c2d7f1b",
             "slotId": "mod_tactical_001",
-            "parentId": "6c2753c349a14ecbaf2cb492"
+            "parentId": "d9ca0c82d0a14e309423d9e1"
         },
         {
-            "_id": "99c21c443bb044e794f9b7e3",
+            "_id": "74100d866b3349cb8ba00d99",
             "_tpl": "59f8a37386f7747af3328f06",
             "slotId": "mod_foregrip",
-            "parentId": "6c2753c349a14ecbaf2cb492"
+            "parentId": "d9ca0c82d0a14e309423d9e1"
         },
         {
-            "_id": "99fcbefb0fdb4646acd46ea4",
+            "_id": "7ebb24c6e10544f597a8ff58",
             "_tpl": "66a47ed3f97061a20b99f188",
             "slotId": "mod_sight_rear",
-            "parentId": "6c2753c349a14ecbaf2cb492",
+            "parentId": "d9ca0c82d0a14e309423d9e1",
             "upd": {
                 "Sight": {
                     "ScopesCurrentCalibPointIndexes": [
@@ -61,10 +61,10 @@
             }
         },
         {
-            "_id": "0cd3bccecad641c2a97b9a18",
+            "_id": "ac95e0382da34365a00d03c2",
             "_tpl": "66a47ed0df2ffbca58ebe5ed",
             "slotId": "mod_sight_front",
-            "parentId": "6c2753c349a14ecbaf2cb492",
+            "parentId": "d9ca0c82d0a14e309423d9e1",
             "upd": {
                 "Sight": {
                     "ScopesCurrentCalibPointIndexes": [
@@ -78,32 +78,33 @@
             }
         },
         {
-            "_id": "ca9439c056144c33b9838160",
+            "_id": "173f4e545b8c49e690cb2e6e",
             "_tpl": "58491f3324597764bc48fa02",
-            "parentId": "6c2753c349a14ecbaf2cb492",
+            "parentId": "d9ca0c82d0a14e309423d9e1",
             "slotId": "mod_scope"
         },
         {
-            "_id": "9213e9c43c754bfbb44a3bdc",
+            "_id": "d390df83e7554f91a7d875cb",
             "_tpl": "5c6165902e22160010261b28",
-            "parentId": "6c2753c349a14ecbaf2cb492",
+            "parentId": "d9ca0c82d0a14e309423d9e1",
             "slotId": "mod_muzzle"
         },
         {
-            "_id": "350d029c64494d3382b223cc",
+            "_id": "6428ae34e73147fb90a41634",
             "_tpl": "6272370ee4013c5d7e31f418",
-            "parentId": "4683f5ba56814509b69b1528",
+            "parentId": "1bc56106a5a24b2ebe1fe62a",
             "slotId": "mod_tactical"
         },
         {
-            "_id": "d93a20d42072478599916d33",
+            "_id": "b6abd56cf04c4438b7e817e5",
             "_tpl": "56def37dd2720bec348b456a",
-            "parentId": "67855acd55cb4c9e8458323e",
+            "parentId": "76554409340a41eb89570077",
             "slotId": "mod_tactical"
         }
     ],
     "Parent": "5447b5e04bdc2d62278b4567",
     "Factions": [
         "usec"
-    ]
+    ],
+    "SpareMags": 3
 }

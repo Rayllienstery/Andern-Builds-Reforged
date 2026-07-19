@@ -1,10 +1,10 @@
 {
-    "Id": "dda0fb66a1774022b7784060",
+    "Id": "2413fe49c86241baae078fb5",
     "Name": "Saiga-12K T4 1",
-    "Root": "62e892953bd54c07beb08b6c",
+    "Root": "f6a6e62223204c819b9e6573",
     "Items": [
         {
-            "_id": "62e892953bd54c07beb08b6c",
+            "_id": "f6a6e62223204c819b9e6573",
             "_tpl": "674fe9a75e51f1c47c04ec23",
             "upd": {
                 "Repairable": {
@@ -14,69 +14,69 @@
             }
         },
         {
-            "_id": "26b6628ed69a42dd8be888fd",
+            "_id": "a19c78a01a0243db83236036",
             "_tpl": "674fe57721a9aa6be6045b96",
             "slotId": "mod_handguard",
-            "parentId": "62e892953bd54c07beb08b6c"
+            "parentId": "f6a6e62223204c819b9e6573"
         },
         {
-            "_id": "cd3a1daf94f947f6b914cbd7",
+            "_id": "8d1ccad496fc40be95304fee",
             "_tpl": "59fb137a86f7740adb646af1",
             "slotId": "mod_muzzle",
-            "parentId": "62e892953bd54c07beb08b6c"
+            "parentId": "f6a6e62223204c819b9e6573"
         },
         {
-            "_id": "fd856a386b1440a1b3ae1935",
+            "_id": "2aa161f18f2c4051b894d511",
             "_tpl": "651580dc71a4f10aec4b6056",
             "slotId": "mod_pistol_grip",
-            "parentId": "62e892953bd54c07beb08b6c"
+            "parentId": "f6a6e62223204c819b9e6573"
         },
         {
-            "_id": "24e864a9127a46b8b8e0329d",
+            "_id": "efbd31826e4f46199315b2c9",
             "_tpl": "676017fe8cfeeba9f707c8d6",
             "slotId": "mod_reciever",
-            "parentId": "62e892953bd54c07beb08b6c"
+            "parentId": "f6a6e62223204c819b9e6573"
         },
         {
-            "_id": "a7f57163d24c4706812fa7ff",
+            "_id": "5862d2b5c5f545778d47db66",
             "_tpl": "674fe8f6f34d761ab8020cc8",
             "slotId": "mod_magazine",
-            "parentId": "62e892953bd54c07beb08b6c"
+            "parentId": "f6a6e62223204c819b9e6573"
         },
         {
-            "_id": "7ec7879f34f04279b9b1b381",
+            "_id": "14de3a2d93c44ff1a21d7100",
             "_tpl": "5947c73886f7747701588af5",
-            "parentId": "62e892953bd54c07beb08b6c",
+            "parentId": "f6a6e62223204c819b9e6573",
             "slotId": "mod_stock"
         },
         {
-            "_id": "46f5232c37eb4e968ef2b152",
+            "_id": "d3a8331945214188b74e0dfe",
             "_tpl": "674fe89a4472d471fb0f07d8",
-            "parentId": "26b6628ed69a42dd8be888fd",
+            "parentId": "a19c78a01a0243db83236036",
             "slotId": "mod_mount"
         },
         {
-            "_id": "2c8ef168020b48cc9c838c45",
+            "_id": "f26e03707e6d42ce9804ba72",
             "_tpl": "674fe8b9362ea1f88b0e278d",
-            "parentId": "46f5232c37eb4e968ef2b152",
+            "parentId": "d3a8331945214188b74e0dfe",
             "slotId": "mod_mount"
         },
         {
-            "_id": "9ddcd362c14f4513a44df98b",
+            "_id": "49340eacaf924777b2f64042",
             "_tpl": "59f9d81586f7744c7506ee62",
-            "parentId": "2c8ef168020b48cc9c838c45",
+            "parentId": "f26e03707e6d42ce9804ba72",
             "slotId": "mod_scope"
         },
         {
-            "_id": "cc02a80a86aa428481bacc9a",
+            "_id": "144f691ef7864193be2eb0d6",
             "_tpl": "674fe8cf4472d471fb0f07df",
-            "parentId": "2c8ef168020b48cc9c838c45",
+            "parentId": "f26e03707e6d42ce9804ba72",
             "slotId": "mod_sight_rear"
         },
         {
-            "_id": "cf06b51df7d045fcb21406f8",
+            "_id": "77dfa9ebac984a68ab62ee58",
             "_tpl": "5c1cd46f2e22164bef5cfedb",
-            "parentId": "26b6628ed69a42dd8be888fd",
+            "parentId": "a19c78a01a0243db83236036",
             "slotId": "mod_foregrip"
         }
     ],
@@ -84,5 +84,6 @@
     "Weight": 80,
     "Factions": [
         "bear"
-    ]
+    ],
+    "SpareMags": 2
 }

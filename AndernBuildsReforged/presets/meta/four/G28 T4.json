@@ -137,5 +137,6 @@
             "slotId": "mod_scope_000"
         }
     ],
-    "Parent": "5447b6194bdc2d67278b4567"
+    "Parent": "5447b6194bdc2d67278b4567",
+    "SpareMags": 3
 }

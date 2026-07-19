@@ -1,10 +1,10 @@
 {
-    "Id": "ff31a1ea25314c9c9755dcd6",
+    "Id": "1f7b9372245741538d08b369",
     "Name": "KATT AMR T4",
-    "Root": "e58288cebeb0402cbc1ad7b7",
+    "Root": "b9177c73cefb4e38a1552832",
     "Items": [
         {
-            "_id": "e58288cebeb0402cbc1ad7b7",
+            "_id": "b9177c73cefb4e38a1552832",
             "_tpl": "020020AB50AB500000000000",
             "upd": {
                 "Repairable": {
@@ -17,57 +17,57 @@
             }
         },
         {
-            "_id": "88903784ccfc45a18dd23e7e",
+            "_id": "51286cff0ce541fea1f01f9c",
             "_tpl": "02F52FAB50AB502F50000000",
-            "parentId": "e58288cebeb0402cbc1ad7b7",
+            "parentId": "b9177c73cefb4e38a1552832",
             "slotId": "mod_magazine"
         },
         {
-            "_id": "8872d55824e54032a2269331",
+            "_id": "1e282c28007b402ea1a8c0bf",
             "_tpl": "04BA4BAB50AB50AB00000000",
-            "parentId": "e58288cebeb0402cbc1ad7b7",
+            "parentId": "b9177c73cefb4e38a1552832",
             "slotId": "mod_barrel"
         },
         {
-            "_id": "8950e88b5fa54ca294e77614",
+            "_id": "8320858dc01b4f5c8d68fc3f",
             "_tpl": "04E04EAB50AB504E00000000",
-            "parentId": "8872d55824e54032a2269331",
+            "parentId": "1e282c28007b402ea1a8c0bf",
             "slotId": "mod_muzzle"
         },
         {
-            "_id": "9c996a0ced7b4447a1a4c6af",
+            "_id": "61226925b5274a5a8b2e7dcd",
             "_tpl": "043043AB50AB504300000000",
-            "parentId": "e58288cebeb0402cbc1ad7b7",
+            "parentId": "b9177c73cefb4e38a1552832",
             "slotId": "mod_stock"
         },
         {
-            "_id": "cec87c7938b24f828883b177",
+            "_id": "91ef07a7e0fa4c229aa66e4f",
             "_tpl": "045045AB50AB504500000000",
-            "parentId": "e58288cebeb0402cbc1ad7b7",
+            "parentId": "b9177c73cefb4e38a1552832",
             "slotId": "mod_pistol_grip"
         },
         {
-            "_id": "f08436981db1480eaac1d0ee",
+            "_id": "9071ca971e2743389110d20f",
             "_tpl": "04C04CAB50AB504C00000000",
-            "parentId": "e58288cebeb0402cbc1ad7b7",
+            "parentId": "b9177c73cefb4e38a1552832",
             "slotId": "mod_charge"
         },
         {
-            "_id": "a9767f47f0584947b883cfb3",
+            "_id": "f58c8e1eca6d4a2e8e64bcbf",
             "_tpl": "046046AB50AB504600000000",
-            "parentId": "e58288cebeb0402cbc1ad7b7",
+            "parentId": "b9177c73cefb4e38a1552832",
             "slotId": "mod_mount"
         },
         {
-            "_id": "8b15b51777f44fe1a0d689bb",
+            "_id": "e2436f9a76cc4cadadb1f950",
             "_tpl": "5a1ead28fcdbcb001912fa9f",
-            "parentId": "8872d55824e54032a2269331",
+            "parentId": "1e282c28007b402ea1a8c0bf",
             "slotId": "mod_scope"
         },
         {
-            "_id": "deaa78501343478185e7ac3e",
+            "_id": "b198fe6dba824903bee1f6a5",
             "_tpl": "5a1eaa87fcdbcb001865f75e",
-            "parentId": "8b15b51777f44fe1a0d689bb",
+            "parentId": "e2436f9a76cc4cadadb1f950",
             "slotId": "mod_scope",
             "upd": {
                 "Sight": {
@@ -99,5 +99,6 @@
         "interchange",
         "sandbox",
         "sandbox_high"
-    ]
+    ],
+    "SpareMags": 2
 }

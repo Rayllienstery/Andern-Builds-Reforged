@@ -513,7 +513,8 @@ public class WeaponGenerator(
         string weaponParentId = "",
         bool isNightVision = false)
     {
-        var weaponWithMods = data.GetRandomWeapon(botLevel);
+        var selected = data.GetRandomWeapon(botLevel);
+        var weaponWithMods = selected.Items;
         if (weaponWithMods.Count <= 0)
         {
             logger.Error($"[Andern] GenerateWeapon for bot level {botLevel}");
@@ -535,12 +536,17 @@ public class WeaponGenerator(
         AddCartridgeToChamber(weaponWithMods, ammoTpl, weaponTemplate);
         var magazineTpl = FillMagazine(weaponWithMods, ammoTpl);
 
+        var spareMags = selected.SpareMags >= 0
+            ? selected.SpareMags
+            : SpareMagazineDefaults.FromCapacity(itemHelper, magazineTpl);
+
         return new GeneratedWeapon
         {
             WeaponWithMods = weaponWithMods,
             WeaponTemplate = weaponTemplate,
             AmmoTpl = ammoTpl,
-            MagazineTpl = magazineTpl
+            MagazineTpl = magazineTpl,
+            SpareMags = spareMags,
         };
     }
 }
