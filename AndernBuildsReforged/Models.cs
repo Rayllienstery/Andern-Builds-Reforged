@@ -47,6 +47,13 @@ public class WeaponPreset
     /// Null = capacity heuristic via <see cref="SpareMagazineDefaults.FromCapacity"/>.
     /// </summary>
     public int? SpareMags { get; set; }
+
+    /// <summary>
+    /// Relative spawn weight (int). Higher = more often. Null/≤0 treated as 1.
+    /// </summary>
+    public int? Weight { get; set; }
+
+    public int EffectiveWeight => Weight is > 0 ? Weight.Value : 1;
 }
 
 public class SelectedWeaponPreset

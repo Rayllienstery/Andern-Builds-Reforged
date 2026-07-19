@@ -5,6 +5,19 @@ All notable changes to **Andern Builds Reforged** are documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 Versioning follows [SemVer](https://semver.org/).
 
+## [0.4.0] — 2026-07-19
+
+### Added
+
+- Per-preset **`Weight`** (int) — higher weight = more frequent pick within the location-filtered tier pool.
+- Weighted selection in `Data.GetRandomWeapon` via `WeightedRandomHelper` (missing/`≤0` Weight → 1).
+- Report script: `mods-src/ander-presets/scripts/report_preset_chances.py` — per location: preset name, primary weapon, spawn %.
+
+### Changed
+
+- Builder always writes integer `Weight` (`apply_weight_metadata`). Default `1`; shotguns `3`; M249 `1`.
+- Old shotgun `Weight: 80` retired (was unused dead metadata; would have flooded the pool once weights went live).
+
 ## [0.3.0] — 2026-07-19
 
 ### Added
@@ -59,6 +72,7 @@ Versioning follows [SemVer](https://semver.org/).
 - Staging layout under `dev/Andern-Builds-Reforged`, `deploy.ps1` → `SPT/user/mods/Andern-Builds-Reforged/`.
 - Curated T4/T3/T2/T1 presets seeded from the live SPT install.
 
+[0.4.0]: https://github.com/Rayllienstery/Andern-Builds-Reforged/compare/v0.3.0...v0.4.0
 [0.3.0]: https://github.com/Rayllienstery/Andern-Builds-Reforged/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/Rayllienstery/Andern-Builds-Reforged/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/Rayllienstery/Andern-Builds-Reforged/releases/tag/v0.1.0

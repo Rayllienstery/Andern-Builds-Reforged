@@ -106,5 +106,6 @@
             "slotId": "mod_foregrip"
         }
     ],
-    "SpareMags": 3
+    "SpareMags": 3,
+    "Weight": 1
 }

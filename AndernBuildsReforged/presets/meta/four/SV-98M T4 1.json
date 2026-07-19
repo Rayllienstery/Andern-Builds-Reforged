@@ -1,10 +1,10 @@
 {
-    "Id": "48d3816753104f5b9baeb008",
+    "Id": "fae604f33e3f49129494ca5c",
     "Name": "SV-98M T4 1",
-    "Root": "62e1bb53345a4b2680c73b7b",
+    "Root": "a701b97ff7fb41b592ac3967",
     "Items": [
         {
-            "_id": "62e1bb53345a4b2680c73b7b",
+            "_id": "a701b97ff7fb41b592ac3967",
             "_tpl": "69236a0b2d1260dbca41ef92",
             "upd": {
                 "Repairable": {
@@ -20,39 +20,39 @@
             }
         },
         {
-            "_id": "df332260fe034b90a774c88c",
+            "_id": "d7061dff4f4f4590b8453e78",
             "_tpl": "559ba5b34bdc2d1f1a8b4582",
             "slotId": "mod_magazine",
-            "parentId": "62e1bb53345a4b2680c73b7b"
+            "parentId": "a701b97ff7fb41b592ac3967"
         },
         {
-            "_id": "f8302a7f252e4325a66db5f2",
+            "_id": "00bf950ed0ae42bda615f253",
             "_tpl": "56ea8222d2720b69698b4567",
             "slotId": "mod_bipod",
-            "parentId": "62e1bb53345a4b2680c73b7b"
+            "parentId": "a701b97ff7fb41b592ac3967"
         },
         {
-            "_id": "0fdc6423783741c989c3e300",
+            "_id": "b7d556806557491face09da2",
             "_tpl": "560e620e4bdc2d724b8b456b",
             "slotId": "mod_muzzle",
-            "parentId": "62e1bb53345a4b2680c73b7b"
+            "parentId": "a701b97ff7fb41b592ac3967"
         },
         {
-            "_id": "96a939f63d644abcac584a02",
+            "_id": "c1fc0b70c3df41e0bb6d2cef",
             "_tpl": "56083e1b4bdc2dc8488b4572",
             "slotId": "mod_sight_rear",
-            "parentId": "62e1bb53345a4b2680c73b7b"
+            "parentId": "a701b97ff7fb41b592ac3967"
         },
         {
-            "_id": "693317718c6a4299aef4b748",
+            "_id": "5bbf338fe9ba43b2b4da9cfe",
             "_tpl": "5a37ca54c4a282000d72296a",
-            "parentId": "62e1bb53345a4b2680c73b7b",
+            "parentId": "a701b97ff7fb41b592ac3967",
             "slotId": "mod_scope"
         },
         {
-            "_id": "fe2c6ab520f8413f800c202c",
+            "_id": "a731699e49ad4094b0dc8ea7",
             "_tpl": "5b3b99475acfc432ff4dcbee",
-            "parentId": "693317718c6a4299aef4b748",
+            "parentId": "5bbf338fe9ba43b2b4da9cfe",
             "slotId": "mod_scope_000"
         }
     ],
@@ -70,5 +70,6 @@
         "sandbox",
         "sandbox_high"
     ],
-    "SpareMags": 2
+    "SpareMags": 2,
+    "Weight": 1
 }

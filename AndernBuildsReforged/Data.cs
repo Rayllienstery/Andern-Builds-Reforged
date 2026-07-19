@@ -20,14 +20,22 @@ public class Data
     readonly ISptLogger<Data> logger;
     readonly ModHelper modHelper;
     readonly RandomUtil randomUtil;
+    readonly WeightedRandomHelper weightedRandomHelper;
     readonly ICloner cloner;
     readonly ModData modData;
 
-    public Data(ISptLogger<Data> logger, ModHelper modHelper, RandomUtil randomUtil, ICloner cloner, ModData modData)
+    public Data(
+        ISptLogger<Data> logger,
+        ModHelper modHelper,
+        RandomUtil randomUtil,
+        WeightedRandomHelper weightedRandomHelper,
+        ICloner cloner,
+        ModData modData)
     {
         this.logger = logger;
         this.modHelper = modHelper;
         this.randomUtil = randomUtil;
+        this.weightedRandomHelper = weightedRandomHelper;
         this.modData = modData;
         this.cloner = cloner;
         this._modConfig = modData.ModConfig;
@@ -127,12 +135,12 @@ public class Data
             filtered = pool;
         }
 
-        var weaponPreset = randomUtil.GetArrayValue(filtered);
+        var weaponPreset = PickWeightedPreset(filtered);
 
         if (_modConfig.Debug)
         {
             logger.LogWithColor(
-                $"[Andern] for bot level {level} loc `{location ?? "-"}` selected tier `{tier}` weapon '{weaponPreset.Name}' spareMags={weaponPreset.SpareMags?.ToString() ?? "default"}",
+                $"[Andern] for bot level {level} loc `{location ?? "-"}` selected tier `{tier}` weapon '{weaponPreset.Name}' weight={weaponPreset.EffectiveWeight} spareMags={weaponPreset.SpareMags?.ToString() ?? "default"}",
                 LogTextColor.Blue);
         }
 
@@ -147,6 +155,24 @@ public class Data
             // negative sentinel means "resolve default".
             SpareMags = weaponPreset.SpareMags ?? -1,
         };
+    }
+
+    WeaponPreset PickWeightedPreset(List<WeaponPreset> presets)
+    {
+        if (presets.Count == 1)
+        {
+            return presets[0];
+        }
+
+        // Index keys — preset Names/Ids are not guaranteed unique.
+        var weights = new Dictionary<string, double>(presets.Count);
+        for (var i = 0; i < presets.Count; i++)
+        {
+            weights[i.ToString()] = presets[i].EffectiveWeight;
+        }
+
+        var key = weightedRandomHelper.GetWeightedValue(weights);
+        return presets[int.Parse(key)];
     }
 
     public string GetRandomAmmoByCaliber(int level, string caliber)

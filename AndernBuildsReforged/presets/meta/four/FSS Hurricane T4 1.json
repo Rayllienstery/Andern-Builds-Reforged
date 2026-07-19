@@ -1,10 +1,10 @@
 {
-    "Id": "ea708c5c045d40e3bce37731",
+    "Id": "c4489a4120d84aaea969673c",
     "Name": "FSS Hurricane T4 1",
-    "Root": "1c2c7734bacb4fe490dca878",
+    "Root": "e69848a30a7e4a399da810aa",
     "Items": [
         {
-            "_id": "1c2c7734bacb4fe490dca878",
+            "_id": "e69848a30a7e4a399da810aa",
             "_tpl": "020020fbbfbb570000000000",
             "upd": {
                 "Repairable": {
@@ -20,69 +20,69 @@
             }
         },
         {
-            "_id": "5cd7ff09740847c4afaf3fc2",
+            "_id": "54067c95e0884cbc9041c651",
             "_tpl": "5cc70093e4a949033c734312",
             "slotId": "mod_magazine",
-            "parentId": "1c2c7734bacb4fe490dca878"
+            "parentId": "e69848a30a7e4a399da810aa"
         },
         {
-            "_id": "ea7fb98703c54cd2854c0703",
+            "_id": "d35314c133d440188a8368a8",
             "_tpl": "042042fbbfbb570000000000",
             "slotId": "mod_reciever",
-            "parentId": "1c2c7734bacb4fe490dca878"
+            "parentId": "e69848a30a7e4a399da810aa"
         },
         {
-            "_id": "956b00ef4792452e8abec535",
+            "_id": "534c090221554c138767d3ac",
             "_tpl": "04B04Bfbbfbb574B00000000",
             "slotId": "mod_barrel",
-            "parentId": "ea7fb98703c54cd2854c0703"
+            "parentId": "d35314c133d440188a8368a8"
         },
         {
-            "_id": "19cf7d336faa4dbc949229ae",
+            "_id": "eecc22958fe94ba7bf9b546b",
             "_tpl": "044044fbbfbb574400000000",
             "slotId": "mod_charge",
-            "parentId": "1c2c7734bacb4fe490dca878"
+            "parentId": "e69848a30a7e4a399da810aa"
         },
         {
-            "_id": "e40d5f9ed4d84ba6badb709c",
+            "_id": "c8ac83691bad4f47b88c42b0",
             "_tpl": "6087e663132d4d12c81fd96b",
             "slotId": "mod_pistol_grip",
-            "parentId": "1c2c7734bacb4fe490dca878"
+            "parentId": "e69848a30a7e4a399da810aa"
         },
         {
-            "_id": "389cb613c6f14e6a858b7adb",
+            "_id": "fab4fd344a684b60a2386454",
             "_tpl": "59f9d81586f7744c7506ee62",
-            "parentId": "ea7fb98703c54cd2854c0703",
+            "parentId": "d35314c133d440188a8368a8",
             "slotId": "mod_scope"
         },
         {
-            "_id": "edc890fbd49146b49b7df567",
+            "_id": "4f2db4a06bc64c07b2a8c8f8",
             "_tpl": "59f8a37386f7747af3328f06",
-            "parentId": "ea7fb98703c54cd2854c0703",
+            "parentId": "d35314c133d440188a8368a8",
             "slotId": "mod_foregrip"
         },
         {
-            "_id": "e4c076bfb5544fb3b6a9fc80",
+            "_id": "4127f18281a24e92b5661707",
             "_tpl": "5c793fc42e221600114ca25d",
-            "parentId": "1c2c7734bacb4fe490dca878",
+            "parentId": "e69848a30a7e4a399da810aa",
             "slotId": "mod_stock"
         },
         {
-            "_id": "4ccaab2894464135b37b9c2d",
+            "_id": "ba1553c44fcf491aa29a148a",
             "_tpl": "56eabf3bd2720b75698b4569",
-            "parentId": "e4c076bfb5544fb3b6a9fc80",
+            "parentId": "4127f18281a24e92b5661707",
             "slotId": "mod_stock_000"
         },
         {
-            "_id": "779105040ed042bfac1ec7f0",
+            "_id": "ab711c2c1dd94099afe7b09b",
             "_tpl": "58d2912286f7744e27117493",
-            "parentId": "4ccaab2894464135b37b9c2d",
+            "parentId": "ba1553c44fcf491aa29a148a",
             "slotId": "mod_stock"
         },
         {
-            "_id": "fce44686482e48be9ee8bc0c",
+            "_id": "9a0261c967d14a67bc9a553a",
             "_tpl": "04C04Cfbbfbb574C00000000",
-            "parentId": "956b00ef4792452e8abec535",
+            "parentId": "534c090221554c138767d3ac",
             "slotId": "mod_muzzle"
         }
     ],
@@ -90,5 +90,6 @@
     "Factions": [
         "usec"
     ],
-    "SpareMags": 1
+    "SpareMags": 1,
+    "Weight": 1
 }

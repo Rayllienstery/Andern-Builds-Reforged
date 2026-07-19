@@ -1,10 +1,10 @@
 {
-    "Id": "6a94c9ce5c0b42f8a4d46781",
+    "Id": "a278bbf34cd14dcbb720b46d",
     "Name": "TR-75 T4 3",
-    "Root": "5fa90d99c17f43729b2c30fa",
+    "Root": "859cb984a8284777b4786f98",
     "Items": [
         {
-            "_id": "5fa90d99c17f43729b2c30fa",
+            "_id": "859cb984a8284777b4786f98",
             "_tpl": "020020AB75AB750000000000",
             "upd": {
                 "Repairable": {
@@ -20,75 +20,75 @@
             }
         },
         {
-            "_id": "b3e2ac0f3c1a4e63b1e2ce97",
+            "_id": "65cfb5b8ddeb409d8f806b34",
             "_tpl": "649ec30cb013f04a700e60fb",
             "slotId": "mod_magazine",
-            "parentId": "5fa90d99c17f43729b2c30fa"
+            "parentId": "859cb984a8284777b4786f98"
         },
         {
-            "_id": "b3cb468468704c32b1d47f97",
+            "_id": "4d95ac095a95431fbc72a3ae",
             "_tpl": "04BA4BAB75AB754B00000000",
             "slotId": "mod_barrel",
-            "parentId": "5fa90d99c17f43729b2c30fa"
+            "parentId": "859cb984a8284777b4786f98"
         },
         {
-            "_id": "4c9d486899f641309b7aec64",
+            "_id": "125d9f94fee443d68975b970",
             "_tpl": "043243AB76AB764320000000",
             "slotId": "mod_stock",
-            "parentId": "5fa90d99c17f43729b2c30fa"
+            "parentId": "859cb984a8284777b4786f98"
         },
         {
-            "_id": "dfaa6fd44bde4e7f85112046",
+            "_id": "55330f166a6b4cbe94bf979c",
             "_tpl": "558022b54bdc2dac148b458d",
-            "parentId": "5fa90d99c17f43729b2c30fa",
+            "parentId": "859cb984a8284777b4786f98",
             "slotId": "mod_scope"
         },
         {
-            "_id": "42afb0f4eee44d89936523ce",
+            "_id": "2f6c7de8b2ab485d880826c6",
             "_tpl": "041041AB76AB764100000000",
-            "parentId": "5fa90d99c17f43729b2c30fa",
+            "parentId": "859cb984a8284777b4786f98",
             "slotId": "mod_handguard"
         },
         {
-            "_id": "3602969df1924295ba4bdab3",
+            "_id": "bbb752cb85514344bd7651dc",
             "_tpl": "044244AB76AB764420000000",
-            "parentId": "5fa90d99c17f43729b2c30fa",
+            "parentId": "859cb984a8284777b4786f98",
             "slotId": "mod_stock_000"
         },
         {
-            "_id": "3103a17296a444e6af760c59",
+            "_id": "1c77e37e9fe4426b8ef45f69",
             "_tpl": "045045AB76AB764500000000",
-            "parentId": "5fa90d99c17f43729b2c30fa",
+            "parentId": "859cb984a8284777b4786f98",
             "slotId": "mod_pistol_grip"
         },
         {
-            "_id": "423e32b57b194ed48480303b",
+            "_id": "f3d46559d4ae40dfbe81b8aa",
             "_tpl": "5c1cd46f2e22164bef5cfedb",
-            "parentId": "42afb0f4eee44d89936523ce",
+            "parentId": "2f6c7de8b2ab485d880826c6",
             "slotId": "mod_foregrip"
         },
         {
-            "_id": "887151509fa0437986ab1d83",
+            "_id": "5eda26d1a87441f1ba69984b",
             "_tpl": "56def37dd2720bec348b456a",
-            "parentId": "42afb0f4eee44d89936523ce",
+            "parentId": "2f6c7de8b2ab485d880826c6",
             "slotId": "mod_tactical_000"
         },
         {
-            "_id": "1f23feed593b43b79d469af4",
+            "_id": "d8ce33a6ab184d9889e621aa",
             "_tpl": "04BC4BAB75AB75CB00000000",
-            "parentId": "b3cb468468704c32b1d47f97",
+            "parentId": "4d95ac095a95431fbc72a3ae",
             "slotId": "mod_muzzle"
         },
         {
-            "_id": "b85fd0587c0c43a8b0871bac",
+            "_id": "fc4b2c98978d434295ae49fe",
             "_tpl": "615d8f5dd92c473c770212ef",
-            "parentId": "1f23feed593b43b79d469af4",
+            "parentId": "d8ce33a6ab184d9889e621aa",
             "slotId": "mod_muzzle"
         },
         {
-            "_id": "450554906b65479880e8caaf",
+            "_id": "098a2dff8eb04a82ae120839",
             "_tpl": "615d8f8567085e45ef1409ca",
-            "parentId": "b85fd0587c0c43a8b0871bac",
+            "parentId": "fc4b2c98978d434295ae49fe",
             "slotId": "mod_muzzle"
         }
     ],
@@ -96,5 +96,6 @@
     "Factions": [
         "bear"
     ],
-    "SpareMags": 3
+    "SpareMags": 3,
+    "Weight": 1
 }

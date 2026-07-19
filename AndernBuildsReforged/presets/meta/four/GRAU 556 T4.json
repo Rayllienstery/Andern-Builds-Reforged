@@ -1,10 +1,10 @@
 {
-    "Id": "2facee2ac60449019b9b6c0f",
+    "Id": "fcbf4a7dc7c44cea840b311c",
     "Name": "GRAU 556 T4",
-    "Root": "b590468176dd437f9b0c07d0",
+    "Root": "4182b2d8403a47a0b6778b03",
     "Items": [
         {
-            "_id": "b590468176dd437f9b0c07d0",
+            "_id": "4182b2d8403a47a0b6778b03",
             "_tpl": "020020FBA556556000000000",
             "upd": {
                 "Repairable": {
@@ -20,51 +20,51 @@
             }
         },
         {
-            "_id": "703b8daa71f947dab2354824",
+            "_id": "f276c885670c49c3aa4cfbf9",
             "_tpl": "02F02FFBA556556030000000",
             "slotId": "mod_magazine",
-            "parentId": "b590468176dd437f9b0c07d0"
+            "parentId": "4182b2d8403a47a0b6778b03"
         },
         {
-            "_id": "195e2be219264b5c8db613b7",
+            "_id": "aecde338a1bb4628bdabff53",
             "_tpl": "041341FBA762762333000000",
             "slotId": "mod_pistol_grip",
-            "parentId": "b590468176dd437f9b0c07d0"
+            "parentId": "4182b2d8403a47a0b6778b03"
         },
         {
-            "_id": "2e3efd237eee49ccbcdb02b0",
+            "_id": "44c76a6a471143c29e14b566",
             "_tpl": "043243FBA762762222000000",
             "slotId": "mod_stock_001",
-            "parentId": "b590468176dd437f9b0c07d0"
+            "parentId": "4182b2d8403a47a0b6778b03"
         },
         {
-            "_id": "4804d3805e96455f90e33354",
+            "_id": "69571359ba824a49b482266c",
             "_tpl": "040040FBA556556040000000",
             "slotId": "mod_reciever",
-            "parentId": "b590468176dd437f9b0c07d0"
+            "parentId": "4182b2d8403a47a0b6778b03"
         },
         {
-            "_id": "c38db0dbcf4e43a9b9c6e056",
+            "_id": "22f010c5a58d4130b0350803",
             "_tpl": "042A42FBA762762AAA000000",
             "slotId": "mod_handguard",
-            "parentId": "4804d3805e96455f90e33354"
+            "parentId": "69571359ba824a49b482266c"
         },
         {
-            "_id": "aea6982172e44bc79a70a4db",
+            "_id": "a5a62af9761d46d09b0ca721",
             "_tpl": "04BA4BFBA556556AAA000000",
             "slotId": "mod_barrel",
-            "parentId": "c38db0dbcf4e43a9b9c6e056"
+            "parentId": "22f010c5a58d4130b0350803"
         },
         {
-            "_id": "8756efd2194540559df655fc",
+            "_id": "057a4dab4d6a4eab843495d7",
             "_tpl": "59f8a37386f7747af3328f06",
-            "parentId": "c38db0dbcf4e43a9b9c6e056",
+            "parentId": "22f010c5a58d4130b0350803",
             "slotId": "mod_foregrip"
         },
         {
-            "_id": "3a9416751bb14ea9be48a1c0",
+            "_id": "88d193abeec54ae59eca7662",
             "_tpl": "56def37dd2720bec348b456a",
-            "parentId": "c38db0dbcf4e43a9b9c6e056",
+            "parentId": "22f010c5a58d4130b0350803",
             "slotId": "mod_tactical_002",
             "upd": {
                 "Light": {
@@ -74,21 +74,21 @@
             }
         },
         {
-            "_id": "31509168f85f4c3cb8e83a03",
+            "_id": "e510cec1d96a446e8c21c258",
             "_tpl": "5ea172e498dacb342978818e",
-            "parentId": "aea6982172e44bc79a70a4db",
+            "parentId": "a5a62af9761d46d09b0ca721",
             "slotId": "mod_muzzle"
         },
         {
-            "_id": "df6bbf15f1ed44bda2061a20",
+            "_id": "bd3532307a7744fda316763c",
             "_tpl": "55d6190f4bdc2d87028b4567",
-            "parentId": "31509168f85f4c3cb8e83a03",
+            "parentId": "e510cec1d96a446e8c21c258",
             "slotId": "mod_muzzle"
         },
         {
-            "_id": "36cf687abe6e45c385159fd9",
+            "_id": "1564f04522f3481caa6b5903",
             "_tpl": "558022b54bdc2dac148b458d",
-            "parentId": "4804d3805e96455f90e33354",
+            "parentId": "69571359ba824a49b482266c",
             "slotId": "mod_scope"
         }
     ],
@@ -98,5 +98,6 @@
     "Factions": [
         "usec"
     ],
-    "SpareMags": 3
+    "SpareMags": 3,
+    "Weight": 1
 }

@@ -1,10 +1,10 @@
 {
-    "Id": "ce2a0bffc9804eab938b129a",
+    "Id": "916509014d864b2f9e4f9426",
     "Name": "Saiga-12K T4 3",
-    "Root": "96e15d26f7214167a7960f2e",
+    "Root": "50ad36e199f24496be24c247",
     "Items": [
         {
-            "_id": "96e15d26f7214167a7960f2e",
+            "_id": "50ad36e199f24496be24c247",
             "_tpl": "674fe9a75e51f1c47c04ec23",
             "upd": {
                 "Repairable": {
@@ -14,75 +14,75 @@
             }
         },
         {
-            "_id": "f7d9c72f7a5147639ec33f40",
+            "_id": "59707292039f4ef2afd8b8a8",
             "_tpl": "674fe57721a9aa6be6045b96",
             "slotId": "mod_handguard",
-            "parentId": "96e15d26f7214167a7960f2e"
+            "parentId": "50ad36e199f24496be24c247"
         },
         {
-            "_id": "52089937c0a349fc8a3222c4",
+            "_id": "f17942f9342c4dddb39b33f4",
             "_tpl": "59fb137a86f7740adb646af1",
             "slotId": "mod_muzzle",
-            "parentId": "96e15d26f7214167a7960f2e"
+            "parentId": "50ad36e199f24496be24c247"
         },
         {
-            "_id": "f8752f9f9f7841f5af5b5809",
+            "_id": "f1caa3595e67447b9c08cfb1",
             "_tpl": "651580dc71a4f10aec4b6056",
             "slotId": "mod_pistol_grip",
-            "parentId": "96e15d26f7214167a7960f2e"
+            "parentId": "50ad36e199f24496be24c247"
         },
         {
-            "_id": "dd13b4dd47dc479d845afbf4",
+            "_id": "4d7245f42f8c44da99e8cd5b",
             "_tpl": "676017fe8cfeeba9f707c8d6",
             "slotId": "mod_reciever",
-            "parentId": "96e15d26f7214167a7960f2e"
+            "parentId": "50ad36e199f24496be24c247"
         },
         {
-            "_id": "9a267f9e4ac940ddb43915b3",
+            "_id": "ed0a4a2c55f84d30a9cbfe86",
             "_tpl": "674fe8f6f34d761ab8020cc8",
             "slotId": "mod_magazine",
-            "parentId": "96e15d26f7214167a7960f2e"
+            "parentId": "50ad36e199f24496be24c247"
         },
         {
-            "_id": "101286ba875a4698a7f091ef",
+            "_id": "fdc8876a0c4c4dd1ad9432a7",
             "_tpl": "5947c73886f7747701588af5",
-            "parentId": "96e15d26f7214167a7960f2e",
+            "parentId": "50ad36e199f24496be24c247",
             "slotId": "mod_stock"
         },
         {
-            "_id": "fbc5c4877c2247538afe8c9e",
+            "_id": "db5a3d80055e41fe8dc2512f",
             "_tpl": "674fe89a4472d471fb0f07d8",
-            "parentId": "f7d9c72f7a5147639ec33f40",
+            "parentId": "59707292039f4ef2afd8b8a8",
             "slotId": "mod_mount"
         },
         {
-            "_id": "3a922f2c61ce4bb0b9f936d8",
+            "_id": "e4c6070c82b24d6fa89bf4d5",
             "_tpl": "674fe8b9362ea1f88b0e278d",
-            "parentId": "fbc5c4877c2247538afe8c9e",
+            "parentId": "db5a3d80055e41fe8dc2512f",
             "slotId": "mod_mount"
         },
         {
-            "_id": "3a5b4b592f3441dcbe3f605f",
+            "_id": "0cf123675b584a5da07c2563",
             "_tpl": "558022b54bdc2dac148b458d",
-            "parentId": "3a922f2c61ce4bb0b9f936d8",
+            "parentId": "e4c6070c82b24d6fa89bf4d5",
             "slotId": "mod_scope"
         },
         {
-            "_id": "270698bcd22641dc8a75b782",
+            "_id": "f6c6bd0ba5b4421180935102",
             "_tpl": "674fe8cf4472d471fb0f07df",
-            "parentId": "3a922f2c61ce4bb0b9f936d8",
+            "parentId": "e4c6070c82b24d6fa89bf4d5",
             "slotId": "mod_sight_rear"
         },
         {
-            "_id": "164e8745128e4b9b8edc8397",
+            "_id": "62733eb4ee1b45c2acaa5ef4",
             "_tpl": "5c1cd46f2e22164bef5cfedb",
-            "parentId": "f7d9c72f7a5147639ec33f40",
+            "parentId": "59707292039f4ef2afd8b8a8",
             "slotId": "mod_foregrip"
         },
         {
-            "_id": "ef871dc475cb4881b5496879",
+            "_id": "f1dafe7d10c84022bfc3fce0",
             "_tpl": "56def37dd2720bec348b456a",
-            "parentId": "f7d9c72f7a5147639ec33f40",
+            "parentId": "59707292039f4ef2afd8b8a8",
             "slotId": "mod_tactical_000",
             "upd": {
                 "Light": {
@@ -93,7 +93,7 @@
         }
     ],
     "Parent": "5447b6094bdc2dc3278b4567",
-    "Weight": 80,
+    "Weight": 3,
     "Factions": [
         "bear"
     ],

@@ -1,10 +1,10 @@
 {
-    "Id": "1809190b2c2b48858b920854",
+    "Id": "90e19b45464d4f0783498992",
     "Name": "AK-107 T4 1",
-    "Root": "8bcc07b5dc3140d7aa5be19e",
+    "Root": "f602bb470839402a8414b8b1",
     "Items": [
         {
-            "_id": "8bcc07b5dc3140d7aa5be19e",
+            "_id": "f602bb470839402a8414b8b1",
             "_tpl": "695ab544a219218449041700",
             "upd": {
                 "Repairable": {
@@ -20,63 +20,63 @@
             }
         },
         {
-            "_id": "31030cf9e78e47588f65a072",
+            "_id": "a0e99a6650924b369133d1e7",
             "_tpl": "6087e663132d4d12c81fd96b",
             "slotId": "mod_pistol_grip",
-            "parentId": "8bcc07b5dc3140d7aa5be19e"
+            "parentId": "f602bb470839402a8414b8b1"
         },
         {
-            "_id": "8ebbfd4ab40845c59091f6b6",
+            "_id": "77faf81c67394ee0a3d8b00a",
             "_tpl": "5ac78eaf5acfc4001926317a",
             "slotId": "mod_stock",
-            "parentId": "8bcc07b5dc3140d7aa5be19e"
+            "parentId": "f602bb470839402a8414b8b1"
         },
         {
-            "_id": "6b4a7ae3ef084ba68cf89212",
+            "_id": "b53d02bb920b40bbae6068b4",
             "_tpl": "55d482194bdc2d1d4e8b456b",
             "slotId": "mod_magazine",
-            "parentId": "8bcc07b5dc3140d7aa5be19e"
+            "parentId": "f602bb470839402a8414b8b1"
         },
         {
-            "_id": "ccb050f1b1e64a8ca14b6362",
+            "_id": "3d240491581d461690668782",
             "_tpl": "5648ac824bdc2ded0b8b457d",
-            "parentId": "8bcc07b5dc3140d7aa5be19e",
+            "parentId": "f602bb470839402a8414b8b1",
             "slotId": "mod_charge"
         },
         {
-            "_id": "391c682c7b224a87b5fb9551",
+            "_id": "4a15245518184faea8e55610",
             "_tpl": "5648b4534bdc2d3d1c8b4580",
-            "parentId": "8bcc07b5dc3140d7aa5be19e",
+            "parentId": "f602bb470839402a8414b8b1",
             "slotId": "mod_handguard"
         },
         {
-            "_id": "597adcab74504c3391de605a",
+            "_id": "b1c4922cad9644a5922b8328",
             "_tpl": "59ecc3dd86f7746dc827481c",
-            "parentId": "8ebbfd4ab40845c59091f6b6",
+            "parentId": "77faf81c67394ee0a3d8b00a",
             "slotId": "mod_stock"
         },
         {
-            "_id": "76f992f66f5448cfb555e87e",
+            "_id": "60cb0a5db0b2442c99d80b82",
             "_tpl": "615d8f5dd92c473c770212ef",
-            "parentId": "8bcc07b5dc3140d7aa5be19e",
+            "parentId": "f602bb470839402a8414b8b1",
             "slotId": "mod_muzzle"
         },
         {
-            "_id": "2f65a2ae341140e1a746311d",
+            "_id": "d339f5aa27bd44d397caaf9a",
             "_tpl": "615d8f8567085e45ef1409ca",
-            "parentId": "76f992f66f5448cfb555e87e",
+            "parentId": "60cb0a5db0b2442c99d80b82",
             "slotId": "mod_muzzle"
         },
         {
-            "_id": "8baceb808022404ab996bb48",
+            "_id": "ba286abb999d4a84b9e74b37",
             "_tpl": "5c1cd46f2e22164bef5cfedb",
-            "parentId": "391c682c7b224a87b5fb9551",
+            "parentId": "4a15245518184faea8e55610",
             "slotId": "mod_foregrip"
         },
         {
-            "_id": "9ac9f991205f4cf5964da43d",
+            "_id": "bb4991dfdc1a483db37f186f",
             "_tpl": "56def37dd2720bec348b456a",
-            "parentId": "391c682c7b224a87b5fb9551",
+            "parentId": "4a15245518184faea8e55610",
             "slotId": "mod_tactical_002",
             "upd": {
                 "Light": {
@@ -86,9 +86,9 @@
             }
         },
         {
-            "_id": "dd05cc89603a4a6a89ca6ce4",
+            "_id": "38e56700cb014f4eabdb0fde",
             "_tpl": "59f9d81586f7744c7506ee62",
-            "parentId": "391c682c7b224a87b5fb9551",
+            "parentId": "4a15245518184faea8e55610",
             "slotId": "mod_scope"
         }
     ],
@@ -98,5 +98,6 @@
     "Factions": [
         "bear"
     ],
-    "SpareMags": 3
+    "SpareMags": 3,
+    "Weight": 1
 }

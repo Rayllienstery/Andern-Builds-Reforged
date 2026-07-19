@@ -4,7 +4,7 @@ Personal fork of [BarlogM Andern](https://github.com/barlog-m/spt-andern) (MIT) 
 
 | | |
 |--|--|
-| Version | **0.3.0** |
+| Version | **0.4.0** |
 | GitHub | https://github.com/Rayllienstery/Andern-Builds-Reforged |
 | Changelog | [CHANGELOG.md](CHANGELOG.md) |
 | Upstream | `upstream` → `barlog-m/spt-andern` |
@@ -67,9 +67,35 @@ Exact number of **loose** magazines (same tpl as the one on the gun) placed in v
 
 Builder defaults: LMG/drums `1`, sniper/shotgun `2`, AR/SMG/DMR `3`. Override per preset in `build_t4_presets.py` / JSON.
 
+### Spawn weight (`Weight`) — since 0.4.0
+
+Integer relative weight inside the **location-filtered** tier pool. Higher = more often.
+
+```json
+"Weight": 5
+```
+
+| Value | Meaning |
+|-------|---------|
+| omitted / `≤0` | treated as `1` |
+| `1` | baseline (builder default) |
+| `3` | shotgun default mild boost |
+| `10` | ten times more likely than a `Weight: 1` peer in the same pool |
+
+Chance on a map ≈ `Weight / sum(Weights of presets allowed on that map)`.
+
+### Chance report script
+
+```powershell
+python mods-src/ander-presets/scripts/report_preset_chances.py
+python mods-src/ander-presets/scripts/report_preset_chances.py -l factory4_day -l tarkovstreets
+```
+
+Prints per location: preset name, primary weapon display name, spawn %.
+
 Preset generation lives in the SPT workspace builder:
 
-`mods-src/ander-presets/build_t4_presets.py` → `apply_locations_metadata()` / `apply_spare_mags_metadata()`.
+`mods-src/ander-presets/build_t4_presets.py` → `apply_locations_metadata()` / `apply_spare_mags_metadata()` / `apply_weight_metadata()`.
 
 Do **not** hand-edit deployed `presets/meta/four/*.json` — change the builder, regenerate, run optic audits.
 
@@ -100,6 +126,7 @@ git merge upstream/main
 
 - [x] `Locations` allow-list on presets
 - [x] `SpareMags` exact spare count (no inventory flood)
+- [x] `Weight` int spawn weighting + chance report script
 - [ ] Retarget `Raylee-AndernPmcPatch` HintPath / namespaces to this assembly
 - [ ] Cut over: deploy here, remove live `BarlogM-Andern`
 - [ ] Optional: filter on `Factions` (field already emitted by builder)

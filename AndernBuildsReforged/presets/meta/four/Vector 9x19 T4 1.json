@@ -1,10 +1,10 @@
 {
-    "Id": "595d5baa07554fa8968f0a77",
+    "Id": "99adeb8719044e27a8b48971",
     "Name": "Vector 9x19 T4 1",
-    "Root": "602c92b96eb942479b906e4e",
+    "Root": "1545d8adef5745828a3942aa",
     "Items": [
         {
-            "_id": "602c92b96eb942479b906e4e",
+            "_id": "1545d8adef5745828a3942aa",
             "_tpl": "5fc3f2d5900b1d5091531e57",
             "upd": {
                 "Repairable": {
@@ -20,69 +20,69 @@
             }
         },
         {
-            "_id": "b2dc45d6f5e64296be5c201b",
+            "_id": "6fe946221d474edfab31357d",
             "_tpl": "5a7ad2e851dfba0016153692",
             "slotId": "mod_magazine",
-            "parentId": "602c92b96eb942479b906e4e"
+            "parentId": "1545d8adef5745828a3942aa"
         },
         {
-            "_id": "bfafdfef680042418fcd530b",
+            "_id": "4c5aad43e4564de684f3a579",
             "_tpl": "5fb6567747ce63734e3fa1dc",
             "slotId": "mod_sight_front",
-            "parentId": "602c92b96eb942479b906e4e"
+            "parentId": "1545d8adef5745828a3942aa"
         },
         {
-            "_id": "4e22e1dc39a0480480ead30e",
+            "_id": "339706ece8b84a0b80f8c49f",
             "_tpl": "5fb6564947ce63734e3fa1da",
             "slotId": "mod_sight_rear",
-            "parentId": "602c92b96eb942479b906e4e"
+            "parentId": "1545d8adef5745828a3942aa"
         },
         {
-            "_id": "cc117f783839476f9c13fd05",
+            "_id": "e09864d04bfb42f59f988d48",
             "_tpl": "5fb6558ad6f0b2136f2d7eb7",
             "slotId": "mod_stock",
-            "parentId": "602c92b96eb942479b906e4e"
+            "parentId": "1545d8adef5745828a3942aa"
         },
         {
-            "_id": "be6b29c5793d496692bbd35d",
+            "_id": "793ce27d02304cc5b4594bf6",
             "_tpl": "5fbbc366ca32ed67276c1557",
             "slotId": "mod_barrel",
-            "parentId": "602c92b96eb942479b906e4e"
+            "parentId": "1545d8adef5745828a3942aa"
         },
         {
-            "_id": "095553cd66f344e2aea405bc",
+            "_id": "c20135a36a044fd8898668a5",
             "_tpl": "5fbb976df9986c4cff3fe5f2",
             "slotId": "mod_mount",
-            "parentId": "602c92b96eb942479b906e4e"
+            "parentId": "1545d8adef5745828a3942aa"
         },
         {
-            "_id": "4bf22cfb8d4e4de4af0269e0",
+            "_id": "875229fa296841a0951123cb",
             "_tpl": "5fce0f9b55375d18a253eff2",
             "slotId": "mod_mount_001",
-            "parentId": "602c92b96eb942479b906e4e"
+            "parentId": "1545d8adef5745828a3942aa"
         },
         {
-            "_id": "b5a69bc8609f496789687d2c",
+            "_id": "3685c011b610437ba2318888",
             "_tpl": "5fce0f9b55375d18a253eff2",
             "slotId": "mod_mount_002",
-            "parentId": "602c92b96eb942479b906e4e"
+            "parentId": "1545d8adef5745828a3942aa"
         },
         {
-            "_id": "bad59afd0b034c22af9d520d",
+            "_id": "92f66b12f4c14174861c6861",
             "_tpl": "59f9d81586f7744c7506ee62",
-            "parentId": "602c92b96eb942479b906e4e",
+            "parentId": "1545d8adef5745828a3942aa",
             "slotId": "mod_scope"
         },
         {
-            "_id": "0d2571d6b8bd4686b0b5b6db",
+            "_id": "8230c87d8bda49cc9bffbeb8",
             "_tpl": "5b057b4f5acfc4771e1bd3e9",
-            "parentId": "095553cd66f344e2aea405bc",
+            "parentId": "c20135a36a044fd8898668a5",
             "slotId": "mod_foregrip"
         },
         {
-            "_id": "9587f859d7f9401ea2be87e3",
+            "_id": "b1a9e2864dea442391e1ce9c",
             "_tpl": "5a32a064c4a28200741e22de",
-            "parentId": "be6b29c5793d496692bbd35d",
+            "parentId": "793ce27d02304cc5b4594bf6",
             "slotId": "mod_muzzle"
         }
     ],
@@ -90,5 +90,6 @@
     "Factions": [
         "usec"
     ],
-    "SpareMags": 3
+    "SpareMags": 3,
+    "Weight": 1
 }

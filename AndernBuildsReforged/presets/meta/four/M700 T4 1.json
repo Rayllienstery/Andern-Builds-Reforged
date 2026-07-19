@@ -1,10 +1,10 @@
 {
-    "Id": "0ad06d0af6854e4689495128",
+    "Id": "9fd5ff37743246dba9644e7b",
     "Name": "M700 T4 1",
-    "Root": "addfd3be63384da1bc3e6fc0",
+    "Root": "11eb3419d4b1454381b9a533",
     "Items": [
         {
-            "_id": "addfd3be63384da1bc3e6fc0",
+            "_id": "11eb3419d4b1454381b9a533",
             "_tpl": "5bfea6e90db834001b7347f3",
             "upd": {
                 "Repairable": {
@@ -20,39 +20,39 @@
             }
         },
         {
-            "_id": "f2268388669b49aaa5aacf83",
+            "_id": "324202acc26945f49dfce3cc",
             "_tpl": "5bfea7ad0db834001c38f1ee",
             "slotId": "mod_magazine",
-            "parentId": "addfd3be63384da1bc3e6fc0"
+            "parentId": "11eb3419d4b1454381b9a533"
         },
         {
-            "_id": "345b6680c17347fb8b864b09",
+            "_id": "8aa795a992b44128b9f2a023",
             "_tpl": "5bfeb32b0db834001a6694d9",
             "slotId": "mod_stock",
-            "parentId": "addfd3be63384da1bc3e6fc0"
+            "parentId": "11eb3419d4b1454381b9a533"
         },
         {
-            "_id": "8510cc2013624261bf96bc2e",
+            "_id": "7ef10af3caf449bebd6929c4",
             "_tpl": "5bfebc320db8340019668d79",
             "slotId": "mod_barrel",
-            "parentId": "addfd3be63384da1bc3e6fc0"
+            "parentId": "11eb3419d4b1454381b9a533"
         },
         {
-            "_id": "eed3235b5de0474487a15857",
+            "_id": "1bb3bbb7ebea4e1c898554cb",
             "_tpl": "5d270b3c8abbc3105335cfb8",
             "slotId": "mod_muzzle",
-            "parentId": "8510cc2013624261bf96bc2e"
+            "parentId": "7ef10af3caf449bebd6929c4"
         },
         {
-            "_id": "054894ab0bb841388f4e6338",
+            "_id": "75c7bcea81334b78af8901b5",
             "_tpl": "5bfebc5e0db834001a6694e5",
-            "parentId": "addfd3be63384da1bc3e6fc0",
+            "parentId": "11eb3419d4b1454381b9a533",
             "slotId": "mod_mount"
         },
         {
-            "_id": "40e4da628fda469b82de18f1",
+            "_id": "ebcfda0e74144a4f8e5e3825",
             "_tpl": "5b3b99475acfc432ff4dcbee",
-            "parentId": "054894ab0bb841388f4e6338",
+            "parentId": "75c7bcea81334b78af8901b5",
             "slotId": "mod_scope"
         }
     ],
@@ -70,5 +70,6 @@
         "sandbox",
         "sandbox_high"
     ],
-    "SpareMags": 2
+    "SpareMags": 2,
+    "Weight": 1
 }
