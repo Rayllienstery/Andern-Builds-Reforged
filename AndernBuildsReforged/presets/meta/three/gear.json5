@@ -236,39 +236,49 @@
     ],
     backpacks: [
         {
-            // ANA Tactical Beta 2 Battle backpack"
-            weight: 2,
+            // ANA Tactical Beta 2 Battle backpack (30)
+            weight: 3,
             id: "5b44c6ae86f7742d1627baea",
         },
         {
-            // Gruppa 99 T20 backpack (Multicam)"
+            // Gruppa 99 T20 (MultiCam) (25)
             weight: 2,
             id: "619cf0335771dd3c390269ae",
         },
         {
-            // Gruppa 99 T20 backpack"
+            // Gruppa 99 T20 (Umber Brown) (25)
             weight: 2,
             id: "618bb76513f5097c8d5aa2d5",
         },
         {
-            // Hazard 4 Takedown sling backpack (Black)"
-            weight: 2,
-            id: "6034d103ca006d2dca39b3f0",
-        },
-        {
-            // Eberlestock F5 Switchblade backpack (Dry Earth)"
+            // Eberlestock F5 Switchblade (30)
             weight: 2,
             id: "5f5e467b0bc58666c37e7821",
         },
         {
-            // Gruppa 99 T30 backpack (Multicam)"
+            // Hazard 4 Takedown sling (Black) (24)
+            weight: 2,
+            id: "6034d103ca006d2dca39b3f0",
+        },
+        {
+            // LBT-1476A 3Day Pack (Woodland) (25)
+            weight: 2,
+            id: "618cfae774bb2d036a049e7c",
+        },
+        {
+            // Oakley Mechanism heavy duty (32) — uncommon
+            weight: 1,
+            id: "5d5d940f86f7742797262046",
+        },
+        {
+            // Gruppa 99 T30 (MultiCam) (30) — uncommon
             weight: 1,
             id: "62a1b7fbc30cfa1d366af586",
         },
         {
-            // LBT-1476A 3Day Pack (Woodland)"
+            // WARTECH Berkut BB-102 (20)
             weight: 1,
-            id: "618cfae774bb2d036a049e7c",
+            id: "5ca20d5986f774331e7c9602",
         }
     ],
     face: [

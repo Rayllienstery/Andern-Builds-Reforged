@@ -1,10 +1,10 @@
 {
-    "Id": "a323cf4c803e413682b80b60",
+    "Id": "5e52ccdc9ba74c93b03af4f2",
     "Name": "UMP T2",
-    "Root": "84c1e84fb45345f28ec04c01",
+    "Root": "29ed51ea4c9b4c1fb5020c2b",
     "Items": [
         {
-            "_id": "84c1e84fb45345f28ec04c01",
+            "_id": "29ed51ea4c9b4c1fb5020c2b",
             "_tpl": "5fc3e272f8b6a877a729eac5",
             "upd": {
                 "Repairable": {
@@ -20,51 +20,51 @@
             }
         },
         {
-            "_id": "12e1fb6177b246089fbe99d9",
+            "_id": "53f5eeb5a52b4b7f9dee1bb3",
             "_tpl": "5fc3e466187fea44d52eda90",
             "slotId": "mod_magazine",
-            "parentId": "84c1e84fb45345f28ec04c01"
+            "parentId": "29ed51ea4c9b4c1fb5020c2b"
         },
         {
-            "_id": "c7b904d1bc014424a135ca89",
+            "_id": "dd243b451458491fa5c69b81",
             "_tpl": "5fc3e4ee7283c4046c5814af",
             "slotId": "mod_stock",
-            "parentId": "84c1e84fb45345f28ec04c01"
+            "parentId": "29ed51ea4c9b4c1fb5020c2b"
         },
         {
-            "_id": "f423f86e571b4d51a176a5b5",
+            "_id": "329b943abd514dbf818e7aca",
             "_tpl": "5fc3e4a27283c4046c5814ab",
             "slotId": "mod_barrel",
-            "parentId": "84c1e84fb45345f28ec04c01"
+            "parentId": "29ed51ea4c9b4c1fb5020c2b"
         },
         {
-            "_id": "223aeb4bda4244ecab2671a3",
+            "_id": "08de86335c9948d18b8e5dce",
             "_tpl": "5fc53954f8b6a877a729eaeb",
             "slotId": "mod_mount_000",
-            "parentId": "84c1e84fb45345f28ec04c01"
+            "parentId": "29ed51ea4c9b4c1fb5020c2b"
         },
         {
-            "_id": "a795464018c6454db01ede0e",
+            "_id": "9c7c882256384b97bd3a45a9",
             "_tpl": "5fc5396e900b1d5091531e72",
             "slotId": "mod_mount_001",
-            "parentId": "84c1e84fb45345f28ec04c01"
+            "parentId": "29ed51ea4c9b4c1fb5020c2b"
         },
         {
-            "_id": "95010eb1de6e4463bf8d541c",
+            "_id": "841959a430e1447fa64849cd",
             "_tpl": "5fc5396e900b1d5091531e72",
             "slotId": "mod_mount_002",
-            "parentId": "84c1e84fb45345f28ec04c01"
+            "parentId": "29ed51ea4c9b4c1fb5020c2b"
         },
         {
-            "_id": "3b6712f8b7ea498f875218e3",
+            "_id": "c16314b3fe614699890491ea",
             "_tpl": "59f9d81586f7744c7506ee62",
-            "parentId": "84c1e84fb45345f28ec04c01",
+            "parentId": "29ed51ea4c9b4c1fb5020c2b",
             "slotId": "mod_scope"
         },
         {
-            "_id": "7b6d98f1490d4ba4a5a6811c",
+            "_id": "982dff0fe39a4aeab98ab4fe",
             "_tpl": "5c1cd46f2e22164bef5cfedb",
-            "parentId": "223aeb4bda4244ecab2671a3",
+            "parentId": "08de86335c9948d18b8e5dce",
             "slotId": "mod_foregrip"
         }
     ],
@@ -73,5 +73,7 @@
     "SpareAmmoTpl": "5e81f423763d9f754677bf2e",
     "Factions": [
         "usec"
-    ]
+    ],
+    "SpareMags": 3,
+    "Weight": 1000
 }

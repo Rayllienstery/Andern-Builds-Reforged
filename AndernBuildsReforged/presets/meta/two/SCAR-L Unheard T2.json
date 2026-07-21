@@ -1,0 +1,161 @@
+{
+    "Id": "31ad29baa98e48f4876a9037",
+    "Name": "SCAR-L Unheard T2",
+    "Root": "312c54835ee44839a4f3b49a",
+    "Items": [
+        {
+            "_id": "312c54835ee44839a4f3b49a",
+            "_tpl": "618428466ef05c2ce828f218",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "fullauto"
+                }
+            }
+        },
+        {
+            "_id": "29a7ce71cdd44dbaaa2dc950",
+            "_tpl": "571659bb2459771fb2755a12",
+            "slotId": "mod_pistol_grip",
+            "parentId": "312c54835ee44839a4f3b49a"
+        },
+        {
+            "_id": "488024d47d4b47859c9213a1",
+            "_tpl": "61840d85568c120fdd2962a5",
+            "slotId": "mod_magazine",
+            "parentId": "312c54835ee44839a4f3b49a"
+        },
+        {
+            "_id": "bd422fcec4674b71ae710bb0",
+            "_tpl": "618426d96c780c1e710c9b9f",
+            "slotId": "mod_reciever",
+            "parentId": "312c54835ee44839a4f3b49a"
+        },
+        {
+            "_id": "329983d9f9a048439fc38314",
+            "_tpl": "6183fc15d3a39d50044c13e9",
+            "slotId": "mod_barrel",
+            "parentId": "bd422fcec4674b71ae710bb0"
+        },
+        {
+            "_id": "87fed6e9e6944fd29391aad1",
+            "_tpl": "5c7e5f112e221600106f4ede",
+            "slotId": "mod_muzzle",
+            "parentId": "329983d9f9a048439fc38314"
+        },
+        {
+            "_id": "e11a27c5ee0b42a991f5b3e2",
+            "_tpl": "61816df1d3a39d50044c139e",
+            "slotId": "mod_mount_000",
+            "parentId": "bd422fcec4674b71ae710bb0"
+        },
+        {
+            "_id": "1df0de89e6c04203ad5852bb",
+            "_tpl": "61816dfa6ef05c2ce828f1ad",
+            "slotId": "mod_mount_001",
+            "parentId": "bd422fcec4674b71ae710bb0"
+        },
+        {
+            "_id": "552494c17fe641a1baa2cd59",
+            "_tpl": "61825d06d92c473c770215de",
+            "slotId": "mod_stock",
+            "parentId": "312c54835ee44839a4f3b49a"
+        },
+        {
+            "_id": "8ad33b38cafc400d8a27aa30",
+            "_tpl": "61825d136ef05c2ce828f1cc",
+            "slotId": "mod_stock_001",
+            "parentId": "552494c17fe641a1baa2cd59"
+        },
+        {
+            "_id": "4e738c9f4ec44ad18ce9b713",
+            "_tpl": "618167616ef05c2ce828f1a8",
+            "slotId": "mod_stock",
+            "parentId": "8ad33b38cafc400d8a27aa30"
+        },
+        {
+            "_id": "0cd6c1858851477c87108948",
+            "_tpl": "61825d24d3a39d50044c13af",
+            "slotId": "mod_stock_002",
+            "parentId": "552494c17fe641a1baa2cd59"
+        },
+        {
+            "_id": "cef96ef6500340c28bec6b67",
+            "_tpl": "6181688c6c780c1e710c9b04",
+            "slotId": "mod_charge",
+            "parentId": "312c54835ee44839a4f3b49a"
+        },
+        {
+            "_id": "29148864b8614951b1d948d3",
+            "_tpl": "5c18b9192e2216398b5a8104",
+            "parentId": "bd422fcec4674b71ae710bb0",
+            "slotId": "mod_sight_rear"
+        },
+        {
+            "_id": "f2be16290de14b22824d0d00",
+            "_tpl": "5c18b90d2e2216152142466b",
+            "parentId": "bd422fcec4674b71ae710bb0",
+            "slotId": "mod_sight_front"
+        },
+        {
+            "_id": "7d6ded3d49494d6c8313e681",
+            "_tpl": "618bab21526131765025ab3f",
+            "parentId": "bd422fcec4674b71ae710bb0",
+            "slotId": "mod_scope"
+        },
+        {
+            "_id": "853a308a50d7428ba7e8e23d",
+            "_tpl": "6567e7681265c8a131069b0f",
+            "parentId": "7d6ded3d49494d6c8313e681",
+            "slotId": "mod_scope"
+        },
+        {
+            "_id": "42c09e546a654ba7b9c54f5f",
+            "_tpl": "618ba92152ecee1505530bd3",
+            "parentId": "7d6ded3d49494d6c8313e681",
+            "slotId": "mod_mount"
+        },
+        {
+            "_id": "551eb59ad9254af399ad79d3",
+            "_tpl": "5a32aa8bc4a2826c6e06d737",
+            "parentId": "42c09e546a654ba7b9c54f5f",
+            "slotId": "mod_scope"
+        },
+        {
+            "_id": "755fe87c5b0b46aeaf0e4b84",
+            "_tpl": "5a34fe59c4a282000b1521a2",
+            "parentId": "87fed6e9e6944fd29391aad1",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "6f42827864cc4df1ad8ff830",
+            "_tpl": "655dccfdbdcc6b5df71382b6",
+            "parentId": "e11a27c5ee0b42a991f5b3e2",
+            "slotId": "mod_foregrip"
+        },
+        {
+            "_id": "498ba9bfe53c4e6fb471fdf6",
+            "_tpl": "626becf9582c3e319310b837",
+            "parentId": "1df0de89e6c04203ad5852bb",
+            "slotId": "mod_tactical_000"
+        },
+        {
+            "_id": "473a176a17544175a4e11c62",
+            "_tpl": "644a3df63b0b6f03e101e065",
+            "parentId": "bd422fcec4674b71ae710bb0",
+            "slotId": "mod_tactical_000"
+        }
+    ],
+    "Parent": "5447b5f14bdc2d61278b4567",
+    "Factions": [
+        "usec"
+    ],
+    "SpareMags": 3,
+    "Weight": 1000
+}

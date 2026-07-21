@@ -98,6 +98,26 @@ public class BotInventoryGeneratorEx(
             logger.Error("[Andern] Equipment generate", ex);
         }
 
+        // Faction gear before weapons/loot — vest swaps must not wipe mags/meds.
+        try
+        {
+            PmcFactionLoadoutFilter.ApplyGearEarly(
+                botInventory,
+                botGenerationDetails,
+                profileActivityService,
+                randomUtil,
+                gearGeneratorHelper,
+                helmetGenerator,
+                data,
+                weightedRandomHelper,
+                logger,
+                sessionId);
+        }
+        catch (Exception ex)
+        {
+            logger.Error("[Andern] Faction gear", ex);
+        }
+
         try
         {
             GenerateAndAddWeaponsToBotEx(
@@ -123,16 +143,173 @@ public class BotInventoryGeneratorEx(
             botInventoryContainerService.ClearCache(botId);
         }
 
-        /* log secure container item tpls
-        var securedContainer = botInventory.Items.FirstOrDefault(i => i.SlotId == "SecuredContainer");
-        var securedContainerItems = botInventory.Items.FindAll(i => i.ParentId == securedContainer.Id);
-        var securedContainerItemTpls = securedContainerItems.Select(i => i.Template.ToString()).ToList();
-        logger.LogWithColor(
-            $"[Andern] secured container items {JsonSerializer.Serialize(securedContainerItemTpls)}",
-            LogTextColor.Red);
-        */
+        ApplyPmcPostProcess(
+            botInventory,
+            botJsonTemplate,
+            botGenerationDetails,
+            sessionId,
+            botId);
 
         return botInventory;
+    }
+
+    /// <summary>
+    /// Former Raylee-AndernPmcPatch post-processors (map biases, faction filter, CQ bolt ban, etc.).
+    /// </summary>
+    void ApplyPmcPostProcess(
+        BotBaseInventory inventory,
+        BotType botJsonTemplate,
+        BotGenerationDetails botGenerationDetails,
+        MongoId sessionId,
+        MongoId botId)
+    {
+        FactoryKs23Bias.Apply(
+            inventory,
+            botGenerationDetails,
+            botJsonTemplate,
+            profileActivityService,
+            randomUtil,
+            weaponGenerator,
+            botWeaponGenerator,
+            botGeneratorHelper,
+            itemHelper,
+            sessionId,
+            botId);
+        FactoryShotgunBias.Apply(
+            inventory,
+            botGenerationDetails,
+            botJsonTemplate,
+            profileActivityService,
+            randomUtil,
+            weaponGenerator,
+            botWeaponGenerator,
+            botGeneratorHelper,
+            itemHelper,
+            sessionId,
+            botId);
+        OpenMapShotgunLimit.Apply(
+            inventory,
+            botGenerationDetails,
+            botJsonTemplate,
+            profileActivityService,
+            randomUtil,
+            weaponGenerator,
+            botWeaponGenerator,
+            botGeneratorHelper,
+            itemHelper,
+            sessionId,
+            botId);
+        PmcFactionLoadoutFilter.Apply(
+            inventory,
+            botGenerationDetails,
+            botJsonTemplate,
+            profileActivityService,
+            randomUtil,
+            weaponGenerator,
+            botWeaponGenerator,
+            botGeneratorHelper,
+            itemHelper,
+            gearGeneratorHelper,
+            helmetGenerator,
+            data,
+            weightedRandomHelper,
+            logger,
+            sessionId,
+            botId);
+        Surgeon1581MapBias.Apply(
+            inventory,
+            botGenerationDetails,
+            botJsonTemplate,
+            profileActivityService,
+            randomUtil,
+            weaponGenerator,
+            botWeaponGenerator,
+            botGeneratorHelper,
+            itemHelper,
+            sessionId,
+            botId);
+        KattAmrMapBias.Apply(
+            inventory,
+            botGenerationDetails,
+            botJsonTemplate,
+            profileActivityService,
+            randomUtil,
+            weaponGenerator,
+            botWeaponGenerator,
+            botGeneratorHelper,
+            itemHelper,
+            sessionId,
+            botId);
+        Sv98MapBias.Apply(
+            inventory,
+            botGenerationDetails,
+            botJsonTemplate,
+            profileActivityService,
+            randomUtil,
+            weaponGenerator,
+            botWeaponGenerator,
+            botGeneratorHelper,
+            itemHelper,
+            sessionId,
+            botId);
+        LowTierHunting762Bias.Apply(
+            inventory,
+            botGenerationDetails,
+            botJsonTemplate,
+            profileActivityService,
+            randomUtil,
+            weaponGenerator,
+            botWeaponGenerator,
+            botGeneratorHelper,
+            itemHelper,
+            sessionId,
+            botId);
+        X95ReapThermalBias.Apply(
+            inventory,
+            botGenerationDetails,
+            botJsonTemplate,
+            profileActivityService,
+            randomUtil,
+            weaponGenerator,
+            botWeaponGenerator,
+            botGeneratorHelper,
+            itemHelper,
+            sessionId,
+            botId);
+        Mk18ReapThermalBias.Apply(
+            inventory,
+            botGenerationDetails,
+            botJsonTemplate,
+            profileActivityService,
+            randomUtil,
+            weaponGenerator,
+            botWeaponGenerator,
+            botGeneratorHelper,
+            itemHelper,
+            sessionId,
+            botId);
+        M249AmmoFix.Apply(inventory, itemHelper);
+        SpareMagazineLimiter.Apply(inventory, itemHelper);
+        MagAmmoSanity.Apply(
+            botId,
+            inventory,
+            itemHelper,
+            botGeneratorHelper,
+            msg => logger.Warning(msg));
+        // Last: strip bolts on Streets/Factory after all map biases / faction rolls.
+        CloseQuartersBoltSniperBan.Apply(
+            inventory,
+            botGenerationDetails,
+            botJsonTemplate,
+            profileActivityService,
+            randomUtil,
+            weaponGenerator,
+            botWeaponGenerator,
+            botGeneratorHelper,
+            itemHelper,
+            logger,
+            sessionId,
+            botId);
     }
 
     void GenerateAndAddEquipmentToBotEx(
@@ -243,24 +420,28 @@ public class BotInventoryGeneratorEx(
             botInventory.Equipment,
             isNightVision);
 
+        if (string.IsNullOrEmpty(generatedWeapon.AmmoTpl)
+            || generatedWeapon.WeaponWithMods == null
+            || generatedWeapon.WeaponWithMods.Count == 0)
+        {
+            logger.Error(
+                $"[Andern] Skipping primary weapon for {botRole} lvl {botLevel}: missing ammo/weapon");
+            return;
+        }
+
         botInventory.Items.AddRange(generatedWeapon.WeaponWithMods);
 
-        var generatedWeaponResult = new GenerateWeaponResult
-        {
-            Weapon = generatedWeapon.WeaponWithMods,
-            ChosenAmmoTemplate = generatedWeapon.AmmoTpl,
-            ChosenUbglAmmoTemplate = null,
-            WeaponMods = botJsonTemplate.BotInventory.Mods,
-            WeaponTemplate = generatedWeapon.WeaponTemplate,
-        };
-
-        // Exact spare count from preset — do not use bot JSON magazine weights (those flood vests).
-        botWeaponGenerator.AddExtraMagazinesToInventory(
+        // Exact SpareMags + backpack top-up (SPT MagGen only tries vest/pockets).
+        SpareMagazineHelper.AddSparesForGeneratedWeapon(
             botId,
-            generatedWeaponResult,
-            SpareMagazineDefaults.ExactCountWeights(generatedWeapon.SpareMags),
             botInventory,
-            botRole);
+            botRole,
+            generatedWeapon,
+            botJsonTemplate,
+            botWeaponGenerator,
+            itemHelper,
+            botGeneratorHelper,
+            msg => logger.Warning(msg));
     }
 
     string GetGearItemTpl(
@@ -310,7 +491,9 @@ public class BotInventoryGeneratorEx(
         string botRole,
         BotBaseInventory botInventory)
     {
-        if (randomUtil.GetBool())
+        var armoredRigs = data.GetGear(botLevel).ArmoredRigs;
+        var canUseArmoredRig = armoredRigs is { Count: > 0 };
+        if (canUseArmoredRig && randomUtil.GetBool())
         {
             var generatedArmoredRig =
                 GenerateArmoredRig(botLevel, botRole, botInventory);

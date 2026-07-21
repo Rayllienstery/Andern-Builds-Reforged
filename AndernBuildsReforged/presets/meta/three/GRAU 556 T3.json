@@ -1,10 +1,10 @@
 {
-    "Id": "9e52c28de6bc4d859b43d9fd",
+    "Id": "93b58c62c08944348d049781",
     "Name": "GRAU 556 T3",
-    "Root": "12b9a0c7d49b448086982f3c",
+    "Root": "b5d179395f084fbbaf45b1f6",
     "Items": [
         {
-            "_id": "12b9a0c7d49b448086982f3c",
+            "_id": "b5d179395f084fbbaf45b1f6",
             "_tpl": "020020FBA556556000000000",
             "upd": {
                 "Repairable": {
@@ -20,51 +20,51 @@
             }
         },
         {
-            "_id": "5c14da188bbe48b28a3130ea",
+            "_id": "670d3123467c466183b333c8",
             "_tpl": "02F02FFBA556556030000000",
             "slotId": "mod_magazine",
-            "parentId": "12b9a0c7d49b448086982f3c"
+            "parentId": "b5d179395f084fbbaf45b1f6"
         },
         {
-            "_id": "9e0ea60da68d48ee9932e3fe",
+            "_id": "c4654da45fba4082b12483cd",
             "_tpl": "041341FBA762762333000000",
             "slotId": "mod_pistol_grip",
-            "parentId": "12b9a0c7d49b448086982f3c"
+            "parentId": "b5d179395f084fbbaf45b1f6"
         },
         {
-            "_id": "73b988441b16402ba1260dee",
+            "_id": "a5571e6e18d04b28a95aa187",
             "_tpl": "043143FBA762762111000000",
             "slotId": "mod_stock_001",
-            "parentId": "12b9a0c7d49b448086982f3c"
+            "parentId": "b5d179395f084fbbaf45b1f6"
         },
         {
-            "_id": "a6e03629aba84ecca66c04a8",
+            "_id": "54a6043ecd4342f5b32225ad",
             "_tpl": "040040FBA556556040000000",
             "slotId": "mod_reciever",
-            "parentId": "12b9a0c7d49b448086982f3c"
+            "parentId": "b5d179395f084fbbaf45b1f6"
         },
         {
-            "_id": "a58a443f35fa459686041b09",
+            "_id": "22e503c202f34984867876e3",
             "_tpl": "042142FBA762762111000000",
             "slotId": "mod_handguard",
-            "parentId": "a6e03629aba84ecca66c04a8"
+            "parentId": "54a6043ecd4342f5b32225ad"
         },
         {
-            "_id": "fde7ecad71a844a6a002d8e2",
+            "_id": "fc9c22266df24bfd85ce8e19",
             "_tpl": "04B14BFBA556556111000000",
             "slotId": "mod_barrel",
-            "parentId": "a58a443f35fa459686041b09"
+            "parentId": "22e503c202f34984867876e3"
         },
         {
-            "_id": "3ffde79613204201ab632549",
+            "_id": "314dc64ec5bd478ba8abf13f",
             "_tpl": "5c1cd46f2e22164bef5cfedb",
-            "parentId": "a58a443f35fa459686041b09",
+            "parentId": "22e503c202f34984867876e3",
             "slotId": "mod_foregrip"
         },
         {
-            "_id": "24ba0700556d4eaa893fd6c0",
+            "_id": "de6e08527e1749808ca662c0",
             "_tpl": "56def37dd2720bec348b456a",
-            "parentId": "a58a443f35fa459686041b09",
+            "parentId": "22e503c202f34984867876e3",
             "slotId": "mod_tactical_002",
             "upd": {
                 "Light": {
@@ -74,9 +74,9 @@
             }
         },
         {
-            "_id": "1b1681a8b36241c08731a7ac",
+            "_id": "58bfc045c13649ceb4553694",
             "_tpl": "59f9d81586f7744c7506ee62",
-            "parentId": "a6e03629aba84ecca66c04a8",
+            "parentId": "54a6043ecd4342f5b32225ad",
             "slotId": "mod_scope"
         }
     ],
@@ -85,5 +85,7 @@
     "SpareAmmoTpl": "59e690b686f7746c9f75e848",
     "Factions": [
         "usec"
-    ]
+    ],
+    "SpareMags": 3,
+    "Weight": 1000
 }

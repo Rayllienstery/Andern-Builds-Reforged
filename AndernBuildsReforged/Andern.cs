@@ -23,7 +23,7 @@ public record ModMetadata : AbstractModMetadata
 [Injectable(InjectionType.Singleton, TypePriority = OnLoadOrder.PreSptModLoader + 1)]
 public class Andern(ISptLogger<Andern> logger) : IOnLoad
 {
-    public const string ModVersion = "0.5.0";
+    public const string ModVersion = "0.10.4";
 
     public Task OnLoad()
     {

@@ -2,7 +2,7 @@
     headsets: [
         {
             // OPSMEN Earmor M32 headset
-            weight: 3,
+            weight: 2,
             id: "6033fa48ffd42c541047f728",
         },
         {
@@ -12,45 +12,40 @@
         },
         {
             // GSSh-01 active headset
-            weight: 1,
+            weight: 2,
             id: "5b432b965acfc47a8774094e",
         }
     ],
     helmets: [
         {
-            // MSA ACH TC-2002 MICH Series helmet
-            weight: 2,
-            id: "5d5e9c74a4b9364855191c40",
-        },
-        {
-            // 6B47 Ratnik-BSh helmet (Digital Flora cover)
-            weight: 2,
-            id: "5b432d215acfc4771e1c6624",
-        },
-        {
             // SSh-68 steel helmet
-            weight: 1,
+            weight: 3,
             id: "5c06c6a80db834001b735491",
         },
         {
             // UNTAR helmet
-            weight: 1,
+            weight: 2,
             id: "5aa7d03ae5b5b00016327db5",
-        }
-    ],
-    armoredRigs: [
-        {
-            // Crye Precision AVS plate carrier
-            weight: 1,
-            id: "544a5caa4bdc2d1a388b4568",
         },
         {
-            // ANA Tactical M1 plate carrier
+            // 6B47 Ratnik-BSh helmet (Digital Flora cover)
             weight: 1,
-            id: "5c0e722886f7740458316a57",
+            id: "5b432d215acfc4771e1c6624",
         }
     ],
+    // Empty on purpose: T1 is soft armor + chest rig only (no plate carriers).
+    armoredRigs: [],
     armor: [
+        {
+            // Module-3M body armor
+            weight: 3,
+            id: "59e7635f86f7742cbf2c1095",
+        },
+        {
+            // PACA Soft Armor
+            weight: 3,
+            id: "5648a7494bdc2d9d488b4583",
+        },
         {
             // NPP KlASS Kora-Kulon body armor (Black)
             weight: 2,
@@ -63,23 +58,13 @@
         },
         {
             // BNTI Zhuk-3 body armor (Press)
-            weight: 2,
+            weight: 1,
             id: "5c0e5edb86f77461f55ed1f7",
         },
         {
             // 6B23-1 body armor (Digital Flora)
-            weight: 2,
+            weight: 1,
             id: "5c0e5bab86f77461f55ed1f3",
-        },
-        {
-            // 6B13 assault armor (Digital Flora)
-            weight: 1,
-            id: "5c0e53c886f7747fa54205c7",
-        },
-        {
-            // HighCom Trooper TFO body armor (Multicam)
-            weight: 1,
-            id: "5c0e655586f774045612eeb2",
         }
     ],
     rigs: [
@@ -127,43 +112,48 @@
             // BlackHawk! Commando chest harness (Black)
             weight: 2,
             id: "5c0e9f2c86f77432297fe0a3",
-        },
-        {
-            // Haley Strategic D3CRX Chest Harness
-            weight: 1,
-            id: "5d5d85c586f774279a21cbdb",
-        },
-        {
-            // Spiritus Systems Bank Robber chest rig
-            weight: 1,
-            id: "5e4abc1f86f774069619fbaa",
-        },
-        {
-            // Zulu Nylon Gear M4 Reduced Signature Chest Rig
-            weight: 1,
-            id: "64be7095047e826eae02b0c1",
         }
     ],
     backpacks: [
         {
-            // WARTECH Berkut BB-102 backpack
+            // Scav backpack (20)
+            weight: 3,
+            id: "56e335e4d2720b6c058b456d",
+        },
+        {
+            // Flyye MBSS backpack (UCP) (16)
+            weight: 3,
+            id: "544a5cde4bdc2d39388b456b",
+        },
+        {
+            // Duffle bag (12)
             weight: 2,
+            id: "56e33634d2720bd8058b456b",
+        },
+        {
+            // Transformer Bag (9)
+            weight: 2,
+            id: "56e33680d2720be2748b4576",
+        },
+        {
+            // VKBO army bag (8)
+            weight: 2,
+            id: "5ab8ee7786f7742d8f33f0b9",
+        },
+        {
+            // Tactical sling bag (Khaki) (6)
+            weight: 1,
+            id: "5ab8f04f86f774585f4237d8",
+        },
+        {
+            // Sanitar's bag (16) — rare
+            weight: 1,
+            id: "5e997f0b86f7741ac73993e2",
+        },
+        {
+            // WARTECH Berkut BB-102 (20) — rare upgrade
+            weight: 1,
             id: "5ca20d5986f774331e7c9602",
-        },
-        {
-            // LBT-8005A Day Pack backpack
-            weight: 2,
-            id: "5e9dcf5986f7746c417435b3",
-        },
-        {
-            // Oakley Mechanism heavy duty backpack (Black)
-            weight: 1,
-            id: "5d5d940f86f7742797262046",
-        },
-        {
-            // Hazard 4 Pillbox backpack
-            weight: 1,
-            id: "60a2828e8689911a226117f9",
         }
     ],
     face: [

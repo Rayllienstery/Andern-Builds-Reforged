@@ -1,10 +1,10 @@
 {
-    "Id": "a3893e81ad764ebaa9ac11fd",
+    "Id": "b88562f6a75a48869c91e242",
     "Name": "BAL-27 T3",
-    "Root": "9c61ae32d45d485e8861e6f3",
+    "Root": "f4443a785e9c47418c694745",
     "Items": [
         {
-            "_id": "9c61ae32d45d485e8861e6f3",
+            "_id": "f4443a785e9c47418c694745",
             "_tpl": "020020BA27BA270000000000",
             "upd": {
                 "Repairable": {
@@ -20,39 +20,39 @@
             }
         },
         {
-            "_id": "a83b8eb721b14662857ee923",
+            "_id": "41ee0daaa40744e99a559f38",
             "_tpl": "02F02FBA27BA272F00000000",
             "slotId": "mod_magazine",
-            "parentId": "9c61ae32d45d485e8861e6f3"
+            "parentId": "f4443a785e9c47418c694745"
         },
         {
-            "_id": "48ef74267fec46c3b5812c9c",
+            "_id": "2d2e9ff2f23349619c9d26ff",
             "_tpl": "04BB4BBA27BA27BB00000000",
             "slotId": "mod_barrel",
-            "parentId": "9c61ae32d45d485e8861e6f3"
+            "parentId": "f4443a785e9c47418c694745"
         },
         {
-            "_id": "1b9c747f9d9e4136aae7ab0c",
+            "_id": "f30a19e7a39048e1818b5725",
             "_tpl": "043343BA27BA274330000000",
             "slotId": "mod_stock",
-            "parentId": "9c61ae32d45d485e8861e6f3"
+            "parentId": "f4443a785e9c47418c694745"
         },
         {
-            "_id": "104dcb7d39ca43f095f9ef18",
+            "_id": "7f24502737e643649530031d",
             "_tpl": "045245BA27BA274520000000",
             "slotId": "mod_pistol_grip",
-            "parentId": "9c61ae32d45d485e8861e6f3"
+            "parentId": "f4443a785e9c47418c694745"
         },
         {
-            "_id": "7524a8a323ca498db3a9cccb",
+            "_id": "5f1cecfe8b304ab1b52e164d",
             "_tpl": "59f9d81586f7744c7506ee62",
-            "parentId": "9c61ae32d45d485e8861e6f3",
+            "parentId": "f4443a785e9c47418c694745",
             "slotId": "mod_scope"
         },
         {
-            "_id": "f1ee6d9b19294c8795df3a91",
+            "_id": "7b1d4117afad4e8fb38c3903",
             "_tpl": "5c1cd46f2e22164bef5cfedb",
-            "parentId": "9c61ae32d45d485e8861e6f3",
+            "parentId": "f4443a785e9c47418c694745",
             "slotId": "mod_foregrip"
         }
     ],
@@ -61,5 +61,7 @@
     "SpareAmmoTpl": "5cc80f38e4a949001152b560",
     "Factions": [
         "usec"
-    ]
+    ],
+    "SpareMags": 3,
+    "Weight": 1000
 }

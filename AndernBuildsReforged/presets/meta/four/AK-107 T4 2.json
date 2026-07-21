@@ -1,10 +1,10 @@
 {
-    "Id": "fad8b306af8f47f2b6493ab0",
+    "Id": "55da66b4d9df444c8cf94180",
     "Name": "AK-107 T4 2",
-    "Root": "1e07b603fd6343f4aeb89a51",
+    "Root": "a06563322bb848e284c373da",
     "Items": [
         {
-            "_id": "1e07b603fd6343f4aeb89a51",
+            "_id": "a06563322bb848e284c373da",
             "_tpl": "695ab544a219218449041700",
             "upd": {
                 "Repairable": {
@@ -20,63 +20,63 @@
             }
         },
         {
-            "_id": "aa14bebe6e0344ccaaf62789",
+            "_id": "ff0abce5476843d580c02945",
             "_tpl": "6087e663132d4d12c81fd96b",
             "slotId": "mod_pistol_grip",
-            "parentId": "1e07b603fd6343f4aeb89a51"
+            "parentId": "a06563322bb848e284c373da"
         },
         {
-            "_id": "f0eb1d3774114031b8937913",
+            "_id": "75ce0875a3014080861d9751",
             "_tpl": "5ac78eaf5acfc4001926317a",
             "slotId": "mod_stock",
-            "parentId": "1e07b603fd6343f4aeb89a51"
+            "parentId": "a06563322bb848e284c373da"
         },
         {
-            "_id": "36eda9c95fd44b7ab960609c",
+            "_id": "f0e3e4f691c642d497643375",
             "_tpl": "55d482194bdc2d1d4e8b456b",
             "slotId": "mod_magazine",
-            "parentId": "1e07b603fd6343f4aeb89a51"
+            "parentId": "a06563322bb848e284c373da"
         },
         {
-            "_id": "6e201d7e9c0f4f3da0ae4a13",
+            "_id": "c2818eb1193e4d4d82eb85b8",
             "_tpl": "5648ac824bdc2ded0b8b457d",
-            "parentId": "1e07b603fd6343f4aeb89a51",
+            "parentId": "a06563322bb848e284c373da",
             "slotId": "mod_charge"
         },
         {
-            "_id": "817157bd3f0244c28170bdd8",
+            "_id": "3a15ed067fdd41ff842b03c7",
             "_tpl": "5648b4534bdc2d3d1c8b4580",
-            "parentId": "1e07b603fd6343f4aeb89a51",
+            "parentId": "a06563322bb848e284c373da",
             "slotId": "mod_handguard"
         },
         {
-            "_id": "62b8533fc33b4661b7e2ea80",
+            "_id": "339a88c2b30240b799b83c56",
             "_tpl": "59ecc3dd86f7746dc827481c",
-            "parentId": "f0eb1d3774114031b8937913",
+            "parentId": "75ce0875a3014080861d9751",
             "slotId": "mod_stock"
         },
         {
-            "_id": "58268f5d0a4249b2b37d8012",
+            "_id": "5d923b8de9ab443fbb0370e1",
             "_tpl": "615d8f5dd92c473c770212ef",
-            "parentId": "1e07b603fd6343f4aeb89a51",
+            "parentId": "a06563322bb848e284c373da",
             "slotId": "mod_muzzle"
         },
         {
-            "_id": "4f7017e20a89432ea0f55a16",
+            "_id": "2f6fb5bbd50f4b59bbb22230",
             "_tpl": "615d8f8567085e45ef1409ca",
-            "parentId": "58268f5d0a4249b2b37d8012",
+            "parentId": "5d923b8de9ab443fbb0370e1",
             "slotId": "mod_muzzle"
         },
         {
-            "_id": "118a0abd89614c0083b19081",
+            "_id": "ae5bdb9ecfcd4461ac37ab01",
             "_tpl": "59f8a37386f7747af3328f06",
-            "parentId": "817157bd3f0244c28170bdd8",
+            "parentId": "3a15ed067fdd41ff842b03c7",
             "slotId": "mod_foregrip"
         },
         {
-            "_id": "ddc91012b33e424e9476d08a",
+            "_id": "01e3eb2afdd742d7ba42ee0b",
             "_tpl": "56def37dd2720bec348b456a",
-            "parentId": "817157bd3f0244c28170bdd8",
+            "parentId": "3a15ed067fdd41ff842b03c7",
             "slotId": "mod_tactical_002",
             "upd": {
                 "Light": {
@@ -86,9 +86,9 @@
             }
         },
         {
-            "_id": "99d26fd845f04d16ae3b3eb2",
+            "_id": "2338ef114f684ff6bb0044e1",
             "_tpl": "558022b54bdc2dac148b458d",
-            "parentId": "817157bd3f0244c28170bdd8",
+            "parentId": "3a15ed067fdd41ff842b03c7",
             "slotId": "mod_scope"
         }
     ],
@@ -99,5 +99,5 @@
         "bear"
     ],
     "SpareMags": 3,
-    "Weight": 1
+    "Weight": 1000
 }

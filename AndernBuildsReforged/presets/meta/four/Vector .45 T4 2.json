@@ -1,10 +1,10 @@
 {
-    "Id": "55846af80fe94930923516e4",
+    "Id": "a84d8e5703f54e198b40a4c4",
     "Name": "Vector .45 T4 2",
-    "Root": "a4440f71a79e427c905849b3",
+    "Root": "87a371f12b554b9a9e595405",
     "Items": [
         {
-            "_id": "a4440f71a79e427c905849b3",
+            "_id": "87a371f12b554b9a9e595405",
             "_tpl": "5fb64bc92b1b027b1f50bcf2",
             "upd": {
                 "Repairable": {
@@ -20,75 +20,75 @@
             }
         },
         {
-            "_id": "c70b406c15b4484e99e484b2",
+            "_id": "b97c749b88a548c7a92d1913",
             "_tpl": "5fb651dc85f90547f674b6f4",
             "slotId": "mod_magazine",
-            "parentId": "a4440f71a79e427c905849b3"
+            "parentId": "87a371f12b554b9a9e595405"
         },
         {
-            "_id": "864a24c3373f4973b9ee3bc1",
+            "_id": "9ef9078a65924a699e8e4dd6",
             "_tpl": "5fb6567747ce63734e3fa1dc",
             "slotId": "mod_sight_front",
-            "parentId": "a4440f71a79e427c905849b3"
+            "parentId": "87a371f12b554b9a9e595405"
         },
         {
-            "_id": "7193cfd024834dc992807977",
+            "_id": "75ed9e88040b41178a9f2d58",
             "_tpl": "5fb6564947ce63734e3fa1da",
             "slotId": "mod_sight_rear",
-            "parentId": "a4440f71a79e427c905849b3"
+            "parentId": "87a371f12b554b9a9e595405"
         },
         {
-            "_id": "ae3f6e5682414b9692bc56e1",
+            "_id": "34a5578af74f4a5ab37eca9e",
             "_tpl": "5fb6558ad6f0b2136f2d7eb7",
             "slotId": "mod_stock",
-            "parentId": "a4440f71a79e427c905849b3"
+            "parentId": "87a371f12b554b9a9e595405"
         },
         {
-            "_id": "afc80b4df0d9421299843d77",
+            "_id": "5801feef67394ed4b93230c4",
             "_tpl": "5fb65363d1409e5ca04b54f5",
             "slotId": "mod_barrel",
-            "parentId": "a4440f71a79e427c905849b3"
+            "parentId": "87a371f12b554b9a9e595405"
         },
         {
-            "_id": "5e14d9a721fd4d478dec9047",
+            "_id": "2e8297505f394f458d4cb368",
             "_tpl": "5fbb976df9986c4cff3fe5f2",
             "slotId": "mod_mount",
-            "parentId": "a4440f71a79e427c905849b3"
+            "parentId": "87a371f12b554b9a9e595405"
         },
         {
-            "_id": "d73f262adb0a4f65b016c281",
+            "_id": "32a183bec4e54d44b657a77e",
             "_tpl": "5fce0f9b55375d18a253eff2",
             "slotId": "mod_mount_001",
-            "parentId": "a4440f71a79e427c905849b3"
+            "parentId": "87a371f12b554b9a9e595405"
         },
         {
-            "_id": "3e28f7c37a494b719fc21622",
+            "_id": "d85cae0c89ed4bcaa7130cfe",
             "_tpl": "5fce0f9b55375d18a253eff2",
             "slotId": "mod_mount_002",
-            "parentId": "a4440f71a79e427c905849b3"
+            "parentId": "87a371f12b554b9a9e595405"
         },
         {
-            "_id": "9db0a389e4034d6088723b28",
+            "_id": "577d9ad7b5d94c47bbb9c943",
             "_tpl": "58491f3324597764bc48fa02",
-            "parentId": "a4440f71a79e427c905849b3",
+            "parentId": "87a371f12b554b9a9e595405",
             "slotId": "mod_scope"
         },
         {
-            "_id": "266b0aa5ed0e47df98058ed2",
+            "_id": "fd80f2068a8d445c81f552f7",
             "_tpl": "5b057b4f5acfc4771e1bd3e9",
-            "parentId": "5e14d9a721fd4d478dec9047",
+            "parentId": "2e8297505f394f458d4cb368",
             "slotId": "mod_foregrip"
         },
         {
-            "_id": "cc4deaaefcb9453ea3195701",
+            "_id": "f718ebd59438407e93cc5e57",
             "_tpl": "5fc4b992187fea44d52edaa9",
-            "parentId": "afc80b4df0d9421299843d77",
+            "parentId": "5801feef67394ed4b93230c4",
             "slotId": "mod_muzzle"
         },
         {
-            "_id": "bceb409228b245d691756a96",
+            "_id": "8bd1d293d43842fe821290f5",
             "_tpl": "6272370ee4013c5d7e31f418",
-            "parentId": "d73f262adb0a4f65b016c281",
+            "parentId": "32a183bec4e54d44b657a77e",
             "slotId": "mod_tactical"
         }
     ],
@@ -97,5 +97,5 @@
         "usec"
     ],
     "SpareMags": 3,
-    "Weight": 1
+    "Weight": 1000
 }

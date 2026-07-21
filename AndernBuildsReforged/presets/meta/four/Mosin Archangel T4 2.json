@@ -1,10 +1,10 @@
 {
-    "Id": "54caeda68b4145a581e91681",
+    "Id": "ceaa306565d34330918a02ea",
     "Name": "Mosin Archangel T4 2",
-    "Root": "c8425da1b2c546979cec764a",
+    "Root": "a39cb4fa2e3c4211aa415941",
     "Items": [
         {
-            "_id": "c8425da1b2c546979cec764a",
+            "_id": "a39cb4fa2e3c4211aa415941",
             "_tpl": "5ae08f0a5acfc408fb1398a1",
             "upd": {
                 "Repairable": {
@@ -20,45 +20,45 @@
             }
         },
         {
-            "_id": "4658177eada648d3b90cb173",
+            "_id": "829b886209a2490081a82ca3",
             "_tpl": "5bae13ded4351e44f824bf38",
             "slotId": "mod_magazine",
-            "parentId": "c8425da1b2c546979cec764a"
+            "parentId": "a39cb4fa2e3c4211aa415941"
         },
         {
-            "_id": "eb00dade5cca47d0985249f9",
+            "_id": "6e158235207843f88725591e",
             "_tpl": "5bae13bad4351e00320204af",
             "slotId": "mod_stock",
-            "parentId": "c8425da1b2c546979cec764a"
+            "parentId": "a39cb4fa2e3c4211aa415941"
         },
         {
-            "_id": "e1747987ef624ce7b6c18dfe",
+            "_id": "c5b42dc8224141c8b752c56c",
             "_tpl": "5bfd4cbe0db834001b73449f",
             "slotId": "mod_barrel",
-            "parentId": "c8425da1b2c546979cec764a"
+            "parentId": "a39cb4fa2e3c4211aa415941"
         },
         {
-            "_id": "d376611487374ca998839f3c",
+            "_id": "1503fa752ace4922b2b7c1a7",
             "_tpl": "5ae099875acfc4001714e593",
             "slotId": "mod_sight_front",
-            "parentId": "e1747987ef624ce7b6c18dfe"
+            "parentId": "c5b42dc8224141c8b752c56c"
         },
         {
-            "_id": "5259eb1968394a95874c1c9a",
+            "_id": "6530064b5de7432baedb7aa3",
             "_tpl": "5bbdb811d4351e45020113c7",
-            "parentId": "e1747987ef624ce7b6c18dfe",
+            "parentId": "c5b42dc8224141c8b752c56c",
             "slotId": "mod_sight_rear"
         },
         {
-            "_id": "182a0cd7e6024515a86cdc16",
+            "_id": "974c38b3e2414b879ddb7afb",
             "_tpl": "5a37ca54c4a282000d72296a",
-            "parentId": "5259eb1968394a95874c1c9a",
+            "parentId": "6530064b5de7432baedb7aa3",
             "slotId": "mod_scope"
         },
         {
-            "_id": "68ecc71cf8804bbda7607f67",
+            "_id": "f965517925f74b7ba23acac4",
             "_tpl": "617151c1d92c473c770214ab",
-            "parentId": "182a0cd7e6024515a86cdc16",
+            "parentId": "974c38b3e2414b879ddb7afb",
             "slotId": "mod_scope_000"
         }
     ],
@@ -77,5 +77,5 @@
         "sandbox_high"
     ],
     "SpareMags": 2,
-    "Weight": 1
+    "Weight": 1000
 }

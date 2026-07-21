@@ -1,19 +1,35 @@
 {
+    // weight default is 1000 when omitted; higher = more often within the caliber pool
     Caliber545x39: [
-        "56dff0bed2720bb0668b4567", // FMJ
-        "56dff3afd2720bba668b4567" // PS
+        { id: "56dff0bed2720bb0668b4567", weight: 1000 }, // FMJ
+        { id: "56dff3afd2720bba668b4567", weight: 1000 }, // PS
     ],
     Caliber762x39: [
-        "64b7af5a8532cf95ee0a0dbd" // FMJ
+        { id: "64b7af5a8532cf95ee0a0dbd", weight: 1000 }, // FMJ
     ],
     Caliber366TKM: [
-        "59e6542b86f77411dc52a77a" // FMJ
+        { id: "59e6542b86f77411dc52a77a", weight: 1000 }, // FMJ
     ],
     Caliber556x45NATO: [
-        "59e68f6f86f7746c9f75e846", // M856
-        "54527a984bdc2d4e668b4567" // M855
+        { id: "54527a984bdc2d4e668b4567", weight: 3000 }, // M855 solid (~3/4)
+        { id: "59e68f6f86f7746c9f75e846", weight: 1000 }, // M856 solid (~1/4)
+        // Repeating 1×M856 + 3×M855 pattern (tiled to mag capacity)
+        {
+            weight: 2000,
+            load: [
+                { id: "59e68f6f86f7746c9f75e846", count: 1 }, // M856
+                { id: "54527a984bdc2d4e668b4567", count: 3 }, // M855
+            ],
+        },
     ],
     Caliber762x51: [
-        "5e023e88277cce2b522ff2b1" // Ultra Nosler
-    ]
+        { id: "5e023e88277cce2b522ff2b1", weight: 1000 }, // TCW SP / Ultra Nosler
+    ],
+    Caliber9x19PARA: [
+        { id: "56d59d3ad2720bdb418b4577", weight: 1000 }, // PST gzh
+        { id: "5efb0da7a29a85116f6ea05f", weight: 1000 }, // PSO gzh
+    ],
+    Caliber1143x23ACP: [
+        { id: "5e81f423763d9f754677bf2e", weight: 1000 }, // .45 ACP Match FMJ
+    ],
 }

@@ -184,27 +184,73 @@ public class WeaponGenerator(
         return chamberName;
     }
 
-    string FillMagazine(List<Item> weaponWithMods, string ammoTpl)
+    string FillMagazine(List<Item> weaponWithMods, ResolvedAmmo resolved)
     {
-        weaponWithMods
-            .Where(x => x.SlotId == MAGAZINE_SLOT_ID)
-            .ToList()
-            .ForEach(magazine =>
-            {
-                var magazineTemplate = GetTemplateById(magazine.Template);
-                var magazineWithCartridges = new List<Item> { magazine };
+        var magazineTpl = "";
+        var magazines = weaponWithMods
+            .Where(x => string.Equals(x.SlotId, MAGAZINE_SLOT_ID, StringComparison.OrdinalIgnoreCase))
+            .ToList();
 
+        foreach (var magazine in magazines)
+        {
+            magazineTpl = magazine.Template.ToString();
+            var magLookup = itemHelper.GetItem(magazine.Template);
+            if (!magLookup.Key || magLookup.Value == null)
+            {
+                logger.Error($"[Andern] FillMagazine: mag tpl `{magazineTpl}` missing from DB");
+                continue;
+            }
+
+            var magazineTemplate = magLookup.Value;
+            var magazineWithCartridges = new List<Item> { magazine };
+
+            // Prefer our expander (handles solid -1 and patterned loads). SPT fill as backup.
+            MagazineLoadHelper.FillMagazineList(
+                magazineWithCartridges,
+                magazineTemplate,
+                resolved.PrimaryLoad,
+                itemHelper);
+
+            if (magazineWithCartridges.Count <= 1 && !string.IsNullOrEmpty(resolved.ChamberTpl))
+            {
+                magazineWithCartridges.Clear();
+                magazineWithCartridges.Add(magazine);
                 itemHelper.FillMagazineWithCartridge(
                     magazineWithCartridges,
                     magazineTemplate,
-                    ammoTpl,
+                    resolved.ChamberTpl,
                     1);
+            }
 
-                weaponWithMods.Remove(magazine);
-                weaponWithMods.AddRange(magazineWithCartridges);
-            });
+            if (magazineWithCartridges.Count <= 1 && !string.IsNullOrEmpty(resolved.ChamberTpl))
+            {
+                var cap = MagazineLoadHelper.GetCapacity(magazineTemplate, itemHelper);
+                if (cap <= 0)
+                {
+                    cap = 30;
+                }
 
-        return "";
+                magazineWithCartridges.Add(
+                    itemHelper.CreateCartridges(
+                        magazine.Id,
+                        new MongoId(resolved.ChamberTpl),
+                        cap,
+                        0));
+                magazineWithCartridges[1].Location = null;
+                logger.Warning(
+                    $"[Andern] FillMagazine: forced {cap}×`{resolved.ChamberTpl}` into `{magazineTpl}`");
+            }
+
+            if (magazineWithCartridges.Count <= 1)
+            {
+                logger.Error($"[Andern] FillMagazine: still empty after all fillers for `{magazineTpl}`");
+            }
+
+            weaponWithMods.RemoveAll(item => item.Id == magazine.Id);
+            weaponWithMods.AddRange(magazineWithCartridges);
+        }
+
+        return magazineTpl;
     }
 
     void UpdateWeaponInfo(
@@ -531,10 +577,23 @@ public class WeaponGenerator(
         AddRandomEnhancement(weaponWithMods);
         var weaponTemplate = GetTemplateById(weaponTpl);
         var caliber = GetCaliberByTemplateId(weaponTpl);
-        var ammoTpl = data.GetRandomAmmoByCaliber(botLevel, caliber);
+        var resolved = data.ResolveAmmo(botLevel, caliber, selected.AmmoOverride);
+        if (resolved == null || string.IsNullOrEmpty(resolved.ChamberTpl))
+        {
+            logger.Error(
+                $"[Andern] GenerateWeapon aborted: no ammo for caliber `{caliber}` (level {botLevel}, preset `{selected.Name}`)");
+            return new GeneratedWeapon
+            {
+                WeaponWithMods = weaponWithMods,
+                WeaponTemplate = GetTemplateById(weaponTpl),
+                AmmoTpl = "",
+                MagazineTpl = "",
+                SpareMags = 0,
+            };
+        }
 
-        AddCartridgeToChamber(weaponWithMods, ammoTpl, weaponTemplate);
-        var magazineTpl = FillMagazine(weaponWithMods, ammoTpl);
+        AddCartridgeToChamber(weaponWithMods, resolved.ChamberTpl, weaponTemplate);
+        var magazineTpl = FillMagazine(weaponWithMods, resolved);
 
         var spareMags = selected.SpareMags >= 0
             ? selected.SpareMags
@@ -544,9 +603,10 @@ public class WeaponGenerator(
         {
             WeaponWithMods = weaponWithMods,
             WeaponTemplate = weaponTemplate,
-            AmmoTpl = ammoTpl,
+            AmmoTpl = resolved.ChamberTpl,
             MagazineTpl = magazineTpl,
             SpareMags = spareMags,
+            ResolvedAmmo = resolved,
         };
     }
 }

@@ -1,10 +1,10 @@
 {
-    "Id": "db4faf9104524021825304d6",
+    "Id": "6bb4c1ea200b4f25842d3bfd",
     "Name": "ISO Hemlock T2",
-    "Root": "6eafafd6617449c68ef2b74c",
+    "Root": "ea7a36cee52041e4b21402bb",
     "Items": [
         {
-            "_id": "6eafafd6617449c68ef2b74c",
+            "_id": "ea7a36cee52041e4b21402bb",
             "_tpl": "020020F15FF15F0000000000",
             "upd": {
                 "Repairable": {
@@ -20,57 +20,57 @@
             }
         },
         {
-            "_id": "037ad573689742b0810e4eb2",
+            "_id": "dda6a837c45b4df3a5b3ea72",
             "_tpl": "02F02FF15FF15F0000000000",
             "slotId": "mod_magazine",
-            "parentId": "6eafafd6617449c68ef2b74c"
+            "parentId": "ea7a36cee52041e4b21402bb"
         },
         {
-            "_id": "bbd806cb65e94d95985aba63",
+            "_id": "13b29e1f047c4a4db90d7d17",
             "_tpl": "042042F15FF15F0000000000",
             "slotId": "mod_reciever",
-            "parentId": "6eafafd6617449c68ef2b74c"
+            "parentId": "ea7a36cee52041e4b21402bb"
         },
         {
-            "_id": "db69074dd85f485baa285f29",
+            "_id": "1adeffed294444bd94674afd",
             "_tpl": "04B04BF15FF15F0000000000",
             "slotId": "mod_barrel",
-            "parentId": "bbd806cb65e94d95985aba63"
+            "parentId": "13b29e1f047c4a4db90d7d17"
         },
         {
-            "_id": "efabd149151c4c50a0bc763d",
+            "_id": "8190db5aaf714b30b6578bcf",
             "_tpl": "041441F15FF1544100000000",
             "slotId": "mod_handguard",
-            "parentId": "bbd806cb65e94d95985aba63"
+            "parentId": "13b29e1f047c4a4db90d7d17"
         },
         {
-            "_id": "6f3c421bc7d54d96b0dba562",
+            "_id": "65cfa0dea13540dd9380c0ba",
             "_tpl": "04B84BF15FF1584B00000000",
             "slotId": "mod_muzzle",
-            "parentId": "db69074dd85f485baa285f29"
+            "parentId": "1adeffed294444bd94674afd"
         },
         {
-            "_id": "37693e25ddb7405e9808ae1e",
+            "_id": "4cbdc3de395e4c60a26ff27d",
             "_tpl": "047447F15FF15F4470000000",
             "slotId": "mod_stock",
-            "parentId": "6eafafd6617449c68ef2b74c"
+            "parentId": "ea7a36cee52041e4b21402bb"
         },
         {
-            "_id": "46bfe578725046b894b27ee3",
+            "_id": "1d66ef98e4844fe983d22a6f",
             "_tpl": "043043F15FF15F4300000000",
             "slotId": "mod_pistol_grip",
-            "parentId": "6eafafd6617449c68ef2b74c"
+            "parentId": "ea7a36cee52041e4b21402bb"
         },
         {
-            "_id": "62c37bc3ba6a4582b56d661d",
+            "_id": "b4651bc6fad7496194d8800e",
             "_tpl": "558022b54bdc2dac148b458d",
-            "parentId": "bbd806cb65e94d95985aba63",
+            "parentId": "13b29e1f047c4a4db90d7d17",
             "slotId": "mod_scope"
         },
         {
-            "_id": "4aa5e7defaf14e76b35cfc7f",
+            "_id": "52af4ab1c2f94a488830b849",
             "_tpl": "59f8a37386f7747af3328f06",
-            "parentId": "efabd149151c4c50a0bc763d",
+            "parentId": "8190db5aaf714b30b6578bcf",
             "slotId": "mod_foregrip"
         }
     ],
@@ -79,5 +79,7 @@
     "SpareAmmoTpl": "54527a984bdc2d4e668b4567",
     "Factions": [
         "usec"
-    ]
+    ],
+    "SpareMags": 3,
+    "Weight": 1000
 }

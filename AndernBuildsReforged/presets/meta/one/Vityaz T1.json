@@ -1,10 +1,10 @@
 {
-    "Id": "028d06476cdc4ea8963ed463",
+    "Id": "641a9e99a18b44ae9342b4cb",
     "Name": "Vityaz T1",
-    "Root": "06a3e271638248f890f5f354",
+    "Root": "ac127e67a0c343eba997b86f",
     "Items": [
         {
-            "_id": "06a3e271638248f890f5f354",
+            "_id": "ac127e67a0c343eba997b86f",
             "_tpl": "59984ab886f7743e98271174",
             "upd": {
                 "Repairable": {
@@ -20,52 +20,52 @@
             }
         },
         {
-            "_id": "598a0672699c4cf7978b1a63",
+            "_id": "0ea2af8f1ff74c5e84dabdc8",
             "_tpl": "5998517986f7746017232f7e",
             "slotId": "mod_pistol_grip",
-            "parentId": "06a3e271638248f890f5f354"
+            "parentId": "ac127e67a0c343eba997b86f"
         },
         {
-            "_id": "3e84b2850bc14ada8080d62f",
+            "_id": "54a2d4356c5b4b9d9761c981",
             "_tpl": "599851db86f77467372f0a18",
             "slotId": "mod_stock",
-            "parentId": "06a3e271638248f890f5f354"
+            "parentId": "ac127e67a0c343eba997b86f"
         },
         {
-            "_id": "7c09528f6d5c4bb98b0285d0",
+            "_id": "9ce28f1a42534c52b4672d5f",
             "_tpl": "599860ac86f77436b225ed1a",
             "slotId": "mod_magazine",
-            "parentId": "06a3e271638248f890f5f354"
+            "parentId": "ac127e67a0c343eba997b86f"
         },
         {
-            "_id": "229399dc34ea49a19811350e",
+            "_id": "e164a87e55b4481b867da838",
             "_tpl": "5a32a064c4a28200741e22de",
             "slotId": "mod_muzzle",
-            "parentId": "06a3e271638248f890f5f354"
+            "parentId": "ac127e67a0c343eba997b86f"
         },
         {
-            "_id": "59f94718578d4686b72a9b49",
+            "_id": "2718f2be038641be9d903de7",
             "_tpl": "59985a8086f77414ec448d1a",
             "slotId": "mod_reciever",
-            "parentId": "06a3e271638248f890f5f354"
+            "parentId": "ac127e67a0c343eba997b86f"
         },
         {
-            "_id": "bf0edaf9131f4365af0f6f6a",
+            "_id": "7b7a83de5b9f4d7283f5d411",
             "_tpl": "599860e986f7743bb57573a6",
             "slotId": "mod_sight_rear",
-            "parentId": "06a3e271638248f890f5f354"
+            "parentId": "ac127e67a0c343eba997b86f"
         },
         {
-            "_id": "603df27d33fd48119bb23c5d",
+            "_id": "de6c1a7e4dd144e3a5a579f6",
             "_tpl": "59ccd11386f77428f24a488f",
             "slotId": "mod_gas_block",
-            "parentId": "06a3e271638248f890f5f354"
+            "parentId": "ac127e67a0c343eba997b86f"
         },
         {
-            "_id": "bbc7db773122496ba057c503",
+            "_id": "d5bd1c6af8bb4b9688405251",
             "_tpl": "5648b1504bdc2d9d488b4584",
             "slotId": "mod_handguard",
-            "parentId": "603df27d33fd48119bb23c5d"
+            "parentId": "de6c1a7e4dd144e3a5a579f6"
         }
     ],
     "Parent": "5447b5e04bdc2d62278b4567",
@@ -73,5 +73,7 @@
     "SpareAmmoTpl": "58864a4f2459770fcc257101",
     "Factions": [
         "bear"
-    ]
+    ],
+    "SpareMags": 3,
+    "Weight": 1000
 }

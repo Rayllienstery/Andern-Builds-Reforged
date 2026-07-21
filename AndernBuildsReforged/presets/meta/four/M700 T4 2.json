@@ -1,10 +1,10 @@
 {
-    "Id": "153f55e63ac04984a145da34",
+    "Id": "fd15521fbb0e42d2ae9abd14",
     "Name": "M700 T4 2",
-    "Root": "92ad8c13e2fa423e9458f0d6",
+    "Root": "4bbc5860389743d1b06e647f",
     "Items": [
         {
-            "_id": "92ad8c13e2fa423e9458f0d6",
+            "_id": "4bbc5860389743d1b06e647f",
             "_tpl": "5bfea6e90db834001b7347f3",
             "upd": {
                 "Repairable": {
@@ -20,45 +20,45 @@
             }
         },
         {
-            "_id": "c446798674654105b8408ee9",
+            "_id": "993ef649cd6548d1a748ce17",
             "_tpl": "5bfea7ad0db834001c38f1ee",
             "slotId": "mod_magazine",
-            "parentId": "92ad8c13e2fa423e9458f0d6"
+            "parentId": "4bbc5860389743d1b06e647f"
         },
         {
-            "_id": "99d333a1e13f4d5cb93cf8a1",
+            "_id": "342c98ce233147f7a1013325",
             "_tpl": "5bfeb32b0db834001a6694d9",
             "slotId": "mod_stock",
-            "parentId": "92ad8c13e2fa423e9458f0d6"
+            "parentId": "4bbc5860389743d1b06e647f"
         },
         {
-            "_id": "974cf6e65ab54d72bcbfed2a",
+            "_id": "5a1b7304d0d046c0bb5060c2",
             "_tpl": "5bfebc320db8340019668d79",
             "slotId": "mod_barrel",
-            "parentId": "92ad8c13e2fa423e9458f0d6"
+            "parentId": "4bbc5860389743d1b06e647f"
         },
         {
-            "_id": "9c320a3133d3488eb9446167",
+            "_id": "953e93e35bd54b0180cc3350",
             "_tpl": "5a34fd2bc4a282329a73b4c5",
             "slotId": "mod_muzzle",
-            "parentId": "974cf6e65ab54d72bcbfed2a"
+            "parentId": "5a1b7304d0d046c0bb5060c2"
         },
         {
-            "_id": "ba9e482b4c144c159a65449d",
+            "_id": "460f87a5363244b79eaa19db",
             "_tpl": "5a34fe59c4a282000b1521a2",
             "slotId": "mod_muzzle",
-            "parentId": "9c320a3133d3488eb9446167"
+            "parentId": "953e93e35bd54b0180cc3350"
         },
         {
-            "_id": "bcb9b9b2ebd5425490386565",
+            "_id": "7fb064f971f345508242d5ad",
             "_tpl": "5bfebc5e0db834001a6694e5",
             "slotId": "mod_mount",
-            "parentId": "92ad8c13e2fa423e9458f0d6"
+            "parentId": "4bbc5860389743d1b06e647f"
         },
         {
-            "_id": "4226a83fd506450699cbde0a",
+            "_id": "867ec2615ecb40f7a6c7a1a6",
             "_tpl": "5b3b99475acfc432ff4dcbee",
-            "parentId": "bcb9b9b2ebd5425490386565",
+            "parentId": "7fb064f971f345508242d5ad",
             "slotId": "mod_scope"
         }
     ],
@@ -77,5 +77,5 @@
         "sandbox_high"
     ],
     "SpareMags": 2,
-    "Weight": 1
+    "Weight": 1000
 }

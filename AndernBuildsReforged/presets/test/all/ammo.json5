@@ -1,13 +1,83 @@
 {
-    "Caliber545x39": ["61962b617c6c7b169525f168"],
-    "Caliber762x39": ["59e0d99486f7744a32234762"],
-    "Caliber556x45NATO": ["54527ac44bdc2d36668b4567"],
-    "Caliber762x51": ["58dd3ad986f77403051cba8f"],
-    "Caliber762x54R": ["59e77a2386f7742ee578960a"],
-    "Caliber762x35": ["5fd20ff893a8961fc660a954"],
-    "Caliber12g": ["5d6e6911a4b9361bd5780d52"],
-    "Caliber9x19PARA": ["5c925fa22e221601da359b7b"],
-    "Caliber127x55": ["5cadf6eeae921500134b2799"],
-    "Caliber40x46": ["5ede4739e0350d05467f73e8"],
-    "Caliber86x70": ["5fc275cf85fd526b824a571a"]
+    // weight default is 1000 when omitted; higher = more often within the caliber pool
+    Caliber545x39: [
+        { id: "56dff061d2720bb5668b4567", weight: 1000 },
+        { id: "56dff026d2720bb8668b4567", weight: 1000 },
+        { id: "61962b617c6c7b169525f168", weight: 1000 }
+    ],
+    Caliber762x39: [
+        { id: "64b7af434b75259c590fa893", weight: 1000 },
+        { id: "59e0d99486f7744a32234762", weight: 1000 }
+    ],
+    Caliber366TKM: [
+        { id: "5f0596629e22f464da6bbdd9", weight: 1000 }
+    ],
+    Caliber762x54R: [
+        { id: "5e023d34e8a400319a28ed44", weight: 1000 },
+        { id: "5e023d48186a883be655e551", weight: 1000 }
+    ],
+    Caliber9x39: [
+        { id: "5c0d688c86f77413ae3407b2", weight: 1000 },
+        { id: "5c0d668f86f7747ccb7f13b2", weight: 1000 },
+        { id: "61962d879bb3d20b0946d385", weight: 1000 }
+    ],
+    Caliber556x45NATO: [
+        { id: "59e690b686f7746c9f75e848", weight: 1000 },
+        { id: "54527ac44bdc2d36668b4567", weight: 1000 },
+        { id: "601949593ae8f707c4608daa", weight: 1000 }
+    ],
+    Caliber762x51: [
+        { id: "5efb0c1bd79ff02a1f5e68d9", weight: 1000 },
+        { id: "5a6086ea4f39f99cd479502f", weight: 1000 },
+        { id: "5a608bf24f39f98ffc77720e", weight: 1000 }
+    ],
+    Caliber762x35: [
+        { id: "5fd20ff893a8961fc660a954", weight: 1000 },
+        { id: "64b8725c4b75259c590fa899", weight: 1000 }
+    ],
+    Caliber68x51: [
+        { id: "6529243824cbe3c74a05e5c1", weight: 1000 },
+        { id: "6529302b8c26af6326029fb7", weight: 1000 }
+    ],
+    Caliber57x28: [
+        { id: "5cc80f38e4a949001152b560", weight: 1000 }
+    ],
+    Caliber46x30: [
+        { id: "5ba2678ad4351e44f824b344", weight: 1000 },
+        { id: "5ba26835d4351e0035628ff5", weight: 1000 }
+    ],
+    Caliber9x19PARA: [
+        { id: "5c925fa22e221601da359b7b", weight: 1000 },
+        { id: "5efb0da7a29a85116f6ea05f", weight: 1000 }
+    ],
+    Caliber1143x23ACP: [
+        { id: "5efb0cabfb3e451d70735af5", weight: 1000 }
+    ],
+    Caliber12g: [
+        { id: "64b8ee384b75259c590fa89b", weight: 1000 },
+        { id: "5d6e68a8a4b9360b6c0d54e2", weight: 1000 },
+        { id: "5d6e6806a4b936088465b17e", weight: 1000 }
+    ],
+    Caliber23x75: [
+        { id: "5e85a9a6eacf8c039e4e2ac1", weight: 1000 }
+    ],
+    Caliber127x55: [
+        { id: "5cadf6eeae921500134b2799", weight: 1000 }
+    ],
+    Caliber127x99: [
+        { id: "67dc2648ba5b79876906a166", weight: 1000 },
+        { id: "67dc255ee3028a8b120efc48", weight: 1000 }
+    ],
+    Caliber86x70: [
+        { id: "5fc275cf85fd526b824a571a", weight: 1000 },
+        { id: "5fc382a9d724d907e2077dab", weight: 1000 }
+    ],
+    Caliber762x67B: [
+        { id: "684e2ded3b64f7187cf14fae", weight: 1000 },
+        { id: "684e2de88bb7e9f52bfab35c", weight: 1000 }
+    ],
+    Caliber86x63: [
+        { id: "c556f40e464c7f09d4c757fc", weight: 1000 },
+        { id: "ea4cdb6fc3dd4f799eeef33e", weight: 1000 }
+    ]
 }

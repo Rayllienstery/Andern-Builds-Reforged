@@ -1,32 +1,47 @@
 {
+    // weight default is 1000 when omitted; higher = more often within the caliber pool
     Caliber545x39: [
-        "56dff3afd2720bba668b4567", // PS
-        "56dff2ced2720bb4668b4567" // PP
+        { id: "56dff3afd2720bba668b4567", weight: 1000 }, // PS
+        { id: "56dff2ced2720bb4668b4567", weight: 1000 }, // PP
     ],
     Caliber762x39: [
-        "59e4cf5286f7741778269d8a", // T-45M1
-        "5656d7c34bdc2d9d198b4587" // PS
+        { id: "59e4cf5286f7741778269d8a", weight: 1000 }, // T-45M1
+        { id: "5656d7c34bdc2d9d198b4587", weight: 1000 }, // PS
     ],
     Caliber366TKM: [
-        "59e655cb86f77411dc52a77b" // EKO
+        { id: "59e655cb86f77411dc52a77b", weight: 1000 }, // EKO
     ],
     Caliber9x39: [
-        "57a0dfb82459774d3078b56c" // SP-5
+        { id: "57a0dfb82459774d3078b56c", weight: 1000 }, // SP-5
     ],
     Caliber556x45NATO: [
-        "54527a984bdc2d4e668b4567", // M855 (75%)
-        "54527a984bdc2d4e668b4567",
-        "54527a984bdc2d4e668b4567",
-        "59e6906286f7746c9f75e847" // M856A1 (25%)
+        { id: "54527a984bdc2d4e668b4567", weight: 3000 }, // M855 (~75%)
+        { id: "59e6906286f7746c9f75e847", weight: 1000 }, // M856A1 solid
+        // Mag load preset (vanilla Load from Preset): 5 tracers on top, rest M855 — same weight scale as one solid type
+        {
+            weight: 1000,
+            load: [
+                { id: "59e6906286f7746c9f75e847", count: 5 }, // M856A1 tip
+                { id: "54527a984bdc2d4e668b4567", count: -1 }, // M855 fill
+            ],
+        },
     ],
     Caliber762x51: [
-        "5e023e88277cce2b522ff2b1" // TCW SP (hunting)
+        { id: "5e023e88277cce2b522ff2b1", weight: 1000 }, // TCW SP (hunting)
     ],
     Caliber762x35: [
-        "5fbe3ffdf8b6a877a729ea82" // BCP FMJ
+        { id: "5fbe3ffdf8b6a877a729ea82", weight: 1000 }, // BCP FMJ
     ],
     Caliber762x54R: [
-        "5887431f2459777e1612938f", // LPS
-        "5e023cf8186a883be655e54f" // T-46M
-    ]
+        { id: "5887431f2459777e1612938f", weight: 1000 }, // LPS
+        { id: "5e023cf8186a883be655e54f", weight: 1000 }, // T-46M
+    ],
+    Caliber9x19PARA: [
+        { id: "56d59d3ad2720bdb418b4577", weight: 1000 }, // PST gzh
+        { id: "5efb0da7a29a85116f6ea05f", weight: 1000 }, // PSO gzh
+    ],
+    Caliber1143x23ACP: [
+        { id: "5e81f423763d9f754677bf2e", weight: 1000 }, // .45 ACP Match FMJ
+        { id: "5efb0d4f4bc50b58e81710f3", weight: 1000 }, // .45 ACP Lasermatch FMJ
+    ],
 }

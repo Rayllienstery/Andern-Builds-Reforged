@@ -1,10 +1,10 @@
 {
-    "Id": "8a8c9b53c47f4611a6e97ffc",
+    "Id": "fce577c57c224dcba611ad04",
     "Name": "P90 T4 2",
-    "Root": "6f9a44927f344b78803d9f21",
+    "Root": "9312a1ae351749e99df246e4",
     "Items": [
         {
-            "_id": "6f9a44927f344b78803d9f21",
+            "_id": "9312a1ae351749e99df246e4",
             "_tpl": "5cc82d76e24e8d00134b4b83",
             "upd": {
                 "Repairable": {
@@ -20,51 +20,51 @@
             }
         },
         {
-            "_id": "98cc69228fbb45aea8f1af63",
+            "_id": "2a35c3c2dc0a42ea94a2af1b",
             "_tpl": "5cc70093e4a949033c734312",
             "slotId": "mod_magazine",
-            "parentId": "6f9a44927f344b78803d9f21"
+            "parentId": "9312a1ae351749e99df246e4"
         },
         {
-            "_id": "af46ef4314754d99b5b64589",
+            "_id": "ac22ffcd82094f82a60d8508",
             "_tpl": "5cebec10d7f00c065703d185",
             "slotId": "mod_stock",
-            "parentId": "6f9a44927f344b78803d9f21"
+            "parentId": "9312a1ae351749e99df246e4"
         },
         {
-            "_id": "398b51d3e8ae45cea0f6eec3",
+            "_id": "5ebaf38004604d10a9b6ca3d",
             "_tpl": "5cc700d4e4a949000f0f0f28",
             "slotId": "mod_stock_000",
-            "parentId": "af46ef4314754d99b5b64589"
+            "parentId": "ac22ffcd82094f82a60d8508"
         },
         {
-            "_id": "3a921ae145724d898f496a46",
+            "_id": "d9dc28e9bafb4630873c58f8",
             "_tpl": "5cc700ede4a949033c734315",
             "slotId": "mod_reciever",
-            "parentId": "6f9a44927f344b78803d9f21"
+            "parentId": "9312a1ae351749e99df246e4"
         },
         {
-            "_id": "15c4d3cd65104823afa1d943",
+            "_id": "c4311f57b31f4139a4375892",
             "_tpl": "5cc701d7e4a94900100ac4e7",
             "slotId": "mod_barrel",
-            "parentId": "6f9a44927f344b78803d9f21"
+            "parentId": "9312a1ae351749e99df246e4"
         },
         {
-            "_id": "a0207b527ce645d0bb995f14",
+            "_id": "0ecd3f50f5b04addaf1968ce",
             "_tpl": "5cc6ea85e4a949000e1ea3c3",
             "slotId": "mod_charge",
-            "parentId": "6f9a44927f344b78803d9f21"
+            "parentId": "9312a1ae351749e99df246e4"
         },
         {
-            "_id": "719e3bf2d1e44d888c20de8e",
+            "_id": "1dd0f04b8fe74745aa2827e5",
             "_tpl": "58491f3324597764bc48fa02",
-            "parentId": "3a921ae145724d898f496a46",
+            "parentId": "d9dc28e9bafb4630873c58f8",
             "slotId": "mod_scope"
         },
         {
-            "_id": "55fe1a131ba44d14a1457b38",
+            "_id": "07a6aa54d1cf4ee79de2d02b",
             "_tpl": "6272370ee4013c5d7e31f418",
-            "parentId": "6f9a44927f344b78803d9f21",
+            "parentId": "9312a1ae351749e99df246e4",
             "slotId": "mod_tactical_000"
         }
     ],
@@ -73,5 +73,5 @@
         "usec"
     ],
     "SpareMags": 3,
-    "Weight": 1
+    "Weight": 1000
 }

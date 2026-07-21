@@ -1,10 +1,10 @@
 {
-    "Id": "fcbf4a7dc7c44cea840b311c",
+    "Id": "1bc5635afb144ba0adada8e2",
     "Name": "GRAU 556 T4",
-    "Root": "4182b2d8403a47a0b6778b03",
+    "Root": "06efc2dab72d47829d4fa1e6",
     "Items": [
         {
-            "_id": "4182b2d8403a47a0b6778b03",
+            "_id": "06efc2dab72d47829d4fa1e6",
             "_tpl": "020020FBA556556000000000",
             "upd": {
                 "Repairable": {
@@ -20,51 +20,51 @@
             }
         },
         {
-            "_id": "f276c885670c49c3aa4cfbf9",
+            "_id": "cb2925bef47b4e83b85ea04c",
             "_tpl": "02F02FFBA556556030000000",
             "slotId": "mod_magazine",
-            "parentId": "4182b2d8403a47a0b6778b03"
+            "parentId": "06efc2dab72d47829d4fa1e6"
         },
         {
-            "_id": "aecde338a1bb4628bdabff53",
+            "_id": "1bf39b0639b9415caedca764",
             "_tpl": "041341FBA762762333000000",
             "slotId": "mod_pistol_grip",
-            "parentId": "4182b2d8403a47a0b6778b03"
+            "parentId": "06efc2dab72d47829d4fa1e6"
         },
         {
-            "_id": "44c76a6a471143c29e14b566",
+            "_id": "66de5ca07d7048a7878efc9f",
             "_tpl": "043243FBA762762222000000",
             "slotId": "mod_stock_001",
-            "parentId": "4182b2d8403a47a0b6778b03"
+            "parentId": "06efc2dab72d47829d4fa1e6"
         },
         {
-            "_id": "69571359ba824a49b482266c",
+            "_id": "bdce82b6ae654f3caa55e2b9",
             "_tpl": "040040FBA556556040000000",
             "slotId": "mod_reciever",
-            "parentId": "4182b2d8403a47a0b6778b03"
+            "parentId": "06efc2dab72d47829d4fa1e6"
         },
         {
-            "_id": "22f010c5a58d4130b0350803",
+            "_id": "ce2bd5d4acae4a2fa45e4c5a",
             "_tpl": "042A42FBA762762AAA000000",
             "slotId": "mod_handguard",
-            "parentId": "69571359ba824a49b482266c"
+            "parentId": "bdce82b6ae654f3caa55e2b9"
         },
         {
-            "_id": "a5a62af9761d46d09b0ca721",
+            "_id": "faac5d0aaea44e7a945ae5e6",
             "_tpl": "04BA4BFBA556556AAA000000",
             "slotId": "mod_barrel",
-            "parentId": "22f010c5a58d4130b0350803"
+            "parentId": "ce2bd5d4acae4a2fa45e4c5a"
         },
         {
-            "_id": "057a4dab4d6a4eab843495d7",
+            "_id": "8bdd7b8db13d47d99de7bbb0",
             "_tpl": "59f8a37386f7747af3328f06",
-            "parentId": "22f010c5a58d4130b0350803",
+            "parentId": "ce2bd5d4acae4a2fa45e4c5a",
             "slotId": "mod_foregrip"
         },
         {
-            "_id": "88d193abeec54ae59eca7662",
+            "_id": "6c532eed1a9645e59fa36400",
             "_tpl": "56def37dd2720bec348b456a",
-            "parentId": "22f010c5a58d4130b0350803",
+            "parentId": "ce2bd5d4acae4a2fa45e4c5a",
             "slotId": "mod_tactical_002",
             "upd": {
                 "Light": {
@@ -74,21 +74,21 @@
             }
         },
         {
-            "_id": "e510cec1d96a446e8c21c258",
+            "_id": "bc45a78195f8458b86e4e8b9",
             "_tpl": "5ea172e498dacb342978818e",
-            "parentId": "a5a62af9761d46d09b0ca721",
+            "parentId": "faac5d0aaea44e7a945ae5e6",
             "slotId": "mod_muzzle"
         },
         {
-            "_id": "bd3532307a7744fda316763c",
+            "_id": "ee16e849d9bb43c9a2c013a9",
             "_tpl": "55d6190f4bdc2d87028b4567",
-            "parentId": "e510cec1d96a446e8c21c258",
+            "parentId": "bc45a78195f8458b86e4e8b9",
             "slotId": "mod_muzzle"
         },
         {
-            "_id": "1564f04522f3481caa6b5903",
+            "_id": "ad3bbfea009f4899bcd026e7",
             "_tpl": "558022b54bdc2dac148b458d",
-            "parentId": "69571359ba824a49b482266c",
+            "parentId": "bdce82b6ae654f3caa55e2b9",
             "slotId": "mod_scope"
         }
     ],
@@ -99,5 +99,5 @@
         "usec"
     ],
     "SpareMags": 3,
-    "Weight": 1
+    "Weight": 1000
 }

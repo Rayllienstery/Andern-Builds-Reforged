@@ -1,10 +1,10 @@
 {
-    "Id": "4ae04c942f1f40c9955b6ae7",
+    "Id": "36ceb332f42d414195273051",
     "Name": "KS-23 T4",
-    "Root": "ecf2e44bc3c54651b8893fb7",
+    "Root": "94ab847637e644a1a20c0e82",
     "Items": [
         {
-            "_id": "ecf2e44bc3c54651b8893fb7",
+            "_id": "94ab847637e644a1a20c0e82",
             "_tpl": "5e848cc2988a8701445df1e8",
             "upd": {
                 "Repairable": {
@@ -17,40 +17,40 @@
             }
         },
         {
-            "_id": "868a03cca2614a92ba86e547",
+            "_id": "8c9389d788e240c19de35e1c",
             "_tpl": "5e848d2eea0a7c419c2f9bfd",
-            "parentId": "ecf2e44bc3c54651b8893fb7",
+            "parentId": "94ab847637e644a1a20c0e82",
             "slotId": "mod_barrel"
         },
         {
-            "_id": "63e1c6a78e6047bbb5435f53",
+            "_id": "e3c3b151d2884274a772b695",
             "_tpl": "5e848d51e4dbc5266a4ec63b",
-            "parentId": "ecf2e44bc3c54651b8893fb7",
+            "parentId": "94ab847637e644a1a20c0e82",
             "slotId": "mod_handguard"
         },
         {
-            "_id": "ce74b99386554ff89fcf3237",
+            "_id": "c55dc6fa542849b5b5382f60",
             "_tpl": "5f647d9f8499b57dc40ddb93",
-            "parentId": "ecf2e44bc3c54651b8893fb7",
+            "parentId": "94ab847637e644a1a20c0e82",
             "slotId": "mod_magazine"
         },
         {
-            "_id": "a577d76989dc4ab1aa973420",
+            "_id": "60fada58504d48b8b5ef695c",
             "_tpl": "5e848d99865c0f329958c83b",
-            "parentId": "ecf2e44bc3c54651b8893fb7",
+            "parentId": "94ab847637e644a1a20c0e82",
             "slotId": "mod_stock"
         },
         {
-            "_id": "2f48917052d140639c923543",
+            "_id": "48454dab0d2d49129ea254eb",
             "_tpl": "5e848dc4e4dbc5266a4ec63d",
-            "parentId": "a577d76989dc4ab1aa973420",
+            "parentId": "60fada58504d48b8b5ef695c",
             "slotId": "mod_stock"
         }
     ],
     "Parent": "5447b6094bdc2dc3278b4567",
     "PrimaryAmmoTpl": "5e85a9a6eacf8c039e4e2ac1",
     "SpareAmmoTpl": "5e85a9a6eacf8c039e4e2ac1",
-    "Weight": 3,
+    "Weight": 3000,
     "Factions": [
         "bear"
     ],

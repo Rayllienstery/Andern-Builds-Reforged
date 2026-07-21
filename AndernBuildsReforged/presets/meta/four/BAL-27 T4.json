@@ -1,10 +1,10 @@
 {
-    "Id": "4765b466023146f1823cb29d",
+    "Id": "c36b3c87704047e089f2adce",
     "Name": "BAL-27 T4",
-    "Root": "52cc4db6e4ff44d0a0121ce8",
+    "Root": "eb5107775a9d41aa88899acd",
     "Items": [
         {
-            "_id": "52cc4db6e4ff44d0a0121ce8",
+            "_id": "eb5107775a9d41aa88899acd",
             "_tpl": "020020BA27BA270000000000",
             "upd": {
                 "Repairable": {
@@ -20,51 +20,51 @@
             }
         },
         {
-            "_id": "fc10e71e115840d79f132250",
+            "_id": "7ec5ed29f4644ec59c3342bf",
             "_tpl": "02F02FBA27BA272F00000000",
             "slotId": "mod_magazine",
-            "parentId": "52cc4db6e4ff44d0a0121ce8"
+            "parentId": "eb5107775a9d41aa88899acd"
         },
         {
-            "_id": "02ba66acfdb94b02a83e3a3e",
+            "_id": "e0ebc01ae1a247f7ae680983",
             "_tpl": "04BD4BBA27BA27DB00000000",
             "slotId": "mod_barrel",
-            "parentId": "52cc4db6e4ff44d0a0121ce8"
+            "parentId": "eb5107775a9d41aa88899acd"
         },
         {
-            "_id": "bd155618af134d3e816d1f1f",
+            "_id": "38159f7659e942ca867f2e66",
             "_tpl": "043143BA27BA274310000000",
             "slotId": "mod_stock",
-            "parentId": "52cc4db6e4ff44d0a0121ce8"
+            "parentId": "eb5107775a9d41aa88899acd"
         },
         {
-            "_id": "e5c2d0044daf424eb9911e3f",
+            "_id": "2488e7d2b46a4fdb95804930",
             "_tpl": "045445BA27BA274540000000",
             "slotId": "mod_pistol_grip",
-            "parentId": "52cc4db6e4ff44d0a0121ce8"
+            "parentId": "eb5107775a9d41aa88899acd"
         },
         {
-            "_id": "1a9479c025504744a26f6e84",
+            "_id": "d3cff7a5974249a0acc3578f",
             "_tpl": "04E14EBA27BA274E10000000",
-            "parentId": "02ba66acfdb94b02a83e3a3e",
+            "parentId": "e0ebc01ae1a247f7ae680983",
             "slotId": "mod_muzzle"
         },
         {
-            "_id": "fffceebafc374f09964c0f27",
+            "_id": "fe281058394342b0a79972b0",
             "_tpl": "558022b54bdc2dac148b458d",
-            "parentId": "52cc4db6e4ff44d0a0121ce8",
+            "parentId": "eb5107775a9d41aa88899acd",
             "slotId": "mod_scope"
         },
         {
-            "_id": "e78ca9e330fd44e087a1e9f3",
+            "_id": "ecc090bdaf6c4e87be688b7f",
             "_tpl": "59f8a37386f7747af3328f06",
-            "parentId": "52cc4db6e4ff44d0a0121ce8",
+            "parentId": "eb5107775a9d41aa88899acd",
             "slotId": "mod_foregrip"
         },
         {
-            "_id": "28da704c986443f0bc6af4c0",
+            "_id": "5054de4eea444b909ed37185",
             "_tpl": "56def37dd2720bec348b456a",
-            "parentId": "52cc4db6e4ff44d0a0121ce8",
+            "parentId": "eb5107775a9d41aa88899acd",
             "slotId": "mod_tactical_002",
             "upd": {
                 "Light": {
@@ -81,5 +81,5 @@
         "usec"
     ],
     "SpareMags": 3,
-    "Weight": 1
+    "Weight": 1000
 }
